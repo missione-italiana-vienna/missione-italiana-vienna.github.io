@@ -474,7 +474,7 @@
 
 	</div><!-- end of the div with class "super_container" -->
 
-	<script src = "/js/jquery-3.2.1.min.js"></script>
+	<script src = "js/jquery-3.2.1.min.js"></script>
 	<script src = "/styles/bootstrap4/popper.js"></script>
 	<script src = "/styles/bootstrap4/bootstrap.min.js"></script>
 	<script src = "/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
@@ -482,5 +482,31 @@
 	<script src = "/plugins/parallax-js-master/parallax.min.js"></script>
 	<script src = "/js/custom.js"></script>
 
+
+
+	<div id = "popup_notification" class = "popup_notification">
+		<div class = "content">
+			<div class = "text">
+				<p style = "text-align: center; font-size: 14px; font-weight: 500;">
+					A partire dal weekend del <b>9 e 10 Febbraio</b>, tutte le celebrazioni e le attività della Missione Cattolica Italiana si trasferiscono nella nuova sede di <b>Alser Straße 17</b>.
+					<br><br>
+					Il sabato l'orario è invariato: Rosario alle 16:30 e Messa prefestiva alle 17:00.<br><br>La domenica la Santa Messa è anticipata alle ore <b>10:30</b>.
+					<br><br>
+					Per dettagli su come raggiungere la chiesa di Alser Straße 17, vi preghiamo di consultare la sezione "Contatti".<br>
+				</p>
+			</div>
+			<div>
+				<button type = "button" class = "big_button" onclick = "hide_popup();">OK, continua con la navigazione nel sito</button>
+			</div>
+		</div>
+	</div>
+	<div id = "popup_interferring_object"></div>
+
+	<script>
+		function hide_popup() {
+			document.getElementById("popup_notification").style.display = "none";
+			document.getElementById("popup_interferring_object").style.display = "none";
+		}
+	</script>
 </body>
 </html>
