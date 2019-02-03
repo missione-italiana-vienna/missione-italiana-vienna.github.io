@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+.popup_notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    width: 90%;
+    max-width: 600px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.big_button, .popup_notification button {
+    background-color: #e00004;
+}
+.popup_notification button {
+    height: 45px;
+    margin: 10px 0 20px;
+    border: none;
+    background-color: #eb4141;
+    border-radius: 3px;
+    padding: 0 25px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .1s ease;
+}
+
+</style>
+
+<div id = "popup_notification" class="popup_notification">
+<div class="content">
+<div class="text"><p style="text-align: center; font-size: 14px; font-weight: normal;">A partire dal weekend del <b>9 e 10 Febbraio</b>, tutte le celebrazioni e le attività della Missione Cattolica Italiana si trasferiscono nella nuova sede di <b>Alser Straße 17</b>.<br><br>Il sabato l'orario è invariato: Rosario alle 16:30 e Messa prefestiva alle 17:00.<br><br>La domenica la Santa Messa è anticipata alle ore <b>10:30</b>.<br><br>Per dettagli su come raggiungere la chiesa di Alser Straße 17, vi preghiamo di consultare la sezione "Contatti".</p></div>
+<div class="buttons-more">
+<button type="button" class="ok-button big_button" id="eu-cookie-ok" onclick = "hide_popup();">OK</button>
+<a class="learn-more big_button" href="/it/condizioni-di-vendita-privacy"><p style="text-align: center; font-weight:normal;">Vuoi saperne di più? Clicca qui</p></a>
+</div>
+</div>
+</div>
+
+<script>
+	function hide_popup() {
+		document.getElementById("popup_notification").style.display = "none";
+	}
+</script>
+</body>
+</html>

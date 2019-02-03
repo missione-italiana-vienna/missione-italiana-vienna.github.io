@@ -2418,3 +2418,39 @@ argin-bottom: 98px;
     font-weight: 500;
     color: #7c7c7c;
 }
+
+
+
+.popup_notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    width: 90%;
+    max-width: 600px;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.big_button, .popup_notification button {
+    background-color: #e00004;
+}
+.popup_notification button {
+    height: 45px;
+    margin: 10px 0 20px;
+    border: none;
+    background-color: #eb4141;
+    border-radius: 3px;
+    padding: 0 25px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .1s ease;
+}
