@@ -282,7 +282,13 @@
 
 	<script>
 		set_popup_fontsize = function () {
-		    var font_size = document.getElementById("popup_notification").style.width * document.getElementById("popup_notification").style.width * 0.2;
+			var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+			var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+			if (viewport_width > 650) {
+				viewport_width = 650; // we're only setting a "virtual" viewport. This is due to the fact that after 650 px the width of the popup does not increase (see the css file)
+			}
+		    var font_size = viewport_width * viewport_height * 0.2 + 'px';
 
 		    var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
             for(var i = 0; i < popup_notification_p_list.length; i++) {
