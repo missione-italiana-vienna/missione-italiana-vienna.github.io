@@ -5,6 +5,8 @@
 	}
 }
 
-.popup_notification p {
-	font-size: 13px;	
+@media only screen and (min-width: 651px) {
+	.popup_notification p {
+		font-size: 13px;	
+	}
 }
