@@ -1,4 +1,10 @@
+@media only screen and (max-width: 650px) {
+	.popup_notification p {
+		font-size: 13px;
+		font-size: 2vw;
+	}
+}
+
 .popup_notification p {
-	font-size: 13px;
-	font-size: 2vw;
+	font-size: 13px;	
 }
