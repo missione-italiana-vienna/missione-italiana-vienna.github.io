@@ -233,5 +233,35 @@
 	<script src = "/plugins/parallax-js-master/parallax.min.js"></script>
 	<script src = "/js/custom.js"></script>
 
+<div id = "popup_notification" class = "popup_notification">
+		<div class = "content">
+			<div class = "text" style = "text-align: center; font-size: 13px; font-weight: 500;">
+				<p style = "margin-bottom: 5px;">
+					Ab dem <b>9. Februar</b> finden alle Gottesdienste und Treffen der italienischen katholischen Seelsorge (Katechismus, Agape, Jugendgruppe, Lectio Divina usw.) in <b>Alser Straße 17</b> statt.
+				</p>
+				<p style = "margin-bottom: 5px;">
+					Am Samstag wird wie üblich um 16:30 den Rosenkranz gebetet und um 17:00 die Vorabendmesse gefeiert.
+				</p>
+				<p style = "margin-bottom: 5px;">
+					Am Sonntag wird die Heilige Messe um 10:30 vorverlegt.
+				</p>
+				<p style = "margin-bottom: 5px;">
+					Informationen über die Erreichbarkeit der Kirche in Alser Straße 17 sind unter &bdquo;Contatti&rdquo; (im Menü oben) zu finden. An einer deutschen Übersetzung der Webseite wird gerade gearbeitet. Danke für Ihr Verständnis!
+				</p>
+			</div>
+			<div>
+				<button type = "button" class = "big_button" onclick = "hide_popup();">Ich möchte mit der Navigation auf der Webseite fortfahren</button>
+			</div>
+		</div>
+	</div>
+	<div id = "popup_interferring_object" class = "popup_interferring_object"></div>
+
+	<script>
+		function hide_popup() {
+			document.getElementById("popup_notification").style.display = "none";
+			document.getElementById("popup_interferring_object").style.display = "none";
+		}
+	</script>
+
 </body>
 </html>
