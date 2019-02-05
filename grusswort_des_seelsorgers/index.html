@@ -286,7 +286,7 @@
 			if (viewport_width > 650) {
 				viewport_width = 650; // we're only setting a "virtual" viewport. This is due to the fact that after 650 px the width of the popup does not increase (see the css file)
 			}
-		    var font_size = viewport_width * viewport_height * 0.000068;
+		    var font_size = viewport_width * viewport_height * 0.000064;
 		    if (font_size > 14) {
 		    	font_size = 14;
 		    }
@@ -299,7 +299,12 @@
 			
 			var popup_notification_button = document.getElementById("popup_notification_button");
 			popup_notification_button.style.fontSize = font_size + "px";
-			popup_notification_button.style.height = 2 * font_size + "px";
+
+			var height_button = 3.4 * font_size;
+			if (height_button > 45) {
+				height_button = 45:
+			}
+			popup_notification_button.style.height = height_button + "px"; 
 		}; 
 
 		$(window).resize(set_popup_fontsize);
