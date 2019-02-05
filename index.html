@@ -532,7 +532,12 @@
 			
 			var popup_notification_button = document.getElementById("popup_notification_button");
 			popup_notification_button.style.fontSize = font_size + "px";
-			popup_notification_button.style.height = 2 * font_size + "px";
+
+			var height_button = 3.4 * font_size;
+			if (height_button > 45) {
+				height_button = 45:
+			}
+			popup_notification_button.style.height = height_button + "px";
 		}; 
 
 		$(window).resize(set_popup_fontsize);
