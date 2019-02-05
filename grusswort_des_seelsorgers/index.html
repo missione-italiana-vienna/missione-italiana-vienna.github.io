@@ -261,14 +261,14 @@
 	<div id = "popup_notification" class = "popup_notification">
 		<div class = "content">
 			<div class = "text" style = "text-align: center; font-weight: 500;">
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					Ab dem <b>9. Februar</b> finden alle Gottesdienste und Treffen der italienischen katholischen Seelsorge (Katechismus, Agape, Jugendgruppe, Lectio Divina usw.) in <b>Alser Straße 17</b> statt.
 				</p>
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					Am Samstag wird wie üblich um 16:30 den Rosenkranz gebetet und um 17:00 die Vorabendmesse gefeiert.
 					Am Sonntag wird die Heilige Messe um <b>10:30</b> vorverlegt.
 				</p>
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					Informationen über die Erreichbarkeit der Kirche in Alser Straße 17 sind unter &bdquo;Contatti&rdquo; (im Menü oben) zu finden. An einer deutschen Übersetzung der Webseite wird gerade gearbeitet. Danke für Ihr Verständnis!
 				</p>
 			</div>
@@ -281,6 +281,19 @@
 	<div id = "popup_interferring_object" class = "popup_interferring_object"></div>
 
 	<script>
+		set_popup_fontsize = function () {
+		    var font_size = document.getElementById("popup_notification").style.width * document.getElementById("popup_notification").style.width * 0.2;
+
+		    var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
+            for(var i = 0; i < popup_notification_p_list.length; i++) {
+                popup_notification_p_list[i].style.fontSize = font_size;
+            }
+		};
+
+		$(window).resize(set_popup_fontsize);
+		$(document).ready(set_popup_fontsize);
+
+
 		function hide_popup() {
 			document.getElementById("popup_notification").style.display = "none";
 			document.getElementById("popup_interferring_object").style.display = "none";
