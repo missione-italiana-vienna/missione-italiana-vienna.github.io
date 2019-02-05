@@ -1,33 +1,7 @@
-@media only screen and (max-width: 360px) {
-	.popup_notification p {
-		font-size: 13px;
-		font-size: 3.2vw;
-	}
-}
-@media only screen and (max-width: 390px) {
-	.popup_notification p {
-		font-size: 3vw;
-	}
-}
-@media only screen and (max-width: 470px) {
-	.popup_notification p {
-		font-size: 2.8vw;
-	}
-}
-@media only screen and (max-width: 550px) {
-	.popup_notification p {
-		font-size: 2.6vw;
-	}
-}
-@media only screen and (max-width: 600px) {
-	.popup_notification p {
-		font-size: 2.2vw;
-	}
-}
 @media only screen and (max-width: 650px) {
 	.popup_notification p {
-		font-size: 2vw;
-	}
+		font-size: 13px;
+		font-size: calc(3vh * vw);
 }
 @media only screen and (min-width: 651px) {
 	.popup_notification p {
