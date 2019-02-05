@@ -296,7 +296,10 @@
                 popup_notification_p_list[i].style.fontSize = font_size + "px";
                 popup_notification_p_list[i].style.marginBottom = "5px";
             }
-			document.getElementById("popup_notification_button").style.fontSize = font_size + "px";
+			
+			var popup_notification_button = document.getElementById("popup_notification_button");
+			popup_notification_button.style.fontSize = font_size + "px";
+			popup_notification_button.style.height = 1.5 * font_size + "px";
 		};
 
 		$(window).resize(set_popup_fontsize);
