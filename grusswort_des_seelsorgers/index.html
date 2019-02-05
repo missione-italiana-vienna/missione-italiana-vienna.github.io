@@ -279,7 +279,7 @@
 	<div id = "popup_interferring_object" class = "popup_interferring_object"></div>
 
 	<script>
-		set_popup_fontsize = function () {
+		function set_popup_fontsize() {
 			var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 			var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
@@ -299,7 +299,7 @@
 			
 			var popup_notification_button = document.getElementById("popup_notification_button");
 			popup_notification_button.style.fontSize = font_size + "px";
-			popup_notification_button.style.height = 1.5 * font_size + "px";
+			popup_notification_button.style.height = 1.8 * font_size + "px";
 		}; 
 
 		$(window).resize(set_popup_fontsize);

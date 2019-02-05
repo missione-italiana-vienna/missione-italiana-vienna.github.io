@@ -491,27 +491,53 @@
 				<p style = "margin-bottom: 5px;">
 					<a class = "normal_link" href = "/grusswort_des_seelsorgers/">deutsche Version</a>
 				</p>					
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					Dal <b>9 e 10 Febbraio</b>, tutte le celebrazioni e le attività della Missione Cattolica Italiana (catechismo, agape, gruppo giovani, Lectio Divina, etc.) si trasferiscono nella nuova sede di <b>Alser Straße 17</b>.
 				</p>
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					Il sabato l'orario è invariato: Rosario alle 16:30 e Messa prefestiva alle 17:00.
 				</p>
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					La domenica la Santa Messa è anticipata alle ore <b>10:30</b>.
 				</p>
-				<p style = "margin-bottom: 5px;">
+				<p class = "popup_notification_p">
 					Per dettagli su come raggiungere la chiesa di Alser Straße 17, vi preghiamo di consultare la sezione "Contatti" nel menù in alto.
 				</p>
 			</div>
 			<div>
-				<button type = "button" class = "big_button" onclick = "hide_popup();">OK, continua con la navigazione nel sito</button>
+				<button type = "button" class = "big_button" id = "popup_notification_button" onclick = "hide_popup();">OK, continua con la navigazione nel sito</button>
 			</div>
 		</div>
 	</div>
 	<div id = "popup_interferring_object" class = "popup_interferring_object"></div>
 
 	<script>
+		function set_popup_fontsize() {
+			var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+			var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+			if (viewport_width > 650) {
+				viewport_width = 650; // we're only setting a "virtual" viewport. This is due to the fact that after 650 px the width of the popup does not increase (see the css file)
+			}
+		    var font_size = viewport_width * viewport_height * 0.000068;
+		    if (font_size > 14) {
+		    	font_size = 14;
+		    }
+
+		    var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
+            for(var i = 0; i < popup_notification_p_list.length; i++) {
+                popup_notification_p_list[i].style.fontSize = font_size + "px";
+                popup_notification_p_list[i].style.marginBottom = "5px";
+            }
+			
+			var popup_notification_button = document.getElementById("popup_notification_button");
+			popup_notification_button.style.fontSize = font_size + "px";
+			popup_notification_button.style.height = 1.8 * font_size + "px";
+		}; 
+
+		$(window).resize(set_popup_fontsize);
+		$(document).ready(set_popup_fontsize);
+
 		function hide_popup() {
 			document.getElementById("popup_notification").style.display = "none";
 			document.getElementById("popup_interferring_object").style.display = "none";
