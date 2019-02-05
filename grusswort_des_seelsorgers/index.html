@@ -20,8 +20,6 @@
 	<link rel = "stylesheet" type = "text/css" href = "/styles/general_style.css">
 	<link rel = "stylesheet" type = "text/css" href = "/styles/general_style_responsive.css">
 
-	<link rel = "stylesheet" type = "text/css" href = "/styles/popup.css">
-
 	<!-- Font "Charm": this is used for the citations in each page -->
 	<link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Charm">
 </head>
@@ -273,7 +271,7 @@
 				</p>
 			</div>
 			<div>
-				<button type = "button" class = "big_button popup_notification_button" onclick = "hide_popup();">
+				<button type = "button" class = "big_button" id = "popup_notification_button" onclick = "hide_popup();">
 					<!--Ich möchte mit der Navigation auf der Webseite-->fortfahren</button>
 			</div>
 		</div>
@@ -288,7 +286,7 @@
 			if (viewport_width > 650) {
 				viewport_width = 650; // we're only setting a "virtual" viewport. This is due to the fact that after 650 px the width of the popup does not increase (see the css file)
 			}
-		    var font_size = viewport_width * viewport_height * 0.000069;
+		    var font_size = viewport_width * viewport_height * 0.000068;
 		    if (font_size > 14) {
 		    	font_size = 14;
 		    }
@@ -296,8 +294,8 @@
 		    var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
             for(var i = 0; i < popup_notification_p_list.length; i++) {
                 popup_notification_p_list[i].style.fontSize = font_size + "px";
+                popup_notification_p_list[i].style.marginBottom = "5px";
             }
-
 			document.getElementById("popup_notification_button").style.fontSize = font_size + "px";
 		};
 
