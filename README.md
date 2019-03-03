@@ -16,4 +16,4 @@ This repository website is linked to the public address [https://mcivienna.org](
 
 ## Contributing
 
-Please contact the webmaster of this site (see contact infos on [https://mcivienna.org](https://mcivienna.org) for contributing.
+Please contact the webmaster of this site (see contact infos on [https://mcivienna.org](https://mcivienna.org)) for contributing.
