@@ -2470,13 +2470,13 @@ argin-bottom: 98px;
 
 .table_events {
 	border-collapse: separate; 
-	border-spacing: 10px 15px;
+	border-spacing: 0 15px;
 }
 
 .date_event {
 	color: #eb4141;
     background: #eb414100;
-	padding: 5px;
+	padding: 15px;
 	width: 50px; 
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2492,4 +2492,8 @@ argin-bottom: 98px;
 
 .event_comment {
 	color: #aaa;
+}
+
+table,tbody,tr,td,div {
+  display: block;
 }
