@@ -2526,10 +2526,6 @@ argin-bottom: 98px;
 		display: table-cell;
 	}
 
-	/*.date_event div {
-		display: block;
-	}*/
-
 	.date_event div:nth-of-type(2) {
 		font-size: 30px;
 		width: 50px;
@@ -2542,5 +2538,6 @@ argin-bottom: 98px;
 
 	.text_event {
 		margin-bottom: 0;
+		padding-left: 15px
 	}
 }
