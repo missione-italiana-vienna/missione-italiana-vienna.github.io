@@ -2518,7 +2518,10 @@ argin-bottom: 98px;
 		display: table-row-group;
 	}
 
-	.table_events tr,
+	.table_events tr {
+		display: table-row;
+	}
+
 	.table_events td {
 		display: table-cell;
 	}
