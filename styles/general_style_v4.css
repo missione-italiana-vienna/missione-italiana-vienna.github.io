@@ -2511,10 +2511,13 @@ argin-bottom: 98px;
 
 @media screen and (min-width: 500px) {
 	.table_events,
-	.table_events tbody,
+	.table_events tbody {
+		display: table;
+	}
+
 	.table_events tr,
 	.table_events td {
-		display: table;
+		display: table-cell;
 	}
 
 	.date_event div {
