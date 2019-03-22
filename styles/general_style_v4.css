@@ -2510,9 +2510,12 @@ argin-bottom: 98px;
 }
 
 @media screen and (min-width: 500px) {
-	.table_events,
-	.table_events tbody {
+	.table_events {
 		display: table;
+	}
+
+	.table_events tbody {
+		display: table-row-group;
 	}
 
 	.table_events tr,
