@@ -2482,9 +2482,6 @@ argin-bottom: 98px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.date_event div:nth-of-type(2) {
-	font-size: 30px;
-}
 
 .text_event {
 	padding-left: 5px;
@@ -2494,6 +2491,39 @@ argin-bottom: 98px;
 	color: #aaa;
 }
 
-table,tbody,tr,td,div {
-  display: block;
+.table_events,
+.table_events tbody,
+.table_events tr,
+.table_events td {
+	display: block;
+}
+
+.date_event {
+	margin-bottom: 10px;
+}
+
+.text_event {
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px) {
+	.table_events,
+	.table_events tbody,
+	.table_events tr,
+	.table_events td {
+		display: block;
+	}
+
+	.date_event div:nth-of-type(2) {
+		font-size: 30px;
+	}
+
+
+	.date_event {
+		margin-bottom: 0;
+	}
+
+	.text_event {
+		margin-bottom: 0;
+	}
 }
