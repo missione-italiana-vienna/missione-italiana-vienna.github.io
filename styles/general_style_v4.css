@@ -2509,7 +2509,7 @@ argin-bottom: 98px;
 	margin-bottom: 20px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 	.table_events,
 	.table_events tbody,
 	.table_events tr,
@@ -2526,8 +2526,8 @@ argin-bottom: 98px;
 		width: 50px;
 	}
 
-
 	.date_event {
+		width: 50px;
 		margin-bottom: 0;
 	}
 
