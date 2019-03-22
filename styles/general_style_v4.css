@@ -2476,7 +2476,7 @@ argin-bottom: 98px;
 .date_event {
 	color: #eb4141;
     background: #eb414100;
-	padding: 15px;
+	padding: 8px;
 	width: 100%; 
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -2506,7 +2506,7 @@ argin-bottom: 98px;
 }
 
 .text_event {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
 }
 
 @media screen and (min-width: 500px) {
@@ -2526,9 +2526,9 @@ argin-bottom: 98px;
 		display: table-cell;
 	}
 
-	.date_event div {
+	/*.date_event div {
 		display: block;
-	}
+	}*/
 
 	.date_event div:nth-of-type(2) {
 		font-size: 30px;
