@@ -2540,6 +2540,10 @@ argin-bottom: 98px;
 		margin-bottom: 0;
 		padding-left: 15px
 	}
+	.text_event td.time_event, 
+	.text_event td.description_event {
+		display: table-cell;
+	}
 }
 
 .time_event {
@@ -2556,4 +2560,9 @@ argin-bottom: 98px;
 .text_event table {
 	border-collapse: separate;
 	border-spacing: 0 8px;
+}
+
+.text_event td.time_event, 
+.text_event td.description_event {
+	display: inline;
 }
