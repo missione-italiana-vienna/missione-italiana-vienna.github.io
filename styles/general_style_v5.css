@@ -2543,10 +2543,12 @@ argin-bottom: 98px;
 }
 
 .time_event {
-	display: inline-block;
-	width: 141px;
+	display: table-cell;
+	width: 151px;
+	padding-right: 10px;
+	text-align: right;
 }
 
 .description_event {
-	display: inline-block;
+	display: table-cell;
 }
