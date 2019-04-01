@@ -2525,6 +2525,10 @@ argin-bottom: 98px;
 	border-spacing: 0 8px;
 }
 
+.text_event tr {
+	padding-bottom: 8px;
+}
+
 .text_event td.time_event, 
 .text_event td.description_event {
 	display: inline;
