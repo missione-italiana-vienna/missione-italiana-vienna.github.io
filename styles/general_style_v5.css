@@ -2509,6 +2509,27 @@ argin-bottom: 98px;
 	margin-bottom: 25px;
 }
 
+.time_event {
+	width: 125px;
+	padding-right: 10px;
+	text-align: right;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.description_event {
+}
+
+.text_event table {
+	border-collapse: separate;
+	border-spacing: 0 8px;
+}
+
+.text_event td.time_event, 
+.text_event td.description_event {
+	display: inline;
+}
+
 @media screen and (min-width: 500px) {
 	.table_events {
 		display: table;
@@ -2544,25 +2565,4 @@ argin-bottom: 98px;
 	.text_event td.description_event {
 		display: table-cell;
 	}
-}
-
-.time_event {
-	width: 125px;
-	padding-right: 10px;
-	text-align: right;
-	font-weight: bold;
-	vertical-align: top;
-}
-
-.description_event {
-}
-
-.text_event table {
-	border-collapse: separate;
-	border-spacing: 0 8px;
-}
-
-.text_event td.time_event, 
-.text_event td.description_event {
-	display: inline;
 }
