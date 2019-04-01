@@ -2543,12 +2543,11 @@ argin-bottom: 98px;
 }
 
 .time_event {
-	display: table-cell;
 	width: 151px;
 	padding-right: 10px;
 	text-align: right;
+	font-weight: bold;
 }
 
 .description_event {
-	display: table-cell;
 }
