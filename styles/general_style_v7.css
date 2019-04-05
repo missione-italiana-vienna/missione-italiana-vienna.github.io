@@ -2577,6 +2577,9 @@ argin-bottom: 98px;
 		width: 125px;
 	}
 
+	.text_event td.time_event:after {
+		content: ':';
+	}
 
 	.description_event {
 		padding-left: 10px;
