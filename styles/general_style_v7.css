@@ -2534,6 +2534,10 @@ argin-bottom: 98px;
 	display: none;
 }
 
+.text_event td.time_event:after {
+	content: ':';
+}
+
 @media screen and (min-width: 550px) {
 	.table_events {
 		display: table;
@@ -2578,7 +2582,7 @@ argin-bottom: 98px;
 	}
 
 	.text_event td.time_event:after {
-		content: ':';
+		content: '';
 	}
 
 	.description_event {
