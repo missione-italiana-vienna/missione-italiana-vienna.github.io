@@ -1754,6 +1754,7 @@
 		for (var i = 0; i < events.length; ++i) {
 			var content = "";
 
+			// compute the content of the event
 			for (var j = 0; j < events[i].content.length; ++j) {
 				content += '<tr><td';
 				if (events[i].content[j].hasOwnProperty("class")) {
@@ -1767,10 +1768,11 @@
 					content += events[i].content[j].time;
 				}
 				content += '</td>' // this closes '<td ... >' already inserted above
-				content += '<td>' + events[i].content[j].description + '</td>'
+				content += '<td class = "description_event">' + events[i].content[j].description + '</td>'
 				content += '</tr>'; // this closes '<tr>' already inserted above
 			}
 
+			// merges the content of the event with the additional infos about the date
 		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + events[i].dayweek + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 		}
 
