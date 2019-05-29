@@ -1730,11 +1730,9 @@
 				"year": "2019",
 				"content": [ 
 					{
-						"class": "time_event_empty",
 						"description": '<b>Ascensione</b>'
 					},
 					{
-						"class": "time_event",
 						"style": "color: red;",
 						"time": "11:30",
 						"description": 'La Messa di oggi è posticipata alle <b>11:30</b> per non sovrapporci alla celebrazione delle Prime Comunioni della parrocchia di lingua tedesca.'
@@ -1756,11 +1754,16 @@
 			// compute the content of the event
 			for (var j = 0; j < events[i].content.length; ++j) {
 				content += '<tr><td';
-				if (events[i].content[j].hasOwnProperty("class")) {
-					content += ' class = "' + events[i].content[j].class + '"';
-				}
+
 				if (events[i].content[j].hasOwnProperty("style")) {
 					content += ' style = "' + events[i].content[j].style + '"';
+				}
+
+				if (events[i].content[j].hasOwnProperty("time")) {
+					content += ' class = "time_event"';
+				}
+				else {
+					content += ' class = "time_event_empty"';
 				}
 				content += '>'; // this closes '<td' inserted above
 				if (events[i].content[j].hasOwnProperty("time")) {
@@ -1775,11 +1778,11 @@
 			
 			// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
 
+			// see https://www.w3schools.com/jsref/jsref_findindex.asp
 			function FindMonthByName(name) {
 				console.log(this);
 	      return name == this;
 	   	}
-
 	    var month_number = list_months.findIndex(FindMonthByName, events[i].month);
 
 			//var month_number = list_months.findIndex(events[i].month);
