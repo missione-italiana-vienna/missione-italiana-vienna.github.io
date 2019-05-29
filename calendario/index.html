@@ -1725,10 +1725,9 @@
 		
 		var events = [
 			{
-				"day": "30",
-				"month": "Maggio",
-				"year": "2019",
-				"content": [ 
+				"date": "30 Maggio 2019",
+				"content": 
+				[ 
 					{
 						"description": '<b>Ascensione</b>'
 					},
@@ -1774,20 +1773,25 @@
 				content += '</tr>'; // this closes '<tr>' already inserted above
 			}
 
+			var splitted_date = events[i].date.split(" ");
+			var year = splitted_date[0];
+			var month = splitted_date[1];
+			var day = splitted_date[2];
+
 			var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
 			
 			// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
 
-			// see https://www.w3schools.com/jsref/jsref_findindex.asp
-			function FindMonthByName(name) {
-				console.log(this);
-	      return name == this;
+			// see https://www.w3schools.com/jsref/jsref_findindex.asp 
+			// (the method findIndex() requires as input value a function returning boolean results)
+			function FindMonthByName(name_month) {
+	      return name_month == this;
 	   	}
-	    var month_number = list_months.findIndex(FindMonthByName, events[i].month);
+	    var month_number = list_months.findIndex(FindMonthByName, month);
 
 			//var month_number = list_months.findIndex(events[i].month);
 
-			var date = new Date(events[i].year, month_number, events[i].day);
+			var date = new Date(year, month_number, day);
 
 			// Gets the day of the week of the current date
 			var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
@@ -1795,7 +1799,7 @@
 
 
 			// merges the content of the event with the additional infos about the date
-		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
+		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ day + '</div><div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 		}
 
 
