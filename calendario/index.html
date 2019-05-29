@@ -1771,23 +1771,24 @@
 				content += '</tr>'; // this closes '<tr>' already inserted above
 			}
 
-		var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
-		
-		// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
+			var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
+			
+			// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
 
-		function FindMonthByName(name) {
-      return name === this;
-   	}
+			function FindMonthByName(name) {
+				console.log(this);
+	      return name == this;
+	   	}
 
-    var month_number = list_months.find(FindMonthByName, events[i].month);
+	    var month_number = list_months.findIndex(FindMonthByName, events[i].month);
 
-		//var month_number = list_months.findIndex(events[i].month);
+			//var month_number = list_months.findIndex(events[i].month);
 
-		var date = new Date(events[i].year, month_number, events[i].day);
+			var date = new Date(events[i].year, month_number, events[i].day);
 
-		// Gets the day of the week of the current date
-		var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
-		var day_name = list_days[date.getDay()];
+			// Gets the day of the week of the current date
+			var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
+			var day_name = list_days[date.getDay()];
 
 
 			// merges the content of the event with the additional infos about the date
