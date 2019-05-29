@@ -1685,7 +1685,7 @@
 								</table>
 
 
-								<table id = "appointments_container"></table>
+								<table id = "appointments_container" class = "table_events"></table>
 									
 							</div>
 						</div>
@@ -1826,7 +1826,7 @@
 		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ day + '</div><div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 		}
 
-    appointments_container.innerHTML = appointments;
+    // COMMENTED UNTIL WE FINISH PORTING TO THE NEW STANDARD appointments_container.innerHTML = appointments;
 
 
 
