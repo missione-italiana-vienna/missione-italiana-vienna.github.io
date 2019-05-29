@@ -1766,8 +1766,9 @@
 				if (events[i].content[j].hasOwnProperty("time")) {
 					content += events[i].content[j].time;
 				}
-				content += '</td></tr>' // this closes '<tr><td ... >' already inserted above
-				content += '<tr><td>' + events[i].content[j].description + '</td></tr>';
+				content += '</td>' // this closes '<td ... >' already inserted above
+				content += '<td>' + events[i].content[j].description + '</td>'
+				content += '</tr>'; // this closes '<tr>' already inserted above
 			}
 
 		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + events[i].dayweek + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
