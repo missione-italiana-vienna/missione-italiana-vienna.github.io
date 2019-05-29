@@ -1729,24 +1729,52 @@
 				"day": "30",
 				"month": "Maggio",
 				"year": "2019",
-				"content": '<tr><td class = "time_event_empty"></td><td class = "description_event"><b>Ascensione</b>' +
-										'</td></tr><tr><td class = "time_event" style = "color: red;">11:30</td><td class = "description_event">' +
-										'La Messa di oggi è posticipata alle <b>11:30</b> per non sovrapporci alla celebrazione delle Prime Comunioni della parrocchia di lingua tedesca.</td></tr>'
-			}
+				"content": [ 
+					{
+						"class": "time_event_empty",
+						"description": '<b>Ascensione</b>'
+					},
+					{
+						"class": "time_event",
+						"style": "color: red;",
+						"time": "11:30",
+						"description": 'La Messa di oggi è posticipata alle <b>11:30</b> per non sovrapporci alla celebrazione delle Prime Comunioni della parrocchia di lingua tedesca.'
+					}
+				]
+			},
+
 
 		];
 
 
 		var appointments_container = document.getElementById("appointments_container");
 
-		var content = "";
+		var appointments = "";
 
 		for (var i = 0; i < events.length; ++i) {
-		  content += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + events[i].dayweek + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + events[i].content + '</table></td></tr>';
+			var content = "";
+
+			for (var j = 0; j < events[i].content.length; ++j) {
+				content += '<tr><td';
+				if (events[i].content[j].hasOwnProperty("class")) {
+					content += ' class = "' + events[i].content[j].class + '"';
+				}
+				if (events[i].content[j].hasOwnProperty("style")) {
+					content += ' style = "' + events[i].content[j].style + '"';
+				}
+				content += '>'; // this closes '<td' inserted above
+				if (events[i].content[j].hasOwnProperty("time")) {
+					content += events[i].content[j].time;
+				}
+				content += '</td></tr>' // this closes '<tr><td ... >' already inserted above
+				content += '<tr><td>' + events[i].content[j].description + '</td></tr>';
+			}
+
+		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + events[i].dayweek + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 		}
 
 
-    appointments_container.innerHTML = content;
+    appointments_container.innerHTML = appointments;
 
 
 
