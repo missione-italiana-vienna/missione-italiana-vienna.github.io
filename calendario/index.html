@@ -1725,7 +1725,6 @@
 		
 		var events = [
 			{
-				"dayweek": "Giovedì",
 				"day": "30",
 				"month": "Maggio",
 				"year": "2019",
@@ -1772,8 +1771,20 @@
 				content += '</tr>'; // this closes '<tr>' already inserted above
 			}
 
+		var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
+		
+		// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
+		var month_number = list_months.findIndex(events[i].month);
+
+		var date = new Date(events[i].year, month_number, events[i].day);
+
+		// Gets the day of the week of the current date
+		var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
+		var day_name = list_days[date.getDay()];
+
+
 			// merges the content of the event with the additional infos about the date
-		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + events[i].dayweek + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
+		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ events[i].day + '</div><div>' + events[i].month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 		}
 
 
