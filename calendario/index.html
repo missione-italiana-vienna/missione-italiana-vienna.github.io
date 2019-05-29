@@ -1774,7 +1774,14 @@
 		var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
 		
 		// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
-		var month_number = list_months.findIndex(events[i].month);
+
+		function FindMonthByName(name) {
+      return name === this;
+   	}
+
+    var month_number = list_months.find(FindMonthByName, events[i].month);
+
+		//var month_number = list_months.findIndex(events[i].month);
 
 		var date = new Date(events[i].year, month_number, events[i].day);
 
