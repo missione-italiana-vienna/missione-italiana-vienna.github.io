@@ -1744,7 +1744,7 @@
 				[
 					{
 						"time": "14:30 - 16:30 (*)",
-						"description": "Confessioni.",
+						"description": "Confessioni."
 					},
 					{
 						"time": "16:30 (*)",
@@ -1752,7 +1752,7 @@
 					},
 					{
 						"time": "16:30 (*)",
-						"description": "Messa prefestiva.",
+						"description": "Messa prefestiva."
 					},
 					{
 						"type": "comment",
@@ -1794,7 +1794,7 @@
 				if (events[i].content[j].hasOwnProperty("type") && events[i].content[j].type == "comment") {
 					content += ' event_comment';
 				}
-				content + '">' + events[i].content[j].description + '</td>'
+				content += '">' + events[i].content[j].description + '</td>'
 				content += '</tr>'; // this closes '<tr>' already inserted above
 			}
 
@@ -1825,8 +1825,6 @@
 			// merges the content of the event with the additional infos about the date
 		  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ day + '</div><div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 		}
-
-		console.log(appointments);
 
     appointments_container.innerHTML = appointments;
 
