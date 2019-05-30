@@ -229,36 +229,8 @@ var events =
 var appointments = "";
 
 for (var i = 0; i < events.length; ++i) {
-	var content = "";
 
-	// compute the content of the event
-	for (var j = 0; j < events[i].content.length; ++j) {
-		content += '<tr><td';
-
-		if (events[i].content[j].hasOwnProperty("style")) {
-			content += ' style = "' + events[i].content[j].style + '"';
-		}
-
-		if (events[i].content[j].hasOwnProperty("time")) {
-			content += ' class = "time_event"';
-		}
-		else {
-			content += ' class = "time_event_empty"';
-		}
-		content += '>'; // this closes '<td' inserted above
-		if (events[i].content[j].hasOwnProperty("time")) {
-			content += events[i].content[j].time;
-		}
-		
-		content += '</td>' // this closes '<td ... >' already inserted above
-		content += '<td class = "description_event';
-		if (events[i].content[j].hasOwnProperty("type") && events[i].content[j].type == "comment") {
-			content += ' event_comment';
-		}
-		content += '">' + events[i].content[j].description + '</td>'
-		content += '</tr>'; // this closes '<tr>' already inserted above
-	}
-
+	// converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10 
 	var splitted_date = events[i].date.split(" ");
 	var day = splitted_date[0];
 	var month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
@@ -278,12 +250,52 @@ for (var i = 0; i < events.length; ++i) {
   // starting with the infos about year, month number and date, we create a new date object
 	var date = new Date(year, month_number, day);
 
-	// we extract the day of the week from the date object
-	var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
-	var day_name = list_days[date.getDay()];
+	// we set a comparison date
+	var comparison_date = new Date();  // today
+  comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
 
-	// merges the content of the event with the additional infos about the date
-  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ day + '</div><div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
+  // we consider only those events that are future events, current events, or events not older that yesterday
+  if (date >= comparison_date) {
+
+		// we extract the day of the week from the date object
+		var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
+		var day_name = list_days[date.getDay()];
+
+
+
+		var content = "";
+
+		// compute the content of the event
+		for (var j = 0; j < events[i].content.length; ++j) {
+			content += '<tr><td';
+
+			if (events[i].content[j].hasOwnProperty("style")) {
+				content += ' style = "' + events[i].content[j].style + '"';
+			}
+
+			if (events[i].content[j].hasOwnProperty("time")) {
+				content += ' class = "time_event"';
+			}
+			else {
+				content += ' class = "time_event_empty"';
+			}
+			content += '>'; // this closes '<td' inserted above
+			if (events[i].content[j].hasOwnProperty("time")) {
+				content += events[i].content[j].time;
+			}
+			
+			content += '</td>' // this closes '<td ... >' already inserted above
+			content += '<td class = "description_event';
+			if (events[i].content[j].hasOwnProperty("type") && events[i].content[j].type == "comment") {
+				content += ' event_comment';
+			}
+			content += '">' + events[i].content[j].description + '</td>'
+			content += '</tr>'; // this closes '<tr>' already inserted above
+		}
+
+		// merges the content of the event with the additional infos about the date
+	  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ day + '</div><div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
+	}
 }
 
 // attach the content of appointments to the appointments_container already defined in the base HTML code
