@@ -66,7 +66,7 @@ var events =
 		[
 			{
 				'time': 'dalle 19:30 (*)',
-				'description': 'Adorazione Eucaristica notturna in silenzio (fino alle 7:00 del mattino dopo). L\'Adorazione si svolge nella <b>Cappella di Sant\'Antonio</b> (entrata dal civico di Alser Straße 17, di fianco alla chiesa) (*). Siete invitati a vegliare in preghiera quanto tempo volete e riuscite. In particolare, <b>dalle 21:00 alle 22:00</b> l'Adorazione è animata dai frati con canti di preghiera.'
+				'description': 'Adorazione Eucaristica notturna in silenzio (fino alle 7:00 del mattino dopo). L\'Adorazione si svolge nella <b>Cappella di Sant\'Antonio</b> (entrata dal civico di Alser Straße 17, di fianco alla chiesa) (*). Siete invitati a vegliare in preghiera quanto tempo volete e riuscite. In particolare, <b>dalle 21:00 alle 22:00</b> l\'Adorazione è animata dai frati con canti di preghiera.'
 			},
 			{
 				'type': 'comment',
@@ -149,7 +149,7 @@ var events =
 		'content':
 		[
 			{
-				'description': 'Festa parrocchiale in occasione della SS. Trinità. Questa Domenica non ci sarà una Messa in italiano, ma una celebrazione unica assieme alla parrocchia di Alserstrasse in tedesco (con alcune parti della Messa in italiano). Per seguire la liturgia interamente in italiano si consiglia di andare alla Messa prefestiva di Sabato 15 Giugno. La celebrazione sarà seguita da una festa parrocchiale (Luftburg per bambini, cibo, etc.). Contattate padre Thomas se volete dare una mano con l'organizzazione.'
+				'description': 'Festa parrocchiale in occasione della SS. Trinità. Questa Domenica non ci sarà una Messa in italiano, ma una celebrazione unica assieme alla parrocchia di Alserstrasse in tedesco (con alcune parti della Messa in italiano). Per seguire la liturgia interamente in italiano si consiglia di andare alla Messa prefestiva di Sabato 15 Giugno. La celebrazione sarà seguita da una festa parrocchiale (Luftburg per bambini, cibo, etc.). Contattate padre Thomas se volete dare una mano con l\'organizzazione.'
 			}
 		]
 	},
@@ -175,7 +175,7 @@ var events =
 				'description': '<b>Corpus Domini</b>'
 			},
 			{
-				'description': 'Processione che terminerà alla chiesa di Alser Straße (orario ancora da stabilire). In questa data non ci sarà la Messa in italiano. Contattate padre Thomas se volete dare una mano con l'organizzazione della processione.'
+				'description': 'Processione che terminerà alla chiesa di Alser Straße (orario ancora da stabilire). In questa data non ci sarà la Messa in italiano. Contattate padre Thomas se volete dare una mano con l\'organizzazione della processione.'
 			}
 		]
 	},
