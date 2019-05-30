@@ -249,7 +249,7 @@ var events =
 			},
 			{
 				'time': '19:30',
-				'style': 'color: red;'
+				'style': 'color: red;',
 				'description': 'S. Messa <i>in Coena Domini</i> (Cena del Signore).'
 			},
 			{
