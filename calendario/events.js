@@ -913,34 +913,36 @@ function FindMonthByName(name_month) {
 }
 
 var appointments = "";
+var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday;
 
-for (var i = 0; i < events.length; ++i) {
+for (i = 0; i < events.length; ++i) {
 
 	// converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10 
-	var splitted_date = events[i].date.split(" ");
-	var day = splitted_date[0];
-	var month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
-	var year = splitted_date[2];
+	splitted_date = events[i].date.split(" ");
+	day = splitted_date[0];
+	month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
+	year = splitted_date[2];
 			
 	// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
 
-  var month_number = list_months.findIndex(FindMonthByName, month);
+  month_number = list_months.findIndex(FindMonthByName, month);
 
   if (month_number == -1) {
   	console.log('Error! Month not found in the list: ' + month);
+  	console.log(events[i]);
   }
 
   // starting with the infos about year, month number and date, we create a new date object
-	var date_considered = new Date(year, month_number, day);
+	date_considered = new Date(year, month_number, day);
 
 	// we set a comparison date (in this case, the comparison date is yesterday)
-	var comparison_date = new Date();  // today
+	comparison_date = new Date();  // today
   comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
 
   // we consider only those events that are future events, current events, or events not older that yesterday
   if (date_considered >= comparison_date) {
 		// we extract the day of the week from the date object
-		var weekday = list_weekdays[date_considered.getDay()];
+		weekday = list_weekdays[date_considered.getDay()];
   
   	appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
 	}
