@@ -89,7 +89,7 @@ var events =
 		]
 	},
 	{
-		'date': ' 5 Aprile 2019',
+		'date': '5 Aprile 2019',
 		'content':
 		[
 			{
@@ -913,12 +913,14 @@ function FindMonthByName(name_month) {
 }
 
 var appointments = "";
-var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday;
+var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
 
 for (i = 0; i < events.length; ++i) {
 
-	// converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10 
-	splitted_date = events[i].date.split(" ");
+	// converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10
+	current_string_date = events[i].date.trim(); // trims white spaces at the beginning and at the end of the string
+	current_string_date = current_string_date.replace(/\s\s+/g, ' '); // replaces (multiple) spaces, tabs etc with single spaces
+	splitted_date = current_string_date.split(" "); // splits using single spaces as delimiters
 	day = splitted_date[0];
 	month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
 	year = splitted_date[2];
