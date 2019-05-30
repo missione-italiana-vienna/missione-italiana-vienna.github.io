@@ -526,7 +526,7 @@ var events =
 				'description': 'Incontro del Gruppo Giovani 18 - 25 anni (entrata dal numero civico 17 di fianco alla Chiesa).'
 			},
 			{
-				'time': '19:00 - 20:00 (*)'
+				'time': '19:00 - 20:00 (*)',
 				'description': 'Adorazione Eucaristica in silenzio.'
 			},
 			{
