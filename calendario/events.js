@@ -243,7 +243,7 @@ for (var i = 0; i < events.length; ++i) {
 	// see https://www.w3schools.com/jsref/jsref_findindex.asp 
 	// (the method findIndex() requires as input value a function returning boolean results)
 	function FindMonthByName(name_month) {
-    return name_month == this;
+	return name_month == this;
 	}
   var month_number = list_months.findIndex(FindMonthByName, month);
 
@@ -293,8 +293,10 @@ for (var i = 0; i < events.length; ++i) {
 			content += '</tr>'; // this closes '<tr>' already inserted above
 		}
 
-		// merges the content of the event with the additional infos about the date
-	  appointments += '<tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div><div>'+ day + '</div><div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
+		// Merges the content of the event with the additional infos about the date
+		// NOTE: do not remove the white spaces in the strings below: they are needed for the visualization on
+		// small screens, where every tr, td and div is displayed with "display: inline;" 
+	  appointments += ' <tr class = "events_on_given_day"><td class = "date_event"><div>' + day_name + '</div> <div>'+ day + '</div> <div>' + month + '</div></td><td class = "text_event"><table>' + content + '</table></td></tr>';
 	}
 }
 
