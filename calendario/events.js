@@ -937,12 +937,12 @@ function generate_html_with_all_events(input_string) {
 		  	console.log(events[i]);
 		  }
 
+		  // starting with the infos about year, month number and date, we create a new date object
+			date_considered = new Date(year, month_number, day);
+
 			// we extract the day of the week from the date object
 			weekday = list_weekdays[date_considered.getDay()];
 
-		  // starting with the infos about year, month number and date, we create a new date object
-			date_considered = new Date(year, month_number, day);
-			
 			// we set a comparison date
 			comparison_date = new Date();  // currenlty it's equal to today, it will be modified below
 
@@ -970,4 +970,3 @@ function generate_html_with_all_events(input_string) {
 	}
 }
 
-generate_html_with_all_events("future");
