@@ -221,7 +221,7 @@ var events =
 		'content':
 		[
 			{
-				'time': '9:00 - 11:00 (*)';
+				'time': '9:00 - 11:00 (*)',
 				'style': 'color: red;',
 				'description': 'Confessioni (se non riuscite nelle date elencate nel calendario, contattate p. Thomas per un appuntamento).'
 			},
