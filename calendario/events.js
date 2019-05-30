@@ -284,7 +284,10 @@ for (var i = 0; i < events.length; ++i) {
 				content += events[i].content[j].time;
 			}
 			
-			content += '</td>' // this closes '<td ... >' already inserted above
+			content += '</td> ' // this closes '<td ... >' already inserted above
+			// NOTE: in the string above there's a white space; this is needed for the visualization on
+			// small screens, where every td is displayed with "display: inline;"
+
 			content += '<td class = "description_event';
 			if (events[i].content[j].hasOwnProperty("type") && events[i].content[j].type == "comment") {
 				content += ' event_comment';
