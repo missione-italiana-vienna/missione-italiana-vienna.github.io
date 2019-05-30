@@ -172,19 +172,19 @@ var events =
 		[
 			{
 				'time': '14:30 - 16:30 (*)',
-				'content': 'Confessioni.'
+				'description': 'Confessioni.'
 			},
 			{
 				'time': '16:30 (*)',
-				'content': 'recita del Rosario.'
+				'description': 'recita del Rosario.'
 			},
 			{
 				'time': '17:00 (*)',
-				'content': 'Messa prefestiva.'
+				'description': 'Messa prefestiva.'
 			},
 			{
 				'type': 'comment',
-				'content': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
 	},
@@ -596,7 +596,7 @@ var events =
 		[
 			{
 				'time': '10:30',
-				'content': 'S. Messa.'
+				'description': 'S. Messa.'
 			}
 		]
 	},
@@ -969,4 +969,3 @@ function generate_html_with_all_events(input_string) {
 		appointments_container.innerHTML = appointments;
 	}
 }
-
