@@ -854,9 +854,7 @@ var events =
 var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
 var list_weekdays = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
 
-
 function generate_html_for_a_given_date(js_content, day, month, weekday) {
-
 		var content = "";
 
 		// compute the content of the event
@@ -912,44 +910,64 @@ function FindMonthByName(name_month) {
 	return name_month == this;
 }
 
-var appointments = "";
-var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
+function generate_html_with_all_events(input_string) {
+	if (input_string != "future" && input_string != "past") {
+		console.log('Wrong input parameter: must be either "future" or "past"');
+	}
+	else {
+		var appointments = "";
+		var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
 
-for (i = 0; i < events.length; ++i) {
+		for (i = 0; i < events.length; ++i) {
 
-	// converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10
-	current_string_date = events[i].date.trim(); // trims white spaces at the beginning and at the end of the string
-	current_string_date = current_string_date.replace(/\s\s+/g, ' '); // replaces (multiple) spaces, tabs etc with single spaces
-	splitted_date = current_string_date.split(" "); // splits using single spaces as delimiters
-	day = splitted_date[0];
-	month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
-	year = splitted_date[2];
+			// converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10
+			current_string_date = events[i].date.trim(); // trims white spaces at the beginning and at the end of the string
+			current_string_date = current_string_date.replace(/\s\s+/g, ' '); // replaces (multiple) spaces, tabs etc with single spaces
+			splitted_date = current_string_date.split(" "); // splits using single spaces as delimiters
+			day = splitted_date[0];
+			month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
+			year = splitted_date[2];
+					
+			// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
+
+		  month_number = list_months.findIndex(FindMonthByName, month);
+
+		  if (month_number == -1) {
+		  	console.log('Error! Month not found in the list: ' + month);
+		  	console.log(events[i]);
+		  }
+
+			// we extract the day of the week from the date object
+			weekday = list_weekdays[date_considered.getDay()];
+
+		  // starting with the infos about year, month number and date, we create a new date object
+			date_considered = new Date(year, month_number, day);
 			
-	// Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
+			// we set a comparison date
+			comparison_date = new Date();  // currenlty it's equal to today, it will be modified below
 
-  month_number = list_months.findIndex(FindMonthByName, month);
+			if (input_string == "future") {
+			  comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
 
-  if (month_number == -1) {
-  	console.log('Error! Month not found in the list: ' + month);
-  	console.log(events[i]);
-  }
+			  // we consider only those events that are future events, current events, or events not older that yesterday
+			  if (date_considered >= comparison_date) {			  
+			  	appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
+				}
+			}
+			else { // i.e. if input_string == "past"
+				// the comparison date is not modified in this case
 
-  // starting with the infos about year, month number and date, we create a new date object
-	date_considered = new Date(year, month_number, day);
-
-	// we set a comparison date (in this case, the comparison date is yesterday)
-	comparison_date = new Date();  // today
-  comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
-
-  // we consider only those events that are future events, current events, or events not older that yesterday
-  if (date_considered >= comparison_date) {
-		// we extract the day of the week from the date object
-		weekday = list_weekdays[date_considered.getDay()];
-  
-  	appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
+			  // we consider only those events that are past events
+			  if (date_considered < comparison_date) {
+			  	// we add events in a reverse order
+			  	appointments = generate_html_for_a_given_date(events[i].content, day, month, weekday) + appointments;
+				}
+			}
+		}
+		// attach the content of appointments to the appointments_container already defined in the base HTML code
+		var appointments_container = document.getElementById("appointments_container");
+		appointments_container.innerHTML = appointments;
 	}
 }
 
-// attach the content of appointments to the appointments_container already defined in the base HTML code
-var appointments_container = document.getElementById("appointments_container");
-appointments_container.innerHTML = appointments;
+generate_html_with_all_events("future");

@@ -188,7 +188,8 @@
 	<script src = "https://mcivienna.org/js/custom.js"></script>
 
 	<!-- the next file contains all the infos about the events, as well as the routine used for populating the page with
-		those events -->
-  	<script src = "https://mcivienna.org/calendario/events.js"></script>
+		those events. Once the file is loaded, we execute a function selecting only "future" events (we consider as "future" events also events of today and yesterday, just in case someone is interested also in activities which started yesterday but end today. Example: Adorazione notturna (1 volta al mese) -->
+	<script onload = "generate_html_with_all_events('future');" src = "https://mcivienna.org/calendario/events.js"></script>
+
 </body>
 </html>
