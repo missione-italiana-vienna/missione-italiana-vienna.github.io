@@ -873,7 +873,7 @@ function generate_html_for_a_given_date(js_content, day, month, weekday) {
 			}
 			content += '>'; // this closes '<td' inserted above
 			if (js_content[j].hasOwnProperty("time")) {
-				content += events[i].content[j].time;
+				content += js_content[j].time;
 			}
 			
 			content += '</td> ' // this closes '<td ... >' already inserted above
