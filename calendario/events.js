@@ -228,7 +228,7 @@ var events =
 			{
 				'time': '19:00 - 20:00 (*)',
 				'description': 'Adorazione Eucaristica in silenzio.'
-			}
+			},
 			{
 				'type': 'comment',
 				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
@@ -251,7 +251,7 @@ var events =
 				'time': '19:30',
 				'style': 'color: red;'
 				'description': 'S. Messa <i>in Coena Domini</i> (Cena del Signore).'
-			}
+			},
 			{
 				'type': 'comment',
 				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
