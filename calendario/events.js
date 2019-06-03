@@ -727,9 +727,6 @@ var events =
 			{
 				'time': '10:30',
 				'description': 'S. Messa.'
-			},
-			{
-				'description': 'In questa data non ci sarà nessuna messa prefestiva per Pentecoste.'
 			}
 		]
 	},
@@ -773,6 +770,8 @@ var events =
 		'content':
 		[
 			{
+				'time': '10:00',
+				'style': 'color: red;'
 				'description': 'Festa parrocchiale in occasione della SS. Trinità. Questa Domenica non ci sarà una Messa in italiano, ma una celebrazione unica assieme alla parrocchia di Alserstrasse in tedesco (con alcune parti della Messa in italiano). Per seguire la liturgia interamente in italiano si consiglia di andare alla Messa prefestiva di Sabato 15 Giugno. La celebrazione sarà seguita da una festa parrocchiale (Luftburg per bambini, cibo, etc.). Contattate padre Thomas se volete dare una mano con l\'organizzazione.'
 			}
 		]
@@ -781,6 +780,10 @@ var events =
 		'date': '19 Giugno 2019',
 		'content':
 		[
+			{
+				'time': '17:00 - 18:00 (*)',
+				'description': 'Messa prefestiva per il Corpus Domini.'
+			},
 			{
 				'time': '19:00 - 20:00 (*)',
 				'description': 'Adorazione Eucaristica in silenzio.'
