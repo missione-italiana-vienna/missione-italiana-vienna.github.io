@@ -803,7 +803,7 @@ var events =
 			},
 			{
 				'time': 'dalle 8:30',
-				'style': 'color: red;'
+				'style': 'color: red;',
 				'description': 'La processione e la Messa del Corpus Domini si svolgono in tedesco. Per seguire la liturgia in italiano si consiglia di andare alla Messa prefestiva di Mercoledì 19 Giugno. Per dettagli sulla processione e sulla celebrazione in tedesco, consultate <a class = "normal_link" href = "https://mcivienna.org/blog/2019/06/20/corpus_domini/">questo link</a>.	Contattate padre Thomas se volete dare una mano con l\'organizzazione della processione.'
 			}
 		]
