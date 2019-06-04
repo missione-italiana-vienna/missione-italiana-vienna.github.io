@@ -748,7 +748,7 @@ var events =
 		'content':
 		[
 			{
-				'date': '18:30 - 19:30',
+				'time': '18:30 - 19:30',
 				'description': 'I frati minori invitano alla celebrazione della Santa Messa (in tedesco) in occasione della festa di Sant\'Antonio, a seguire processione e agape.'
 			}
 		]
