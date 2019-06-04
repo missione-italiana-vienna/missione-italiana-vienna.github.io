@@ -744,6 +744,16 @@ var events =
 		]
 	},
 	{
+		'date': '13 Giugno 2019',
+		'content':
+		[
+			{
+				'date': '18:30 - 19:30',
+				'description': 'I frati minori invitano alla celebrazione della Santa Messa (in tedesco) in occasione della festa di Sant\'Antonio, a seguire processione e agape.'
+			}
+		]
+	},
+	{
 		'date': '15 Giugno 2019',
 		'content': 
 		[
