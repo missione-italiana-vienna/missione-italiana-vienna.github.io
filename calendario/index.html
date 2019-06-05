@@ -189,19 +189,12 @@
 
 	<!-- the next file contains all the infos about the events, as well as the routine used for populating the page with
 		those events. Once the file is loaded, we execute a function selecting only "future" events (we consider as "future" events also events of today and yesterday, just in case someone is interested also in activities which started yesterday but end today. Example: Adorazione notturna (1 volta al mese) -->
-	<!--<script onload = "generate_html_with_all_events('future');" src = "events.js"></script>-->
 
 	<script> 
-	// in order to reload the file JS with the list of events, we use a well-known trick, see for example
-	// https://www.c-sharpcorner.com/article/how-to-force-the-browser-to-reload-cached-js-css-files-to-reflect-latest-chan/
-
-    /*var versionUpdate = (new Date()).getTime();  
-    var script = document.createElement("script");  
-    // script.type = "text/javascript";  
-    script.onload = "generate_html_with_all_events('future');";
-    script.src = "events.js?v=" + versionUpdate;  
-    document.body.appendChild(script);*/
-
+		// in order to reload the file JS with the list of events, we use a well-known trick
+		// that forces reloading of the cache, see for example
+		// https://www.c-sharpcorner.com/article/how-to-force-the-browser-to-reload-cached-js-css-files-to-reflect-latest-chan/
+    
     var versionUpdate = (new Date()).getTime();
 
     var scriptElement = document.createElement( "script" );
