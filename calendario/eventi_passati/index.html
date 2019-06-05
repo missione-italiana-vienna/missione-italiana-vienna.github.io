@@ -189,7 +189,24 @@
 
 	<!-- the next file contains all the infos about the events, as well as the routine used for populating the page with
 		those events. Once the file is loaded, we execute a function selecting only "past" events -->
-	<script onload = "generate_html_with_all_events('past');" src = "https://mcivienna.org/calendario/events.js"></script>
+
+	<script> 
+		// in order to reload the file JS with the list of events, we use a well-known trick
+		// that forces reloading of the cache, see for example
+		// https://www.c-sharpcorner.com/article/how-to-force-the-browser-to-reload-cached-js-css-files-to-reflect-latest-chan/
+	
+		var versionUpdate = (new Date()).getTime();
+
+		var scriptElement = document.createElement( "script" );
+ 
+		scriptElement.onload = function() {
+		  generate_html_with_all_events('past');
+		};
+ 	
+		scriptElement.src = "../events.js?v=" + versionUpdate;;
+ 
+		document.body.appendChild(scriptElement);
+	</script>
 
 </body>
 </html>
