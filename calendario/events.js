@@ -1085,6 +1085,29 @@ var events =
 		]
 	},
 	{
+		'date': '14 Agosto 2019',
+		'content': 
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva.'
+			}
+		]
+	},
+	{
+		'date': '15 Agosto 2019',
+		'content': 
+		[
+			{
+				'description': '<b>Assunzione della Vergine Maria</b>'
+			},
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
 		'date': '17 Agosto 2019',
 		'content':
 		[
@@ -1244,10 +1267,69 @@ var events =
 			}
 		]
 	},
-
-	/* Messa dei popoli? Che domenica? */
-
-
+	{
+		'date': '21 Settembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '22 Settembre 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '28 Settembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '29 Settembre 2019',
+		'content': 
+		[
+			{
+				'description': 'Come ogni anno, celebriamo la <b>Messa dei popoli</b> (Sonntag der Völker) insieme alle comunità di altre lingue in cattedrale (Stephansdom). Quest\'anno la Messa sarà presieduta da sua Eccellenza <a target = _blank href = "https://www.erzdioezese-wien.at/pages/inst/14428675/international/article/31023.html" class = "normal_link">Christoph Schönborn</a>, Cardinale dell\'arcidiocesi di Vienna. La Messa si svolge in tedesco, con letture, preghiere e canti letti e cantati nelle varie lingue delle comunità di Vienna. A <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/home/nachrichten/article/68405.html">questo link</a> trovate alcune informazioni sulla celebrazione del 2018 (informazioni aggiornate sugli orari di quest\'anno saranno inserite qui appena disponibili).'
+			}
+		]
+	},
 
 ];
 
