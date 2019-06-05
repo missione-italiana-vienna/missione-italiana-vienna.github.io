@@ -859,7 +859,396 @@ var events =
 				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti (entrata da Alser Straße 17).'
 			}
 		]
-	}
+	},
+	{
+		'date': '29 Giugno 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '30 Giugno 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa presieduta da sua <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>), '
+			}
+		]
+	},
+	{
+		'date': '6 Luglio 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '7 Luglio 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '13 Luglio 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '14 Luglio 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '20 Luglio 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '21 Luglio 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '27 Luglio 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '28 Luglio 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '3 Agosto 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '4 Agosto 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '10 Agosto 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '11 Agosto 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '17 Agosto 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '18 Agosto 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '24 Agosto 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '25 Agosto 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '31 Agosto 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '1 Settembre 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '7 Settembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '8 Settembre 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '14 Settembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '15 Settembre 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+
+	/* Messa dei popoli? Che domenica? */
+
+
+
 ];
 
 
