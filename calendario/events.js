@@ -1,6 +1,255 @@
 var events = 
 [
 	{
+		'date': '9 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '10 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '10:30',
+				'style': 'color: red;',
+				'description': 'S. Messa; a seguire Agape nella sala parrocchiale.'
+			}
+		]
+	},
+	{
+		'date': '16 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '17 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '10:30',
+				'style': 'color: red;',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '18 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '23 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '24 Febbraio 2019',
+		'content':
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '1 Marzo 2019',
+		'content':
+		[
+			{
+				'time': 'dalle 19:30 (*)',
+				'description': 'Adorazione Eucaristica notturna in silenzio (fino alle 7:00 del mattino dopo). Siete invitati a vegliare in preghiera quanto tempo volete e riuscite. In particolare, <b>dalle 21:00 alle 22:00</b> l\'Adorazione è animata dai frati francescani con canti di preghiera.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '2 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.',
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '3 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '5 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '18:00 - 19:30',
+				'description': 'incontro del <a class = "normal_link" href = "https://mcivienna.org/attivita/#gruppo_giovani_18_25">Gruppo Giovani 18-25</a>.'
+			}
+		]
+	},
+	{
+		'date': '6 Marzo 2019',
+		'content':
+		[
+			{
+				'description': '<b>Mercoledì delle Ceneri</b>'
+			},
+			{
+				'time': '19:30 (*)',
+				'description': 'S. Messa.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '9 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.',
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '10 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			},
+			{
+				'time': '11:30 - 12:45',
+				'description': 'incontro dei bambini e ragazzi di tutti i gruppi del catechismo. In contemporanea, preparazione e inizio (nel salone parrocchiale) dell\'Agape della comunità, a cui i bambini e ragazzi del catechismo si uniranno alle 12:45.'
+			}
+		]
+	},
+	{
+		'date': '16 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.',
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '17 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '10:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '18 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '20 Marzo 2019',
+		'content':
+		[
+			{
+				'time': '19:00 - 20:00 (*)',
+				'description': 'Adorazione Eucaristica in silenzio  nella Cappella di Sant\'Antonio (entrata dal civico di Alser Straße 17, di fianco alla chiesa).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '23 Marzo 2019',
 		'content':
 		[
