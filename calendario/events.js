@@ -1120,6 +1120,16 @@ var events =
 		]
 	},
 	{
+		'date': '27 Giugno 2019',
+		'content':
+		[
+			{
+				'time': 'dalle 18:00',
+				'description': 'Gara di pallavolo per i giovani (14-20 anni) nel giardino del monastero (entrata da Alser Straße 17).'
+			}
+		]
+	},
+	{
 		'date': '29 Giugno 2019',
 		'content':
 		[
@@ -1212,6 +1222,16 @@ var events =
 			{
 				'time': '10:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '15 Luglio 2019',
+		'content':
+		[
+			{
+				'time': 'dalle 19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti (entrata da Alser Straße 17).'
 			}
 		]
 	},
