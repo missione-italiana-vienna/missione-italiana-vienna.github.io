@@ -1419,6 +1419,16 @@ var events =
 		]
 	},
 	{
+		'date': '19 Agosto 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
 		'date': '24 Agosto 2019',
 		'content':
 		[
