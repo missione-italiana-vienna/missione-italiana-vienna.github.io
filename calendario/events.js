@@ -1487,8 +1487,9 @@ var events =
 		'content': 
 		[
 			{
-				'time': '10:30',
-				'description': 'S. Messa.'
+				'time': '11:00',
+				'style': 'color: red;',
+				'description': 'S. Messa (da ora in poi tutte le Messe domenicali inizieranno alle ore 11:00).'
 			}
 		]
 	},
@@ -1519,7 +1520,8 @@ var events =
 		'content': 
 		[
 			{
-				'time': '10:30',
+				'time': '11:00',
+				'style': 'color: red;',
 				'description': 'S. Messa.'
 			}
 		]
@@ -1551,7 +1553,7 @@ var events =
 		'content': 
 		[
 			{
-				'time': '10:30',
+				'time': '11:00',
 				'description': 'S. Messa.'
 			}
 		]
@@ -1583,7 +1585,7 @@ var events =
 		'content': 
 		[
 			{
-				'time': '10:30',
+				'time': '11:00',
 				'description': 'S. Messa.'
 			}
 		]
