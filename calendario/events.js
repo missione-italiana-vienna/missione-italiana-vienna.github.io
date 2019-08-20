@@ -1489,7 +1489,7 @@ var events =
 			{
 				'time': '11:00',
 				'style': 'color: red;',
-				'description': 'S. Messa (da ora in poi tutte le Messe domenicali inizieranno alle ore 11:00).'
+				'description': 'S. Messa - <b>da ora in poi tutte le Messe domenicali inizieranno alle ore 11:00.</b>'
 			}
 		]
 	},
@@ -1522,7 +1522,7 @@ var events =
 			{
 				'time': '11:00',
 				'style': 'color: red;',
-				'description': 'S. Messa.'
+				'description': 'S. Messa - <b>vi ricordiamo che da Settembre tutte le Messe domenicali inizieranno alle ore 11:00.</b>'
 			}
 		]
 	},
