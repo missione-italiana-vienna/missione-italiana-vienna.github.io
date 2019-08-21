@@ -1487,9 +1487,9 @@ var events =
 		'content': 
 		[
 			{
-				'time': '11:00',
+				'time': '11:30',
 				'style': 'color: red;',
-				'description': 'S. Messa - <b>da ora in poi tutte le Messe domenicali inizieranno alle ore 11:00.</b>'
+				'description': 'S. Messa - <b>da ora in poi tutte le Messe domenicali inizieranno alle ore 11:30.</b>'
 			}
 		]
 	},
@@ -1520,9 +1520,9 @@ var events =
 		'content': 
 		[
 			{
-				'time': '11:00',
+				'time': '11:30',
 				'style': 'color: red;',
-				'description': 'S. Messa - <b>vi ricordiamo che da Settembre tutte le Messe domenicali inizieranno alle ore 11:00.</b>'
+				'description': 'S. Messa - <b>vi ricordiamo che da Settembre tutte le Messe domenicali inizieranno alle ore 11:30.</b>'
 			}
 		]
 	},
@@ -1553,7 +1553,7 @@ var events =
 		'content': 
 		[
 			{
-				'time': '11:00',
+				'time': '11:30',
 				'description': 'S. Messa.'
 			}
 		]
@@ -1585,7 +1585,7 @@ var events =
 		'content': 
 		[
 			{
-				'time': '11:00',
+				'time': '11:30',
 				'description': 'S. Messa.'
 			}
 		]
