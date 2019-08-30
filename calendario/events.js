@@ -1157,7 +1157,7 @@ var events =
 		[
 			{
 				'time': '10:30',
-				'description': 'S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>), '
+				'description': 'S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).'
 			}
 		]
 	},
@@ -1621,7 +1621,330 @@ var events =
 			}
 		]
 	},
-
+	{
+		'date': '5 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '6 Ottobre 2019',
+		'content': 
+		[
+			{
+				'time': '10:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>Festa di san Francesco e festa del raccolto</b>: la S. Messa sarà celebrata alle ore <b>10:30</b> nel giardino del convento di Alser Straße insieme alla comunità di lingua tedesca della parrocchia (con alcune parti della Messa in italiano). Per seguire la liturgia interamente in italiano si consiglia di prendere parte alla Messa prefestiva di Sabato 5 Ottobre.'
+			}
+		]
+	},
+	{
+		'date': '12 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '13 Ottobre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).'
+			}
+		]
+	},
+	{
+		'date': '19 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '20 Ottobre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '26 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '27 Ottobre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	/*{
+		'date': '31 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},*/
+	{
+		'date': '1 Novembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>Solennità di tutti i santi</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '2 Novembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '3 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '9 Novembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '10 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '16 Novembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '17 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '23 Novembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '24 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '30 Novembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '1 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
 ];
 
 
