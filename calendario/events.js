@@ -1617,7 +1617,7 @@ var events =
 		'content': 
 		[
 			{
-				'description': 'Come ogni anno, celebriamo la <b>Messa dei popoli</b> (Sonntag der Völker) insieme alle comunità di altre lingue in cattedrale (Stephansdom). Quest\'anno la Messa sarà presieduta da sua Eccellenza <a target = _blank href = "https://www.erzdioezese-wien.at/pages/inst/14428675/international/article/31023.html" class = "normal_link">Christoph Schönborn</a>, Cardinale dell\'arcidiocesi di Vienna. La Messa si svolge in tedesco, con letture, preghiere e canti letti e cantati nelle varie lingue delle comunità di Vienna. A <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/home/nachrichten/article/68405.html">questo link</a> trovate alcune informazioni sulla celebrazione del 2018 (informazioni aggiornate sugli orari di quest\'anno saranno inserite qui appena disponibili).'
+				'description': 'Come ogni anno, celebriamo la <b>Messa dei popoli</b> (Sonntag der Völker) insieme alle comunità di altre lingue in cattedrale (Stephansdom). Quest\'anno la Messa sarà presieduta da sua Eminenza <a target = _blank href = "https://www.erzdioezese-wien.at/pages/inst/14428675/international/article/31023.html" class = "normal_link">Christoph Schönborn</a>, Cardinale dell\'arcidiocesi di Vienna. La Messa si svolge in tedesco, con letture, preghiere e canti letti e cantati nelle varie lingue delle comunità di Vienna. A <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/home/nachrichten/article/68405.html">questo link</a> trovate alcune informazioni sulla celebrazione del 2018 (informazioni aggiornate sugli orari di quest\'anno saranno inserite qui appena disponibili).'
 			}
 		]
 	},
@@ -1680,6 +1680,11 @@ var events =
 		'date': '13 Ottobre 2019',
 		'content': 
 		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>Primo incontro di catechismo</b> del nuovo anno pastorale.'
+			},
 			{
 				'time': '11:30',
 				'description': 'S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).'
