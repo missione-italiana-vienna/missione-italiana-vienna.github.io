@@ -1559,6 +1559,16 @@ var events =
 		]
 	},
 	{
+		'date': '16 Settembre 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
 		'date': '21 Settembre 2019',
 		'content':
 		[
@@ -1688,6 +1698,16 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).'
+			}
+		]
+	},
+	{
+		'date': '14 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -1887,6 +1907,16 @@ var events =
 		]
 	},
 	{
+		'date': '20 Novembre 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si tiene mercoledì invece che lunedì.'
+			}
+		]
+	},
+	{
 		'date': '23 Novembre 2019',
 		'content':
 		[
@@ -1950,6 +1980,17 @@ var events =
 			}
 		]
 	},
+	// Ancora da inserire questi appuntamenti della Lectio Divina:
+	/*Lunedì 16 Settembre
+Lunedì 14 Ottobre
+Mercoledì 20 Novembre
+Lunedì 16 Dicembre
+Lunedì 20 Gennaio
+Lunedì 17 Febbraio
+Mercoledì 11 Marzo
+Lunedì 6 Aprile
+Lunedì 11 Maggio
+Lunedì 22 Giugno*/
 ];
 
 
