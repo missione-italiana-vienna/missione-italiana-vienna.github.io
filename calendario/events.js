@@ -1980,17 +1980,17 @@ var events =
 			}
 		]
 	},
-	// Ancora da inserire questi appuntamenti della Lectio Divina:
-	/*Lunedì 16 Settembre
-Lunedì 14 Ottobre
-Mercoledì 20 Novembre
-Lunedì 16 Dicembre
-Lunedì 20 Gennaio
-Lunedì 17 Febbraio
-Mercoledì 11 Marzo
-Lunedì 6 Aprile
-Lunedì 11 Maggio
-Lunedì 22 Giugno*/
+	// Ancora da inserire questi appuntamenti della Lectio Divina nel calendario
+	/*
+	Lunedì 16 Dicembre 
+	// NOTA: tutti i prossimi incontri della Lectio Divina 
+	// devono anche essere inseriti nella pagina "attività"
+	Lunedì 20 Gennaio
+	Lunedì 17 Febbraio
+	Mercoledì 11 Marzo
+	Lunedì 6 Aprile
+	Lunedì 11 Maggio
+	Lunedì 22 Giugno*/
 ];
 
 
