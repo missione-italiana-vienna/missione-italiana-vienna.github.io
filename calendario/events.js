@@ -1601,6 +1601,16 @@ var events =
 		]
 	},
 	{
+		'date': '26 Settembre 2019',
+		'content': 
+		[
+			{
+				'time': '18:15',
+				'description': 'Incontro per i giovani fino a 20 anni. Entrata dal civico di Alser Straße 17.'
+			}
+		]
+	},
+	{
 		'date': '28 Settembre 2019',
 		'content':
 		[
