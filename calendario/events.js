@@ -1681,6 +1681,17 @@ var events =
 		]
 	},
 	{
+		'date': '9 Ottobre 2019',
+		'content': 
+		[
+			{
+				'time': '19:00',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro con i genitori (padre o madre) dei bambini dei gruppi della <i>Prima Comunione 2020</i>. Entrata dal civico di Alser Straße 17.</b>'
+			}
+		]
+	},
+	{
 		'date': '12 Ottobre 2019',
 		'content':
 		[
@@ -1713,7 +1724,8 @@ var events =
 			},
 			{
 				'time': '11:30',
-				'description': 'S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).'
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).</b>'
 			}
 		]
 	},
@@ -1753,6 +1765,11 @@ var events =
 		'date': '20 Ottobre 2019',
 		'content': 
 		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo</b>.'
+			},
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
@@ -1831,6 +1848,9 @@ var events =
 		'content':
 		[
 			{
+				'description': '<b>Commemorazione di tutti i defunti</b>'
+			},
+			{
 				'time': '14:30 - 16:30 (*)',
 				'description': 'Confessioni.'
 			},
@@ -1882,8 +1902,13 @@ var events =
 	},
 	{
 		'date': '10 Novembre 2019',
-		'content': 
+		'content':
 		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo</b>.'
+			},
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
@@ -1916,6 +1941,11 @@ var events =
 		'date': '17 Novembre 2019',
 		'content': 
 		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo</b>.'
+			},
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
@@ -1991,22 +2021,1477 @@ var events =
 		'content': 
 		[
 			{
+				'description': '<b>prima Domenica di Avvento</b>'
+			},
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo</b>.'
+			},
+			{
 				'time': '11:30',
 				'description': 'S. Messa.'
 			}
 		]
 	},
-	// Ancora da inserire questi appuntamenti della Lectio Divina nel calendario
-	/*
-	Lunedì 16 Dicembre 
-	// NOTA: tutti i prossimi incontri della Lectio Divina 
-	// devono anche essere inseriti nella pagina "attività"
-	Lunedì 20 Gennaio
-	Lunedì 17 Febbraio
-	Mercoledì 11 Marzo
-	Lunedì 6 Aprile
-	Lunedì 11 Maggio
-	Mercoledì 17 Giugno*/
+	/*{
+		'date': '7 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '8 Dicembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>Immacolata Concezione della B. Vergine Maria - seconda Domenica di Avvento</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '14 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '15 Dicembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>terza Domenica di Avvento</b>'
+			},
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo</b>.'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '16 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '21 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '22 Dicembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>quarta Domenica di Avvento</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '24 Dicembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>Vigilia del Natale</b>'
+			},
+			{
+				'time': '???',
+				'description': 'DA CONFERMARE - S. Messa ("Messa dei Pastori").'
+			}
+		]
+	},
+	{
+		'date': '25 Dicembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>Natale del Signore</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa di Natale.'
+			}
+		]
+	},
+	{
+		'date': '26 Dicembre 2019',
+		'content': 
+		[
+			{
+				'description': '<b>S. Stefano</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '28 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '29 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '1 Gennaio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa. - DA CONFERMARE'
+			}
+		]
+	},
+	{
+		'date': '4 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '5 Gennaio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '11 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '12 Gennaio 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '18 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '10:00 - 18:00',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>ritiro per i bambini del gruppo della <i>Prima Comunione 2020</i>.</b>.'
+			},
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '19 Gennaio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '20 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '25 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '26 Gennaio 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '1 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '2 Febbraio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '8 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '9 Febbraio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '15 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '16 Febbraio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+
+	{
+		'date': '17 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '22 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '23 Febbraio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '29 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '1 Marzo 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '7 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '8 Marzo 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '11 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
+			}
+		]
+	},
+	{
+		'date': '14 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '15 Marzo 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 18:00',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '21 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '22 Marzo 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '28 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '29 Marzo 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '4 Aprile 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '5 Aprile 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '6 Aprile 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '11 Aprile 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '12 Aprile 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '18 Aprile 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '19 Aprile 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '25 Aprile 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '26 Aprile 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '2 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '3 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '9 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '10:00 - 18:00',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>ritiro, prima confessione e Messa per i bambini del gruppo della <i>Prima Comunione 2020</i>.</b>'
+			},
+			{
+				'time': 'dalle 10:00',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>Incontro dei genitori (padre o madre) del bambini del gruppo della <i>Prima Comunione 2020</i>.</b> Entrata da Alser Straße 17.'
+			},
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '10 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo solo per i gruppi di post Comunione, Cresima e post Cresima</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '11 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '16 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '17 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>.'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '23 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '24 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '30 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '31 Maggio 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Domenica di Pentecoste</b>'
+			},
+			{
+				'time': '11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>S. Messa. DATA DA CONFERMARE: In questa messa celebreremo la Cresima dei ragazzi del del catechismo.</b>'
+			}
+		]
+	},
+	{
+		'date': '1 Giugno 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Lunedì di Pentecoste</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '6 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '7 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>incontro di catechismo.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '13 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '14 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '10:00 - 11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>Prova per i bambini del gruppo della <i>Prima Comunione</i>; normale incontro di catechismo per tutti gli altri gruppi.</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '17 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
+			}
+		]
+	},
+	{
+		'date': '21 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': '<b>S. Messa. In questa messa celebreremo la Prima Comunione dei bambini del catechismo.</b>'
+			}
+		]
+	},
+
+	{
+		'date': '27 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '28 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+{
+		'date': '4 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '5 Luglio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '11 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '12 Luglio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '18 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '19 Lugllio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '25 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '26 Luglio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '1 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '2 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '8 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '9 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '15 Agosto 2020',
+		'content':
+		[
+			{
+				'description': 'DA CONFERMARE: FORSE ORARIO FESTIVO DELLE MESSE AL MATTINO???'
+			},
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '16 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '22 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '23 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '29 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '14:30 - 16:30 (*)',
+				'description': 'Confessioni.'
+			},
+			{
+				'time': '16:30 (*)',
+				'description': 'recita del Rosario.'
+			},
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '30 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},*/
+
+	/*<b>Da Giovedì 30 Aprile a Domenica 3 Maggio</b>: pellegrinaggio a Mariazell.
+	
+	<b>Da Giovedì 21 Maggio a Domenica 24 Maggio</b>: pellegrinaggio a Padova.
+	*/
 ];
 
 
