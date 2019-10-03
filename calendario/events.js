@@ -3488,6 +3488,20 @@ var events =
 		]
 	},*/
 
+	/*{
+		'multiple_dates': {
+			'from': '30 Agosto 2020',
+			'to': '2 Settembre 2020'
+		},
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},*/
+
 	/*<b>Da Giovedì 30 Aprile a Domenica 3 Maggio</b>: pellegrinaggio a Mariazell.
 	
 	<b>Da Giovedì 21 Maggio a Domenica 24 Maggio</b>: pellegrinaggio a Padova.
