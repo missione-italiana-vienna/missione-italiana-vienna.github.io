@@ -1676,7 +1676,7 @@ var events =
 			{
 				'time': '10:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>Festa di san Francesco e festa del raccolto</b>: la S. Messa sarà celebrata alle ore <b>10:30</b> nel giardino del convento di Alser Straße insieme alla comunità di lingua tedesca della parrocchia (con alcune parti della Messa in italiano). Al termine, momento conviviale con la comunità di lingua tedesca. Per seguire la liturgia interamente in italiano si consiglia di prendere parte alla Messa prefestiva di Sabato 5 Ottobre.'
+				'description': '<b>festa di san Francesco e festa del raccolto</b>: la S. Messa sarà celebrata alle ore <b>10:30</b> insieme alla comunità di lingua tedesca della parrocchia (con alcune parti della Messa in italiano). <b>Nota: a causa del maltempo la Messa sarà celebrata in chiesa e non nel cortile come inizialmente previsto.</b> Al termine della celebrazione, momento conviviale con la comunità di lingua tedesca. Per seguire la liturgia interamente in italiano si consiglia di prendere parte alla Messa prefestiva di Sabato 5 Ottobre.'
 			}
 		]
 	},
