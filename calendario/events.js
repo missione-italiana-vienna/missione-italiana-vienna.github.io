@@ -1726,6 +1726,10 @@ var events =
 				'time': '11:30',
 				'style': 'font-weight: bold; color: red;',
 				'description': '<b>S. Messa presieduta da sua Eccellenza <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell\'<a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>).</b>'
+			},
+			{
+				'time': '12:30',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità'
 			}
 		]
 	},
