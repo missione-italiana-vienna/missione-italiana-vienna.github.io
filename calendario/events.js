@@ -1720,7 +1720,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>Primo incontro di catechismo</b> del nuovo anno pastorale.'
+				'description': '<b>Primo incontro di catechismo</b> del nuovo anno pastorale (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -1772,7 +1772,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b>.'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -1911,7 +1911,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b>.'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -1948,7 +1948,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b>.'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2030,7 +2030,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b>.'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2105,7 +2105,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b>.'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2300,7 +2300,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2384,7 +2384,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2592,7 +2592,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2639,7 +2639,7 @@ var events =
 			{
 				'time': '10:00 - 18:00',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			
 			{
@@ -2709,7 +2709,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2820,7 +2820,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2857,7 +2857,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -2983,7 +2983,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>.'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -3101,7 +3101,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo.</b>'
+				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -3138,7 +3138,7 @@ var events =
 			{
 				'time': '10:00 - 11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>Prova per i bambini del gruppo della <i>Prima Comunione</i>; normale incontro di catechismo per tutti gli altri gruppi.</b>'
+				'description': '<b>Prova per i bambini del gruppo della <i>Prima Comunione</i>; normale incontro di catechismo per tutti gli altri gruppi</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
 				'time': '11:30',
@@ -3163,7 +3163,7 @@ var events =
 			{
 				'time': '11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>S. Messa. In questa messa celebreremo la Prima Comunione dei bambini del catechismo.</b>'
+				'description': '<b>S. Messa. In questa messa celebreremo la Prima Comunione dei bambini del catechismo</b>'
 			}
 		]
 	},
