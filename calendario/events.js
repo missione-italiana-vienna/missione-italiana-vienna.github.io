@@ -1729,7 +1729,8 @@ var events =
 			},
 			{
 				'time': '12:30',
-				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità'
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
@@ -1916,6 +1917,11 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '12:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
@@ -2110,6 +2116,11 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '12:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
@@ -2305,6 +2316,11 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '12:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
@@ -2453,6 +2469,11 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '12:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
@@ -2597,6 +2618,11 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '12:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
@@ -2788,6 +2814,11 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '12:30',
+				'style': 'font-weight: bold; color: red;',
+				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
 	},
