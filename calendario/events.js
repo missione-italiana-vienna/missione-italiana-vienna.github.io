@@ -1782,6 +1782,16 @@ var events =
 		]
 	},
 	{
+		'date': '23 Ottobre 2019',
+		'content':
+		[
+			{
+				'time': '18:30 - 20:00',
+				'description': 'Incontro del Gruppo Giovani 18 - 25 anni. Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
 		'date': '26 Ottobre 2019',
 		'content':
 		[
