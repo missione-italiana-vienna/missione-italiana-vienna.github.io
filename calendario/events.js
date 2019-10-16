@@ -1787,7 +1787,7 @@ var events =
 		[
 			{
 				'time': '18:30 - 20:00',
-				'description': 'Incontro del Gruppo Giovani 18 - 25 anni. Entrata da Alser Straße 17.'
+				'description': 'incontro del Gruppo Giovani 18 - 25 anni. Entrata da Alser Straße 17.'
 			}
 		]
 	},
