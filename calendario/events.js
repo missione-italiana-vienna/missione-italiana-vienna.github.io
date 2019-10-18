@@ -1894,6 +1894,16 @@ var events =
 		]
 	},
 	{
+		'date': '7 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '11:45',
+				'description': '<b>Cerimonia dei Caduti</b> organizzata dall\'Ambasciata Italiana a Vienna. La cerimonia si svolgerà presso il <b>Zentralfriedhof di Vienna</b>; l\'ingresso da cui accedere per prendere parte alla cerimonia è il <b>Tor 2</b> del Zentralfriedhof, raggiungibile con i tram 11 e 71.'
+			}
+		]
+	},
+	{
 		'date': '9 Novembre 2019',
 		'content':
 		[
