@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/home/alessio/Data/Dropbox/MCI - Minoriten/Simbolo MCI VIenna/MCI Vienna symbol - 2 - Beta/asym-variants.svg.png"
+   sodipodi:docname="MCI-Vienna_symbol.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 104.00004 166.50004"
+   height="166.50005mm"
+   width="104.00005mm">
+  <sodipodi:namedview
+     inkscape:measure-end="0,0"
+     inkscape:measure-start="5461.94,8321.66"
+     inkscape:snap-text-baseline="false"
+     inkscape:window-maximized="0"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:window-height="1385"
+     inkscape:window-width="1280"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     showgrid="false"
+     inkscape:current-layer="g999"
+     inkscape:document-units="mm"
+     inkscape:cy="-360.58341"
+     inkscape:cx="128.61996"
+     inkscape:zoom="0.5"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#008000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path821" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(-402.84748,-515.20965)"
+     id="g999"
+     inkscape:groupmode="layer"
+     inkscape:label="symbol">
+    <g
+       style="display:inline"
+       transform="translate(355.64893,490.28682)"
+       inkscape:label="Cross"
+       id="g987">
+      <path
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#008c45;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         d="M 47.198547,72.922877 H 95.19859 V 24.922834"
+         id="path981"
+         inkscape:connector-curvature="0"
+         inkscape:label="green-up"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:label="red-up"
+         style="display:inline;opacity:1;fill:none;stroke:#ff0000;stroke-width:3.95616436;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 103.17667,37.422878 v 35.521917 h 48.02192"
+         id="path983"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         inkscape:label="red-down"
+         style="display:inline;opacity:1;fill:none;stroke:#ff0000;stroke-width:3.99959493;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 138.69859,80.922674 h -35.5002 V 191.42288"
+         id="path985"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+    </g>
+  </g>
+</svg>
