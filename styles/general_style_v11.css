@@ -382,6 +382,11 @@ section
 	color: #eb4141;
 }
 
+.header.scrolled .logo_homepage a:hover {
+	background: #fff;
+}
+
+
 
 
 
