@@ -1823,18 +1823,10 @@ var events =
 			}
 		]
 	},
-	/*{
+	{
 		'date': '31 Ottobre 2019',
 		'content':
 		[
-			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
-			},
-			{
-				'time': '16:30 (*)',
-				'description': 'recita del Rosario.'
-			},
 			{
 				'time': '17:00 (*)',
 				'description': 'Messa prefestiva.'
@@ -1844,7 +1836,7 @@ var events =
 				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
-	},*/
+	},
 	{
 		'date': '1 Novembre 2019',
 		'content': 

@@ -386,6 +386,10 @@ section
 	background: #fff;
 }
 
+#MCI_title_German {
+	display: block;
+	width: 200px;
+}
 
 
 
@@ -728,6 +732,18 @@ section
 {
 	/* margin-top: 50px; */
 	text-align: center;
+}
+.menu_nav_symbol {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+.menu_nav_symbol img {
+	width: 100px;
+}
+.menu_nav ul {
+	display: inline-block;
+	vertical-align: middle;
 }
 .menu_nav ul li:not(:last-child)
 {
