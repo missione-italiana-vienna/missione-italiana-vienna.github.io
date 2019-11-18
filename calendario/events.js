@@ -2017,6 +2017,16 @@ var events =
 		]
 	},
 	{
+		'date': '28 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '18:30 - 20:00',
+				'description': 'incontro del <a class = "normal_link" href = "https://mcivienna.org/attivita/#gruppo_giovani_18_25">Gruppo Giovani 18-25 anni</a>.'
+			}
+		]
+	},
+	{
 		'date': '30 Novembre 2019',
 		'content':
 		[
