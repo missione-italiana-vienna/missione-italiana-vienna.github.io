@@ -2017,6 +2017,20 @@ var events =
 		]
 	},
 	{
+		'date': '27 Novembre 2019',
+		'content': 
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Adorazione Eucaristica (con preghiere in tedesco).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '28 Novembre 2019',
 		'content': 
 		[
@@ -2066,13 +2080,61 @@ var events =
 			}
 		]
 	},
-	/*{
+	{
+		'date': '4 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Adorazione Eucaristica (con preghiere in tedesco).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
+		'date': '6 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '12:00 - 18:30 (*)',
+				'description': 'Adorazione Eucaristica in silenzio. Siete invitati a vegliare in preghiera quanto tempo volete e riuscite.'
+			},
+			{
+				'time': '18:30 - 19:30 (*)',
+				'description': 'Messa in tedesco.'
+			},
+			{
+				'time': '19:30 - 21:00 (*)',
+				'description': 'Adorazione Eucaristica in silenzio.'
+			},
+			{
+				'time': '21:00 - 22:00 (*)',
+				'description': 'Lodi francescane.'
+			},
+			{
+				'time': '22:00 - 24:00 (*)',
+				'description': 'Adorazione Eucaristica in silenzio.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '7 Dicembre 2019',
 		'content':
 		[
 			{
 				'time': '14:30 - 16:30 (*)',
 				'description': 'Confessioni.'
+			},
+			{
+				'time': '15:00',
+				'description': 'Concerto di Natale in chiesa. Il concerto di beneficienza è a offerta libera ed è animato dal coro gospel "<a target = _blank rel = "noopener" class = "normal_link" href = "https://www.sing-together.at/">SingTogether</a>" della parrocchia di Alser Straße. Al termine del concerto: biscotti fatti in casa e Punsch.'
 			},
 			{
 				'time': '16:30 (*)',
@@ -2093,11 +2155,25 @@ var events =
 		'content': 
 		[
 			{
-				'description': '<b>Immacolata Concezione della B. Vergine Maria - seconda Domenica di Avvento</b>'
+				'description': '<b>Immacolata Concezione della Beata Vergine Maria - seconda Domenica di Avvento</b>'
 			},
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '11 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Adorazione Eucaristica (con preghiere in tedesco).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
 	},
@@ -2108,6 +2184,10 @@ var events =
 			{
 				'time': '14:30 - 16:30 (*)',
 				'description': 'Confessioni.'
+			},
+			{
+				'time': '15:00',
+				'description': 'Concerto di Natale animato dall\'associazione "<a target = _blank rel = "noopener" class = "normal_link" href = "https://www.studio-allegria.at/">Studio Allegria</a>" - entrata libera.'
 			},
 			{
 				'time': '16:30 (*)',
@@ -2157,6 +2237,20 @@ var events =
 		]
 	},
 	{
+		'date': '18 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Adorazione Eucaristica (con preghiere in tedesco).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '21 Dicembre 2019',
 		'content':
 		[
@@ -2199,8 +2293,8 @@ var events =
 				'description': '<b>Vigilia del Natale</b>'
 			},
 			{
-				'time': '???',
-				'description': 'DA CONFERMARE - S. Messa ("Messa dei Pastori").'
+				'time': '22:00',
+				'description': 'S. Messa ("Messa dei Pastori").'
 			}
 		]
 	},
@@ -2267,8 +2361,11 @@ var events =
 		'content': 
 		[
 			{
+				'description': '<b>Solennità di Maria Madre di Dio</b>'
+			},
+			{
 				'time': '11:30',
-				'description': 'S. Messa. - DA CONFERMARE'
+				'description': 'S. Messa.'
 			}
 		]
 	},
@@ -2298,6 +2395,19 @@ var events =
 		'date': '5 Gennaio 2020',
 		'content': 
 		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '6 Gennaio 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Epifania del Signore</b>'
+			},
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
@@ -2429,7 +2539,7 @@ var events =
 				'description': 'S. Messa.'
 			}
 		]
-	},
+	}/*,
 	{
 		'date': '1 Febbraio 2020',
 		'content':
