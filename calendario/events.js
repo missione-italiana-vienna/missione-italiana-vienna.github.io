@@ -231,7 +231,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti. Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti. Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -397,7 +397,7 @@ var events =
 		[
 			{
 				'time': 'dalle 19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti (entrata da Alser Straße 17).'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17).'
 			}
 		]
 	},
@@ -855,7 +855,7 @@ var events =
 		[
 			{
 				'time': 'dalle 19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti (entrata da Alser Straße 17).'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17).'
 			}
 		]
 	},
@@ -1115,7 +1115,7 @@ var events =
 		[
 			{
 				'time': 'dalle 19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti (entrata da Alser Straße 17).'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17).'
 			}
 		]
 	},
@@ -1231,7 +1231,7 @@ var events =
 		[
 			{
 				'time': 'dalle 19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani e giovani adulti (entrata da Alser Straße 17).'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17).'
 			}
 		]
 	},
@@ -2232,7 +2232,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2019-12-16/">testo qui</a>). Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -2499,7 +2499,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-01-20/">testo qui</a>). Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -2648,7 +2648,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-02-17/">testo qui</a>). Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -2764,7 +2764,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-03-11/">testo qui</a>). Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
 			}
 		]
 	},
@@ -2913,7 +2913,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti <a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-04-06/">testo qui</a>). Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -3113,7 +3113,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-05-11/">testo qui</a>). Entrata da Alser Straße 17.'
 			}
 		]
 	},
@@ -3315,7 +3315,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti  (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-06-17/">testo qui</a>). Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
 			}
 		]
 	},
