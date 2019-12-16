@@ -2251,12 +2251,26 @@ var events =
 		]
 	},
 	{
+		'date': '20 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '8:00 - 12:00 (*)',
+				'description': 'Confessioni. Se non trovate padre Thomas durante questo orario, contattatelo per telefono al numero 0676 6688 809. Se non avete tempo nelle date elencate nel calendario, contattate p. Thomas per fissare un appuntamento.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '21 Dicembre 2019',
 		'content':
 		[
 			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
+				'time': '14:00 - 16:30 (*)',
+				'description': 'Confessioni (se non avete tempo nelle date elencate nel calendario, contattate p. Thomas per un appuntamento al numero 0676 6688 809).'
 			},
 			{
 				'time': '16:30 (*)',
@@ -2282,6 +2296,20 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '23 Dicembre 2019',
+		'content':
+		[
+			{
+				'time': '8:00 - 12:00 (*)',
+				'description': 'Confessioni. Se non trovate padre Thomas durante questo orario, contattatelo per telefono al numero 0676 6688 809. Se non avete tempo nelle date elencate nel calendario, contattate p. Thomas per fissare un appuntamento.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
 	},
@@ -2353,6 +2381,16 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '31 Dicembre 2019',
+		'content': 
+		[
+			{
+				'time': '18:30',
+				'description': 'Te Deum.'
 			}
 		]
 	},
