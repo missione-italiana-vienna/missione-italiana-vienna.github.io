@@ -2322,6 +2322,7 @@ var events =
 			},
 			{
 				'time': '22:00',
+				'style': 'font-weight: bold; color: red;',
 				'description': 'S. Messa ("Messa dei Pastori").'
 			}
 		]
@@ -2390,6 +2391,7 @@ var events =
 		[
 			{
 				'time': '18:30',
+				'style': 'font-weight: bold; color: red;',
 				'description': 'Te Deum.'
 			}
 		]
