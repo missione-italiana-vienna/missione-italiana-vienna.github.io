@@ -2380,6 +2380,9 @@ var events =
 		'content': 
 		[
 			{
+				'description': '<b>Sacra Famiglia</b>'
+			},
+			{
 				'time': '11:30',
 				'description': 'S. Messa.'
 			}
@@ -2392,7 +2395,7 @@ var events =
 			{
 				'time': '18:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': 'Te Deum.'
+				'description': 'S. Messa e Te Deum.'
 			}
 		]
 	},
@@ -2407,8 +2410,30 @@ var events =
 				'time': '11:30',
 				'description': 'S. Messa.'
 			}
-		]
+		],
 	},
+	{
+		'date': '3 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '12:00 - 18:30 (*)',
+				'description': 'Adorazione Eucaristica in silenzio. Siete invitati a vegliare in preghiera quanto tempo volete e riuscite.'
+			},
+			{
+				'time': '18:30 - 19:30 (*)',
+				'description': 'S. Messa in tedesco.'
+			},
+			{
+				'time': '19:30 - 24:00 (*)',
+				'description': 'Adorazione Eucaristica in silenzio. Siete invitati a vegliare in preghiera quanto tempo volete e riuscite. Dalle 21:00 alle 22:00 l\'Adorazione Eucaristica è animata dai frati francescani con canti di preghiera (in tedesco).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},	
 	{
 		'date': '4 Gennaio 2020',
 		'content':
@@ -2454,6 +2479,22 @@ var events =
 			}
 		]
 	},
+	{
+		'date': '8 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': 'dalle 19:00 (*)',
+				'description': 'Adorazione Eucaristica in silenzio. Siete invitati a vegliare in preghiera quanto tempo volete e riuscite.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},	
+
+
 	{
 		'date': '11 Gennaio 2020',
 		'content':
