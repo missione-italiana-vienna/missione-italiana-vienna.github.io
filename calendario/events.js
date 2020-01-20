@@ -2620,7 +2620,18 @@ var events =
 				'description': 'S. Messa.'
 			}
 		]
-	}/*,
+	},
+	{
+		'date': '27 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '18:30 - 20:00',
+				'description': 'Incontro del Gruppo Giovani 18 - 25 anni (entrata dal numero civico di Alser Straße 17, a destra della chiesa).'
+			}
+		]
+	}
+	/*,
 	{
 		'date': '1 Febbraio 2020',
 		'content':
@@ -3019,7 +3030,7 @@ var events =
 			},
 			{
 				'time': '11:30',
-				'description': 'Benedizione delle palme e S. Messa. La Messa è preceduta da una processione fuori dalla chiesa (partendo dal cortile a cui si accede all\'inizio di Schlösselgasse).'
+				'description': 'Benedizione delle palme e S. Messa<!-- presieduta dal nunzio apostolico in Austria, monsignor Pedro López Quintana-->. La Messa è preceduta da una processione fuori dalla chiesa (partendo dal cortile a cui si accede all\'inizio di Schlösselgasse).'
 			}
 		]
 	},
