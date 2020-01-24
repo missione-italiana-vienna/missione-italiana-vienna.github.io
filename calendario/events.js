@@ -2630,8 +2630,21 @@ var events =
 				'description': 'Incontro del Gruppo Giovani 18 - 25 anni (entrata dal numero civico di Alser Straße 17, a destra della chiesa).'
 			}
 		]
-	}
-	/*,
+	},
+	{
+		'date': '29 Gennaio 2020',
+		'content':
+		[
+			{
+				'time': '19:00 - 20:00',
+				'description': 'Adorazione Eucaristica.'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
 	{
 		'date': '1 Febbraio 2020',
 		'content':
@@ -2700,7 +2713,7 @@ var events =
 				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
-	},
+	}/*,
 	{
 		'date': '15 Febbraio 2020',
 		'content':
