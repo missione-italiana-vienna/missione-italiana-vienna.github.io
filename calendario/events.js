@@ -314,7 +314,7 @@ var events =
 				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
 			}
 		]
-	}/*,
+	},
 	{
 		'date': '15 Febbraio 2020',
 		'content':
@@ -441,7 +441,7 @@ var events =
 				'description': 'S. Messa.'
 			}
 		]
-	},
+	}/*,
 	{
 		'date': '7 Marzo 2020',
 		'content':
