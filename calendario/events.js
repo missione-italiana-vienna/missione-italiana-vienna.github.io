@@ -316,6 +316,16 @@ var events =
 		]
 	},
 	{
+		'date': '10 Febbraio 2020',
+		'content': 
+		[
+			{
+				'time': '19:30',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). L\'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17).'
+			}
+		]
+	},
+	{
 		'date': '15 Febbraio 2020',
 		'content':
 		[
@@ -439,6 +449,15 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '5 Marzo 2020',
+		'content': 
+		[
+			{
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). Orario da stabilire.'
 			}
 		]
 	},
