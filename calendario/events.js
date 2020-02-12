@@ -457,7 +457,8 @@ var events =
 		'content': 
 		[
 			{
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). Orario da stabilire.'
+				'time': '19:30',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). L\'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17).'
 			}
 		]
 	},
@@ -815,6 +816,16 @@ var events =
 		]
 	},
 	{
+		'date': '23 Aprile 2020',
+		'content': 
+		[
+			{
+				'time': '19:30',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). L\'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17).'
+			}
+		]
+	},
+	{
 		'date': '25 Aprile 2020',
 		'content':
 		[
@@ -937,6 +948,16 @@ var events =
 			{
 				'time': '19:00',
 				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-05-11/">testo qui</a>). Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '13 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '19:30',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). L\'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17).'
 			}
 		]
 	},
