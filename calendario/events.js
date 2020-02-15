@@ -664,7 +664,7 @@ var events =
 			},
 			{
 				'time': '11:30',
-				'description': 'Benedizione delle palme e S. Messa<!-- presieduta dal nunzio apostolico in Austria, monsignor Pedro López Quintana-->. La Messa è preceduta da una processione fuori dalla chiesa (partendo dal cortile a cui si accede all\'inizio di Schlösselgasse).'
+				'description': 'Benedizione delle palme e S. Messa<!-- presieduta dal nunzio apostolico in Austria, monsignor Pedro López Quintana-->. La Messa è preceduta da una processione fuori dalla chiesa, partendo dal cortile a cui si accede all\'inizio di Schlösselgasse (<a class = "normal_link" target = _blank rel = "noopener" href = "https://www.google.it/maps/dir/48.2143095,16.3530729/48.2147406,16.3527788/@48.2146375,16.3515671,17z/data=!4m2!4m1!3e3?hl=en">vedi mappa</a>).'
 			}
 		]
 	},
@@ -677,7 +677,7 @@ var events =
 				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-04-06/">testo qui</a>). Entrata da Alser Straße 17.'
 			}
 		]
-	}/*,
+	},
 	{
 		'date': '9 Aprile 2020',
 		'content':
@@ -685,20 +685,20 @@ var events =
 			{
 				'description': '<b>Giovedì Santo</b>'
 			},
-			{
+			/*{
 				'time': '9:00 - 11:00 (*)',
 				'style': 'color: red;',
 				'description': 'Confessioni (se non riuscite nelle date elencate nel calendario, contattate p. Thomas per un appuntamento).'
-			},
+			},*/
 			{
 				'time': '19:30',
 				'style': 'color: red;',
 				'description': 'S. Messa <i>in Coena Domini</i> (Cena del Signore).'
-			},
+			}/*,
 			{
 				'type': 'comment',
 				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
+			}*/
 		]
 	},
 	{
@@ -708,11 +708,11 @@ var events =
 			{
 				'description': '<b>Venerdì Santo</b>'
 			},
-			{
+			/*{
 				'time': '15:00',
 				'style': 'color: red;',
 				'description': 'Via Crucis in tedesco in chiesa.'
-			},
+			},*/
 			{
 				'time': '16:00',
 				'style': 'color: red;',
@@ -727,20 +727,20 @@ var events =
 			{
 				'description': '<b>Sabato Santo</b>'
 			},
-			{
+			/*{
 				'time': '14:00 - 17:00 (*)',
 				'style': 'color: red;',
 				'description': 'Confessioni (se non riuscite nelle date elencate nel calendario, contattate p. Thomas per un appuntamento).'
-			},
+			},*/
 			{
 				'time': '22:30',
 				'style': 'color: red;',
 				'description': 'Veglia Pasquale.'
-			},
+			}/*,
 			{
 				'type': 'comment',
 				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
+			}*/
 		]
 	},
 	{
@@ -770,7 +770,7 @@ var events =
 				'description': '<b>Lunedì dell\'angelo</b>'
 			},
 			{
-				'time': '10:30',
+				'time': '11:30',
 				'description': 'S. Messa.'
 			}
 		]
@@ -999,6 +999,20 @@ var events =
 		]
 	},
 	{
+		'date': '20 Maggio 2020',
+		'content': 
+		[ 
+			{
+				'time': '17:00 (*)',
+				'description': 'Messa prefestiva dell\'Ascensione'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '21 Maggio 2020',
 		'content': 
 		[ 
@@ -1133,8 +1147,7 @@ var events =
 				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
 			},
 			{
-				'time': '11:30',
-				'description': 'S. Messa.'
+				'description': 'In questa data si festeggia la festa della parrocchia. Ulteriori dettagli a breve.'
 			}
 		]
 	},
@@ -1143,13 +1156,13 @@ var events =
 		'content':
 		[
 			{
-				'time': '17:00 - 18:00 (*)',
+				'time': '17:00 (*)',
 				'description': 'Messa prefestiva per il Corpus Domini.'
 			},
-			{
+			/*{
 				'time': '19:00 - 20:00 (*)',
 				'description': 'Adorazione Eucaristica in silenzio.'
-			},
+			},*/
 			{
 				'type': 'comment',
 				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
@@ -1166,7 +1179,8 @@ var events =
 			{
 				'time': 'dalle 8:30',
 				'style': 'color: red;',
-				'description': 'La processione e la Messa del Corpus Domini si svolgono in tedesco. Per seguire la liturgia in italiano si consiglia di andare alla Messa prefestiva di Mercoledì 10 Giugno. Per dettagli sulla processione e sulla celebrazione in tedesco, consultate <a class = "normal_link" href = "https://mcivienna.org/blog/2019/06/20/corpus_domini/">questo link - ANCORA DA SCRIVERE!</a>. Contattate padre Thomas se volete dare una mano con l\'organizzazione della processione.'
+				'description': 'La processione e la Messa del Corpus Domini si svolgono in tedesco. Per seguire la liturgia in italiano si consiglia di andare alla Messa prefestiva di Mercoledì 10 Giugno. 				Dettagli sulla processione e sulla celebrazione in tedesco verranno comunicati a breve.'
+				/* consultate <a class = "normal_link" href = "https://mcivienna.org/blog/2019/06/20/corpus_domini/">questo link - ANCORA DA SCRIVERE!</a>. Contattate padre Thomas se volete dare una mano con l\'organizzazione della processione.' */
 			}
 		]
 	},
@@ -1224,7 +1238,7 @@ var events =
 			{
 				'time': '11:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': '<b>S. Messa. In questa messa celebreremo la Prima Comunione dei bambini del catechismo</b>'
+				'description': '<b>S. Messa. In questa messa celebreremo la Prima Comunione dei bambini del catechismo.</b>'
 			}
 		]
 	},
@@ -1260,7 +1274,7 @@ var events =
 				'description': 'S. Messa.'
 			}
 		]
-	},
+	} /*,
 {
 		'date': '4 Luglio 2020',
 		'content':
