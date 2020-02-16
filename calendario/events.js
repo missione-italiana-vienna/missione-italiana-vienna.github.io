@@ -357,7 +357,6 @@ var events =
 			}
 		]
 	},
-
 	{
 		'date': '17 Febbraio 2020',
 		'content':
@@ -365,6 +364,16 @@ var events =
 			{
 				'time': '19:00',
 				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-02-17/">testo qui</a>). Entrata da Alser Straße 17.'
+			}
+		]
+	},
+	{
+		'date': '20 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '18:30 - 20:00',
+				'description': 'Incontro del Gruppo Giovani 18 - 25 anni (entrata dal numero civico di Alser Straße 17, a destra della chiesa).'
 			}
 		]
 	},
