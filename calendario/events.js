@@ -427,6 +427,20 @@ var events =
 		]
 	},
 	{
+		'date': '28 Febbraio 2020',
+		'content':
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Via Crucis in tedesco. La Via Crucis si svolge al termine della Messa in tedesco (che si tiene nella cappella di Sant\'Antonio).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '29 Febbraio 2020',
 		'content':
 		[
@@ -468,6 +482,20 @@ var events =
 			{
 				'time': '19:30',
 				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per adulti (gruppo donne). L\'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17).'
+			}
+		]
+	},
+	{
+		'date': '6 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Via Crucis in tedesco. La Via Crucis si svolge al termine della Messa in tedesco (che si tiene nella cappella di Sant\'Antonio).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
 	},
@@ -527,6 +555,20 @@ var events =
 		]
 	},
 	{
+		'date': '13 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Via Crucis in tedesco. La Via Crucis si svolge al termine della Messa in tedesco (che si tiene nella cappella di Sant\'Antonio).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '14 Marzo 2020',
 		'content':
 		[
@@ -568,6 +610,20 @@ var events =
 		]
 	},
 	{
+		'date': '20 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Via Crucis in tedesco. La Via Crucis si svolge al termine della Messa in tedesco (che si tiene nella cappella di Sant\'Antonio).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
+			}
+		]
+	},
+	{
 		'date': '21 Marzo 2020',
 		'content':
 		[
@@ -599,6 +655,20 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '27 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Via Crucis in tedesco. La Via Crucis si svolge al termine della Messa in tedesco (che si tiene nella cappella di Sant\'Antonio).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
 	},
@@ -639,6 +709,20 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '3 Aprile 2020',
+		'content':
+		[
+			{
+				'time': '19:00 (*)',
+				'description': 'Via Crucis in tedesco. La Via Crucis si svolge al termine della Messa in tedesco (che si tiene nella cappella di Sant\'Antonio).'
+			},
+			{
+				'type': 'comment',
+				'description': '(*) = entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
 			}
 		]
 	},
