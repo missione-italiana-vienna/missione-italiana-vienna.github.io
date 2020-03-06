@@ -529,18 +529,13 @@ var events =
 				'description': '<b>seconda Domenica di Quaresima</b>'
 			},
 			{
-				'time': '10:00 - 11:30',
-				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
-			},
-			{
 				'time': '11:30',
 				'description': 'S. Messa.'
 			},
 			{
 				'time': '12:30',
 				'style': 'font-weight: bold; color: red;',
-				'description': 'Dopo la S. Messa ci troviamo nella sala parrocchiale per l\'Agape della comunità.'
+				'description': '<b>NOTA: gli incontri del catechismo e dell\'Agape di questa Domenica sono annullati.</b>'
 			}
 		]
 	},
