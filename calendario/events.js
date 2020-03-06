@@ -540,16 +540,6 @@ var events =
 		]
 	},
 	{
-		'date': '18 Marzo 2020',
-		'content':
-		[
-			{
-				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-03-18/">testo qui</a>). Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
-			}
-		]
-	},
-	{
 		'date': '13 Marzo 2020',
 		'content':
 		[
@@ -601,6 +591,16 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '18 Marzo 2020',
+		'content':
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-03-18/">testo qui</a>). Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
 			}
 		]
 	},
