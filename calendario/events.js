@@ -558,21 +558,13 @@ var events =
 		'content':
 		[
 			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
-			},
-			{
-				'time': '16:30 (*)',
+				'time': '16:30',
 				'description': 'recita del Rosario.'
 			},
 			{
-				'time': '17:00 (*)',
-				'description': 'Messa prefestiva.'
+				'time': '17:00',
+				'description': 'Messa prefestiva. <b>NOTA: a differenza del solito, la Messa si svolve nella chiesa grande e non nella cappella di Sant\'Antonio.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			},
-			{
-				'type': 'comment',
-				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
 		]
 	},
 	{
@@ -583,24 +575,8 @@ var events =
 				'description': '<b>terza Domenica di Quaresima</b>'
 			},
 			{
-				'time': '10:00 - 11:30',
-				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
-			},
-			
-			{
 				'time': '11:30',
-				'description': 'S. Messa.'
-			}
-		]
-	},
-	{
-		'date': '18 Marzo 2020',
-		'content':
-		[
-			{
-				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-03-18/">testo qui</a>). Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si terrà di mercoledì invece che di lunedì.'
+				'description': 'S. Messa. <b>NOTA: l\'incontro di catechismo è annullato.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			}
 		]
 	},
@@ -623,21 +599,13 @@ var events =
 		'content':
 		[
 			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
-			},
-			{
-				'time': '16:30 (*)',
+				'time': '16:30',
 				'description': 'recita del Rosario.'
 			},
 			{
-				'time': '17:00 (*)',
-				'description': 'Messa prefestiva.'
+				'time': '17:00',
+				'description': 'Messa prefestiva. <b>NOTA: a differenza del solito, la Messa si svolve nella chiesa grande e non nella cappella di Sant\'Antonio.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			},
-			{
-				'type': 'comment',
-				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
 		]
 	},
 	{
@@ -649,7 +617,7 @@ var events =
 			},		
 			{
 				'time': '11:30',
-				'description': 'S. Messa.'
+				'description': 'S. Messa. Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			}
 		]
 	},
@@ -672,21 +640,13 @@ var events =
 		'content':
 		[
 			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
-			},
-			{
-				'time': '16:30 (*)',
+				'time': '16:30',
 				'description': 'recita del Rosario.'
 			},
 			{
-				'time': '17:00 (*)',
-				'description': 'Messa prefestiva.'
+				'time': '17:00',
+				'description': 'Messa prefestiva. <b>NOTA: a differenza del solito, la Messa si svolve nella chiesa grande e non nella cappella di Sant\'Antonio.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			},
-			{
-				'type': 'comment',
-				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
 		]
 	},
 	{
@@ -697,13 +657,8 @@ var events =
 				'description': '<b>quinta Domenica di Quaresima</b>'
 			},
 			{
-				'time': '10:00 - 11:30',
-				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
-			},
-			{
 				'time': '11:30',
-				'description': 'S. Messa.'
+				'description': 'S. Messa. <b>NOTA: l\'incontro di catechismo è annullato.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			}
 		]
 	},
@@ -726,21 +681,13 @@ var events =
 		'content':
 		[
 			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
-			},
-			{
-				'time': '16:30 (*)',
+				'time': '16:30',
 				'description': 'recita del Rosario.'
 			},
 			{
-				'time': '17:00 (*)',
-				'description': 'Messa prefestiva.'
+				'time': '17:00',
+				'description': 'Messa prefestiva. <b>NOTA: a differenza del solito, la Messa si svolve nella chiesa grande e non nella cappella di Sant\'Antonio.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l\'emergenza covid-19 (coronavirus) a <a target = _blank rel = "noopener" class = "normal_link" href = "https://mcivienna.org/blog/2020/03/12/covid-19/">questo link</a>.'
 			},
-			{
-				'type': 'comment',
-				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
 		]
 	},
 	{
