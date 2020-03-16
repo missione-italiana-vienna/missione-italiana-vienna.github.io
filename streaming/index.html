@@ -24,6 +24,7 @@
     overflow: hidden;
     position: relative;
     width:100%;
+    margin-bottom: 10px;
 }
 
 .video-container::after {
@@ -194,15 +195,21 @@
 							<p>
 								Se non riuscite a collegarvi alle 19:15: dopo la fine della diretta sarà comunque possibile rivedere il video della giornata (e i video dei giorni passati) sempre al link scritto qui sopra.
 							</p>
+
+							<p>
+								Il video di oggi, lunedì 16 Marzo, dovrebbe anche essere visibile qui sotto quando la diretta inizierà (stiamo ancora testando il sistema per lo streaming, quindi potete aspettarvi qualche bug almeno per i primi giorni).
+							</p>
 							<br><br>
-							<br><br>
-                            <!--Qui sotto trovate gli ultimi video registrati i giorni scorsi.
+
+              <!--Qui sotto trovate gli ultimi video registrati i giorni scorsi.
 							<br><br>-->
-                            <!--<div class="video-container">
-								<iframe src="https://www.youtube-nocookie.com/embed/qw3FbkjsWzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>-->
+							<div id = "channel-container">
+								
+								<!-- id MCI Vienna: UCKAeLh4BIb8bTVnWn4OsqCg  da sostituire al posto di quello attuale-->
+							</div>
+
 							<br>
-                        </div>
+            </div>
 					</div>
 				</div>
 
@@ -235,6 +242,87 @@
 	<script src = "../plugins/easing/easing.js"></script>
 	<script src = "../plugins/parallax-js-master/parallax.min.js"></script>
 	<script src = "../js/custom.js"></script>
+
+	<script>
+		// code modified from https://codegena.com/auto-embed-latest-video-youtube-channel/
+		var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+
+		// The API above returns a JSON similar to the one in the next lines
+
+		// {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
+		
+		// NOTE: the field "items" is the one we are interested in. It will contain a list of objects, each with the following structure:
+
+		// {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
+
+		// For each such object, for the current application we are only interested in the field "link"
+		// Such field will be added to the corresponding <iframe>, so that we can load the corresponding video
+
+		// Complete example of the structure of the response of the API (actually, this is what we are loading for the current webpage, since we only load videos from the youtube webpage of Missione Cattolica Italiana a Vienna):
+		// see the following link:
+		// https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
+
+		/* function loadVideo(iframe){
+		    $.getJSON( reqURL + iframe.getAttribute('cid'),
+		      function(data) {
+		         var videoNumber = (iframe.getAttribute('vnum')?Number(iframe.getAttribute('vnum')):0);
+		        console.log(videoNumber);
+		         var link = data.items[videoNumber].link;
+		         id = link.substr(link.indexOf("=") + 1);  
+		         iframe.setAttribute("src","https://youtube.com/embed/"+id + "?controls=0&autoplay=1");
+		      }
+		   );
+		}*/
+
+		function prepareFrame(my_source) {
+        // The code below creates an iframe as follows:
+       	//<iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       	// where src is defined as in the lines below
+        var ifrm = document.createElement("iframe");
+        id = my_source.substr(my_source.indexOf("=") + 1);  
+        ifrm.setAttribute("src","https://www.youtube-nocookie.com/embed/"+id + "?controls=1&autoplay=0");
+        ifrm.setAttribute("frameborder","0");
+        ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+        ifrm.setAttribute("allowfullscreen","");
+
+        // The code below creates a <div> having a class "video-container", and appends the previous iframe to that object
+        var video_container = document.createElement("div");
+        video_container.setAttribute("class","video-container");
+
+				video_container.appendChild(ifrm);        
+
+				// The code below selects the unique <div> with id = "channel-container" (already in the source of the HTML, hence in the orignal DOM), and appends to it the <div> created above
+        var channel_container = document.getElementById("channel-container");
+        channel_container.appendChild(video_container);
+    }
+
+		function getVideoIDs(cid_youtube_channel) {
+		    $.getJSON( reqURL + cid_youtube_channel,
+		      function(data) {
+		      	console.log(data.items);
+		      	// we limit the previous code to 10 videos, otherwise the page loads very slowly
+		      	var max_length = 10;
+		      	if (data.items.length < max_length) {
+		      		max_length = data.items.length;
+		      	}
+		      	for (var i = 0; i < max_length; i++) {
+		      		var link = data.items[i].link
+		      		console.log("creating frame with link: " + link);
+          	  prepareFrame(link);
+						}
+		      }
+		   );
+		}
+
+
+
+		// channel id of the Missione Cattolica Italiana a Vienna on youtube
+		var cid_youtube_channel = "UCKAeLh4BIb8bTVnWn4OsqCg"; 
+		// var cid_youtube_channel = "UCBJycsmduvYEL83R_U4JriQ"; // for testing 
+		
+		getVideoIDs(cid_youtube_channel);
+
+	</script>
 
 </body>
 </html>
