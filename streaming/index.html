@@ -196,9 +196,6 @@
 								Se non riuscite a collegarvi alle 19:15: dopo la fine della diretta sarà comunque possibile rivedere il video della giornata (e i video dei giorni passati) sempre al link scritto qui sopra.
 							</p>
 
-							<p>
-								Il video di oggi, lunedì 16 Marzo, dovrebbe anche essere visibile qui sotto quando la diretta inizierà (stiamo ancora testando il sistema per lo streaming, quindi potete aspettarvi qualche bug almeno per i primi giorni).
-							</p>
 							<br><br>
 
               <!--Qui sotto trovate gli ultimi video registrati i giorni scorsi.
@@ -206,6 +203,9 @@
 							<div id = "channel-container">
 								
 								<!-- id MCI Vienna: UCKAeLh4BIb8bTVnWn4OsqCg  da sostituire al posto di quello attuale-->
+								<!--<div class = "video-container">
+									<iframe src = "https://www.youtube.com/embed/live_stream?channel=UCKAeLh4BIb8bTVnWn4OsqCg?controls=1&autoplay=0" frameborder = "0" allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+								</div>
 							</div>
 
 							<br>
@@ -244,7 +244,9 @@
 	<script src = "../js/custom.js"></script>
 
 	<script>
-		// code modified from https://codegena.com/auto-embed-latest-video-youtube-channel/
+		// All the code below has been heavily modified from 
+		//  https://codegena.com/auto-embed-latest-video-youtube-channel/
+		
 		var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
 
 		// The API above returns a JSON similar to the one in the next lines
@@ -262,18 +264,8 @@
 		// see the following link:
 		// https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
 
-		/* function loadVideo(iframe){
-		    $.getJSON( reqURL + iframe.getAttribute('cid'),
-		      function(data) {
-		         var videoNumber = (iframe.getAttribute('vnum')?Number(iframe.getAttribute('vnum')):0);
-		        console.log(videoNumber);
-		         var link = data.items[videoNumber].link;
-		         id = link.substr(link.indexOf("=") + 1);  
-		         iframe.setAttribute("src","https://youtube.com/embed/"+id + "?controls=0&autoplay=1");
-		      }
-		   );
-		}*/
 
+		// insert in the DOM a <div> containing an <iframe> with src given by the parameter my_source
 		function prepareFrame(my_source) {
         // The code below creates an iframe as follows:
        	//<iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -296,29 +288,35 @@
         channel_container.appendChild(video_container);
     }
 
+    // Gets the list of all videoIDs of a given channel (up to a fixed maximum)
 		function getVideoIDs(cid_youtube_channel) {
 		    $.getJSON( reqURL + cid_youtube_channel,
 		      function(data) {
-		      	console.log(data.items);
+		      	// console.log(data.items);
 		      	// we limit the previous code to 10 videos, otherwise the page loads very slowly
 		      	var max_length = 10;
+
+		      	// workaround for the fact that the video of today is not yet listed in the API of youtube
+		      	first_link = "https://www.youtube.com/watch?v=dn8G6xIJfiU";
+		      	prepareFrame(first_link);
+
 		      	if (data.items.length < max_length) {
 		      		max_length = data.items.length;
 		      	}
 		      	for (var i = 0; i < max_length; i++) {
-		      		var link = data.items[i].link
-		      		console.log("creating frame with link: " + link);
-          	  prepareFrame(link);
+		      		if (link != first_link) {
+			      		var link = data.items[i].link
+			      		// console.log("creating frame with link: " + link);
+    	      	  prepareFrame(link);
+    	      	}
 						}
 		      }
 		   );
 		}
 
-
-
 		// channel id of the Missione Cattolica Italiana a Vienna on youtube
 		var cid_youtube_channel = "UCKAeLh4BIb8bTVnWn4OsqCg"; 
-		// var cid_youtube_channel = "UCBJycsmduvYEL83R_U4JriQ"; // for testing 
+		// var cid_youtube_channel = "UCBJycsmduvYEL83R_U4JriQ"; // for testing purposes
 		
 		getVideoIDs(cid_youtube_channel);
 
