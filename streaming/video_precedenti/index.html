@@ -331,9 +331,11 @@
     var cid_youtube_channel = "UCKAeLh4BIb8bTVnWn4OsqCg"; 
     // var cid_youtube_channel = "UCBJycsmduvYEL83R_U4JriQ"; // for testing purposes
     
-    // we limit the previous code to 7 videos, otherwise the page loads very slowly
-    var max_length = 3;
-    // TO DO: set up a secondary page for the case of more than 7 videos
+    // this is the same parameter of the main page (https://mcivienna.org/streaming/)
+    var max_length = 7;
+    // it means that the first 7 videos are in the main page (in order to speed up the
+    // loading of that page), all the rest is listed in the current page.
+    // If we modify the parameter in the main page, we have to modify the same parameter also here.
 
     // link for the streaming of the current day: normally the youtube API that we use
     // is not updated in real time, so for the first few hours it does not contain the
