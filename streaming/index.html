@@ -330,6 +330,9 @@
       var channel_container = document.getElementById("channel-container");
 
       if (typeof my_title !== "undefined" && my_title !== "") {
+        if (my_source === "https://www.youtube.com/watch?v=5OwuaZvDhPM") {
+          my_title = "Preghiera (26 Marzo 2020) - NOTA: il video di oggi dura solo 4 minuti a causa di un errore di youtube.";
+        }
         // The code below creates a <div> with the title of the current video
         var video_title = document.createElement("div");
         video_title.setAttribute("class","video-title");
@@ -364,10 +367,6 @@
       var number_additional_videos = 0
 
       if (typeof link_last_stream !== "undefined" && link_last_stream !== "") {
-      	if (link_last_stream === "https://www.youtube.com/watch?v=5OwuaZvDhPM") {
-      		title_last_stream = "Preghiera (26 Marzo 2020) - NOTA: il video di oggi dura solo 4 minuti a causa di un errore di youtube.";
-      	}
-
         list_videos.push({
           "link": link_last_stream,
           "title": title_last_stream //this can possibly be undefined. This is not a problem since the function prepareFrame() can take care of that
@@ -414,7 +413,7 @@
     // is not updated in real time, so for the first few hours it does not contain the
     // link of the last stream. Hence we need sometimes to insert it manually
 
-    var link_last_stream = "https://www.youtube.com/watch?v=5OwuaZvDhPM";
+    var link_last_stream = "https://www.youtube.com/watch?v=4ejMTVKHJQc";
 
     getVideoIDs(cid_youtube_channel, max_length, link_last_stream);
 
