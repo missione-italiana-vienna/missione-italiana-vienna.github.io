@@ -67,7 +67,7 @@
               <!-- Logo -->
               <div class = "logo_container">
                 <div class = "logo_homepage">
-                  <img src="/..images/simbolo/MCI-Vienna_symbol.svg" alt="MCI_symbol">
+                  <img src="/../..images/simbolo/MCI-Vienna_symbol.svg" alt="MCI_symbol">
                   <a href = "../../index.html">
                     <span>Missione Cattolica<br>Italiana a Vienna</span>
                     <!--<span>Wiens Italienische<br>Katholische Seelsorge</span>-->
@@ -197,6 +197,8 @@
               <div id = "channel-container">
                 <!-- this is the container of all the videos, added by the script below -->
               </div>
+
+              Potete trovare i video precedenti a <a target = _blank rel = "noopener" class = "normal_link" href = "https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg/videos">questo link</a>.
               
               </div>
 
@@ -302,13 +304,13 @@
       if (typeof link_last_stream !== "undefined" && link_last_stream !== "") {
         list_videos.push({
           "link": link_last_stream,
-          "title": title_last_stream //this can possibly be undefined. This is not a problem since the function prepareFrame() can take care of that
+          "title": title_last_stream // this can possibly be undefined. This is not a problem since the function prepareFrame() can take care of that
         });
       }
 
       $.getJSON( reqURL + cid_youtube_channel,
         function(data) {
-          // console.log(data.items);
+          console.log(data.items);
           for (var i = max_length; i < data.items.length; i++) {
             var link = data.items[i].link;
             var title = data.items[i].title;
@@ -320,6 +322,8 @@
              }
           }
 
+          console.log(list_videos);
+
           for (i = 0; i < list_videos.length; i++) {
             prepareFrame(list_videos[i].link, list_videos[i].title);
           }
@@ -329,7 +333,6 @@
 
     // channel id of the Missione Cattolica Italiana a Vienna on youtube
     var cid_youtube_channel = "UCKAeLh4BIb8bTVnWn4OsqCg"; 
-    // var cid_youtube_channel = "UCBJycsmduvYEL83R_U4JriQ"; // for testing purposes
     
     // this is the same parameter of the main page (https://mcivienna.org/streaming/)
     var max_length = 7;
