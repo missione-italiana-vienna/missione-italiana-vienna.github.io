@@ -187,9 +187,34 @@
           <div class = "row">
             
             <div class = "col-lg-12 contact_info_col">
+              
+              <div id = "channel-container-first-video">
+                <!-- this is the container of all the first video (only until the next ), added by the script below -->
+                <div id = "link-to-the-youtube-channel" style = "display: none;">
+                  <p>
+                    <b>Per la diretta youtube di oggi, cliccate <a target = _blank rel = "noopener" class = "normal_link" 
+                      href = "https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg/videos">questo link</a> 
+                      e scegliete il primo video che vedete in alto nella pagina. Nota: se non compare
+                      ancora il video di oggi, ricaricate la pagina di youtube di tanto in tanto, 
+                      finché non compare la diretta della giornata odierna.</b>
+                  </p>
+                  <p>
+                    Se non riuscite a collegarvi in diretta: dopo la fine della diretta sarà comunque possibile rivedere il video della giornata sempre al link scritto qui sopra.
+                  </p>
+                </div>
+                <div id = "container-of-the-link-to-the-video-of-today" style = "display: none;">
+                  <b>Per la diretta youtube di oggi, cliccate <a id = "link-to-the-video-of-today" target = _blank rel = "noopener" class = "normal_link" 
+                      href = "">questo link</a>.</b>
+                </div>
+              </div>
+
+              <br>
+
               <p>
                 A causa dell'emergenza COVID-19 (coronavirus), a partire da lunedì 16 Marzo non vengono celebrate Messe alla presenza dei fedeli. Ogni giorno cerchiamo di celebrare una diretta youtube dal convento di Alser Straße.
               </p>
+
+              <br>
               
               <div style = "
                 border-bottom: 1px solid #0f7dca33;
@@ -219,7 +244,7 @@
                 margin-bottom: 10px;
                 border: 1px solid #00000038;">
                   <p>
-                    Gli orari dello <b>streaming nei giorni di Pasqua</b> sono i seguenti:
+                    Gli orari dello <b>streaming dei prossimi giorni</b> sono i seguenti:
                   </p>
                   <!--<ul class = "normal_list">
                     <li>
@@ -230,37 +255,18 @@
                     </li>
                   </ul>-->
                   <ul class = "normal_list">
-                    <li style = "color: #ababab;">
-                      <b>Mercoledì Santo (8 Aprile):</b><br>
-                      - Santa Messa in diretta da Alser Straße alle <b>ore 19:15</b> (link qui sotto).<br>
-                    </li>
-                    <li style = "color: #ababab;">
-                      <b>Giovedì Santo (9 Aprile):</b><br>
-                      - Santa Messa in diretta da Alser Straße alle <b>ore 18:30</b> (link qui sotto);<br>
-                      - in alternativa, vi segnaliamo la Santa Messa del Papa alle ore 18:00 (link su <a class = "normal_link" target = _blank rel = "noopener" href = "https://www.tv2000.it/live/" style = "color: #ababab;">TV200</a>).
-                    </li>
-                    <li style = "color: #ababab;">
-                      <b>Venerdì Santo (10 Aprile):</b><br> 
-                      - Celebrazione in diretta da Alser Straße alle <b>ore 17:00</b> (link qui sotto);<br>
-                      - in alternativa, vi segnaliamo che <a class = "normal_link" target = _blank rel = "noopener" style = "color: #ababab;" href = "https://www.tv2000.it/live/">TV200</a> trasmetterà dal Vaticano la Celebrazione della Passione del Signore alle ore 18:00, e la Via Crucis alle ore 21:00 (a <a style = "color: #ababab;" class = "normal_link" target = _blank rel = "noopener" href = "https://www.vaticannews.va/content/dam/lev/via-crucis/pdf/via-crucis.pdf">questo link</a> potete scaricare il libretto con il testo della Via Crucis di quest'anno).
-                    </li>
-                    <li style = "color: #ababab;">
-                      <b>Sabato Santo (11 Aprile):</b><br>
-                      - questo giorno non avremo dirette streaming. Consigliamo invece di seguire la Veglia Pasquale dal Vaticano alle <b>ore 21:00</b> su <a class = "normal_link" target = _blank rel = "noopener" href = "https://www.tv2000.it/live/">TV200</a>.
-                    </li>
-                    <li>
-                      <b>Domenica della Risurrezione (12 Aprile):</b><br>
-                      - Santa Messa in diretta da Alser Straße alle <b>ore 11:30</b> (link qui sotto);<br>
-                      - vi segnaliamo inoltre che <a class = "normal_link" target = _blank rel = "noopener" href = "https://www.tv2000.it/live/">TV200</a> trasmetterà la Santa Messa del Papa (a partire dalle ore 11:00) e a seguire la benedizione Urbi et Orbi.
-                    </li>
                     <li>
                       <b>Ostermontag (lunedì 13 Aprile):</b><br>
-                      - Santa Messa in diretta da Alser Straße alle <b>ore 11:30</b> (link qui sotto).
+                      - Santa Messa in diretta da Alser Straße alle <b>ore 11:30</b>.
                     </li>
-                    <!--<li>
-                      <b>Da martedì 14 Aprile:</b><br>
-                      - riprendiamo la consueta diretta alle <b>ore 19:15</b> (link qui sotto). MESSA DURANTE TUTTA L'OTTAVA DI PASQUA???
-                    </li>-->
+                    <li>
+                      <b>Da martedì 14 Aprile a sabato 18 Aprile:</b><br>
+                      - riprendiamo la consueta diretta streaming alle <b>ore 19:15</b>.
+                    </li>
+                    <li>
+                      <b>Domenica 19 Aprile:</b><br>
+                      - Santa Messa in diretta da Alser Straße alle <b>ore 11:30</b>.
+                    </li>
                   </ul>
                 </div>
 
@@ -298,7 +304,7 @@
                                           
               <br>
 
-              <p>
+              <!--<p>
                 <b>Per la diretta youtube di oggi, cliccate <a target = _blank rel = "noopener" class = "normal_link" href = "https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg/videos">questo link</a> e scegliete il primo video che vedete in alto nella pagina. Nota: se non compare ancora il video di oggi, ricaricate la pagina di youtube di tanto in tanto, finché non compare la diretta della giornata odierna.</b>
               </p>
 
@@ -306,14 +312,14 @@
                 Se non riuscite a collegarvi in diretta: dopo la fine della diretta sarà comunque possibile rivedere il video della giornata sempre al link scritto qui sopra.
               </p>
 
-              <br><br>
+              <br><br>-->
 
-              Qui sotto troverete man mano le dirette video registrate i giorni scorsi.
+              Qui sotto trovate man mano le dirette video registrate i giorni scorsi.
               
               <br><br>
 
               <div id = "channel-container">
-                <!-- this is the container of all the videos, added by the script below -->
+                <!-- this is the container of all the remaining videos, added by the script below -->
               </div>
 
               <div id = "more-videos" style = "display: none;"><!-- this style will be modified by the script below -->
@@ -381,13 +387,13 @@
 
 
     // insert in the DOM a <div> containing an <iframe> with src given by the parameter my_source
-    function prepareFrame(my_source, my_title) {
+    function prepareFrame(name_of_container, my_source, my_title) {
       console.log("creating frame with link: " + my_source + " and title: " + my_title);
 
       // The code below selects the unique <div> with id = "channel-container" (already in the source of the HTML, hence in the orignal DOM). To this document we will append below:
       // - a <div class = "video-title"> containing the title of the video
       // - a <div class = "video-container"> containing the <iframe> containing the video
-      var channel_container = document.getElementById("channel-container");
+      var channel_container = document.getElementById(name_of_container);
 
       if (typeof my_title !== "undefined" && my_title !== "") {
         if (my_source === "https://www.youtube.com/watch?v=5OwuaZvDhPM") {
@@ -421,17 +427,27 @@
     }
 
     // Gets the list of all videoIDs of a given channel (up to a fixed maximum)
-    function getVideoIDs(cid_youtube_channel, max_length, link_last_stream, title_last_stream) {
+    function getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_video_is_embeddable) {
       var list_videos = [];
       var i;
       var number_additional_videos = 0
 
       if (typeof link_last_stream !== "undefined" && link_last_stream !== "") {
-        list_videos.push({
-          "link": link_last_stream,
-          "title": title_last_stream //this can possibly be undefined. This is not a problem since the function prepareFrame() can take care of that
-        });
-        number_additional_videos = 1;
+        if (last_video_is_embeddable) {
+          prepareFrame("channel-container-first-video", link_last_stream); 
+          // NOTE: in the line above we are NOT providing a title_last_stream in this case.
+          // This is not a problem since the function prepareFrame() can take care of that
+        }
+        else {
+          var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
+          link_to_the_video_of_today.setAttribute("href", link_last_stream);
+          var container_of_the_link_to_the_video_of_today = document.getElementById("container-of-the-link-to-the-video-of-today");
+          container_of_the_link_to_the_video_of_today.style.display = "block";
+        }
+      }
+      else {
+        var link_to_the_youtube_channel = document.getElementById("link-to-the-youtube-channel");
+        link_to_the_youtube_channel.style.display = "block";
       }
 
       $.getJSON( reqURL + cid_youtube_channel,
@@ -456,7 +472,7 @@
           }
 
           for (i = 0; i < list_videos.length; i++) {
-            prepareFrame(list_videos[i].link, list_videos[i].title);
+            prepareFrame("channel-container", list_videos[i].link, list_videos[i].title);
           }
         }
       );
@@ -472,9 +488,24 @@
     // is not updated in real time, so for the first few hours it does not contain the
     // link of the last stream. Hence we need sometimes to insert it manually
 
-    var link_last_stream = "https://www.youtube.com/watch?v=S9waIsd9xhI";
 
-    getVideoIDs(cid_youtube_channel, max_length, link_last_stream);
+    // Possible cases:
+    // 1) the stream of today has not started yet: send the user to our youtube channel. In order to do that, set:
+    // --- link_last_stream = ""; (it is not necessary to toogle the value of last_video_is_embeddable )
+    // 2) there is currently a stream: since youtube does not allow us to embed a stream in the website, send the user
+    //    to the link to that youtube stream. In this case, set:
+    // -- link_last_stream = link of the current stream of today
+    // -- last_video_is_embeddable = false;
+    // 3) the stream of today already ended. In this case, we can embed it in our website. For that, set:
+    // -- link_last_stream = link of the stream of today
+    // -- last_video_is_embeddable = true;
+
+
+    var link_last_stream = "";
+
+    var last_video_is_embeddable = false;
+
+    getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_video_is_embeddable);
 
   </script>
 
