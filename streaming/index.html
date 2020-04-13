@@ -501,9 +501,31 @@
     // -- last_video_is_embeddable = true;
 
 
-    var link_last_stream = "";
+    var link_last_stream = "https://www.youtube.com/watch?v=8pGvJQtaMKo";
 
     var last_video_is_embeddable = false;
+
+    // code modified from https://stackoverflow.com/questions/9857495/how-can-i-tell-if-a-youtube-video-is-embeddable-before-i-try-and-load-it
+    /*function onError(event){
+    switch(event.data){
+        case 2:
+            console.log('request contains an invalid parameter value')
+            break
+        case 5:
+            console.log('The requested content cannot be played in an HTML5 player or another error related to the HTML5 player has occurred.')
+            break
+        case 100:
+            console.log('The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.')
+            break
+        case 101:
+        case 150:
+            console.log('Uploader has blocked this content from embedded playback')
+            break
+        default:
+            console.log('error code: '+event.data)
+
+      }
+    }*/
 
     getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_video_is_embeddable);
 
