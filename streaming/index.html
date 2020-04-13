@@ -261,7 +261,7 @@
                     </li>
                     <li>
                       <b>Da martedì 14 Aprile a sabato 18 Aprile:</b><br>
-                      - riprendiamo la consueta diretta streaming alle <b>ore 19:15</b>.
+                      - riprendiamo la consueta diretta streaming con un momento di preghiera alle <b>ore 19:15</b>.
                     </li>
                     <li>
                       <b>Domenica 19 Aprile:</b><br>
@@ -323,12 +323,12 @@
               </div>
 
               <div id = "more-videos" style = "display: none;"><!-- this style will be modified by the script below -->
-								  Trovate i video delle scorse settimane a <a class = "normal_link" href = "https://mcivienna.org/streaming/video_precedenti/">questo link</a>.
-                </div>
+								Trovate i video delle scorse settimane a <a class = "normal_link" href = "https://mcivienna.org/streaming/video_precedenti/">questo link</a>.
+              </div>
               
               </div>
 
-                <br>
+              <br>
                 
               </div>
             </div>
@@ -427,22 +427,41 @@
     }
 
     // Gets the list of all videoIDs of a given channel (up to a fixed maximum)
-    function getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_video_is_embeddable) {
+    function getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_stream_is_embeddable, date_of_last_stream) {
       var list_videos = [];
       var i;
       var number_additional_videos = 0
 
       if (typeof link_last_stream !== "undefined" && link_last_stream !== "") {
-        if (last_video_is_embeddable) {
-          prepareFrame("channel-container-first-video", link_last_stream); 
-          // NOTE: in the line above we are NOT providing a title_last_stream in this case.
-          // This is not a problem since the function prepareFrame() can take care of that
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+        
+        today = dd + '.' + mm + '.' + yyyy; // date of today in Austrian format
+        // NOTE: we ignored for the moment the problem of offsets due to different timezones.
+        // This is not a big problem since there's just one stream per day, so even some hours of delay do not cause problems.
+
+        if (date_of_last_stream === today) {
+          if (last_stream_is_embeddable) {
+            prepareFrame("channel-container-first-video", link_last_stream); 
+            // NOTE: in the line above we are NOT providing a title_last_stream in this case.
+            // This is not a problem since the function prepareFrame() can take care of that,
+          }
+          else {
+            var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
+            link_to_the_video_of_today.setAttribute("href", link_last_stream);
+            var container_of_the_link_to_the_video_of_today = document.getElementById("container-of-the-link-to-the-video-of-today");
+            container_of_the_link_to_the_video_of_today.style.display = "block";
+          }
         }
         else {
-          var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
-          link_to_the_video_of_today.setAttribute("href", link_last_stream);
-          var container_of_the_link_to_the_video_of_today = document.getElementById("container-of-the-link-to-the-video-of-today");
-          container_of_the_link_to_the_video_of_today.style.display = "block";
+          var link_to_the_youtube_channel = document.getElementById("link-to-the-youtube-channel");
+          link_to_the_youtube_channel.style.display = "block";
+          
+          prepareFrame("channel-container", link_last_stream);
+          // NOTE: in the line above we are NOT providing a title_last_stream in this case.
+          // This is not a problem since the function prepareFrame() can take care of that
         }
       }
       else {
@@ -495,39 +514,23 @@
     // 2) there is currently a stream: since youtube does not allow us to embed a stream in the website, send the user
     //    to the link to that youtube stream. In this case, set:
     // -- link_last_stream = link of the current stream of today
-    // -- last_video_is_embeddable = false;
+    // -- last_stream_is_embeddable = false;
     // 3) the stream of today already ended. In this case, we can embed it in our website. For that, set:
     // -- link_last_stream = link of the stream of today
-    // -- last_video_is_embeddable = true;
-
+    // -- last_stream_is_embeddable = true;
+    //
+    // In all the cases above, one needs also to update the value of date_of_last_stream to the date when the last stream was done.
+    // In this way, on top of the webpage we will show a video only if it is embeddable AND it is the video of today.
+    // If it is not embeddable: only a link to youtube is provided.
+    // If it is not the video of today: shown in the lower part of the webpage.
 
     var link_last_stream = "https://www.youtube.com/watch?v=8pGvJQtaMKo";
 
-    var last_video_is_embeddable = false;
+    var last_stream_is_embeddable = true;
 
-    // code modified from https://stackoverflow.com/questions/9857495/how-can-i-tell-if-a-youtube-video-is-embeddable-before-i-try-and-load-it
-    /*function onError(event){
-    switch(event.data){
-        case 2:
-            console.log('request contains an invalid parameter value')
-            break
-        case 5:
-            console.log('The requested content cannot be played in an HTML5 player or another error related to the HTML5 player has occurred.')
-            break
-        case 100:
-            console.log('The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.')
-            break
-        case 101:
-        case 150:
-            console.log('Uploader has blocked this content from embedded playback')
-            break
-        default:
-            console.log('error code: '+event.data)
+    var date_of_last_stream = "13.04.2020";
 
-      }
-    }*/
-
-    getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_video_is_embeddable);
+    getVideoIDs(cid_youtube_channel, max_length, link_last_stream, last_stream_is_embeddable, date_of_last_stream);
 
   </script>
 
