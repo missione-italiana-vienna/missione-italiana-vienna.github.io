@@ -244,23 +244,8 @@
                   <p>
                     Gli orari dello <b>streaming dei prossimi giorni</b> sono i seguenti:
                   </p>
-                  <!--<ul class = "normal_list">
-                    <li>
-                      <b>da lunedì a sabato: lo streaming inizia alle ore 19:15</b> (a seconda delle giornate, alterneremo un Rosario, o una Santa Messa, o un'Adorazione, o una preghiera, o un commento ad un brano della Bibbia);
-                    </li>
-                    <li>
-                      <b>Domenica: Messa Festiva in streaming a partire dalle ore 11:30.</b>
-                    </li>
-                  </ul>-->
+
                   <ul class = "normal_list">
-                    <!--<li>
-                      <b>Ostermontag (lunedì 13 Aprile):</b><br>
-                      - Santa Messa in diretta da Alser Straße alle <b>ore 11:30</b>.
-                    </li>-->
-                    <!--<li>
-                      <b>Domenica 19 Aprile</b> (Domenica della Divina Misericordia);<br>
-                      - Santa Messa in diretta alle <b>ore 11:30</b>.
-                    </li>-->
                     <li>
                       <b>Da lunedì 20 Aprile a sabato 25 Aprile:</b><br>
                       - diretta streaming con un momento di preghiera alle <b>ore 19:15</b>.
@@ -302,19 +287,8 @@
 									Come già venuto, io Ti abbraccio e tutto mi unisco a Te; non permettere che io mi abbia mai a separare da Te.
 								</p>
               </div>
-              
-                                          
+                        
               <br>
-
-              <!--<p>
-                <b>Per la diretta youtube di oggi, cliccate <a target = _blank rel = "noopener" class = "normal_link" href = "https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg/videos">questo link</a> e scegliete il primo video che vedete in alto nella pagina. Nota: se non compare ancora il video di oggi, ricaricate la pagina di youtube di tanto in tanto, finché non compare la diretta della giornata odierna.</b>
-              </p>
-
-              <p>
-                Se non riuscite a collegarvi in diretta: dopo la fine della diretta sarà comunque possibile rivedere il video della giornata sempre al link scritto qui sopra.
-              </p>
-
-              <br><br>-->
 
               Qui sotto trovate man mano le dirette video registrate i giorni scorsi.
               
@@ -398,7 +372,7 @@
       var ifrm = document.createElement("iframe");
 
       // var id = my_source.substr(my_source.indexOf("=") + 1);  
-      ifrm.setAttribute("src","https://www.youtube-nocookie.com/embed/" + my_video_id + "?controls=1&autoplay=0");
+      ifrm.setAttribute("src", first_part_of_youtube_links_for_embedding_with_no_cookies + my_video_id + "?controls=1&autoplay=0");
       ifrm.setAttribute("frameborder","0");
       ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
       ifrm.setAttribute("allowfullscreen","");
@@ -409,10 +383,10 @@
       video_container.appendChild(ifrm);        
       video_container.id = "video_container_" + my_video_id;
 
-
       // The code below appends the video container to the channel container
       channel_container.appendChild(video_container);
     }
+
 
     // This function destroys a previously created container for a video (created using the previous function)
     function destroyVideoContainer(my_video_id) {
@@ -422,12 +396,12 @@
 
 
     // This function gets the list of all videoIDs of a given channel (up to a fixed maximum)
-    function getVideoIDs(cid_youtube_channel, max_length, video_id_of_last_stream, last_stream_is_embeddable, date_of_last_stream) {
+    // and puts those videos in the webpage (at most one at the beginning of the page, if it's embeddable, otherwise just a link,
+    // all the others are added at the end of the file)
+    function insertYoutubeVideos(cid_youtube_channel, max_length, video_id_of_last_stream, last_stream_is_embeddable, date_of_last_stream) {
       var list_videos = [];
-      var i;
       var number_additional_videos = 0;
-
-      var link_to_the_youtube_channel;
+      var i, link_to_the_youtube_channel;
 
       if (video_id_of_last_stream !== "undefined" && video_id_of_last_stream !== "") {
         var today = new Date();
@@ -447,7 +421,7 @@
           }
           else {
             var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
-            link_to_the_video_of_today.setAttribute("href", "https://www.youtube.com/watch?v=" + video_id_of_last_stream);
+            link_to_the_video_of_today.setAttribute("href", first_part_of_youtube_links + video_id_of_last_stream);
             var container_of_the_link_to_the_video_of_today = document.getElementById("container-of-the-link-to-the-video-of-today");
             container_of_the_link_to_the_video_of_today.style.display = "block";
           }
@@ -474,29 +448,8 @@
         link_to_the_youtube_channel.style.display = "block";
       }
 
-
-      var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
-
-      // The API above returns a JSON similar to the one in the next lines
-
-      // {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
-
-      // NOTE: the field "items" is the one we are interested in. It will contain a list of objects, each with the following structure:
-
-      // {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
-
-      // For each such object, for the current application we are only interested in the field "link"
-      // Such field will be added to the corresponding <iframe>, so that we can load the corresponding video
-
-      // Complete example of the structure of the response of the API (actually, this is what we are loading for the current webpage, since we only load videos from the youtube webpage of Missione Cattolica Italiana a Vienna):
-      // see the following link:
-      // https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
-
-
       $.getJSON( reqURL + cid_youtube_channel,
         function(data) {
-          // console.log(data.items);
-
           if (data.items.length < max_length) {
             max_length = data.items.length;
           }
@@ -540,6 +493,28 @@
       );
     }
 
+    var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+
+    // A request to the API above with channel_id given by the ID of a youtube channel (see below) 
+    // returns a JSON similar to the one in the next lines (the XML API of youtube returns a xml file, 
+    // further converted to json by api.rss2json.com ):
+
+    // {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
+
+    // NOTE: the field "items" is the one we are interested in. It will contain a list of objects, each with the following structure:
+
+    // {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
+
+    // For each such object, for the current application we are only interested in the field "link"
+    // Such field will be added to the corresponding <iframe>, so that we can load the corresponding video
+
+    // Complete example of the structure of the response of the API (actually, this is what we are loading for the current webpage, since we only load videos from the youtube webpage of Missione Cattolica Italiana a Vienna):
+    // see the following link:
+    // https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
+
+    var first_part_of_youtube_links_for_embedding_with_no_cookies = "https://www.youtube-nocookie.com/embed/";
+
+    var first_part_of_youtube_links = "https://www.youtube.com/watch?v=";
 
     // channel id of the Missione Cattolica Italiana a Vienna on youtube
     var cid_youtube_channel = "UCKAeLh4BIb8bTVnWn4OsqCg"; 
@@ -576,11 +551,11 @@
     
     var video_id_of_last_stream = "OAW32JaqGww";
 
-    var last_stream_is_embeddable = false;
+    var last_stream_is_embeddable = true;
 
     var date_of_last_stream = "23.04.2020";
 
-    getVideoIDs(cid_youtube_channel, max_length, video_id_of_last_stream, last_stream_is_embeddable, date_of_last_stream);
+    insertYoutubeVideos(cid_youtube_channel, max_length, video_id_of_last_stream, last_stream_is_embeddable, date_of_last_stream);
 
   </script>
 
