@@ -466,7 +466,7 @@
             data.items[i].id_video = link.substr(link.indexOf("=") + 1); 
           }
 
-          if (date_of_last_stream !== today && data.items[0].link !== video_id_of_last_stream) {
+          if (date_of_last_stream !== today && data.items[0].id_video !== video_id_of_last_stream) {
             // Remove this object that had been temporarily put in the lower part of the webpage
             destroyVideoContainer(video_id_of_last_stream);
             // Recreate it again at the very beginning of the webpage (for a reason for that, see the comments above)
