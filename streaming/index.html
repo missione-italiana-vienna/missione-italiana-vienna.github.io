@@ -342,12 +342,14 @@
 
   <script>
     // All the code below has been heavily modified from 
-    //  https://codegena.com/auto-embed-latest-video-youtube-channel/
-    
+    // https://codegena.com/auto-embed-latest-video-youtube-channel/
     
     // This function inserts in the DOM a <div> containing an <iframe> with src given by the parameter my_source
-    function prepareFrame(name_of_container, my_video_id, my_title) {
-      console.log("creating frame associated to the video with id: " + my_video_id + " and title: " + my_title);
+    function prepareFrame(parameters) {
+      var name_of_container = parameters.container;
+      var first_part_of_youtube_links = parameters.first_part_of_youtube_links;
+      var my_video_id = parameters.video_id;
+      var my_title = parameters.video_title;
 
       // The code below selects the unique <div> with id = "channel-container" (already in the source of the HTML, hence in the orignal DOM). To this document we will append below:
       // - a <div class = "video-title"> containing the title of the video
@@ -355,29 +357,26 @@
       var channel_container = document.getElementById(name_of_container);
 
       if (typeof my_title !== "undefined" && my_title !== "") {
-        if (my_video_id === "5OwuaZvDhPM") {
-          my_title = "Preghiera (26 Marzo 2020) - NOTA: il video di oggi dura solo 4 minuti a causa di un errore di youtube.";
-        }
         // The code below creates a <div> with the title of the current video
         var video_title = document.createElement("div");
         video_title.setAttribute("class","video-title");
         video_title.innerHTML = my_title;
-        // we append this <div> to the channel container
+        // We append this <div> to the channel container
         channel_container.appendChild(video_title);
       }
 
       // The code below creates an iframe as follows:
-      // <iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      //   <iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay;
+      //   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       // where "src" is defined as in the lines below
       var ifrm = document.createElement("iframe");
 
-      // var id = my_source.substr(my_source.indexOf("=") + 1);  
-      ifrm.setAttribute("src", first_part_of_youtube_links_for_embedding_with_no_cookies + my_video_id + "?controls=1&autoplay=0");
+      ifrm.setAttribute("src", first_part_of_youtube_links + my_video_id + "?controls=1&autoplay=0");
       ifrm.setAttribute("frameborder","0");
       ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
       ifrm.setAttribute("allowfullscreen","");
 
-      // The code below creates a <div> having a class "video-container", and appends the previous iframe to that object
+      // The code below creates a <div> having a class of "video-container", and appends the previous iframe to that object
       var video_container = document.createElement("div");
       video_container.setAttribute("class","video-container");
       video_container.appendChild(ifrm);        
@@ -395,29 +394,107 @@
     }
 
 
+    // This function returns the date of today in austrian forma (dd.mm.yyyy)
+    function get_date_of_today_in_austrian_format() {
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      var yyyy = today.getFullYear();
+
+      return dd + '.' + mm + '.' + yyyy;
+      // NOTE: we ignored for the moment the problem of offsets due to different timezones.
+      // This is not a big problem since there's just one stream per day, so even some hours of delay do not cause problems.
+    }
+
+
+    // This function displays the link to the youtube channel. To be used only if there's no video to display in the upper
+    // part of the screen, neither a link to a currently streaming video
+    function display_link_to_youtube_channel() {
+      var link_to_the_youtube_channel = document.getElementById("link-to-the-youtube-channel");
+      link_to_the_youtube_channel.style.display = "block";
+    }
+
+
+    function insertAPIvideos(parameters) {
+      var API_data = parameters.API_data;
+      var max_length = parameters.max_length;
+      var first_part_of_youtube_links = parameters.first_part_of_youtube_links;
+      var number_additional_videos = parameters.number_additional_videos;
+      var video_id_of_last_stream = parameters.video_id_of_last_stream;
+      var date_of_last_stream = parameters.date_of_last_stream;
+      var last_stream_is_embeddable = parameters.last_stream_is_embeddable;
+
+      var today = get_date_of_today_in_austrian_format();
+
+      var API_first_link = API_data[0].link;
+      var API_first_youtube_id = API_first_link.substr(API_first_link.indexOf("=") + 1); 
+
+      if (date_of_last_stream !== today && API_first_youtube_id !== video_id_of_last_stream) {
+        // Remove this object that had been temporarily put in the lower part of the webpage
+        destroyVideoContainer(video_id_of_last_stream);
+        // Recreate it again at the very beginning of the webpage (for a reason for that, see the comments above)
+        if (last_stream_is_embeddable) {
+          prepareFrame({
+            container: "channel-container-first-video",
+            first_part_of_youtube_links: first_part_of_youtube_links, 
+            video_id: video_id_of_last_stream,
+            video_title: ""
+          });
+        }
+      }
+
+      if (API_data.length < max_length) {
+        max_length = API_data.items.length;
+      }
+      else if (API_data.length + number_additional_videos > max_length) {
+        document.getElementById("more-videos").style.display = "block";
+      }
+      var link, i, video_id;
+
+      // Replaces each link with only the id of the youtube video
+      // assuming that each link provided by the API has the form https://www.youtube.com/watch?v=....
+      // with no additional query parameters after "v=..."
+      for (i = 0; i < max_length; i++) {
+        link = API_data[i].link;
+        video_id = link.substr(link.indexOf("=") + 1); 
+    
+        if (video_id != video_id_of_last_stream) {          
+          prepareFrame({
+            container: "channel-container", 
+            first_part_of_youtube_links: first_part_of_youtube_links, 
+            video_id: video_id,
+            video_title: API_data[i].title
+          });
+        }
+      }
+    }
+
+
     // This function gets the list of all videoIDs of a given channel (up to a fixed maximum)
     // and puts those videos in the webpage (at most one at the beginning of the page, if it's embeddable, otherwise just a link,
     // all the others are added at the end of the file)
-    function insertYoutubeVideos(cid_youtube_channel, max_length, video_id_of_last_stream, last_stream_is_embeddable, date_of_last_stream) {
-      var list_videos = [];
+    function findAndInsertYoutubeVideos(parameters) {
+      var first_part_of_youtube_links_with_no_cookies = parameters.first_part_of_youtube_links_with_no_cookies;
+      var first_part_of_youtube_links = parameters.first_part_of_youtube_links;
+      var cid_youtube_channel = parameters.cid_youtube_channel;
+      var max_length = parameters.max_length;
+      var API_link = parameters.API_link;
+      var video_id_of_last_stream = parameters.video_id_of_last_stream;
+      var last_stream_is_embeddable = parameters.last_stream_is_embeddable;
+      var date_of_last_stream = parameters.date_of_last_stream;
+
       var number_additional_videos = 0;
-      var i, link_to_the_youtube_channel;
+      var today = get_date_of_today_in_austrian_format();
 
       if (video_id_of_last_stream !== "undefined" && video_id_of_last_stream !== "") {
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        var yyyy = today.getFullYear();
-        
-        today = dd + '.' + mm + '.' + yyyy; // date of today in Austrian format
-        // NOTE: we ignored for the moment the problem of offsets due to different timezones.
-        // This is not a big problem since there's just one stream per day, so even some hours of delay do not cause problems.
-
         if (date_of_last_stream === today) {
           if (last_stream_is_embeddable) {
-            prepareFrame("channel-container-first-video", video_id_of_last_stream); 
-            // NOTE: in the line above we are NOT providing a title_last_stream in this case.
-            // This is not a problem since the function prepareFrame() can take care of that,
+            prepareFrame({
+              container: "channel-container-first-video", 
+              first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies, 
+              video_id: video_id_of_last_stream,
+              video_title: ""
+            });
           }
           else {
             var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
@@ -435,101 +512,68 @@
           // - but ONLY in the special case when the video does not appear in the API response, put it at the beginning of the
           //   webpage (in this way everyone can find it easily if it is not listed in our youtube channel yet).
           //   This special case will be dealt with a bit below, after having parsed the API response.
-          link_to_the_youtube_channel = document.getElementById("link-to-the-youtube-channel");
-          link_to_the_youtube_channel.style.display = "block";
+          display_link_to_youtube_channel();
           
-          prepareFrame("channel-container", video_id_of_last_stream);
-          // NOTE: in the line above we are NOT providing a title_last_stream in this case.
-          // This is not a problem since the function prepareFrame() can take care of that
+          prepareFrame({
+            container: "channel-container", 
+            first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies, 
+            video_id: video_id_of_last_stream,
+            video_title: ""
+          });
         }
       }
       else {
-        link_to_the_youtube_channel = document.getElementById("link-to-the-youtube-channel");
-        link_to_the_youtube_channel.style.display = "block";
+        display_link_to_youtube_channel();
       }
 
-      $.getJSON( reqURL + cid_youtube_channel,
-        function(data) {
-          if (data.items.length < max_length) {
-            max_length = data.items.length;
-          }
-          else if (data.items.length + number_additional_videos > max_length) {
-          	document.getElementById("more-videos").style.display = "block";
-          }
-          var link, i;
-
-          // Replaces each link with only the id of the youtube video
-          // assuming that each link provided by the API has the form https://www.youtube.com/watch?v=....
-          // with no additional query parameters after "v=..."
-          for (i = 0; i < max_length; i++) {
-            link = data.items[i].link;
-            data.items[i].id_video = link.substr(link.indexOf("=") + 1); 
-          }
-
-          if (date_of_last_stream !== today && data.items[0].id_video !== video_id_of_last_stream) {
-            // Remove this object that had been temporarily put in the lower part of the webpage
-            destroyVideoContainer(video_id_of_last_stream);
-            // Recreate it again at the very beginning of the webpage (for a reason for that, see the comments above)
-            if (last_stream_is_embeddable) {
-              prepareFrame("channel-container-first-video", video_id_of_last_stream);
-            }
-          } 
-
-          for (i = 0; i < max_length; i++) {
-            var id_video = data.items[i].id_video;
-            var title = data.items[i].title;
-            if (id_video != video_id_of_last_stream) {
-              list_videos.push({
-                "id_video": id_video,
-                "title": title
-              });
-            }
-          }
-
-          for (i = 0; i < list_videos.length; i++) {
-            prepareFrame("channel-container", list_videos[i].id_video, list_videos[i].title);
-          }
+      $.getJSON( API_link + cid_youtube_channel,
+        function(API_data) {
+          // the video_id_of_last_stream is passed as parameter so that it will be ignored if found in the API_data
+          insertAPIvideos({
+            API_data: API_data.items,
+            max_length: max_length,
+            first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies,
+            number_additional_videos: number_additional_videos,
+            video_id_of_last_stream: video_id_of_last_stream,
+            last_stream_is_embeddable: last_stream_is_embeddable,
+            date_of_last_stream: date_of_last_stream
+          });
         }
       );
     }
 
-    var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
 
-    // A request to the API above with channel_id given by the ID of a youtube channel (see below) 
-    // returns a JSON similar to the one in the next lines (the XML API of youtube returns a xml file, 
-    // further converted to json by api.rss2json.com ):
+    var parameters = {
+      // the next parameter ensures that we embed a version of each video with no cookies
+      first_part_of_youtube_links_with_no_cookies: "https://www.youtube-nocookie.com/embed/",
+      // initial part of links pointing to the external videos directly played on youtube
+      first_part_of_youtube_links: "https://www.youtube.com/watch?v=",
+      // channel id of the Missione Cattolica Italiana a Vienna on youtube
+      cid_youtube_channel: "UCKAeLh4BIb8bTVnWn4OsqCg",
+      // we limit the previous code to 7 videos, otherwise the page loads very slowly
+      max_length: 7,
+      // A request to the API below with channel_id given by the ID of a youtube channel (see below) 
+      // returns a JSON similar to the one in the next lines (the XML API of youtube returns a xml file, 
+      // further converted to json by api.rss2json.com ):
 
-    // {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
+      // {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
 
-    // NOTE: the field "items" is the one we are interested in. It will contain a list of objects, each with the following structure:
+      // NOTE: the field "items" is the one we are interested in. It will contain a list of objects, each with the following structure:
 
-    // {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
+      // {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
 
-    // For each such object, for the current application we are only interested in the field "link"
-    // Such field will be added to the corresponding <iframe>, so that we can load the corresponding video
+      // For each such object, for the current application we are only interested in the field "link"
+      // Such field will be added to the corresponding <iframe>, so that we can load the corresponding video
 
-    // Complete example of the structure of the response of the API (actually, this is what we are loading for the current webpage, since we only load videos from the youtube webpage of Missione Cattolica Italiana a Vienna):
-    // see the following link:
-    // https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
+      // Complete example of the structure of the response of the API (actually, this is what we are loading for the current webpage, since we only load videos from the youtube webpage of Missione Cattolica Italiana a Vienna):
+      // see the following link:
+      // https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
+      API_link: "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=")
+    };
 
-    var first_part_of_youtube_links_for_embedding_with_no_cookies = "https://www.youtube-nocookie.com/embed/";
-
-    var first_part_of_youtube_links = "https://www.youtube.com/watch?v=";
-
-    // channel id of the Missione Cattolica Italiana a Vienna on youtube
-    var cid_youtube_channel = "UCKAeLh4BIb8bTVnWn4OsqCg"; 
-    
-    // we limit the previous code to 7 videos, otherwise the page loads very slowly
-    var max_length = 7;
-
-    // link for the streaming of the current day: normally the youtube API that we use
-    // is not updated in real time, so for the first few hours it does not contain the
-    // link of the last stream. Hence we need sometimes to insert it manually
-
-
-    // Possible cases:
+    // Possible 3 cases:
     // 1) the stream of today has not started yet: send the user to our youtube channel. In order to do that, set:
-    // --- link_last_stream = ""; (it is not necessary to toogle the value of last_video_is_embeddable )
+    // --- link_last_stream = ""; (it is not necessary to toogle the value of last_stream_is_embeddable )
     // 2) there is currently a stream: since youtube does not allow us to embed a stream in the website, send the user
     //    to the link to that youtube stream. In this case, set:
     // -- link_last_stream = link of the current stream of today
@@ -549,13 +593,16 @@
     // This id can be found as the first block of "..." in any youtube link of the form
     // https://www.youtube.com/watch?v=...&.....
     
-    var video_id_of_last_stream = "0_ODB4Rm2mM";
+    parameters.video_id_of_last_stream = "0_ODB4Rm2mM";
+    // link for the streaming of the current day: normally the youtube API that we use
+    // is not updated in real time, so for the first few hours it does not contain the
+    // link of the last stream. Hence we need sometimes to insert it manually
 
-    var last_stream_is_embeddable = true;
+    parameters.last_stream_is_embeddable = true;
 
-    var date_of_last_stream = "24.04.2020";
+    parameters.date_of_last_stream = "24.04.2020";
 
-    insertYoutubeVideos(cid_youtube_channel, max_length, video_id_of_last_stream, last_stream_is_embeddable, date_of_last_stream);
+    findAndInsertYoutubeVideos(parameters);
 
   </script>
 
