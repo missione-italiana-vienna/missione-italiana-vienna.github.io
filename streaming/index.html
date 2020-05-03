@@ -119,7 +119,8 @@
         </div>
         <div class = "menu_nav_symbol">
           <symbol>
-            <!-- Symbol of "Missione Cattolica Italiana dell'Arcidiocesi di Vienna", all rights reserved. -->
+            <!-- Symbol of "Missione Cattolica Italiana 
+               di Vienna", all rights reserved. -->
             <img src = "https://mcivienna.org/images/simbolo/MCI-Vienna_symbol.svg" alt="MCI_symbol">
           </symbol>
         </div>
@@ -139,18 +140,19 @@
   <!-- begin of individual content -->  <!-- Home -->
 
   <div class = "home">
-    <div class = "home_background parallax-window" data-parallax = "scroll" data-image-src = "https://mcivienna.org/images/common_images/church_interior.jpg" data-speed = "0.8">
+    <div class = "home_background parallax-window" data-parallax = "scroll" 
+    data-image-src = "https://mcivienna.org/images/common_images/church_interior.jpg" data-speed = "0.8">
     </div><!-- Photo by Brandon Morgan on Unsplash, https://unsplash.com/photos/GxbFfu6yRN0 Lower part of the image cut away -->
     <div class = "container">
       <div class = "row">
         <div class = "col">
           <div class = "home_container">
             <div class = "home_content d-flex flex-row align-items-center justify-content-start">
-              <div class = "home_title"><!-- Name of subpage --></div>
+              <div class = "home_title"><!-- Name of sub-page --></div>
               <div class = "home_breadcrumbs ml-auto">
                 <!-- <ul class = "breadcrumbs">
                   <li><a href = "">Home</a></li>
-                  <li>Name of subpage</li>
+                  <li>Name of sub-page</li>
                 </ul>-->
               </div>
             </div>
@@ -199,17 +201,20 @@
                       finché non compare la diretta della giornata odierna.</b>
                   </p>
                   <p>
-                    Se non riuscite a collegarvi in diretta: dopo la fine della diretta sarà comunque possibile rivedere il video della giornata sempre al link scritto qui sopra.
+                    Se non riuscite a collegarvi in diretta: dopo la fine della diretta sarà comunque possibile rivedere
+                     il video della giornata sempre al link scritto qui sopra.
                   </p>
                 </div>
                 <div id = "container-of-the-link-to-the-video-of-today" style = "display: none;">
-                  <b>Per la diretta youtube di oggi, cliccate <a id = "link-to-the-video-of-today" target = _blank rel = "noopener" class = "normal_link" 
-                      href = "">questo link</a>.</b>
+                  <b>Per la diretta youtube di oggi, cliccate 
+                    <a id = "link-to-the-video-of-today" target = _blank rel = "noopener" 
+                    class = "normal_link" href = "">questo link</a>.</b>
                 </div>
               </div>
 
               <p>
-                A causa dell'emergenza COVID-19 (coronavirus), a partire da lunedì 16 Marzo non vengono celebrate Messe alla presenza dei fedeli. Ogni giorno cerchiamo di celebrare una diretta youtube dal convento di Alser Straße.
+                A causa dell'emergenza COVID-19 (coronavirus), a partire da lunedì 16 Marzo non vengono celebrate
+                Messe alla presenza dei fedeli. Ogni giorno cerchiamo di celebrare una diretta youtube dal convento di Alser Straße.
               </p>
 
               <br>
@@ -226,7 +231,9 @@
                 margin-bottom: 10px;
                 border: 1px solid #00000038;">
                   <p style = "color: red;">
-                    A <a class = "normal_link" target = _blank rel = _noopener href = "https://mcivienna.org/blog/2020/04/11/messaggio_di_pasqua/">questo link</a> trovate un messaggio di padre Thomas per Pasqua.
+                    A <a class = "normal_link" target = _blank rel = _noopener
+                    href = "https://mcivienna.org/blog/2020/04/11/messaggio_di_pasqua/">questo link</a>
+                    trovate un messaggio di padre Thomas per Pasqua.
                   </p>
                 </div>
 
@@ -265,11 +272,11 @@
 
                   <ul class = "normal_list">
                     <li>
-                      <b>Da lunedì 27 Aprile a sabato 2 Maggio:</b><br>
-                      - diretta streaming con un momento di preghiera alle <b>ore 19:15</b>.
+                      <b>Da lunedì 4 Maggio a sabato 9 Maggio:</b><br>
+                      - diretta streaming con un momento di preghiera o Santa Messa alle <b>ore 19:15</b>.
                     </li>
                     <li>
-                      <b>Domenica 3 Maggio:</b><br>
+                      <b>Domenica 10 Maggio:</b><br>
                       - Santa Messa in diretta alle <b>ore 11:30</b>.
                     </li>
                   </ul>
@@ -287,7 +294,8 @@
                 margin-bottom: 10px;
                 border: 1px solid #00000038;">
                 <p>
-                   <i>Vista l'impossibilità in questo periodo di fare la Santa Comunione, vi proponiamo qui sotto un esempio di preghiera per la comunione spirituale.</i>
+                   <i>Vista l'impossibilità in questo periodo di fare la Santa Comunione, vi proponiamo
+                    qui sotto un esempio di preghiera per la comunione spirituale.</i>
                  </p>
                  <p>
 									Gesù mio, credo che Tu sei nel Santissimo Sacramento.
@@ -317,7 +325,8 @@
               </div>
 
               <div id = "more-videos" style = "display: none;"><!-- this style will be modified by the script below -->
-								Trovate i video delle scorse settimane a <a class = "normal_link" href = "https://mcivienna.org/streaming/video_precedenti/">questo link</a>.
+                Trovate i video delle scorse settimane a <a class = "normal_link" 
+                href = "https://mcivienna.org/streaming/video_precedenti/">questo link</a>.
               </div>
               
               </div>
@@ -369,7 +378,8 @@
       var my_video_id = parameters.video_id;
       var my_title = parameters.video_title;
 
-      // The code below selects the unique <div> with id = "channel-container" (already in the source of the HTML, hence in the orignal DOM). To this document we will append below:
+      // The code below selects the unique <div> with id = "channel-container" 
+      // (already in the source of the HTML, hence in the original DOM). To this document we will append below:
       // - a <div class = "video-title"> containing the title of the video
       // - a <div class = "video-container"> containing the <iframe> containing the video
       var channel_container = document.getElementById(name_of_container);
@@ -591,7 +601,7 @@
 
     // Possible 3 cases:
     // 1) the stream of today has not started yet: send the user to our youtube channel. In order to do that, set:
-    // --- link_last_stream = ""; (it is not necessary to toogle the value of last_stream_is_embeddable )
+    // --- link_last_stream = ""; (it is not necessary to toggle the value of last_stream_is_embeddable )
     // 2) there is currently a stream: since youtube does not allow us to embed a stream in the website, send the user
     //    to the link to that youtube stream. In this case, set:
     // -- link_last_stream = link of the current stream of today
