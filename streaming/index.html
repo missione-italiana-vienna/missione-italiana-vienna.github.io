@@ -443,7 +443,7 @@
     }
 
 
-    function insertAPIvideos(parameters) {
+    function insert_API_videos(parameters) {
       var API_data = parameters.API_data;
       var max_length = parameters.max_length;
       var first_part_of_youtube_links = parameters.first_part_of_youtube_links;
@@ -557,7 +557,7 @@
       $.getJSON( API_link + cid_youtube_channel,
         function(API_data) {
           // the video_id_of_last_stream is passed as parameter so that it will be ignored if found in the API_data
-          insertAPIvideos({
+          insert_API_videos({
             API_data: API_data.items,
             max_length: max_length,
             first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies,
@@ -626,7 +626,7 @@
     // is not updated in real time, so for the first few hours it does not contain the
     // link of the last stream. Hence we need sometimes to insert it manually
 
-    parameters.last_stream_is_embeddable = false;
+    parameters.last_stream_is_embeddable = true;
 
     parameters.date_of_last_stream = "04.05.2020";
 
