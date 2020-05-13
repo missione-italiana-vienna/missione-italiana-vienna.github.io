@@ -414,43 +414,9 @@
 			}
 		]
 	},
-	{
-		'date': '16 Maggio 2020',
-		'content':
-		[
-			{
-				'time': '14:30 - 16:30 (*)',
-				'description': 'Confessioni.'
-			},
-			{
-				'time': '16:30 (*)',
-				'description': 'recita del Rosario.'
-			},
-			{
-				'time': '17:00 (*)',
-				'description': 'Messa prefestiva.'
-			},
-			{
-				'type': 'comment',
-				'description': '(*) = nella cappella di Sant\'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas.'
-			}
-		]
-	},
-	{
-		'date': '17 Maggio 2020',
-		'content': 
-		[
-			{
-				'time': '10:00 - 11:30',
-				'style': 'font-weight: bold; color: red;',
-				'description': '<b>incontro di catechismo</b> (entrata dal numero civico 17 di fianco alla chiesa).'
-			},
-			{
-				'time': '11:30',
-				'description': 'S. Messa.'
-			}
-		]
-	},
+	
+
+	
 	{
 		'date': '20 Maggio 2020',
 		'content': 
