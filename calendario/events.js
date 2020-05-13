@@ -580,7 +580,29 @@ var events =
 			}
 		]
 	},
+
+	// interruzione delle celebrazioni con l'assemblea (e di tutti gli altri eventi "in persona" con i vari gruppi a causa dell'emergenza covid-19)
 	
+	{
+		'date': '16 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '17 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
 
 	/*{
 		'multiple_dates': {
