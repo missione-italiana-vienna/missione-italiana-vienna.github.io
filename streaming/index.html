@@ -213,10 +213,10 @@
                 </div>
               </div>
 
-              <p>
+              <!--<p>
                 A causa dell'emergenza COVID-19 (coronavirus), fino al 15 Maggio non vengono celebrate
                 Messe alla presenza dei fedeli. Ogni giorno cerchiamo di celebrare una diretta youtube dal convento di Alser Straße.
-              </p>
+              </p>-->
 
               <br>
               
@@ -267,7 +267,7 @@
                 margin-bottom: 10px;
                 border: 1px solid #00000038;">
                 <p>
-                   <i>Vista l'impossibilità in questo periodo di fare la Santa Comunione, vi proponiamo
+                   <i>Per chi è impossibilitato in questo periodo di fare la Santa Comunione, vi proponiamo
                     qui sotto un esempio di preghiera per la comunione spirituale.</i>
                  </p>
                  <p>
@@ -351,40 +351,42 @@
       var my_video_id = parameters.video_id;
       var my_title = parameters.video_title;
 
-      // The code below selects the unique <div> with id = "channel-container" 
-      // (already in the source of the HTML, hence in the original DOM). To this document we will append below:
-      // - a <div class = "video-title"> containing the title of the video
-      // - a <div class = "video-container"> containing the <iframe> containing the video
-      var channel_container = document.getElementById(name_of_container);
+      if (my_video_id !== "BTVv6q5v9g8") {
+        // The code below selects the unique <div> with id = "channel-container" 
+        // (already in the source of the HTML, hence in the original DOM). To this document we will append below:
+        // - a <div class = "video-title"> containing the title of the video
+        // - a <div class = "video-container"> containing the <iframe> containing the video
+        var channel_container = document.getElementById(name_of_container);
 
-      if (typeof my_title !== "undefined" && my_title !== "") {
-        // The code below creates a <div> with the title of the current video
-        var video_title = document.createElement("div");
-        video_title.setAttribute("class","video-title");
-        video_title.innerHTML = my_title;
-        // We append this <div> to the channel container
-        channel_container.appendChild(video_title);
+        if (typeof my_title !== "undefined" && my_title !== "") {
+          // The code below creates a <div> with the title of the current video
+          var video_title = document.createElement("div");
+          video_title.setAttribute("class","video-title");
+          video_title.innerHTML = my_title;
+          // We append this <div> to the channel container
+          channel_container.appendChild(video_title);
+        }
+
+        // The code below creates an iframe as follows:
+        //   <iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay;
+        //   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        // where "src" is defined as in the lines below
+        var ifrm = document.createElement("iframe");
+
+        ifrm.setAttribute("src", first_part_of_youtube_links + my_video_id + "?controls=1&autoplay=0");
+        ifrm.setAttribute("frameborder","0");
+        ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+        ifrm.setAttribute("allowfullscreen","");
+
+        // The code below creates a <div> having a class of "video-container", and appends the previous iframe to that object
+        var video_container = document.createElement("div");
+        video_container.setAttribute("class","video-container");
+        video_container.appendChild(ifrm);        
+        video_container.id = "video_container_" + my_video_id;
+
+        // The code below appends the video container to the channel container
+        channel_container.appendChild(video_container);
       }
-
-      // The code below creates an iframe as follows:
-      //   <iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay;
-      //   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      // where "src" is defined as in the lines below
-      var ifrm = document.createElement("iframe");
-
-      ifrm.setAttribute("src", first_part_of_youtube_links + my_video_id + "?controls=1&autoplay=0");
-      ifrm.setAttribute("frameborder","0");
-      ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
-      ifrm.setAttribute("allowfullscreen","");
-
-      // The code below creates a <div> having a class of "video-container", and appends the previous iframe to that object
-      var video_container = document.createElement("div");
-      video_container.setAttribute("class","video-container");
-      video_container.appendChild(ifrm);        
-      video_container.id = "video_container_" + my_video_id;
-
-      // The code below appends the video container to the channel container
-      channel_container.appendChild(video_container);
     }
 
 
