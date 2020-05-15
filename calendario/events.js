@@ -604,6 +604,44 @@ var events =
 		]
 	},
 
+	{
+		'date': '21 Maggio 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Ascensione del Signore</b> (non verrà celebrata nessuna Messa prefestiva)'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+			{
+				'time': '16:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+
+	{
+		'date': '23 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '24 Maggio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
 	/*{
 		'multiple_dates': {
 			'from': '30 Agosto 2020',
