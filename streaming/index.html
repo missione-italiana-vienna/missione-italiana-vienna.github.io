@@ -194,7 +194,8 @@
                 <!-- this is the container of all the first video (only until the next ), added by the script below -->
                 <div id = "link-to-the-youtube-channel" style = "display: none; padding-bottom: 20px;">
                   <p>
-                    <b>Per la diretta youtube di oggi, cliccate <a target = _blank rel = "noopener" class = "normal_link" 
+                    <b>Nei giorni in cui è programmata una diretta youtube, 
+                      cliccate <a target = _blank rel = "noopener" class = "normal_link" 
                       href = "https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg/videos">questo link</a> 
                       e scegliete il primo video che vedete in alto nella pagina. Nota: se non compare
                       ancora il video di oggi, ricaricate la pagina di youtube di tanto in tanto, 
@@ -219,8 +220,6 @@
 
               <br>
               
-            
-
               <div style = "
                 border-bottom: 1px solid #0f7dca33;
                 padding-top: 10px;
@@ -238,22 +237,22 @@
 
                   <ul class = "normal_list">
                     <li>
-                      <b>Da lunedì 5 Maggio a venerdì 15 Maggio:</b><br>
-                      - diretta streaming con un momento di preghiera o Santa Messa alle <b>ore 19:15</b>.
+                      <b>Domenica 17 Maggio</b>: Santa Messa alle ore 16:30.
+                    </li>
+                    <li>
+                      <b>Martedì 19 Maggio</b>: novena a Sant'Antonio alle ore 19:15.
                     </li>
                   </ul>
                   <br>
 
-                  <p><b>Da sabato 16 Maggio riprendono gli orari consueti delle Sante Messe.</b></p>
+                  <p><b>Da sabato 16 Maggio riprendono le celebrazioni delle Sante Messe con l'assemblea.</b></p>
                   
                   <p style = "color: red;">
                     <b>A <a class = "normal_link" target = _blank rel = _noopener
-                    href = "https://mcivienna.org/blog/2020/05/10/ripresa_delle_celebrazioni/">questo link</a>
+                    href = "https://mcivienna.org/blog/2020/05/15/indicazioni_per_le_prossime_celebrazioni/">questo link</a>
                     trovate alcune informazioni riguardo alla ripresa delle celebrazioni dal 16 Maggio.</b>
                   </p>
 
-                  <p>Le prossime settimane ci sarà ancora la possibilità di recitare insieme la novena a Sant'Antonio il martedì
-                    alle 19:15 in diretta streaming.</p>
                 </div>
 
                 <div style = "
@@ -595,14 +594,14 @@
     // This id can be found as the first block of "..." in any youtube link of the form
     // https://www.youtube.com/watch?v=...&.....
     
-    parameters.video_id_of_last_stream = "alij01se2UA";
+    parameters.video_id_of_last_stream = "X4_mugKAeIM";
     // link for the streaming of the current day: normally the youtube API that we use
     // is not updated in real time, so for the first few hours it does not contain the
     // link of the last stream. Hence we need sometimes to insert it manually
 
     parameters.last_stream_is_embeddable = true;
 
-    parameters.date_of_last_stream = "14.05.2020";
+    parameters.date_of_last_stream = "15.05.2020";
 
     findAndInsertYoutubeVideos(parameters);
 
