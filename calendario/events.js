@@ -642,6 +642,42 @@ var events =
 			}
 		]
 	},
+	{
+		'date': '30 Maggio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '31 Maggio 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Domenica di Pentecoste</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '1 Giugno 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Lunedì di Pentecoste</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	}
 	/*{
 		'multiple_dates': {
 			'from': '30 Agosto 2020',
