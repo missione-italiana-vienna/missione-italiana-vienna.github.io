@@ -662,6 +662,10 @@ var events =
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
+			},
+			{
+				'time': '16:30',
+				'description': 'S. Messa.'
 			}
 		]
 	},
