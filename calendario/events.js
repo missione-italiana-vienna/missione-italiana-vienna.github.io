@@ -681,7 +681,47 @@ var events =
 				'description': 'S. Messa.'
 			}
 		]
-	}
+	},
+	{
+		'date': '6 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '7 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (NOTA: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+			},
+		]
+	},
+	{
+		'date': '13 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '14 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (NOTA: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+			},
+		]
+	},
 	/*{
 		'multiple_dates': {
 			'from': '30 Agosto 2020',
