@@ -698,7 +698,7 @@ var events =
 		[
 			{
 				'time': '11:30',
-				'description': 'S. Messa (NOTA: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
 			},
 		]
 	},
@@ -718,7 +718,7 @@ var events =
 		[
 			{
 				'time': '11:30',
-				'description': 'S. Messa (NOTA: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
 			},
 		]
 	},
