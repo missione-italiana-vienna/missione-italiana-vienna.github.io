@@ -707,7 +707,7 @@ var events =
 		'content': 
 		[
 			{
-				'description': '<b>Corpus Domini</b>'
+				'description': '<b style = "color:red;">Corpus Domini</b>'
 			},
 			{
 				'time': '11:30',
@@ -727,6 +727,46 @@ var events =
 	},
 	{
 		'date': '14 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+			},
+		]
+	},
+	{
+		'date': '20 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '21 Giugno 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+			},
+		]
+	},
+	{
+		'date': '27 Giugno 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '28 Giugno 2020',
 		'content': 
 		[
 			{
