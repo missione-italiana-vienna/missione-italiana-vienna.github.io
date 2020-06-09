@@ -703,6 +703,19 @@ var events =
 		]
 	},
 	{
+		'date': '11 Giugno 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Corpus Domini</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa prefestiva).'
+			},
+		]
+	},
+	{
 		'date': '13 Giugno 2020',
 		'content':
 		[
