@@ -775,6 +775,46 @@ var events =
 			},
 		]
 	},
+	{
+		'date': '4 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '5 Luglio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+			},
+		]
+	},
+	{
+		'date': '11 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '12 Luglio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+			},
+		]
+	},
 	/*{
 		'multiple_dates': {
 			'from': '30 Agosto 2020',
