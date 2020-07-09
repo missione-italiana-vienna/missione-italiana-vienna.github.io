@@ -811,28 +811,90 @@ var events =
 		[
 			{
 				'time': '11:30',
-				'description': 'S. Messa (nota: non ci sarà nessuna Messa alle 16:30 nelle prossime settimane).'
+				'description': 'S. Messa.'
 			},
 		]
 	},
-	/*{
-		'multiple_dates': {
-			'from': '30 Agosto 2020',
-			'to': '2 Settembre 2020'
-		},
+	{
+		'date': '18 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '19 Luglio 2020',
 		'content': 
 		[
 			{
 				'time': '11:30',
 				'description': 'S. Messa.'
-			}
+			},
 		]
-	},*/
-
-	/*<b>Da Giovedì 30 Aprile a Domenica 3 Maggio</b>: pellegrinaggio a Mariazell.
-	
-	<b>Da Giovedì 21 Maggio a Domenica 24 Maggio</b>: pellegrinaggio a Padova.
-	*/
+	},
+	{
+		'date': '25 Luglio 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '26 Luglio 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '1 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '2 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '8 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '9 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	}, // add always colons!!!
 ];
 
 
