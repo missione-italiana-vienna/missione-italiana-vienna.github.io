@@ -894,7 +894,91 @@ var events =
 				'description': 'S. Messa.'
 			},
 		]
-	}, // add always colons!!!
+	},
+	{
+		'date': '15 Agosto 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Assunzione della Beata Vergine Maria</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa (nota: oggi non ci sarà la S. Messa prefestiva serale).'
+			},
+		]
+	},
+	{
+		'date': '16 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '22 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '23 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '29 Agosto 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '30 Agosto 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '5 Settembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '6 Settembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	// add always colons!!!
 ];
 
 
