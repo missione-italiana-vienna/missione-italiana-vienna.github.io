@@ -1064,7 +1064,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-01-20/">testo qui</a>). Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-10-07/">testo qui</a>). Entrata da Alser Straße 17.'
 			},
 		]
 	},	
@@ -1154,7 +1154,7 @@ var events =
 		[
 			{
 				'time': '19:00',
-				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-01-20/">testo qui</a>). Entrata da Alser Straße 17.'
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-11-04/">testo qui</a>). Entrata da Alser Straße 17.'
 			},
 		]
 	},	
