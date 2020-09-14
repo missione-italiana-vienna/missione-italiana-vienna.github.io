@@ -960,6 +960,16 @@ var events =
 	},
 	{
 		'date': '5 Settembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '6 Settembre 2020',
 		'content': 
 		[
 			{
@@ -969,7 +979,7 @@ var events =
 		]
 	},
 	{
-		'date': '6 Settembre 2020',
+		'date': '12 Settembre 2020',
 		'content':
 		[
 			{
@@ -978,6 +988,176 @@ var events =
 			},
 		]
 	},
+	{
+		'date': '13 Settembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '19 Settembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '20 Settembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '26 Settembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '27 Settembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '3 Ottobre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '4 Ottobre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '7 Ottobre 2020',
+		'content': 
+		[
+			{
+				'time': '19:30',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-01-20/">testo qui</a>). Entrata da Alser Straße 17.'
+			},
+		]
+	},	
+	{
+		'date': '10 Ottobre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '11 Ottobre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa. In questa S. Messa si terrà probabilmente la Prima Comunione dei bambini del catechismo.'
+			},
+		]
+	},
+	{
+		'date': '17 Ottobre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '18 Ottobre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '24 Ottobre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '25 Ottobre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+	},
+	{
+		'date': '31 Ottobre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '1 Novembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa (festa di tutti i Santi).'
+			},
+		]
+	},
+	{
+		'date': '4 Novembre 2020',
+		'content': 
+		[
+			{
+				'time': '19:30',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-01-20/">testo qui</a>). Entrata da Alser Straße 17.'
+			},
+		]
+	},	
 	// add always colons!!!
 ];
 
