@@ -1073,6 +1073,9 @@ var events =
 		'content':
 		[
 			{
+				'description': 'In questa data si terranno probabilmente le Prima Comunioni dei bambini del catechismo (dettagli e orari ancora da definire).'
+			},
+			{
 				'time': '17:00',
 				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
 			},
@@ -1084,7 +1087,7 @@ var events =
 		[
 			{
 				'time': '11:30',
-				'description': 'S. Messa. In questa S. Messa si terrà probabilmente la Prima Comunione dei bambini del catechismo.'
+				'description': 'S. Messa.'
 			},
 		]
 	},
