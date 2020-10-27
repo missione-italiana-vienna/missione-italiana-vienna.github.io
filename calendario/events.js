@@ -1160,7 +1160,225 @@ var events =
 				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-11-04/">testo qui</a>). Entrata da Alser Straße 17.'
 			},
 		]
-	},	
+  },
+  {
+		'date': '7 Novembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '8 Novembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+  },
+  {
+		'date': '14 Novembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '15 Novembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+  },
+  {
+		'date': '21 Novembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '22 Novembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+		]
+  },
+  {
+		'date': '28 Novembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'S. Messa prefestiva (nota: questa Messa si svolgerà in chiesa e non nella cappella di Sant\'Antonio).'
+			},
+		]
+	},
+	{
+		'date': '29 Novembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Prima Domenica di Avvento</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa (in questa Messa verranno benedette le corone dell\'Avvento).'
+			}
+		]
+	},
+	{
+		'date': '5 Dicembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'Messa prefestiva.'
+			}
+		]
+	},
+	{
+		'date': '6 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Seconda Domenica di Avvento</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '8 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Immacolata Concezione della Beata Vergine Maria</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '12 Dicembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'Messa prefestiva.'
+			},
+		]
+	},
+	{
+		'date': '13 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Terza Domenica di Avvento</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+	{
+		'date': '19 Dicembre 2020',
+		'content':
+		[
+			{
+				'time': '17:00',
+				'description': 'Messa prefestiva.'
+			}
+		]
+	},
+	{
+		'date': '20 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Quarta Domenica di Avvento</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
+
+	{
+		'date': '24 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Vigilia del Natale</b>'
+			},
+			{
+				'time': '22:00',
+				'description': 'S. Messa ("Messa dei Pastori").'
+			}
+		]
+	},
+	{
+		'date': '25 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>Natale del Signore</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa di Natale.'
+			}
+		]
+	},
+	{
+		'date': '26 Dicembre 2020',
+		'content': 
+		[
+			{
+				'description': '<b>S. Stefano</b>'
+			},
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			},
+			/*{
+				'description': 'FORSE CONFESSIONI, ROSARIO E MESSA PREFESTIVA'
+			}*/
+		]
+	},
+	{
+		'date': '27 Dicembre 2020',
+		'content': 
+		[
+			{
+				'time': '11:30',
+				'description': 'S. Messa.'
+			}
+		]
+	},
 	// add always colons!!!
 ];
 
