@@ -1243,7 +1243,17 @@ var events =
 				'description': 'S. Messa (in questa Messa verranno benedette le corone dell\'Avvento).'
 			}
 		]
-	},
+  },
+  {
+		'date': '2 Dicembre 2020',
+		'content': 
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-12-02/">testo qui</a>). Entrata da Alser Straße 17.'
+			},
+		]
+  },
 	{
 		'date': '5 Dicembre 2020',
 		'content':
