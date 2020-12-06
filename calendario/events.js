@@ -1308,6 +1308,9 @@ var events =
 		'content': 
 		[
 			{
+				'description': '<b>Celebrazione della Santa Famiglia di Gesù, Maria e Giuseppe</b>'
+			},
+			{
 				'time': '11:30',
 				'description': 'S. Messa.'
 			}
