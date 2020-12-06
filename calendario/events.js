@@ -1316,6 +1316,16 @@ var events =
 			}
 		]
 	},
+	/*{
+		'date': '31 Dicembre 2020',
+		'content': 
+		[
+			{
+				'time': '19:00',
+				'description': 'S. Messa con Te Deum.'
+			}
+		]
+	},*/
 	// add always colons!!!
 ];
 
