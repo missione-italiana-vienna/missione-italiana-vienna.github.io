@@ -1238,6 +1238,16 @@ var events =
 		]
 	},
 	{
+		'date': '16 Dicembre 2020',
+		'content': 
+		[
+			{
+				'time': '19:00',
+				'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2020-12-16/">testo qui</a>). Questo incontro si tiene online.'
+			},
+		]
+	},	
+	{
 		'date': '19 Dicembre 2020',
 		'content':
 		[
