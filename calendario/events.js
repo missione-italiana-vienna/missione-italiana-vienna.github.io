@@ -1280,7 +1280,7 @@ var events =
 			},
 			{
 				'time': '22:00',
-				'description': 'S. Messa ("Messa dei Pastori") - ORARIO ANCORA DA CONFERMARE.'
+				'description': 'S. Messa ("Messa dei Pastori").'
 			}
 		]
 	},
