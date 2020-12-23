@@ -1306,11 +1306,8 @@ var events =
       },
       {
         'time': '11:30',
-        'description': 'S. Messa (NOTA: CELEBRAZIONE ANCORA DA CONFERMARE).'
-      },
-      /*{
-        'description': 'FORSE CONFESSIONI, ROSARIO E MESSA PREFESTIVA'
-      }*/
+        'description': 'S. Messa.'
+      }
     ]
   },
   {
@@ -1322,7 +1319,7 @@ var events =
       },
       {
         'time': '11:30',
-        'description': 'S. Messa (NOTA: CELEBRAZIONE ANCORA DA CONFERMARE).'
+        'description': 'S. Messa.'
       }
     ]
   },
