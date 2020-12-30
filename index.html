@@ -345,6 +345,35 @@
             <img src = "https://mcivienna.org/images/blog/2020/11/19/covid-19/cappella_del_convento.jpg" 
             alt = "Foto della cappella del convento di Alser Strasse">
             <div class = "news_date d-flex flex-column align-items-center justify-content-center">
+              <div class = "news_day">30</div>
+              <div class = "news_month">Dicembre</div>
+              <div class = "news_year">2020</div>
+            </div>
+          </div>
+          <div class = "news_content">
+            <div class = "news_title">Messaggio di padre Thomas per il terzo lockdown in Austria</div>
+            <div class = "news_text">
+              <p>
+                A <a class = "normal_link" target = _blank href = "https://mcivienna.org/blog/2020/12/30/messaggio_di_fine_anno/">questo link</a> 
+                trovate un messaggio di padre Thomas riguardo al terzo lockdown austriaco. 
+                Data l'impossibilità di avere celebrazioni con la presenza dell'assemblea,
+                durante le prossime settimane trasmetteremo ogni giorno festivo la Santa Messa in 
+                <a class = "normal_link" target = _blank href = "https://mcivienna.org/streaming/">streaming</a>.
+                <br>
+                Inoltre il 31 Dicembre alle ore 17:00 avremo un momento di preghiera
+                (trasmesso in streaming) per la fine dell'anno.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- News Item -->
+      <div class = "col-lg-4 news_col">
+        <div class = "news_item" style = "padding-bottom: 30px;">
+          <div class = "news_image">
+            <img src = "https://mcivienna.org/images/blog/2020/11/19/covid-19/cappella_del_convento.jpg" 
+            alt = "Foto della cappella del convento di Alser Strasse">
+            <div class = "news_date d-flex flex-column align-items-center justify-content-center">
               <div class = "news_day">19</div>
               <div class = "news_month">Novembre</div>
               <div class = "news_year">2020</div>
@@ -751,11 +780,11 @@
       </div>
       <div>
         <button type = "button" class = "big_button" id = "popup_notification_button" 
-          onclick = "location.href = 'https://mcivienna.org/blog/2020/11/19/covid-19/';">
-          Messaggio di p. Thomas per l'emergenza covid-19.</a>
-        <button type = "button" class = "big_button" id = "popup_notification_button" 
+          onclick = "location.href = 'https://mcivienna.org/blog/2020/12/30/messaggio_di_fine_anno/';">
+          Messaggio di fine anno di p. Thomas e informazioni sul terzo lockdown.</a>
+        <!--<button type = "button" class = "big_button" id = "popup_notification_button" 
           onclick = "location.href = 'https://mcivienna.org/attivita/#catechismo';">
-          Sono aperte le iscrizioni per il catechismo!</button>				
+          Sono aperte le iscrizioni per il catechismo!</button>-->
         <button type = "button" class = "big_button" id = "popup_notification_button" 
         onclick = "hide_popup();">Continua con la navigazione nel sito</button>
       </div>
@@ -771,16 +800,16 @@
       if (viewport_width > 650) {
         viewport_width = 650; // we're only setting a "virtual" viewport. This is due to the fact that after 650 px the width of the popup does not increase (see the css file)
       }
-        var font_size = viewport_width * viewport_height * 0.000064;
-        if (font_size > 14) {
-          font_size = 14;
-        }
+      var font_size = viewport_width * viewport_height * 0.000064;
+      if (font_size > 14) {
+        font_size = 14;
+      }
 
-        var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
-            for(var i = 0; i < popup_notification_p_list.length; i++) {
-                popup_notification_p_list[i].style.fontSize = font_size + "px";
-                popup_notification_p_list[i].style.marginBottom = font_size * 5/14 + "px";
-            }
+      var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
+      for(var i = 0; i < popup_notification_p_list.length; i++) {
+        popup_notification_p_list[i].style.fontSize = font_size + "px";
+        popup_notification_p_list[i].style.marginBottom = font_size * 5/14 + "px";
+      }
       
       var popup_notification_button = document.getElementById("popup_notification_button");
       popup_notification_button.style.fontSize = font_size + "px";
