@@ -159,6 +159,30 @@ var events =
       }
     ]
   },
+  {
+    'date': '27 Marzo 2021',
+    'content':
+    [
+      {
+        'time': '17:00 (*)',
+        'description': 'Messa prefestiva.'
+      }
+    ]
+  },
+  {
+    'date': '28 Marzo 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Domenica delle palme</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'Benedizione delle palme e S. Messa (posticipata rispetto all\'orario usuale).'
+        // La Messa è preceduta da una processione fuori dalla chiesa (partendo dal cortile a cui si accede all\'inizio di Schlösselgasse).'
+      }
+    ]
+  },
   // add always colons!!!
 ];
 
