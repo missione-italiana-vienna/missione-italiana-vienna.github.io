@@ -35,6 +35,16 @@ var events =
     ]
   },
   {
+    'date': '17 Febbraio 2021',
+    'content': 
+    [
+      {
+        'time': '19:30',
+        'description': 'S. Messa con celebrazioni del rito delle ceneri'
+      }
+    ]
+  },
+  {
     'date': '20 Febbraio 2021',
     'content':
     [
@@ -46,8 +56,11 @@ var events =
   },
   {
     'date': '21 Febbraio 2021',
-    'content': 
+    'content':
     [
+      {
+        'description': '<b>Prima Domenica di Quaresima</b>'
+      },
       {
         'time': '11:30',
         'description': 'S. Messa.'
@@ -68,6 +81,9 @@ var events =
     'date': '28 Febbraio 2021',
     'content': 
     [
+      {
+        'description': '<b>Seconda Domenica di Quaresima</b>'
+      },
       {
         'time': '11:30',
         'description': 'S. Messa.'
