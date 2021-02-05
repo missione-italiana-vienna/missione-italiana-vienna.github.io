@@ -373,97 +373,12 @@
         <div class = "col">
           <div class = "section_title_container">
             <div class = "section_title"><h2>Ultime notizie</h2></div>
-            <!-- <div class="section_subtitle">God loves us all</div>-->
+            <!-- <div class = "section_subtitle">God loves us all</div>-->
           </div>
         </div>
       </div>
-      <div class = "row news_row">
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_14">
-            <!-- News 14-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_13">
-            <!-- News 13-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_12">
-            <!-- News 12-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_11">
-            <!-- News 11-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_10">
-            <!-- News 10-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_9">
-            <!-- News 9-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_8">
-            <!-- News 8-->
-          </div>
-        </div>
-  
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_7">
-            <!-- News 7-->
-          </div>
-        </div>
-        
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_6">
-            <!-- News 6-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_5">
-            <!-- News 5-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_4">
-            <!-- News 4-->
-          </div>
-        </div>
-
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_3">
-            <!-- News 3-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_2">
-            <!-- News 2-->
-          </div>
-        </div>
-
-        <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_1">
-            <!-- News 1-->
-          </div>
-        </div>
-
+      <div class = "row news_row" id = "container_all_news">
+        <!-- here all the news will be inserted by the JS script below. Do not remove this block! -->
       </div>
     </div>
   </div>
@@ -498,66 +413,6 @@
     </div>
   </div>
 
-  <script>
-  function data_liturgia_del_giorno(mystring) {
-    var date = new Date();  // today
-    
-    if (mystring == "yesterday") {
-      date.setDate(date.getDate() - 1);
-    }
-    else if (mystring == "tomorrow") {
-      date.setDate(date.getDate() + 1);
-    }
-
-    var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
-    var day_name = list_days[date.getDay()];
-
-    var dd = date.getDate();
-    var mm = date.getMonth() + 1; // January is 0!
-    var yyyy = date.getFullYear();
-
-    if (dd < 10) {
-      dd = "0" + dd
-    }
-
-    if(mm < 10) {
-        mm = "0" + mm
-    } 
-
-    var selected_link = document.getElementById(mystring);
-      selected_link.innerHTML += " (" + day_name + ", " + dd + "." + mm + "." + yyyy + ")";
-      selected_link.href += "?data-liturgia=" + yyyy + mm + dd;
-  }
-
-  // function for adding zeros (padding) on the left of any string
-  // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
-  function pad (str, max) {
-    str = str.toString();
-    if (str.length < max) {
-      return pad("0" + str, max);
-    }
-    else {
-      return str;
-    }
-  }
-
-  window.onload = function() {
-    data_liturgia_del_giorno("yesterday");
-    data_liturgia_del_giorno("today");
-    data_liturgia_del_giorno("tomorrow");
-    
-    var id_first_news = 1;
-    var id_last_news = 14;
-
-    var count = 1;
-    for (var i = id_first_news; i <= id_last_news; i++) {
-      var name_of_file = pad(i, 3);
-      $("#container_of_news_" + count).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
-      count++;
-    }
-  }
-
-  </script>
 
     <!-- Footer -->
 
@@ -582,13 +437,6 @@
 
   </div><!-- end of the div with class "super_container" -->
 
-  <script src = "js/jquery-3.2.1.min.js"></script>
-  <script src = "styles/bootstrap4/popper.js"></script>
-  <script src = "styles/bootstrap4/bootstrap.min.js"></script>
-  <script src = "plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-  <script src = "plugins/easing/easing.js"></script>
-  <script src = "plugins/parallax-js-master/parallax.min.js"></script>
-  <script src = "js/custom.js"></script>
 
 
   <div id = "popup_notification" class = "popup_notification">
@@ -605,15 +453,21 @@
         <button type = "button" class = "big_button" id = "popup_notification_button" 
           onclick = "location.href = 'https://mcivienna.org/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/';">
           Ripresa delle celebrazioni con l'assemblea</a>
-        <!--<button type = "button" class = "big_button" id = "popup_notification_button" 
-          onclick = "location.href = 'https://mcivienna.org/attivita/#catechismo';">
-          Sono aperte le iscrizioni per il catechismo!</button>-->
         <button type = "button" class = "big_button" id = "popup_notification_button" 
         onclick = "hide_popup();">Continua con la navigazione nel sito</button>
       </div>
     </div>
   </div>
   <div id = "popup_interferring_object" class = "popup_interferring_object"></div>
+
+  
+  <script src = "js/jquery-3.2.1.min.js"></script>
+  <script src = "styles/bootstrap4/popper.js"></script>
+  <script src = "styles/bootstrap4/bootstrap.min.js"></script>
+  <script src = "plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+  <script src = "plugins/easing/easing.js"></script>
+  <script src = "plugins/parallax-js-master/parallax.min.js"></script>
+  <script src = "js/custom.js"></script>
 
   <script>
     function set_popup_fontsize() {
@@ -646,13 +500,79 @@
       popup_notification_button.style.height = height_button + "px"; 
     }; 
 
-    $(window).resize(set_popup_fontsize);
-    $(document).ready(set_popup_fontsize);
+  $(window).resize(set_popup_fontsize);
+  $(document).ready(set_popup_fontsize);
 
-    function hide_popup() {
-      document.getElementById("popup_notification").style.display = "none";
-      document.getElementById("popup_interferring_object").style.display = "none";
+  function hide_popup() {
+    document.getElementById("popup_notification").style.display = "none";
+    document.getElementById("popup_interferring_object").style.display = "none";
+  }
+</script>
+
+
+<script>
+  function data_liturgia_del_giorno(mystring) {
+    var date = new Date();  // today
+    
+    if (mystring == "yesterday") {
+      date.setDate(date.getDate() - 1);
     }
+    else if (mystring == "tomorrow") {
+      date.setDate(date.getDate() + 1);
+    }
+
+    var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
+    var day_name = list_days[date.getDay()];
+
+    var dd = date.getDate();
+    var mm = date.getMonth() + 1; // January is 0!
+    var yyyy = date.getFullYear();
+
+    if (dd < 10) {
+      dd = "0" + dd
+    }
+
+    if(mm < 10) {
+        mm = "0" + mm
+    } 
+
+    var selected_link = document.getElementById(mystring);
+    selected_link.innerHTML += " (" + day_name + ", " + dd + "." + mm + "." + yyyy + ")";
+    selected_link.href += "?data-liturgia=" + yyyy + mm + dd;
+  }
+
+  // function for adding zeros (padding) on the left of any string
+  // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
+  function pad (str, max) {
+    str = str.toString();
+    if (str.length < max) {
+      return pad("0" + str, max);
+    }
+    else {
+      return str;
+    }
+  }
+
+  window.onload = function() {
+    data_liturgia_del_giorno("yesterday");
+    data_liturgia_del_giorno("today");
+    data_liturgia_del_giorno("tomorrow");
+    
+    var id_first_news = 1;
+    var id_last_news = 14;
+
+    var count = 1;
+    for (var i = id_first_news; i <= id_last_news; i++) {
+
+      $("#.container_all_news")
+        .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
+
+      var name_of_file = pad(i, 3);
+      $("#container_of_news_" + count).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
+      count++;
+    }
+  }
+
   </script>
 </body>
 </html>
