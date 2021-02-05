@@ -14,6 +14,12 @@
 
   <meta name = "msvalidate.01" content = "A5C8D92DA3BCBDE663A35634AB9DF1CE" />
 
+  <!-- NOTE: in this file links to resources MUST be absolute. Otherwise they are blocked sometimes.
+  The reason for this is that the 404 is handled by Github Pages using a redirect, and relative links
+  are blocked due to CORS. NOTE: such redirects are handled fine in the case of links of the form
+  https://mcivienna.org/non-existing-file.html, but not in the case of links of the form
+  https://mcivienna.org/non-existing-directory/ Using absolute links solves the problem for 
+  non-existing directories -->
   <link rel = "stylesheet" type = "text/css" href = "https://mcivienna.org/styles/bootstrap4/bootstrap.min.css">
   <link rel = "stylesheet" type = "text/css" href = "https://mcivienna.org/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel = "stylesheet" type = "text/css" href = "https://mcivienna.org/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
