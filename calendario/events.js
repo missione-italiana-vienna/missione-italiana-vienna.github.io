@@ -40,7 +40,7 @@ var events =
     [
       {
         'time': '19:30',
-        'description': 'S. Messa con celebrazioni del rito delle ceneri'
+        'description': 'S. Messa con <b>celebrazione del rito delle ceneri</b>'
       }
     ]
   },
@@ -83,6 +83,75 @@ var events =
     [
       {
         'description': '<b>Seconda Domenica di Quaresima</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
+  {
+    'date': '6 Marzo 2021',
+    'content':
+    [
+      {
+        'time': '17:00 (*)',
+        'description': 'Messa prefestiva.'
+      }
+    ]
+  },
+  {
+    'date': '7 Marzo 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Terza Domenica di Quaresima</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
+  {
+    'date': '13 Marzo 2021',
+    'content':
+    [
+      {
+        'time': '17:00 (*)',
+        'description': 'Messa prefestiva.'
+      }
+    ]
+  },
+  {
+    'date': '14 Marzo 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Quarta Domenica di Quaresima</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
+  {
+    'date': '20 Marzo 2021',
+    'content':
+    [
+      {
+        'time': '17:00 (*)',
+        'description': 'Messa prefestiva.'
+      }
+    ]
+  },
+  {
+    'date': '21 Marzo 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Quinta Domenica di Quaresima</b>'
       },
       {
         'time': '11:30',
