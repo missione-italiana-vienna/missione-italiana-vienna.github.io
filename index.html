@@ -652,30 +652,18 @@
           </div>
         </div>
 
-        <!-- News Item -->
+
         <div class = "col-lg-4 news_col">
-          <div class = "news_item" style = "padding-bottom: 30px;">
-            <div class = "news_image">
-              <img src = "https://mcivienna.org/images/home/visita_27_01_2019.jpg" alt = "Photo by Dori Drabek on Unsplash, https://unsplash.com/photos/RCWLk3heZa0, lower part cut">
-              <div class = "news_date d-flex flex-column align-items-center justify-content-center">
-                <div class = "news_day">27</div>
-                <div class = "news_month">Gennaio</div>
-                <div class = "news_year">2019</div>
-              </div>
-            </div>
-            <div class = "news_content">
-              <div class = "news_title">Visita del Vescovo Ausiliare</div>
-              <div class = "news_text">
-                <p>
-                  Oggi si è tenuta la visita pastorale di <a class = "normal_link" target = _blank href = "https://www.erzdioezese-wien.at/site/menschenorganisation/menschen/bischofsvikare">Franz Scharl</a> (Vescovo Ausiliare dell'<a target = _blank class = "normal_link" href = "https://www.erzdioezese-wien.at/site/it">arcidiocesi di Vienna</a>), che ha presieduto la Messa domenicale in italiano.
-                </p>
-              </div>
-              <!-- <div class = "news_link"><a href = "https://mcivienna.org/blog/2019/01/27/visita_vescovo_ausiliare/">Continua qui</a>.</div> -->
-            </div>
+          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_all_news_2">
+            <!-- News 2-->
           </div>
         </div>
 
-        <div id = "container_of_all_news"></div>
+        <div class = "col-lg-4 news_col">
+          <div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_all_news_1">
+            <!-- News 1-->
+          </div>
+        </div>
 
       </div>
     </div>
@@ -742,12 +730,32 @@
       selected_link.href += "?data-liturgia=" + yyyy + mm + dd;
   }
 
+  // function for adding zeros (padding) on the left of any string
+  // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
+  function pad (str, max) {
+    str = str.toString();
+    if (str.length < max) {
+      return pad("0" + str, max);
+    }
+    else {
+      return str;
+    }
+  }
+
   window.onload = function() {
     data_liturgia_del_giorno("yesterday");
     data_liturgia_del_giorno("today");
     data_liturgia_del_giorno("tomorrow");
+    
+    var id_first_news = 1;
+    var id_last_news = 2;
 
-    $("#container_of_all_news").html("Loading...").load("https://mcivienna.org/home/001.html");
+    var count = 1;
+    for (var i = id_first_news; i <= id_last_news; i++) {
+      var name_of_file = pad(i, 3);
+      $("#container_of_news_" + count).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
+      count++;
+    }
   }
 
   </script>
