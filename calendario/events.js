@@ -1,17 +1,21 @@
 var events = 
 [
-  /*{
-    'date': '20 Gennaio 2021',
-    'content':
+  {
+    'date': '7 Febbraio 2021',
+    'content': 
     [
       {
-        'time': '19:00',
-        'description': '<a class = "normal_link" href = "https://mcivienna.org/attivita/#lectio_divina">Lectio Divina</a> per giovani e giovani adulti (<a class = "normal_link" href = "https://mcivienna.org/attivita/lectio_divina/2021-01-20/">testo qui</a>). Questo evento si terrà online o di persona a seconda della situazione.'
+        'time': '11:30',
+        'description': 'S. Messa.'
+      },
+      {
+        'time': '16:00',
+        'description': 'S. Messa (solo questa Domenica abbiamo questa S. Messa la domenica pomeriggio; dal prossimo weekend si riprende con gli orari normali).'
       }
     ]
   },
   {
-    'date': '23 Gennaio 2021',
+    'date': '13 Febbraio 2021',
     'content':
     [
       {
@@ -21,7 +25,7 @@ var events =
     ]
   },
   {
-    'date': '25 Gennaio 2021',
+    'date': '14 Febbraio 2021',
     'content': 
     [
       {
@@ -29,7 +33,47 @@ var events =
         'description': 'S. Messa.'
       }
     ]
-  },*/
+  },
+  {
+    'date': '20 Febbraio 2021',
+    'content':
+    [
+      {
+        'time': '17:00 (*)',
+        'description': 'Messa prefestiva.'
+      }
+    ]
+  },
+  {
+    'date': '21 Febbraio 2021',
+    'content': 
+    [
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
+  {
+    'date': '27 Febbraio 2021',
+    'content':
+    [
+      {
+        'time': '17:00 (*)',
+        'description': 'Messa prefestiva.'
+      }
+    ]
+  },
+  {
+    'date': '28 Febbraio 2021',
+    'content': 
+    [
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
   // add always colons!!!
 ];
 
