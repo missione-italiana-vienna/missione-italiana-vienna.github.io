@@ -567,7 +567,7 @@
         .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
 
       var name_of_file = pad(i, 3);
-      $("#container_of_news_" + count).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
+      $("#container_of_news_" + i).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
     }
   }
 
