@@ -178,7 +178,7 @@ var events =
       },
       {
         'time': '11:30',
-        'description': 'Benedizione delle palme e S. Messa (posticipata rispetto all\'orario usuale).'
+        'description': 'Benedizione delle palme e S. Messa.'
         // La Messa è preceduta da una processione fuori dalla chiesa (partendo dal cortile a cui si accede all\'inizio di Schlösselgasse).'
       }
     ]
