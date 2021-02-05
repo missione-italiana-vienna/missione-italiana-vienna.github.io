@@ -561,17 +561,14 @@
     var id_first_news = 1;
     var id_last_news = 14;
 
-    var count = 1;
+    // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
     for (var i = id_last_news; i >= id_first_news; i--) {
-
       $("#container_all_news")
         .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
 
       var name_of_file = pad(i, 3);
       $("#container_of_news_" + count).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
-      count++;
     }
-    // NOTE: count is increasing, but i (hence "name_of_file") is decreasing since the most recent news must be shown first 
   }
 
   </script>
