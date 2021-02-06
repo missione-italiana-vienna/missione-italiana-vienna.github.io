@@ -39,7 +39,7 @@ var events =
     'content': 
     [
       {
-        'time': '19:30',
+        'time': '19:15',
         'description': 'S. Messa con <b>celebrazione del rito delle ceneri</b>'
       }
     ]
