@@ -693,7 +693,7 @@ app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", functi
 }]);
 
 app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
-  $scope.is_homepage = true; 
+  $scope.is_secondary_page = true; 
   // this helps displaying the homepage structure 
   // (instead of the structure for secondary pages)
 
@@ -750,7 +750,7 @@ app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sha
 app.controller("myCtrlNotHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
   // generic (almost) trivial controller
 
-  $scope.is_homepage = false;
+  $scope.is_secondary_page = false;
 
   /* $scope.scrollTo = function(id_object) {
     sharedProperties.scrollTo(id_object, 0);
@@ -911,18 +911,21 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       data_liturgia_del_giorno("tomorrow");
     },
 
-    create_single_popup_link: function(text, link) {
-      var button = document.createElement('button');
-      button.className = "popup_notification_button";
-      button.innerHTML = text;
-      button.onclick = function(){
-        location.href = link;
-        return false;
-      };
-      $("#container_custom_popups").append(button);
-    },
+    
   
     create_popup_links: function(popups) {
+
+      function create_single_popup_link(text, link) {
+        var button = document.createElement('button');
+        button.className = "popup_notification_button";
+        button.innerHTML = text;
+        button.onclick = function(){
+          location.href = link;
+          return false;
+        };
+        $("#container_custom_popups").append(button);
+      };
+
       for (var i = 0; i < popups.length; i++) {
         create_single_popup_link(popups[i].text, popups[i].link);
       }
