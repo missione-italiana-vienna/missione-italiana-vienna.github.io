@@ -720,3 +720,77 @@ app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sha
   // We wait a second (just to be sure that everything is correctly loaded) before rendering MathJax content.
   load_MathJax_with_a_delay(1000); */
 }]);
+
+
+app.service("sharedProperties", ["$rootScope", "$sce", "$q", "$httpParamSerializerJQLike", 
+function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
+
+  return {
+    errorMessageForOldBrowsers: function() {
+      // code adapted from 
+      // https://stackoverflow.com/questions/5916900/how-can-you-detect-the-version-of-a-browser/38080051#38080051
+      navigator.browserSpecs = (function() {
+        var ua = navigator.userAgent, tem, 
+          M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+        if (/trident/i.test(M[1])) {
+          tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+          return {
+            name: "IE",
+            version: (tem[1] || "")
+          };
+        }
+        if(M[1] === "Chrome"){
+          tem = ua.match(/\b(OPR|Edge)\/(\d+)/);
+          if( tem != null) return { 
+            name: tem[1].replace("OPR", "Opera"),
+            version: tem[2]
+          };
+        }
+        M = M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, "-?"];
+        if((tem = ua.match(/version\/(\d+)/i))!= null)
+          M.splice(1, 1, tem[1]);
+        return {
+          name: M[0],
+          version: M[1]
+        };
+      })();
+      // console.log(navigator.browserSpecs); // Object { name: "Firefox", version: "42" }
+
+      var browser_name = navigator.browserSpecs.name;
+      if (browser_name === "IE") {
+        browser_name = "Internet Explorer. In your Windows computer " + 
+        "you could use instead the new Microsoft browser called \"Edge\". While some pages of " +
+        "this website can still be loaded with Internet Explorer, we strongly advise against using " +
+        "Internet Explorer any further. Some details about why Internet Explorer is still available on " +
+        "Windows computers, as well as some ideas worth mentioning about our decision to not support this browser " +
+        "any further, can be found at <a target = _blank rel = \"noopener\" " + 
+        "href = \"https://medium.com/@burger.neal/the-end-of-life-of-internet-explorer-11-12736f9ff75f\">this link</a>";
+      }
+
+      return "It seems that your browser is too old (or not recently updated); " + 
+        "hence it cannot display or submit some infos. Please consider to update your browser, " + 
+        " or to use a different browser in order to see all the relevant information " +
+        "on this page. <br><br> It seems that you are currently using version " + 
+        navigator.browserSpecs.version + " of the browser " +
+        browser_name + ".";
+    },
+    scrollToStart: function() {
+      //scrollIt(0, 300, "easeInOutQuint");
+
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "auto"  // scrolls instantly instead of using a smooth scroll
+      });
+
+      /* window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "auto"  // scrolls instantly instead of using a smooth scroll
+      }); */
+    }
+
+
+  }
+
+}]);
