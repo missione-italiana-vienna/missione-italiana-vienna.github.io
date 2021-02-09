@@ -693,7 +693,7 @@ app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", functi
 }]);
 
 app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
-  $scope.is_secondary_page = true; 
+  $scope.is_secondary_page = false; 
   // this helps displaying the homepage structure 
   // (instead of the structure for secondary pages)
 
@@ -750,7 +750,7 @@ app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sha
 app.controller("myCtrlNotHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
   // generic (almost) trivial controller
 
-  $scope.is_secondary_page = false;
+  $scope.is_secondary_page = true;
 
   /* $scope.scrollTo = function(id_object) {
     sharedProperties.scrollTo(id_object, 0);
