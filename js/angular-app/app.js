@@ -946,3 +946,11 @@ function hide_popup() {
   document.getElementById("popup_notification").style.display = "none";
   document.getElementById("popup_interfering_object").style.display = "none";
 }
+
+$("#nav_small_screens_home").on('click', function(event) {
+  event.preventDefault();
+  var menu = $('.menu');
+  menu.removeClass('active');
+  menuActive = false;
+  window.location = "https://mcivienna.org/#!/";
+});
