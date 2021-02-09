@@ -368,6 +368,67 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     return name_month == this;
   };
 
+  function generate_html_with_all_events_after_load(input_string, events) {
+
+    var appointments = "";
+    var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
+    for (i = 0; i < events.length; ++i) {
+
+      // converts the date from the format "10 Gennaio 2019" 
+      // to the format year=2019, month=0 (months start with 0 in JS), day=10
+      current_string_date = events[i].date.trim(); 
+      // trims white spaces at the beginning and at the end of the string
+      current_string_date = current_string_date.replace(/\s\s+/g, ' '); 
+      // replaces (multiple) spaces, tabs etc with single spaces
+      splitted_date = current_string_date.split(" "); 
+      // splits using single spaces as delimiters
+      day = splitted_date[0];
+      month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
+      year = splitted_date[2];
+          
+      // Note: the next value will be a number between 0 and 11, 
+      // thus compatible with the way JS handles months (0 = January for Javascript)
+
+      month_number = list_months.findIndex(FindMonthByName, month);
+
+      if (month_number == -1) {
+        console.log('Error! Month not found in the list: ' + month);
+        console.log(events[i]);
+      }
+
+      // starting with the infos about year, month number and date, we create a new date object
+      date_considered = new Date(year, month_number, day);
+
+      // we extract the day of the week from the date object
+      weekday = list_weekdays[date_considered.getDay()];
+
+      // we set a comparison date
+      comparison_date = new Date();  // currently it's equal to today, it will be modified below
+
+      if (input_string == "future") {
+        comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
+
+        // we consider only those events that are future events, current events, or events not older that yesterday
+        if (date_considered >= comparison_date) {			  
+          appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
+        }
+      }
+      else { // i.e. if input_string == "past"
+        // the comparison date is not modified in this case
+
+        // we consider only those events that are past events
+        if (date_considered < comparison_date) {
+          // we add events in a reverse order
+          appointments = generate_html_for_a_given_date(events[i].content, day, month, weekday) + appointments;
+        }
+      }
+    }
+    // attach the content of appointments to the appointments_container already defined in the base HTML code
+    var appointments_container = document.getElementById("appointments_container");
+    appointments_container.innerHTML = appointments;
+  };
+  
+
   return {
     setTypeOfController(input_type_of_controller) {
       type_of_controller = input_type_of_controller;
@@ -537,65 +598,13 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         console.log('Wrong input parameter: must be either "future" or "past"');
       }
       else {
-        var appointments = "";
-        var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
 
 
         $http.get("https://mcivienna.org/calendario/eventi.js")
         .then(function(res){
-          events = res.data;  // TO DO: handle the case when this is not parsable/cannot be loaded.               
+          events = res.data;  // TO DO: handle the case when this is not parsable/cannot be loaded.
+          generate_html_with_all_events_after_load(input_string, events);
         });
-
-
-        for (i = 0; i < events.length; ++i) {
-
-          // converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10
-          current_string_date = events[i].date.trim(); // trims white spaces at the beginning and at the end of the string
-          current_string_date = current_string_date.replace(/\s\s+/g, ' '); // replaces (multiple) spaces, tabs etc with single spaces
-          splitted_date = current_string_date.split(" "); // splits using single spaces as delimiters
-          day = splitted_date[0];
-          month = splitted_date[1]; // this is a string of the form "Gennaio", etc (see below)
-          year = splitted_date[2];
-              
-          // Note: the next value will be a number between 0 and 11, thus compatible with the way JS handles months (0 = January for Javascript)
-
-          month_number = list_months.findIndex(FindMonthByName, month);
-
-          if (month_number == -1) {
-            console.log('Error! Month not found in the list: ' + month);
-            console.log(events[i]);
-          }
-
-          // starting with the infos about year, month number and date, we create a new date object
-          date_considered = new Date(year, month_number, day);
-
-          // we extract the day of the week from the date object
-          weekday = list_weekdays[date_considered.getDay()];
-
-          // we set a comparison date
-          comparison_date = new Date();  // currently it's equal to today, it will be modified below
-
-          if (input_string == "future") {
-            comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
-
-            // we consider only those events that are future events, current events, or events not older that yesterday
-            if (date_considered >= comparison_date) {			  
-              appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
-            }
-          }
-          else { // i.e. if input_string == "past"
-            // the comparison date is not modified in this case
-
-            // we consider only those events that are past events
-            if (date_considered < comparison_date) {
-              // we add events in a reverse order
-              appointments = generate_html_for_a_given_date(events[i].content, day, month, weekday) + appointments;
-            }
-          }
-        }
-        // attach the content of appointments to the appointments_container already defined in the base HTML code
-        var appointments_container = document.getElementById("appointments_container");
-        appointments_container.innerHTML = appointments;
       }
     }
 
