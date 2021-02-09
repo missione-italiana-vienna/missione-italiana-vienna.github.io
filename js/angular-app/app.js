@@ -246,7 +246,7 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
   return {
     setDocumentTitle(my_title) {
       document_title = my_title
-    };
+    },
 
     getTypeOfController() {
       if (my_title === "Benvenuti!") {
