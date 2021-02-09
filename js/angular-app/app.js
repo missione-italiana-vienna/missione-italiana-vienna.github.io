@@ -180,7 +180,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       }
       else {
         document.title = basic_title + " - " + $route.current.title;
-        sharedProperties.setDocumentTitle($route.current.title;);
+        sharedProperties.setDocumentTitle($route.current.title);
       }
     });
 
