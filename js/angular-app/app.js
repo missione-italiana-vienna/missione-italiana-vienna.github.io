@@ -197,6 +197,12 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         document.title = basic_title + " - " + $route.current.title;
         sharedProperties.setTypeOfController($route.current.type_of_controller);
       }
+
+      if (sharedProperties.getTypeOfController() !== "home") {
+        sharedProperties.hide_popup();
+        // popups must be shown only in the homepage
+      }
+
     });
 
   }]);
@@ -423,6 +429,8 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       for (var i = 0; i < popups.length; i++) {
         create_single_popup_link(popups[i].text, popups[i].link);
       }
+
+      // popups must be displayed ONLY in the homepage
       if (popups.length > 0 && type_of_controller === "home") {
         // enable the interferring object and show the popups
         document.getElementById("popup_notification").style.display = "block";
