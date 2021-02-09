@@ -715,7 +715,7 @@ app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sha
     }
   }
 
-  $sharedProperties.set_links_per_liturgia_del_giorno();
+  sharedProperties.set_links_per_liturgia_del_giorno();
     
   var id_first_news = 1;
   var id_last_news = 14;
@@ -737,7 +737,7 @@ app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sha
   ];
 
 
-  $sharedProperties.create_popup_links(popups);
+  sharedProperties.create_popup_links(popups);
 
   
 }]);
