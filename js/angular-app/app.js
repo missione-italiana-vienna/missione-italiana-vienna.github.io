@@ -560,9 +560,9 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
       // popups must be displayed ONLY in the homepage
       if (popups.length > 0 && type_of_controller === "home") {
-        // enable the interferring object and show the popups
+        // enable the interfering object and show the popups
         document.getElementById("popup_notification").style.display = "block";
-        document.getElementById("popup_interferring_object").style.display = "block"
+        document.getElementById("popup_interfering_object").style.display = "block"
   
         $(window).resize(set_popup_fontsize);
         $(document).ready(set_popup_fontsize);
@@ -632,5 +632,5 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 // this function is outside the Angular app since it is used also outside that app
 function hide_popup() {
   document.getElementById("popup_notification").style.display = "none";
-  document.getElementById("popup_interferring_object").style.display = "none";
+  document.getElementById("popup_interfering_object").style.display = "none";
 };
