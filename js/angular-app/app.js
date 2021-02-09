@@ -427,7 +427,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     var appointments_container = document.getElementById("appointments_container");
     appointments_container.innerHTML = appointments;
   };
-  
+
 
   return {
     setTypeOfController(input_type_of_controller) {
@@ -598,11 +598,9 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         console.log('Wrong input parameter: must be either "future" or "past"');
       }
       else {
-
-
         $http.get("https://mcivienna.org/calendario/eventi.js")
         .then(function(res){
-          events = res.data;  // TO DO: handle the case when this is not parsable/cannot be loaded.
+          events = JSON.parse(res.data);  // TO DO: handle the case when this is not parsable/cannot be loaded.
           generate_html_with_all_events_after_load(input_string, events);
         });
       }
