@@ -18,7 +18,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
@@ -48,7 +48,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
@@ -71,7 +71,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
@@ -94,7 +94,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
@@ -117,7 +117,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
@@ -140,7 +140,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
@@ -163,7 +163,7 @@
     "content":
     [
       {
-        "time": "17:00 (*)",
+        "time": "17:00",
         "description": "Messa prefestiva."
       }
     ]
