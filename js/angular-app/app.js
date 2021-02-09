@@ -80,46 +80,46 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/contatti/", {
       templateUrl: "contatti/content.html",
       title: "Contatti",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/liturgia/", {
       templateUrl: "liturgia/content.html",
       title: "Liturgia",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/attivita/", {
       templateUrl: "attivita/content.html",
       title: "Attività",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/", {
       templateUrl: "streaming/content.html",
       title: "Streaming",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/video_precedenti/", {
       templateUrl: "streaming/video_precedenti/content.html",
       title: "Streaming",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })    
     .when("/impressum/", {
       templateUrl: "impressum/content.html",
       title: "Impressum",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
       
     .when("/grusswort_des_seelsorgers/", {
       templateUrl: "grusswort_des_seelsorgers/content.html",
       title: "Grußwort des Seelsorgers",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
 
     .when("/calendario/", {
       templateUrl: "calendario/content.html",
       title: "Calendario",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
         
     // Lectio Divina
@@ -128,7 +128,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "attivita/lectio_divina/" + params.date + "/content.html";
       },
       title: "Lectio Divina",
-      controller: "myCtrlNotHome" /*,
+      controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     // Blog of the MCI
@@ -137,7 +137,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
       },        
       title: "Blog",
-      controller: "myCtrlNotHome"
+      controller: "myCtrlHome"
     })
 
             
@@ -153,7 +153,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "????" + params_page;
       },        
       title: "??",
-      controller: "myCtrlNotHome"
+      controller: "myCtrlHome"
     })
 
 
@@ -164,7 +164,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "404.html";
       },
       title: "Pagina non trovata",
-      controller : "myCtrlNotHome"
+      controller : "myCtrlHome"
     });
 
   });
@@ -692,10 +692,7 @@ app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", functi
 
 }]);
 
-app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
-  $scope.is_secondary_page = false; 
-  // this helps displaying the homepage structure 
-  // (instead of the structure for secondary pages)
+app.controller("myCtrlHome", ["$scope", "$route", "sharedProperties", function($scope, $route, sharedProperties) {
 
   // function for adding zeros (padding) on the left of any string
   // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
@@ -709,65 +706,47 @@ app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sha
     }
   }
 
-  function add_news_blocks(id_first_news, id_last_news) {
-    // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
-    for (var i = id_last_news; i >= id_first_news; i--) {
-      $("#container_all_news")
-        .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
+  if ($route.current.title === "Benvenuti!") {
+    $scope.is_secondary_page = false;
+    // this helps displaying the homepage structure 
+    // (instead of the structure for secondary pages)
 
-      var name_of_file = pad(i, 3);
-      $("#container_of_news_" + i).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
-    }
+    sharedProperties.set_links_per_liturgia_del_giorno();
+    
+    var id_first_news = 1;
+    var id_last_news = 14;
+    sharedProperties.add_news_blocks(id_first_news, id_last_news);
+  
+    // in a future version of this app, this object must be loaded from an external file
+    // so that it is easier to modify if need be (and we don't risk having the current
+    // js file cached by the browser - on the other hand, it is ok if the rest of this file is instead cached)
+    var popups = 
+    [
+      {
+        "text": "Informazioni per i nuovi corsi di preparazione al matrimonio e alla cresima per adulti",
+        "link": "https://mcivienna.org/blog/2021/01/23/corsi_matrimonio_e_cresima/"
+      },
+      {
+        "text": "Ripresa delle celebrazioni con l'assemblea",
+        "link": "https://mcivienna.org/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/"
+      }
+    ];
+  
+  
+    sharedProperties.create_popup_links(popups);
+  }
+  else {
+    $scope.is_secondary_page = true;
+
+    // here we must insert the routines for the streaming and for the calendar, again targeting
+    // the $route.current.title variable
   }
 
-  sharedProperties.set_links_per_liturgia_del_giorno();
-    
-  var id_first_news = 1;
-  var id_last_news = 14;
-  add_news_blocks(id_first_news, id_last_news);
-
-  // in a future version of this app, this object must be loaded from an external file
-  // so that it is easier to modify if need be (and we don't risk having the current
-  // js file cached by the browser - on the other hand, it is ok if the rest of this file is instead cached)
-  var popups = 
-  [
-    {
-      "text": "Informazioni per i nuovi corsi di preparazione al matrimonio e alla cresima per adulti",
-      "link": "https://mcivienna.org/blog/2021/01/23/corsi_matrimonio_e_cresima/"
-    },
-    {
-      "text": "Ripresa delle celebrazioni con l'assemblea",
-      "link": "https://mcivienna.org/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/"
-    }
-  ];
 
 
-  sharedProperties.create_popup_links(popups);
 
   
 }]);
-
-app.controller("myCtrlNotHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
-  // generic (almost) trivial controller
-
-  $scope.is_secondary_page = true;
-
-  /* $scope.scrollTo = function(id_object) {
-    sharedProperties.scrollTo(id_object, 0);
-  };*/
-
-  /* loadAllHighResolutionPhotos();
-
-  // THIS FIRST INSTRUCTION MUST BE USED IN EVERY "PRINCIPAL" CONTROLLER
-  // (exceptions: sub-controllers like the one for showing the abstracts of papers; the controller for the menu)
-  // sharedProperties.Scroll($routeParams.hasOwnProperty("scroll"));
-
-  // We use this controller to load any content that normally does not need additional api requests. Since it's likely that 
-  // some LaTeX content is present in the file that we loaded using the routing system, we (re)load MathJax. 
-  // We wait a second (just to be sure that everything is correctly loaded) before rendering MathJax content.
-  load_MathJax_with_a_delay(1000); */
-}]);
-
 
 app.service("sharedProperties", ["$rootScope", "$sce", "$q", "$httpParamSerializerJQLike", 
 function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
@@ -937,7 +916,20 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
         $(window).resize(set_popup_fontsize);
         $(document).ready(set_popup_fontsize);
       }
+    },
+
+    add_news_blocks: function(id_first_news, id_last_news) {
+      // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
+      for (var i = id_last_news; i >= id_first_news; i--) {
+        $("#container_all_news")
+          .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
+  
+        var name_of_file = pad(i, 3);
+        $("#container_of_news_" + i).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
+      }
     }
+
+
   }
 
 }]);
