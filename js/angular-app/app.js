@@ -694,18 +694,6 @@ app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", functi
 
 app.controller("myCtrlHome", ["$scope", "$route", "sharedProperties", function($scope, $route, sharedProperties) {
 
-  // function for adding zeros (padding) on the left of any string
-  // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
-  function pad (str, max) {
-    str = str.toString();
-    if (str.length < max) {
-      return pad("0" + str, max);
-    }
-    else {
-      return str;
-    }
-  }
-
   if ($route.current.title === "Benvenuti!") {
     $scope.is_secondary_page = false;
     // this helps displaying the homepage structure 
@@ -919,6 +907,19 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
     },
 
     add_news_blocks: function(id_first_news, id_last_news) {
+
+      // function for adding zeros (padding) on the left of any string
+      // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
+      function pad(str, max) {
+        str = str.toString();
+        if (str.length < max) {
+          return pad("0" + str, max);
+        }
+        else {
+          return str;
+        }
+      }
+      
       // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
       for (var i = id_last_news; i >= id_first_news; i--) {
         $("#container_all_news")
