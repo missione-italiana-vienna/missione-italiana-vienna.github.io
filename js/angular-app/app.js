@@ -265,8 +265,8 @@ function($scope, $rootScope, $route, sharedProperties) {
   
 }]);
 
-app.service("sharedProperties", ["$rootScope", "$sce", "$q", "$httpParamSerializerJQLike", 
-function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
+app.service("sharedProperties", ["$rootScope", "$sce", "$http", "$q", "$httpParamSerializerJQLike", 
+function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
   var type_of_controller = "";
 
@@ -540,24 +540,22 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
         var appointments = "";
         var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
 
-        function ($scope, $http) {
+        var request = {
+            method: 'get',
+            url: 'https://mcivienna.org/calendario/eventi.json',
+            dataType: 'json',
+            contentType: "application/json"
+        };
 
-          var request = {
-              method: 'get',
-              url: 'https://mcivienna.org/calendario/eventi.json',
-              dataType: 'json',
-              contentType: "application/json"
-          };
+        $http(request)
+          .success(function (jsonData) {
+              var events = jsonData;
 
-          $http(request)
-              .success(function (jsonData) {
-                  var events = jsonData;
-
-                  // the next code must be included here actually
-              })
-              .error(function () {
-                console.log("Unable to parse the events from the local file!");
-              });
+              // the next code must be included here actually
+          })
+          .error(function () {
+            console.log("Unable to parse the events from the local file!");
+          });
 
 
         for (i = 0; i < events.length; ++i) {
