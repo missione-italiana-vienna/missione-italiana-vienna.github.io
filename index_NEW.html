@@ -19,6 +19,25 @@
 
   <meta name = "msvalidate.01" content = "A5C8D92DA3BCBDE663A35634AB9DF1CE" />
 
+  <script> 
+    // in order to reload the file JS with the list of events, we use a well-known trick
+    // that forces reloading of the cache, see for example
+    // https://www.c-sharpcorner.com/article/how-to-force-the-browser-to-reload-cached-js-css-files-to-reflect-latest-chan/
+    
+    var versionUpdate = (new Date()).getTime();
+
+    var scriptElement = document.createElement("script");
+ 
+    /* scriptElement.onload = function() {
+      generate_html_with_all_events('future');
+    }; */
+ 
+    scriptElement.src = "https://mcivienna.org/calendario/eventi.json" + versionUpdate;;
+ 
+    document.head.appendChild(scriptElement);
+  </script>
+
+
   <link rel = "stylesheet" type = "text/css" href = "https://mcivienna.org/styles/bootstrap4/bootstrap.min.css">
   <link rel = "stylesheet" type = "text/css" href = "https://mcivienna.org/plugins/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel = "stylesheet" type = "text/css" href = "https://mcivienna.org/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -38,8 +57,6 @@
 
   <!-- source: https://ajax.googleapis.com/ajax/libs/angularjs/1.8.0/angular-route.min.js -->
   <script src = "https://mcivienna.org/js/angular-route/1.8.0/angular-route.min.js" crossorigin = "anonymous"></script>
-
-  <script src = "https://mcivienna.org/js/angular-app/app.js" crossorigin = "anonymous"></script>
 
   <base href = "https://mcivienna.org/">
 </head>
@@ -214,6 +231,8 @@
   <script src = "https://mcivienna.org/plugins/easing/easing.js"></script>
   <script src = "https://mcivienna.org/plugins/parallax-js-master/parallax.min.js"></script>
   <script src = "https://mcivienna.org/js/custom.js"></script>
+
+  <script src = "https://mcivienna.org/js/angular-app/app.js" crossorigin = "anonymous"></script>
 
 </body>
 </html>

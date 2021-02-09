@@ -540,20 +540,6 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         var appointments = "";
         var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
 
-        var events = [];
-        
-        $http({
-          method : "GET",
-          url : "https://mcivienna.org/calendario/eventi.json"
-        }).then(function mySuccess(response) {
-          console.log(response.data);
-          var events = response.data;
-        }, function myError(response) {
-          console.log(response.statusText);
-        });
-
-
-
         for (i = 0; i < events.length; ++i) {
 
           // converts the date from the format "10 Gennaio 2019" to the format year=2019, month=0 (months start with 0 in JS), day=10
