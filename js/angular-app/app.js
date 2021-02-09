@@ -1,6 +1,5 @@
-/* This file has been generated from other configuration files in this folder and sub-folders. Please do not modify it directly!
-
-This file contains the configuration files for the AngularJS app (in particular, routing list), and all the controllers of the app */
+// This file contains the configuration files for the AngularJS app 
+// (in particular, routing list), and all the controllers of the app */
 var source_website = 'https://mcivienna.org/';
 var source_website_hashbang = source_website + '#!/';
 
@@ -225,19 +224,18 @@ function($scope, $rootScope, $route, sharedProperties) {
     // in a future version of this app, this object must be loaded from an external file
     // so that it is easier to modify if need be (and we don't risk having the current
     // js file cached by the browser - on the other hand, it is ok if the rest of this file is instead cached)
-    var popups = 
-    [
-      {
-        "text": "Informazioni per i nuovi corsi di preparazione al matrimonio e alla cresima per adulti",
-        "link": "https://mcivienna.org/#!/blog/2021/01/23/corsi_matrimonio_e_cresima/"
-      },
-      {
-        "text": "Ripresa delle celebrazioni con l'assemblea",
-        "link": "https://mcivienna.org/#!/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/"
+    
+    var fetch_url_popups = "https://mcivienna.org/home/popups.js";
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var popups = JSON.parse(this.responseText);
+        sharedProperties.create_popup_links(popups);
+        // TO DO: handle the case when this is not parsable/cannot be loaded.
       }
-    ];
-  
-    sharedProperties.create_popup_links(popups);
+    };
+    xmlhttp.open("GET", fetch_url_popups, true);
+    xmlhttp.send();
   }
   else {
     $scope.is_secondary_page = true;
@@ -259,9 +257,6 @@ function($scope, $rootScope, $route, sharedProperties) {
   }
 
 
-
-
-  
 }]);
 
 app.service("sharedProperties", ["$rootScope", "$sce", "$http", "$q", "$httpParamSerializerJQLike", 
@@ -272,10 +267,12 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
   var popups_already_created = false;
 
   // 2 global arrays, used below
-  var list_months = ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", 
+  var list_months = 
+    ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", 
     "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"];
 
-  var list_weekdays = ["Domenica", "Lunedì", "Martedì", 
+  var list_weekdays = 
+    ["Domenica", "Lunedì", "Martedì", 
     "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
 
 
@@ -310,7 +307,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
       popup_notification_buttons[i].style.height = height_button + "px"; 
     }
-  };
+  }
 
   function generate_html_for_a_given_date(js_content, day, month, weekday) {
     var content = "";
@@ -349,7 +346,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     // Merges the content of the event with the additional infos about the date
     // NOTE: do not remove the white spaces in the strings below: they are needed for the visualization on
     // small screens, where every tr, td and div is displayed with "display: inline;" 
-    return ' <tr class = "events_on_given_day">' + 
+    return '<tr class = "events_on_given_day">' + 
               '<td class = "date_event">' +
                 '<div>' + weekday + '</div> '+
                 '<div>' + day + '</div> '+
@@ -359,13 +356,13 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
                 '<table>' + content + '</table>'+
               '</td>' + 
             '</tr>';
-  };
+  }
 
   // see https://www.w3schools.com/jsref/jsref_findindex.asp 
   // The method findIndex() requires as input value a function returning boolean results:
   function FindMonthByName(name_month) {
     return name_month == this;
-  };
+  }
 
   function generate_html_with_all_events_after_load(input_string, events) {
 
@@ -425,7 +422,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     // attach the content of appointments to the appointments_container already defined in the base HTML code
     var appointments_container = document.getElementById("appointments_container");
     appointments_container.innerHTML = appointments;
-  };
+  }
 
 
   return {
@@ -520,17 +517,17 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         var yyyy = date.getFullYear();
     
         if (dd < 10) {
-          dd = "0" + dd
+          dd = "0" + dd;
         }
     
         if(mm < 10) {
-            mm = "0" + mm
+            mm = "0" + mm;
         } 
     
         var selected_link = document.getElementById(my_string);
         selected_link.innerHTML += " (" + day_name + ", " + dd + "." + mm + "." + yyyy + ")";
         selected_link.href += "?data-liturgia=" + yyyy + mm + dd;
-      };
+      }
 
       data_liturgia_del_giorno("yesterday");
       data_liturgia_del_giorno("today");
@@ -549,7 +546,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
           return false;
         };
         $("#container_custom_popups").append(button);
-      };
+      }
 
       if (!popups_already_created) {
         for (var i = 0; i < popups.length; i++) {
@@ -562,7 +559,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       if (popups.length > 0 && type_of_controller === "home") {
         // enable the interfering object and show the popups
         document.getElementById("popup_notification").style.display = "block";
-        document.getElementById("popup_interfering_object").style.display = "block"
+        document.getElementById("popup_interfering_object").style.display = "block";
   
         $(window).resize(set_popup_fontsize);
         $(document).ready(set_popup_fontsize);
@@ -625,7 +622,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
       }
     }
-  }
+  };
 
 }]);
 
@@ -633,4 +630,4 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 function hide_popup() {
   document.getElementById("popup_notification").style.display = "none";
   document.getElementById("popup_interfering_object").style.display = "none";
-};
+}
