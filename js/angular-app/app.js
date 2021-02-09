@@ -245,7 +245,7 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
 
   return {
     setDocumentTitle(my_title) {
-      document_title = my_title
+      document_title = my_title;
     },
 
     getTypeOfController() {
@@ -261,7 +261,7 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       else {
         return "basic";
       }
-    }
+    },
 
     errorMessageForOldBrowsers: function() {
       // code adapted from 
