@@ -55,7 +55,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
       }
     ]
   },
@@ -135,7 +135,7 @@
     [
       {
         "time": "18:00 - 19:30",
-        "description": "incontro del <a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#gruppo_giovani_18_25\">Gruppo Giovani 18-25</a>."
+        "description": "incontro del <a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Gruppo Giovani 18-25</a>."
       }
     ]
   },
@@ -230,7 +230,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti. Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti. Entrata da Alser Straße 17."
       }
     ]
   },
@@ -396,7 +396,7 @@
     [
       {
         "time": "dalle 19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
       }
     ]
   },
@@ -735,7 +735,7 @@
     "content":
     [
       {
-        "description": "Gita della comunità a Leopoldsberg, Kahlenberg e Grinzing. <a class = \"normal_link\" href = \"https://mcivienna.org/blog/2019/05/18/gita_a_leopoldsberg_e_kahlenberg/\">Dettagli sul percorso e altre informazioni utili</a>."
+        "description": "Gita della comunità a Leopoldsberg, Kahlenberg e Grinzing. <a class = \"normal_link\" href = \"https://mcivienna.org/#!/blog/2019/05/18/gita_a_leopoldsberg_e_kahlenberg/\">Dettagli sul percorso e altre informazioni utili</a>."
       },
       {
         "time": "14:30 - 16:30 (*)",
@@ -854,7 +854,7 @@
     [
       {
         "time": "dalle 19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
       }
     ]
   },
@@ -1072,7 +1072,7 @@
       {
         "time": "dalle 8:30",
         "style": "color: red;",
-        "description": "La processione e la Messa del Corpus Domini si svolgono in tedesco. Per seguire la liturgia in italiano si consiglia di andare alla Messa prefestiva di Mercoledì 19 Giugno. Per dettagli sulla processione e sulla celebrazione in tedesco, consultate <a class = \"normal_link\" href = \"https://mcivienna.org/blog/2019/06/20/corpus_domini/\">questo link</a>. Contattate padre Thomas se volete dare una mano con l'organizzazione della processione."
+        "description": "La processione e la Messa del Corpus Domini si svolgono in tedesco. Per seguire la liturgia in italiano si consiglia di andare alla Messa prefestiva di Mercoledì 19 Giugno. Per dettagli sulla processione e sulla celebrazione in tedesco, consultate <a class = \"normal_link\" href = \"https://mcivienna.org/#!/blog/2019/06/20/corpus_domini/\">questo link</a>. Contattate padre Thomas se volete dare una mano con l'organizzazione della processione."
       }
     ]
   },
@@ -1114,7 +1114,7 @@
     [
       {
         "time": "dalle 19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
       }
     ]
   },
@@ -1230,7 +1230,7 @@
     [
       {
         "time": "dalle 19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (entrata da Alser Straße 17)."
       }
     ]
   },
@@ -1423,7 +1423,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1563,7 +1563,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1638,7 +1638,7 @@
       {
         "time": "10:15",
         "style": "font-weight: bold; color: red;",
-        "description": "Come ogni anno, celebriamo la <b>Messa dei popoli</b> (Sonntag der Völker) insieme alle comunità di altre lingue in cattedrale (Stephansdom). Quest'anno la Messa sarà presieduta da sua Eminenza <a target = _blank href = \"https://www.erzdioezese-wien.at/pages/inst/14428675/international/article/31023.html\" class = \"normal_link\">Christoph Schönborn</a>, Cardinale dell'arcidiocesi di Vienna. La Messa si svolge in tedesco, con letture, preghiere e canti letti e cantati nelle varie lingue delle comunità cattoliche di Vienna. A <a class = \"normal_link\" target = _blank href = \"https://mcivienna.org/blog/2019/09/21/domenica_dei_popoli/\">questo link</a> trovate alcune informazioni sulla celebrazione di quest'anno (e sulla giornata dedicata al tema delle migrazioni e della fuga, che si terrà venerdì 27 Settembre). <b>Domenica 29 Settembre la Messa in cattedrale inizierà alle 10:15, ma si raccomanda di arrivare per tempo per trovare posto.</b> Al termine della celebrazione, continueremo la festa insieme con le altre comunità cattoliche nel cortile dell'arcivescovado."
+        "description": "Come ogni anno, celebriamo la <b>Messa dei popoli</b> (Sonntag der Völker) insieme alle comunità di altre lingue in cattedrale (Stephansdom). Quest'anno la Messa sarà presieduta da sua Eminenza <a target = _blank href = \"https://www.erzdioezese-wien.at/pages/inst/14428675/international/article/31023.html\" class = \"normal_link\">Christoph Schönborn</a>, Cardinale dell'arcidiocesi di Vienna. La Messa si svolge in tedesco, con letture, preghiere e canti letti e cantati nelle varie lingue delle comunità cattoliche di Vienna. A <a class = \"normal_link\" target = _blank href = \"https://mcivienna.org/#!/blog/2019/09/21/domenica_dei_popoli/\">questo link</a> trovate alcune informazioni sulla celebrazione di quest'anno (e sulla giornata dedicata al tema delle migrazioni e della fuga, che si terrà venerdì 27 Settembre). <b>Domenica 29 Settembre la Messa in cattedrale inizierà alle 10:15, ma si raccomanda di arrivare per tempo per trovare posto.</b> Al termine della celebrazione, continueremo la festa insieme con le altre comunità cattoliche nel cortile dell'arcivescovado."
       },
       {
         "time": "11:30",
@@ -1739,7 +1739,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1979,7 +1979,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si tiene mercoledì invece che lunedì."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per i giovani. Entrata da Alser Straße 17. Nota: diversamente dal solito, questo incontro si tiene mercoledì invece che lunedì."
       }
     ]
   },
@@ -2035,7 +2035,7 @@
     [
       {
         "time": "18:30 - 20:00",
-        "description": "incontro del <a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#gruppo_giovani_18_25\">Gruppo Giovani 18-25 anni</a>."
+        "description": "incontro del <a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Gruppo Giovani 18-25 anni</a>."
       }
     ]
   },
@@ -2231,7 +2231,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/lectio_divina/2019-12-16/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/lectio_divina/2019-12-16/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },

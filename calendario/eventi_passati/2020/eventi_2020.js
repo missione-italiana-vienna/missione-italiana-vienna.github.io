@@ -180,7 +180,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/lectio_divina/2020-01-20/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/lectio_divina/2020-01-20/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -320,7 +320,7 @@
     [
       {
         "time": "19:30",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per adulti (gruppo donne). L'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17)."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per adulti (gruppo donne). L'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17)."
       }
     ]
   },
@@ -362,7 +362,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/lectio_divina/2020-02-17/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/lectio_divina/2020-02-17/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -480,7 +480,7 @@
     [
       {
         "time": "19:30",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per adulti (gruppo donne). L'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17)."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per adulti (gruppo donne). L'incontro si tiene nella sala parrocchiale (entrata da Alser Straße 17)."
       }
     ]
   },
@@ -562,7 +562,7 @@
       },
       {
         "time": "17:00",
-        "description": "Messa prefestiva. <b>NOTA: a differenza del solito, la Messa si svolve nella chiesa grande e non nella cappella di Sant'Antonio.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l'emergenza COVID-19 (coronavirus) a <a target = _blank rel = \"noopener\" class = \"normal_link\" href = \"https://mcivienna.org/blog/2020/03/12/covid-19/\">questo link</a>."
+        "description": "Messa prefestiva. <b>NOTA: a differenza del solito, la Messa si svolve nella chiesa grande e non nella cappella di Sant'Antonio.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l'emergenza COVID-19 (coronavirus) a <a target = _blank rel = \"noopener\" class = \"normal_link\" href = \"https://mcivienna.org/#!/blog/2020/03/12/covid-19/\">questo link</a>."
       }
     ]
   },
@@ -575,7 +575,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa. <b>NOTA: l'incontro di catechismo è annullato.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l'emergenza COVID-19 (coronavirus) a <a target = _blank rel = \"noopener\" class = \"normal_link\" href = \"https://mcivienna.org/blog/2020/03/12/covid-19/\">questo link</a>."
+        "description": "S. Messa. <b>NOTA: l'incontro di catechismo è annullato.</b> Vi preghiamo anche di leggere il messaggio di padre Thomas per l'emergenza COVID-19 (coronavirus) a <a target = _blank rel = \"noopener\" class = \"normal_link\" href = \"https://mcivienna.org/#!/blog/2020/03/12/covid-19/\">questo link</a>."
       }
     ]
   },
@@ -1060,7 +1060,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/lectio_divina/2020-10-07/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/lectio_divina/2020-10-07/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },	
@@ -1153,7 +1153,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/lectio_divina/2020-11-04/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/lectio_divina/2020-11-04/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1239,7 +1239,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/#lectio_divina\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/attivita/lectio_divina/2020-12-16/\">testo qui</a>). Questo incontro si tiene online."
+        "description": "<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a class = \"normal_link\" href = \"https://mcivienna.org/#!/attivita/lectio_divina/2020-12-16/\">testo qui</a>). Questo incontro si tiene online."
       }
     ]
   },	
