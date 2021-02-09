@@ -67,55 +67,56 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("/home/", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
       type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
       type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("/contatti/", {
       templateUrl: "contatti/content.html",
       title: "Contatti",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("/liturgia/", {
       templateUrl: "liturgia/content.html",
       title: "Liturgia",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("/attivita/", {
       templateUrl: "attivita/content.html",
       title: "Attività",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("/streaming/", {
       templateUrl: "streaming/content.html",
       title: "Streaming",
       type_of_controller: "streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+
     .when("/streaming/video_precedenti/", {
       templateUrl: "streaming/video_precedenti/content.html",
       title: "Streaming",
       type_of_controller: "past_streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })    
+
     .when("/impressum/", {
       templateUrl: "impressum/content.html",
       title: "Impressum",
-      controller: "myCtrlHome" /*,
-      reloadOnSearch: false */ })
-
-      
-    .when("/grusswort_des_seelsorgers/", {
-      templateUrl: "grusswort_des_seelsorgers/content.html",
-      title: "Grußwort des Seelsorgers",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -125,9 +126,8 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       type_of_controller: "calendar",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
-  
-
-    // heere the parameter "year" is optional (hence denoted by a "?")
+    
+      // here the parameter "year" is optional (hence denoted by a "?")
     .when("/calendario/eventi_passati/:year?", {
       templateUrl: function(params) {
         if (params.hasOwnProperty("year") && params.year !== "") {
@@ -162,9 +162,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     
     .otherwise({
       templateUrl: function() {
-        return "error.html";
+        return "home/home.html";
       },
-      title: "Pagina non trovata",
+      title: "Benvenuti!",
       controller : "myCtrlHome"
     });
 
