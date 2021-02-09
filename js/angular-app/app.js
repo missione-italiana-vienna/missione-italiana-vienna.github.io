@@ -938,8 +938,6 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
         $(document).ready(set_popup_fontsize);
       }
     }
-
-
   }
 
 }]);
