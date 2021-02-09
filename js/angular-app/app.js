@@ -543,7 +543,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
         $http.get("https://mcivienna.org/calendario/eventi.js")
         .then(function(res){
-          events = res.data);  // TO DO: handle the case when this is not parsable/cannot be loaded.               
+          events = res.data;  // TO DO: handle the case when this is not parsable/cannot be loaded.               
         });
 
 
