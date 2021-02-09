@@ -540,22 +540,18 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         var appointments = "";
         var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
 
-        var request = {
-            method: 'get',
-            url: 'https://mcivienna.org/calendario/eventi.json',
-            dataType: 'json',
-            contentType: "application/json"
-        };
+        var events = [];
+        
+        $http({
+          method : "GET",
+          url : "https://mcivienna.org/calendario/eventi.json"
+        }).then(function mySuccess(response) {
+          console.log(response.data);
+          var events = response.data;
+        }, function myError(response) {
+          console.log(response.statusText);
+        });
 
-        $http(request)
-          .success(function (jsonData) {
-              var events = jsonData;
-
-              // the next code must be included here actually
-          })
-          .error(function () {
-            console.log("Unable to parse the events from the local file!");
-          });
 
 
         for (i = 0; i < events.length; ++i) {
