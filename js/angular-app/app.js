@@ -73,22 +73,22 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/contatti/", {
-      templateUrl: "contatti/contatti.html",
+      templateUrl: "contatti/content.html",
       title: "Contatti",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/liturgia/", {
-      templateUrl: "liturgia/liturgia.html",
+      templateUrl: "liturgia/content.html",
       title: "Liturgia",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/attivita/", {
-      templateUrl: "attivita/attivita.html",
+      templateUrl: "attivita/content.html",
       title: "Attività",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/", {
-      templateUrl: "streaming/streaming.html",
+      templateUrl: "streaming/content.html",
       title: "Streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
@@ -121,47 +121,23 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
           }
       })*/
       
-
-      // 1st SFB International Workshop - February 2019
-      .when("/public/events/2019/1st_SFB_International_Workshop/:page?", {
+      // pages with optional parameters
+      .when("/blabla/:page?", {
         templateUrl: function(params) {
           // default value in the case when either the parameter "page" is not provided,
           // or when it does not match one of the values below ("schedule", "location")
-          var params_page = "home/home.php";
+          var params_page = "??";
           if (params.hasOwnProperty("page")) {
-            if (params.page === "schedule") {
-              params_page = "schedule/schedule.php";
-            }
-            else if (params.page === "location") {
-              params_page = "location/location.php";
-            }
-            else if (params.page === "social_dinner") {
-              params_page = "social_dinner/social_dinner.php";
-            }
-            else if (params.page === "participants") {
-              params_page = "participants/participants.php";
-            }
-            else if (params.page === "abstracts") {
-              params_page = "abstracts/abstracts.php";
-            }
-            else if (params.page === "register") {
-              params_page = "register/register.php";
-            }
-            else if (params.page === "poster_session") {
-              params_page = "poster_session/poster_session.php";
-            }
-            else if (params.page === "shops_and_restaurants_nearby") {
-              params_page = "shops_and_restaurants_nearby/shops_and_restaurants_nearby.php";
-            }
+            params_page = "??";
           }
-          return "public/events/2019/1st_SFB_International_Workshop/" + params_page;
+          return "????" + params_page;
         },        
-        title: "1st SFB International Workshop",
+        title: "??",
         controller: "myCtrlHome"
       })
 
 
-      // Blog of the SFB
+      // Blog of the MCI
       .when("/blog/:year/:month/:day/:title", {
         templateUrl: function(params) {
           return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
