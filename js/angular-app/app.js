@@ -67,6 +67,11 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       title: "Benvenuti!",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
+    .when("/home/", {
+      templateUrl: "home/home.html",
+      title: "Benvenuti!",
+      controller: "myCtrlHome" /*,
+      reloadOnSearch: false */ })
     .when("", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
