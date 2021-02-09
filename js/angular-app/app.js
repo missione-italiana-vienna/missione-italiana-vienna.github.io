@@ -417,13 +417,13 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       for (var i = 0; i < popups.length; i++) {
         create_single_popup_link(popups[i].text, popups[i].link);
       }
-      if (popups.length > 0) {
+      if (popups.length > 0 && sharedProperties.getTypeOfController() === "home") {
         // enable the interferring object and show the popups
         document.getElementById("popup_notification").style.display = "block";
         document.getElementById("popup_interferring_object").style.display = "block"
   
-        $(window).resize(set_popup_fontsize);
-        $(document).ready(set_popup_fontsize);
+        $(window).resize(sharedProperties.set_popup_fontsize);
+        $(document).ready(sharedProperties.set_popup_fontsize);
       }
     },
 
