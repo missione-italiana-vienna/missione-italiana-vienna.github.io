@@ -65,55 +65,55 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
-      type_of_controller = "home",
+      type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/home/", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
-      type_of_controller = "home",
+      type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
-      type_of_controller = "home",
+      type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/contatti/", {
       templateUrl: "contatti/content.html",
       title: "Contatti",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/liturgia/", {
       templateUrl: "liturgia/content.html",
       title: "Liturgia",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/attivita/", {
       templateUrl: "attivita/content.html",
       title: "Attività",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/", {
       templateUrl: "streaming/content.html",
       title: "Streaming",
-      type_of_controller = "streaming",
+      type_of_controller: "streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/video_precedenti/", {
       templateUrl: "streaming/video_precedenti/content.html",
       title: "Streaming",
-      type_of_controller = "streaming_old",
+      type_of_controller: "streaming_old",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })    
     .when("/impressum/", {
       templateUrl: "impressum/content.html",
       title: "Impressum",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -121,7 +121,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/grusswort_des_seelsorgers/", {
       templateUrl: "grusswort_des_seelsorgers/content.html",
       title: "Grußwort des Seelsorgers",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -129,7 +129,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/calendario/", {
       templateUrl: "calendario/content.html",
       title: "Calendario",
-      type_of_controller = "calendario",
+      type_of_controller: "calendario",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
         
@@ -139,7 +139,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "attivita/lectio_divina/" + params.date + "/content.html";
       },
       title: "Lectio Divina",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -149,7 +149,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
       },
       title: "Blog",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome"
     })
 
@@ -166,7 +166,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "????" + params_page;
       },        
       title: "??",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller: "myCtrlHome"
     })
 
@@ -178,7 +178,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "404.html";
       },
       title: "Pagina non trovata",
-      type_of_controller = "basic",
+      type_of_controller: "basic",
       controller : "myCtrlHome"
     });
 
