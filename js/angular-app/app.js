@@ -644,7 +644,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
 }]);
 
-
+// this function is outside the Angular app since it is used also outside that app
 function hide_popup() {
   document.getElementById("popup_notification").style.display = "none";
   document.getElementById("popup_interferring_object").style.display = "none";
