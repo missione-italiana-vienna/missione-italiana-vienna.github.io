@@ -75,22 +75,22 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/contatti/", {
       templateUrl: "contatti/content.html",
       title: "Contatti",
-      controller: "myCtrlHome" /*,
+      controller: "myCtrlNotHome" /*,
       reloadOnSearch: false */ })
     .when("/liturgia/", {
       templateUrl: "liturgia/content.html",
       title: "Liturgia",
-      controller: "myCtrlHome" /*,
+      controller: "myCtrlNotHome" /*,
       reloadOnSearch: false */ })
     .when("/attivita/", {
       templateUrl: "attivita/content.html",
       title: "Attività",
-      controller: "myCtrlHome" /*,
+      controller: "myCtrlNotHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/", {
       templateUrl: "streaming/content.html",
       title: "Streaming",
-      controller: "myCtrlHome" /*,
+      controller: "myCtrlNotHome" /*,
       reloadOnSearch: false */ })
       
 
@@ -133,7 +133,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
           return "????" + params_page;
         },        
         title: "??",
-        controller: "myCtrlHome"
+        controller: "myCtrlNotHome"
       })
 
 
@@ -143,7 +143,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
           return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
         },        
         title: "Blog",
-        controller: "myCtrlHome"
+        controller: "myCtrlNotHome"
       })
 
       .otherwise({
@@ -151,7 +151,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
           return "404.html";
         },
         title: "Pagina non trovata",
-        controller : "myCtrlHome"
+        controller : "myCtrlNotHome"
       });
 
   }); 
@@ -681,6 +681,28 @@ app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", functi
 app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
   // generic (almost) trivial controller
 
+  $scope.is_homepage = true;
+  /* $scope.scrollTo = function(id_object) {
+    sharedProperties.scrollTo(id_object, 0);
+  };*/
+
+  /* loadAllHighResolutionPhotos();
+
+  // THIS FIRST INSTRUCTION MUST BE USED IN EVERY "PRINCIPAL" CONTROLLER
+  // (exceptions: sub-controllers like the one for showing the abstracts of papers; the controller for the menu)
+  // sharedProperties.Scroll($routeParams.hasOwnProperty("scroll"));
+
+  // We use this controller to load any content that normally does not need additional api requests. Since it's likely that 
+  // some LaTeX content is present in the file that we loaded using the routing system, we (re)load MathJax. 
+  // We wait a second (just to be sure that everything is correctly loaded) before rendering MathJax content.
+  load_MathJax_with_a_delay(1000); */
+}]);
+
+app.controller("myCtrlNotHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
+  // generic (almost) trivial controller
+
+  $scope.is_homepage = false;
+  
   /* $scope.scrollTo = function(id_object) {
     sharedProperties.scrollTo(id_object, 0);
   };*/
