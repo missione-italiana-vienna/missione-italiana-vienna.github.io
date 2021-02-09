@@ -83,19 +83,16 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/contatti/", {
       templateUrl: "contatti/content.html",
       title: "Contatti",
-      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/liturgia/", {
       templateUrl: "liturgia/content.html",
       title: "Liturgia",
-      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/attivita/", {
       templateUrl: "attivita/content.html",
       title: "Attività",
-      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/", {
@@ -107,13 +104,12 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/streaming/video_precedenti/", {
       templateUrl: "streaming/video_precedenti/content.html",
       title: "Streaming",
-      type_of_controller: "streaming_old",
+      type_of_controller: "past_streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })    
     .when("/impressum/", {
       templateUrl: "impressum/content.html",
       title: "Impressum",
-      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -121,15 +117,28 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/grusswort_des_seelsorgers/", {
       templateUrl: "grusswort_des_seelsorgers/content.html",
       title: "Grußwort des Seelsorgers",
-      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
-
 
     .when("/calendario/", {
       templateUrl: "calendario/content.html",
       title: "Calendario",
-      type_of_controller: "calendario",
+      type_of_controller: "calendar",
+      controller: "myCtrlHome" /*,
+      reloadOnSearch: false */ })
+  
+
+    .when("/calendario/eventi_passati/:year?", {
+      templateUrl: function(params) {
+        if (params.hasOwnProperty("year") && params.year !== "") {
+          return "calendario/eventi_passati/" + params.year + "/content.html";
+        }
+        else {
+          return "calendario/eventi_passati/content.html";
+        }
+      },
+      title: "Calendario",
+      type_of_controller: "past_calendar",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
         
@@ -139,7 +148,6 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "attivita/lectio_divina/" + params.date + "/content.html";
       },
       title: "Lectio Divina",
-      type_of_controller: "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -149,7 +157,6 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
       },
       title: "Blog",
-      type_of_controller: "basic",
       controller: "myCtrlHome"
     })
 
@@ -166,7 +173,6 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "????" + params_page;
       },        
       title: "??",
-      type_of_controller: "basic",
       controller: "myCtrlHome"
     })
 
@@ -175,10 +181,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
 
     .otherwise({
       templateUrl: function() {
-        return "404.html";
+        return "error.html";
       },
       title: "Pagina non trovata",
-      type_of_controller: "basic",
       controller : "myCtrlHome"
     });
 
@@ -195,7 +200,12 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       }
       else {
         document.title = basic_title + " - " + $route.current.title;
-        sharedProperties.setTypeOfController($route.current.type_of_controller);
+        if ($route.current.type_of_controller === undefined) {
+          sharedProperties.setTypeOfController("basic");  
+        }
+        else {
+          sharedProperties.setTypeOfController($route.current.type_of_controller);
+        }
       }
 
       if (sharedProperties.getTypeOfController() !== "home") {
@@ -251,11 +261,16 @@ function($scope, $rootScope, $route, sharedProperties) {
     // here we must insert the routines for the streaming and for the calendar, again 
     // using the variable type_of_controller
 
-    if (type_of_controller === "calendario") {
-
-
-      
-      sharedProperties.generate_html_with_all_events("future");
+    if (type_of_controller === "calendar") {
+      sharedProperties.generate_html_with_all_events("future", "");
+    }
+    elseif (type_of_controller === "past_calendar") {
+      if ($route.params.hasOwnProperty("year") && $route.params.year !== "") {
+        sharedProperties.generate_html_with_all_events("past", $route.params.year);
+      }
+      else {
+        sharedProperties.generate_html_with_all_events("past", "");
+      }
     }
   }
 
@@ -593,11 +608,24 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
     },
 
-    generate_html_with_all_events: function(input_string) {
-      if (input_string != "future" && input_string != "past") {
-        console.log('Wrong input parameter: must be either "future" or "past"');
+    generate_html_with_all_events: function(input_string, year) {
+      var fetch_url;
+      if (input_string === "future") {
+        fetch_url = "https://mcivienna.org/calendario/eventi.js";
+      }
+      else if (input_string === "past") {
+        if (year === "") {
+          fetch_url = "https://mcivienna.org/calendario/eventi.js";
+        }
+        else {
+          fetch_url = "https://mcivienna.org/calendario/eventi_passati/" + year + "eventi.js";
+        }
       }
       else {
+        console.log('Wrong input parameter: must be either "future" or "past"');
+      }
+
+      if (fetch_url !== "") {
         $http.get("https://mcivienna.org/calendario/eventi.js")
         .then(function(res){
           events = JSON.parse(res.data);  // TO DO: handle the case when this is not parsable/cannot be loaded.
@@ -605,8 +633,6 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         });
       }
     }
-
-
   }
 
 }]);
