@@ -954,3 +954,35 @@ $("#nav_small_screens_home").on('click', function(event) {
   menuActive = false;
   window.location = "https://mcivienna.org/#!/";
 });
+
+$("#nav_small_screens_contatti").on('click', function(event) {
+  event.preventDefault();
+  var menu = $('.menu');
+  menu.removeClass('active');
+  menuActive = false;
+  window.location = "https://mcivienna.org/#!/contatti/";
+});
+
+$("#nav_small_screens_liturgia").on('click', function(event) {
+  event.preventDefault();
+  var menu = $('.menu');
+  menu.removeClass('active');
+  menuActive = false;
+  window.location = "https://mcivienna.org/#!/liturgia/";
+});
+
+$("#nav_small_screens_attivita").on('click', function(event) {
+  event.preventDefault();
+  var menu = $('.menu');
+  menu.removeClass('active');
+  menuActive = false;
+  window.location = "https://mcivienna.org/#!/attivita/";
+});
+
+$("#nav_small_screens_calendario").on('click', function(event) {
+  event.preventDefault();
+  var menu = $('.menu');
+  menu.removeClass('active');
+  menuActive = false;
+  window.location = "https://mcivienna.org/#!/calendario/";
+});
