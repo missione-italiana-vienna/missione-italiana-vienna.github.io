@@ -128,6 +128,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       reloadOnSearch: false */ })
   
 
+    // heere the parameter "year" is optional (hence denoted by a "?")
     .when("/calendario/eventi_passati/:year?", {
       templateUrl: function(params) {
         if (params.hasOwnProperty("year") && params.year !== "") {
@@ -159,26 +160,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       title: "Blog",
       controller: "myCtrlHome"
     })
-
-            
-    // pages with optional parameters
-    .when("/blabla/:page?", {
-      templateUrl: function(params) {
-        // default value in the case when either the parameter "page" is not provided,
-        // or when it does not match one of the values below ("schedule", "location")
-        var params_page = "??";
-        if (params.hasOwnProperty("page")) {
-          params_page = "??";
-        }
-        return "????" + params_page;
-      },        
-      title: "??",
-      controller: "myCtrlHome"
-    })
-
-
-      
-
+    
     .otherwise({
       templateUrl: function() {
         return "error.html";
@@ -209,8 +191,10 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       }
 
       if (sharedProperties.getTypeOfController() !== "home") {
+        // popups must be shown only in the homepage, hence we hide them in all other "types"
+        // of controllers (actually, there's just a single controller
+        // with various sub-cases taking care of various scenarios)
         hide_popup();
-        // popups must be shown only in the homepage
       }
 
     });
@@ -571,6 +555,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         for (var i = 0; i < popups.length; i++) {
           create_single_popup_link(popups[i].text, popups[i].link);
         }
+        popups_already_created = true;
       }
 
       // popups must be displayed ONLY in the homepage
