@@ -173,21 +173,30 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
   function($route, $rootScope, $location, $routeParams, $window, sharedProperties) {
   
     $rootScope.$on('$routeChangeSuccess', function() {
-      document.title = $route.current.title;
+      var basic_title = "Missione Cattolica Italiana - Arcidiocesi di Vienna";
+      if ($route.current.title === undefined) {
+        document.title = basic_title;
+        sharedProperties.setDocumentTitle("");
+      }
+      else {
+        document.title = basic_title + " - " + $route.current.title;
+        sharedProperties.setDocumentTitle($route.current.title;);
+      }
     });
 
   }]);
   
   app.controller("myCtrlError", ["$scope", "$routeParams", function($scope, $routeParams) {
   
-    //
+    // TO DO IF NEED BE
 
   }]);
 
 app.controller("myCtrlHome", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
 
-  if ($route.current.title === "Benvenuti!") {
+  var type_of_controller = sharedProperties.getTypeOfController();
+  if (type_of_controller === "home") {
     $scope.is_secondary_page = false;
     // this helps displaying the homepage structure 
     // (instead of the structure for secondary pages)
@@ -219,8 +228,8 @@ function($scope, $rootScope, $route, sharedProperties) {
   else {
     $scope.is_secondary_page = true;
 
-    // here we must insert the routines for the streaming and for the calendar, again targeting
-    // the $route.current.title variable
+    // here we must insert the routines for the streaming and for the calendar, again 
+    // using the variable type_of_controller
   }
 
 
@@ -232,7 +241,28 @@ function($scope, $rootScope, $route, sharedProperties) {
 app.service("sharedProperties", ["$rootScope", "$sce", "$q", "$httpParamSerializerJQLike", 
 function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
 
+  var document_title = "";
+
   return {
+    setDocumentTitle(my_title) {
+      document_title = my_title
+    };
+
+    getTypeOfController() {
+      if (my_title === "Benvenuti!") {
+        return "home";
+      }
+      else if (my_title === "Streaming") {
+        return "streaming";
+      }
+      else if (my_title === "Calendario") {
+        return "calendario";
+      }
+      else {
+        return "basic";
+      }
+    }
+
     errorMessageForOldBrowsers: function() {
       // code adapted from 
       // https://stackoverflow.com/questions/5916900/how-can-you-detect-the-version-of-a-browser/38080051#38080051
