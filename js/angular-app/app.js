@@ -618,7 +618,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
           fetch_url = "https://mcivienna.org/calendario/eventi.js";
         }
         else {
-          fetch_url = "https://mcivienna.org/calendario/eventi_passati/" + year + "eventi.js";
+          fetch_url = "https://mcivienna.org/calendario/eventi_passati/" + year + "eventi_" + year + ".js";
         }
       }
       else {
