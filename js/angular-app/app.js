@@ -243,7 +243,6 @@ function($scope, $rootScope, $route, sharedProperties) {
       }
     ];
   
-  
     sharedProperties.create_popup_links(popups);
   }
   else {
@@ -263,6 +262,8 @@ app.service("sharedProperties", ["$rootScope", "$sce", "$q", "$httpParamSerializ
 function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
 
   var type_of_controller = "";
+
+  var popups_already_created = false;
 
   function set_popup_fontsize() {
     var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -421,8 +422,10 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
         $("#container_custom_popups").append(button);
       };
 
-      for (var i = 0; i < popups.length; i++) {
-        create_single_popup_link(popups[i].text, popups[i].link);
+      if (!popups_already_created) {
+        for (var i = 0; i < popups.length; i++) {
+          create_single_popup_link(popups[i].text, popups[i].link);
+        }
       }
 
       // popups must be displayed ONLY in the homepage
