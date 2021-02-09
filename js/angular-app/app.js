@@ -264,6 +264,39 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
 
   var type_of_controller = "";
 
+  function set_popup_fontsize() {
+    var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+    if (viewport_width > 650) {
+      viewport_width = 650; // we're only setting a "virtual" viewport. 
+      // This is due to the fact that after 650 px the width 
+      // of the popup does not increase (see the css file)
+    }
+    var font_size = viewport_width * viewport_height * 0.000064;
+    if (font_size > 14) {
+      font_size = 14;
+    }
+
+    var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
+    for (var i = 0; i < popup_notification_p_list.length; i++) {
+      popup_notification_p_list[i].style.fontSize = font_size + "px";
+      popup_notification_p_list[i].style.marginBottom = font_size * 5/14 + "px";
+    }
+    
+    var popup_notification_buttons = document.getElementsByClassName("popup_notification_button");
+    for (var i = 0; i < popup_notification_buttons.length; i++) {
+      popup_notification_buttons[i].style.fontSize = font_size + "px";
+      
+
+      var height_button = 3.4 * font_size;
+      if (height_button > 45) {
+        height_button = 45;
+      }
+      popup_notification_buttons[i].style.height = height_button + "px"; 
+    }
+  };
+
   return {
     setTypeOfController(input_type_of_controller) {
       type_of_controller = input_type_of_controller;
@@ -337,38 +370,7 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       }); */
     },
     
-    set_popup_fontsize: function() {
-      var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-      var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-
-      if (viewport_width > 650) {
-        viewport_width = 650; // we're only setting a "virtual" viewport. 
-        // This is due to the fact that after 650 px the width 
-        // of the popup does not increase (see the css file)
-      }
-      var font_size = viewport_width * viewport_height * 0.000064;
-      if (font_size > 14) {
-        font_size = 14;
-      }
-
-      var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
-      for (var i = 0; i < popup_notification_p_list.length; i++) {
-        popup_notification_p_list[i].style.fontSize = font_size + "px";
-        popup_notification_p_list[i].style.marginBottom = font_size * 5/14 + "px";
-      }
-      
-      var popup_notification_buttons = document.getElementsByClassName("popup_notification_button");
-      for (var i = 0; i < popup_notification_buttons.length; i++) {
-        popup_notification_buttons[i].style.fontSize = font_size + "px";
-        
-
-        var height_button = 3.4 * font_size;
-        if (height_button > 45) {
-          height_button = 45;
-        }
-        popup_notification_buttons[i].style.height = height_button + "px"; 
-      }
-    },
+    
 
     hide_popup: function() {
       document.getElementById("popup_notification").style.display = "none";
@@ -436,8 +438,8 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
         document.getElementById("popup_notification").style.display = "block";
         document.getElementById("popup_interferring_object").style.display = "block"
   
-        $(window).resize(sharedProperties.set_popup_fontsize);
-        $(document).ready(sharedProperties.set_popup_fontsize);
+        $(window).resize(set_popup_fontsize);
+        $(document).ready(set_popup_fontsize);
       }
     },
 
