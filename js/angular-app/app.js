@@ -92,69 +92,78 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       title: "Streaming",
       controller: "myCtrlNotHome" /*,
       reloadOnSearch: false */ })
+    .when("/streaming/video_precedenti/", {
+      templateUrl: "streaming/video_precedenti/content.html",
+      title: "Streaming",
+      controller: "myCtrlNotHome" /*,
+      reloadOnSearch: false */ })    
+    .when("/impressum/", {
+      templateUrl: "impressum/content.html",
+      title: "Impressum",
+      controller: "myCtrlNotHome" /*,
+      reloadOnSearch: false */ })
+
+      
+    .when("/grusswort_des_seelsorgers/", {
+      templateUrl: "grusswort_des_seelsorgers/content.html",
+      title: "Grußwort des Seelsorgers",
+      controller: "myCtrlNotHome" /*,
+      reloadOnSearch: false */ })
+
+
+    .when("/calendario/", {
+      templateUrl: "calendario/content.html",
+      title: "Calendario",
+      controller: "myCtrlNotHome" /*,
+      reloadOnSearch: false */ })
+        
+    // Lectio Divina
+    .when("/attivita/lectio_divina/:date", {
+      templateUrl: function(params) {
+        return "attivita/lectio_divina/" + params.date + "/content.html";
+      },
+      title: "Lectio Divina",
+      controller: "myCtrlNotHome" /*,
+      reloadOnSearch: false */ })
+
+    // Blog of the MCI
+    .when("/blog/:year/:month/:day/:title", {
+      templateUrl: function(params) {
+        return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
+      },        
+      title: "Blog",
+      controller: "myCtrlNotHome"
+    })
+
+            
+    // pages with optional parameters
+    .when("/blabla/:page?", {
+      templateUrl: function(params) {
+        // default value in the case when either the parameter "page" is not provided,
+        // or when it does not match one of the values below ("schedule", "location")
+        var params_page = "??";
+        if (params.hasOwnProperty("page")) {
+          params_page = "??";
+        }
+        return "????" + params_page;
+      },        
+      title: "??",
+      controller: "myCtrlNotHome"
+    })
+
+
       
 
-      /* .when("/attivita/", {
-        templateUrl: function(params) {
-            var return_page;
-            if (params.hasOwnProperty("project_part")) {
-              if (params.project_part === "all" || params.project_part == 0 || params.project_part === "") {
-                return_page = "all_project_parts.php";
-              }
-              else {
-                return_page = "individual_project_part.php?id_project_part=" + params.project_part.replace(/^0+/, "");
-              }
-            }
-            else // if (params.hasOwnProperty("all") && params.all === "yes") 
-            {
-              return_page = "all_project_parts.php";
-            }
-            return "public/project_parts/" + return_page;
-          },
-          controller: "myCtrlProjectParts",
-          title: "Project Parts",
-          resolve: {
-            message: function(sharedProperties)  {
-              sharedProperties.updateNeedForPublications(true); 
-              return true;
-            }
-          }
-      })*/
-      
-      // pages with optional parameters
-      .when("/blabla/:page?", {
-        templateUrl: function(params) {
-          // default value in the case when either the parameter "page" is not provided,
-          // or when it does not match one of the values below ("schedule", "location")
-          var params_page = "??";
-          if (params.hasOwnProperty("page")) {
-            params_page = "??";
-          }
-          return "????" + params_page;
-        },        
-        title: "??",
-        controller: "myCtrlNotHome"
-      })
+    .otherwise({
+      templateUrl: function() {
+        return "404.html";
+      },
+      title: "Pagina non trovata",
+      controller : "myCtrlNotHome"
+    });
 
+  });
 
-      // Blog of the MCI
-      .when("/blog/:year/:month/:day/:title", {
-        templateUrl: function(params) {
-          return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
-        },        
-        title: "Blog",
-        controller: "myCtrlNotHome"
-      })
-
-      .otherwise({
-        templateUrl: function() {
-          return "404.html";
-        },
-        title: "Pagina non trovata",
-        controller : "myCtrlNotHome"
-      });
-
-  }); 
   app.run(["$route", "$rootScope", "$location", "$routeParams", "$window", "sharedProperties",
   function($route, $rootScope, $location, $routeParams, $window, sharedProperties) {
   
@@ -679,30 +688,65 @@ app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", functi
 }]);
 
 app.controller("myCtrlHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
-  // generic (almost) trivial controller
+  $scope.is_homepage = true; 
+  // this helps displaying the homepage structure 
+  // (instead of the structure for secondary pages)
 
-  $scope.is_homepage = true;
-  /* $scope.scrollTo = function(id_object) {
-    sharedProperties.scrollTo(id_object, 0);
-  };*/
+  // function for adding zeros (padding) on the left of any string
+  // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
+  function pad (str, max) {
+    str = str.toString();
+    if (str.length < max) {
+      return pad("0" + str, max);
+    }
+    else {
+      return str;
+    }
+  }
 
-  /* loadAllHighResolutionPhotos();
+  function add_news_blocks(id_first_news, id_last_news) {
+    // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
+    for (var i = id_last_news; i >= id_first_news; i--) {
+      $("#container_all_news")
+        .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
 
-  // THIS FIRST INSTRUCTION MUST BE USED IN EVERY "PRINCIPAL" CONTROLLER
-  // (exceptions: sub-controllers like the one for showing the abstracts of papers; the controller for the menu)
-  // sharedProperties.Scroll($routeParams.hasOwnProperty("scroll"));
+      var name_of_file = pad(i, 3);
+      $("#container_of_news_" + i).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
+    }
+  }
 
-  // We use this controller to load any content that normally does not need additional api requests. Since it's likely that 
-  // some LaTeX content is present in the file that we loaded using the routing system, we (re)load MathJax. 
-  // We wait a second (just to be sure that everything is correctly loaded) before rendering MathJax content.
-  load_MathJax_with_a_delay(1000); */
+  $sharedProperties.set_links_per_liturgia_del_giorno();
+    
+  var id_first_news = 1;
+  var id_last_news = 14;
+  add_news_blocks(id_first_news, id_last_news);
+
+  // in a future version of this app, this object must be loaded from an external file
+  // so that it is easier to modify if need be (and we don't risk having the current
+  // js file cached by the browser - on the other hand, it is ok if the rest of this file is instead cached)
+  var popups = 
+  [
+    {
+      "text": "Informazioni per i nuovi corsi di preparazione al matrimonio e alla cresima per adulti",
+      "link": "https://mcivienna.org/blog/2021/01/23/corsi_matrimonio_e_cresima/"
+    },
+    {
+      "text": "Ripresa delle celebrazioni con l'assemblea",
+      "link": "https://mcivienna.org/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/"
+    }
+  ];
+
+
+  $sharedProperties.create_popup_links(popups);
+
+  
 }]);
 
 app.controller("myCtrlNotHome", ["$scope", "sharedProperties", function($scope, sharedProperties) {
   // generic (almost) trivial controller
 
   $scope.is_homepage = false;
-  
+
   /* $scope.scrollTo = function(id_object) {
     sharedProperties.scrollTo(id_object, 0);
   };*/
@@ -786,6 +830,105 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
         left: 0,
         behavior: "auto"  // scrolls instantly instead of using a smooth scroll
       }); */
+    },
+    
+    set_popup_fontsize: function() {
+      var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+      if (viewport_width > 650) {
+        viewport_width = 650; // we're only setting a "virtual" viewport. 
+        // This is due to the fact that after 650 px the width 
+        // of the popup does not increase (see the css file)
+      }
+      var font_size = viewport_width * viewport_height * 0.000064;
+      if (font_size > 14) {
+        font_size = 14;
+      }
+
+      var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
+      for (var i = 0; i < popup_notification_p_list.length; i++) {
+        popup_notification_p_list[i].style.fontSize = font_size + "px";
+        popup_notification_p_list[i].style.marginBottom = font_size * 5/14 + "px";
+      }
+      
+      var popup_notification_buttons = document.getElementsByClassName("popup_notification_button");
+      for (var i = 0; i < popup_notification_buttons.length; i++) {
+        popup_notification_buttons[i].style.fontSize = font_size + "px";
+        
+
+        var height_button = 3.4 * font_size;
+        if (height_button > 45) {
+          height_button = 45;
+        }
+        popup_notification_buttons[i].style.height = height_button + "px"; 
+      }
+    },
+
+    hide_popup: function() {
+      document.getElementById("popup_notification").style.display = "none";
+      document.getElementById("popup_interferring_object").style.display = "none";
+    },
+
+    set_links_per_liturgia_del_giorno: function() {
+      function data_liturgia_del_giorno(mystring) {
+        var date = new Date();  // today
+        
+        if (mystring == "yesterday") {
+          date.setDate(date.getDate() - 1);
+        }
+        else if (mystring == "tomorrow") {
+          date.setDate(date.getDate() + 1);
+        }
+    
+        var list_days = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
+        var day_name = list_days[date.getDay()];
+    
+        var dd = date.getDate();
+        var mm = date.getMonth() + 1; // January is 0!
+        var yyyy = date.getFullYear();
+    
+        if (dd < 10) {
+          dd = "0" + dd
+        }
+    
+        if(mm < 10) {
+            mm = "0" + mm
+        } 
+    
+        var selected_link = document.getElementById(mystring);
+        selected_link.innerHTML += " (" + day_name + ", " + dd + "." + mm + "." + yyyy + ")";
+        selected_link.href += "?data-liturgia=" + yyyy + mm + dd;
+      };
+
+      data_liturgia_del_giorno("yesterday");
+      data_liturgia_del_giorno("today");
+      data_liturgia_del_giorno("tomorrow");
+    },
+
+    create_single_popup_link: function(text, link) {
+      var button = document.createElement('button');
+      button.className = "popup_notification_button";
+      button.innerHTML = text;
+      button.onclick = function(){
+        location.href = link;
+        return false;
+      };
+      $("#container_custom_popups").append(button);
+    },
+  
+    create_popup_links: function(popups) {
+      for (var i = 0; i < popups.length; i++) {
+        create_single_popup_link(popups[i].text, popups[i].link);
+      }
+      if (popups.length > 0) {
+        // enable the interferring object and show the popups
+        document.getElementById("popup_notification").style.display = "block";
+        document.getElementById("popup_interferring_object").style.display = "block"
+  
+        $(window).resize(set_popup_fontsize);
+        $(document).ready(set_popup_fontsize);
+      }
     }
 
 
