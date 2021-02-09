@@ -249,16 +249,14 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
     },
 
     getTypeOfController() {
-      if (my_title === "Benvenuti!") {
+      switch(document_title) {
+        case "Benvenuti!":
         return "home";
-      }
-      else if (my_title === "Streaming") {
+      case "Streaming":
         return "streaming";
-      }
-      else if (my_title === "Calendario") {
+      case "Calendario":
         return "calendario";
-      }
-      else {
+      default:
         return "basic";
       }
     },
