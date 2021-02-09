@@ -65,46 +65,55 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
+      type_of_controller = "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/home/", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
+      type_of_controller = "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("", {
       templateUrl: "home/home.html",
       title: "Benvenuti!",
+      type_of_controller = "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/contatti/", {
       templateUrl: "contatti/content.html",
       title: "Contatti",
+      type_of_controller = "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/liturgia/", {
       templateUrl: "liturgia/content.html",
       title: "Liturgia",
+      type_of_controller = "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/attivita/", {
       templateUrl: "attivita/content.html",
       title: "Attività",
+      type_of_controller = "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/", {
       templateUrl: "streaming/content.html",
       title: "Streaming",
+      type_of_controller = "streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
     .when("/streaming/video_precedenti/", {
       templateUrl: "streaming/video_precedenti/content.html",
       title: "Streaming",
+      type_of_controller = "streaming_old",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })    
     .when("/impressum/", {
       templateUrl: "impressum/content.html",
       title: "Impressum",
+      type_of_controller = "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -112,6 +121,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/grusswort_des_seelsorgers/", {
       templateUrl: "grusswort_des_seelsorgers/content.html",
       title: "Grußwort des Seelsorgers",
+      type_of_controller = "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -119,6 +129,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/calendario/", {
       templateUrl: "calendario/content.html",
       title: "Calendario",
+      type_of_controller = "calendario",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
         
@@ -128,6 +139,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "attivita/lectio_divina/" + params.date + "/content.html";
       },
       title: "Lectio Divina",
+      type_of_controller = "basic",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
@@ -135,8 +147,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/blog/:year/:month/:day/:title", {
       templateUrl: function(params) {
         return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + ".html";
-      },        
+      },
       title: "Blog",
+      type_of_controller = "basic",
       controller: "myCtrlHome"
     })
 
@@ -153,6 +166,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "????" + params_page;
       },        
       title: "??",
+      type_of_controller = "basic",
       controller: "myCtrlHome"
     })
 
@@ -164,6 +178,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         return "404.html";
       },
       title: "Pagina non trovata",
+      type_of_controller = "basic",
       controller : "myCtrlHome"
     });
 
@@ -176,11 +191,11 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       var basic_title = "Missione Cattolica Italiana - Arcidiocesi di Vienna";
       if ($route.current.title === undefined) {
         document.title = basic_title;
-        sharedProperties.setDocumentTitle("");
+        sharedProperties.setTypeOfController("basic");
       }
       else {
         document.title = basic_title + " - " + $route.current.title;
-        sharedProperties.setDocumentTitle($route.current.title);
+        sharedProperties.setTypeOfController($route.current.type_of_controller);
       }
     });
 
@@ -214,11 +229,11 @@ function($scope, $rootScope, $route, sharedProperties) {
     [
       {
         "text": "Informazioni per i nuovi corsi di preparazione al matrimonio e alla cresima per adulti",
-        "link": "https://mcivienna.org/blog/2021/01/23/corsi_matrimonio_e_cresima/"
+        "link": "https://mcivienna.org/#!/blog/2021/01/23/corsi_matrimonio_e_cresima/"
       },
       {
         "text": "Ripresa delle celebrazioni con l'assemblea",
-        "link": "https://mcivienna.org/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/"
+        "link": "https://mcivienna.org/#!/blog/2021/02/05/ripresa_delle_celebrazioni_con_assemblea/"
       }
     ];
   
@@ -241,24 +256,15 @@ function($scope, $rootScope, $route, sharedProperties) {
 app.service("sharedProperties", ["$rootScope", "$sce", "$q", "$httpParamSerializerJQLike", 
 function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
 
-  var document_title = "";
+  var type_of_controller = "";
 
   return {
-    setDocumentTitle(my_title) {
-      document_title = my_title;
+    setTypeOfController(input_type_of_controller) {
+      type_of_controller = input_type_of_controller;
     },
 
     getTypeOfController() {
-      switch(document_title) {
-        case "Benvenuti!":
-        return "home";
-      case "Streaming":
-        return "streaming";
-      case "Calendario":
-        return "calendario";
-      default:
-        return "basic";
-      }
+      return type_of_controller;
     },
 
     errorMessageForOldBrowsers: function() {
@@ -417,7 +423,7 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       for (var i = 0; i < popups.length; i++) {
         create_single_popup_link(popups[i].text, popups[i].link);
       }
-      if (popups.length > 0 && sharedProperties.getTypeOfController() === "home") {
+      if (popups.length > 0 && type_of_controller === "home") {
         // enable the interferring object and show the popups
         document.getElementById("popup_notification").style.display = "block";
         document.getElementById("popup_interferring_object").style.display = "block"
