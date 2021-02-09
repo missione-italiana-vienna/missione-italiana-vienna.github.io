@@ -626,11 +626,18 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
 
       if (fetch_url !== "") {
-        $http.get("https://mcivienna.org/calendario/eventi.js")
-        .then(function(res){
-          events = JSON.parse(res.data);  // TO DO: handle the case when this is not parsable/cannot be loaded.
-          generate_html_with_all_events_after_load(input_string, events);
-        });
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var events = JSON.parse(this.responseText);
+            generate_html_with_all_events_after_load(input_string, events);
+            // TO DO: handle the case when this is not parsable/cannot be loaded.
+          }
+        };
+        xmlhttp.open("GET", fetch_url, true);
+        xmlhttp.send();
+
       }
     }
   }
