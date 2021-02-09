@@ -264,7 +264,7 @@ function($scope, $rootScope, $route, sharedProperties) {
     if (type_of_controller === "calendar") {
       sharedProperties.generate_html_with_all_events("future", "");
     }
-    elseif (type_of_controller === "past_calendar") {
+    else if (type_of_controller === "past_calendar") {
       if ($route.params.hasOwnProperty("year") && $route.params.year !== "") {
         sharedProperties.generate_html_with_all_events("past", $route.params.year);
       }
@@ -518,13 +518,13 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     },
     
     set_links_per_liturgia_del_giorno: function() {
-      function data_liturgia_del_giorno(mystring) {
+      function data_liturgia_del_giorno(my_string) {
         var date = new Date();  // today
         
-        if (mystring == "yesterday") {
+        if (my_string == "yesterday") {
           date.setDate(date.getDate() - 1);
         }
-        else if (mystring == "tomorrow") {
+        else if (my_string == "tomorrow") {
           date.setDate(date.getDate() + 1);
         }
     
@@ -543,7 +543,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
             mm = "0" + mm
         } 
     
-        var selected_link = document.getElementById(mystring);
+        var selected_link = document.getElementById(my_string);
         selected_link.innerHTML += " (" + day_name + ", " + dd + "." + mm + "." + yyyy + ")";
         selected_link.href += "?data-liturgia=" + yyyy + mm + dd;
       };
