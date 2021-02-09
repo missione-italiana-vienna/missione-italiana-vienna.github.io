@@ -199,7 +199,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       }
 
       if (sharedProperties.getTypeOfController() !== "home") {
-        sharedProperties.hide_popup();
+        hide_popup();
         // popups must be shown only in the homepage
       }
 
@@ -370,13 +370,6 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
       }); */
     },
     
-    
-
-    hide_popup: function() {
-      document.getElementById("popup_notification").style.display = "none";
-      document.getElementById("popup_interferring_object").style.display = "none";
-    },
-
     set_links_per_liturgia_del_giorno: function() {
       function data_liturgia_del_giorno(mystring) {
         var date = new Date();  // today
@@ -471,3 +464,9 @@ function($rootScope, $sce, $q, $httpParamSerializerJQLike) {
   }
 
 }]);
+
+
+function hide_popup() {
+  document.getElementById("popup_notification").style.display = "none";
+  document.getElementById("popup_interferring_object").style.display = "none";
+};
