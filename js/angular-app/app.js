@@ -527,10 +527,10 @@ function($scope, $rootScope, $route, sharedProperties) {
     }, 
     function(newVal) { 
       if (newVal === "home") {
-        $scope.is_secondary_page = "no";
+        $scope.is_secondary_page = false;
       }
       else {
-        $scope.is_secondary_page = "yes";
+        $scope.is_secondary_page = true;
       }
     },
     true);
