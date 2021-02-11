@@ -345,6 +345,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
   var popups_already_created = false;
 
+  var fetch_error = false;
+
   // 2 global arrays, used below
   var list_months = 
     ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", 
@@ -642,6 +644,18 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
 
   return {
+
+    getFetchError: function() {
+      return fetch_error;
+    },
+
+    updateFetchError: function(value) {
+      if (fetch_error !== value) {
+        fetch_error = value;
+        return true;
+      }
+    },
+
     // This function gets the list of all videoIDs 
     // of a given channel (up to a fixed maximum)
     // and puts those videos in the webpage (at most one 
