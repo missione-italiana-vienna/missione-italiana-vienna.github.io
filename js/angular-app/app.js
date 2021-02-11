@@ -879,11 +879,14 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
     }
 
-    if (API_data.length < max_length) {
-      max_length = API_data.items.length;
+    if (API_data.length < max_length + num_skipped) {
+      max_length_for_the_cycle = API_data.items.length;
     }
-    else if (API_data.length + number_additional_videos > max_length) {
-      document.getElementById("more-videos").style.display = "block";
+    else {
+      max_length_for_the_for_cycle = max_length + num_skipped;
+      if (API_data.length + number_additional_videos > max_length_for_the_cycle) {
+        document.getElementById("more-videos").style.display = "block";
+      }
     }
     var link, i, video_id;
 
@@ -891,7 +894,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     // assuming that each link provided by the API 
     // has the form   https://www.youtube.com/watch?v=....
     // with no additional query parameters after "v=..."
-    for (i = num_skipped; i < max_length; i++) {
+    for (i = num_skipped; i < max_length_for_the_cycle; i++) {
       link = API_data[i].link;
       video_id = link.substr(link.indexOf("=") + 1); 
   
