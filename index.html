@@ -129,6 +129,15 @@
     </div>
 
     
+    <div data-ng-controller = "myCtrlErrorFetch">
+      <div class = "error">
+        <div data-ng-if = "error_message === 'old_browser_not_supported'" 
+          data-ng-bind-html = "error_long_message"
+          style = "margin-top: 20px; margin-bottom: 10px;">
+        </div>
+      </div>
+    </div>
+
 
   
     <div id = "main" data-ng-controller = "myCtrlHome">

@@ -196,6 +196,12 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         hide_popup();
       }
 
+      window.scroll({
+          top: 0,
+          left: 0,
+          behavior: "auto"  // scrolls instantly instead of using a smooth scroll
+        });
+
     });
 
   }]);
@@ -777,26 +783,25 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
           version: M[1]
         };
       })();
-      // console.log(navigator.browserSpecs); // Object { name: "Firefox", version: "42" }
 
       var browser_name = navigator.browserSpecs.name;
       if (browser_name === "IE") {
-        browser_name = "Internet Explorer. In your Windows computer " + 
-        "you could use instead the new Microsoft browser called \"Edge\". While some pages of " +
-        "this website can still be loaded with Internet Explorer, we strongly advise against using " +
-        "Internet Explorer any further. Some details about why Internet Explorer is still available on " +
-        "Windows computers, as well as some ideas worth mentioning about our decision to not support this browser " +
-        "any further, can be found at <a target = _blank rel = \"noopener\" " + 
-        "href = \"https://medium.com/@burger.neal/the-end-of-life-of-internet-explorer-11-12736f9ff75f\">this link</a>";
+        browser_name = "Internet Explorer. Sul vostro computer Windows " + 
+        "potete usare invece il nuovo browser Microsoft chiamato \"Edge\". Anche se alcune pagine di " +
+        "questo sto possono essere comunque visualizzate usando Internet Explorer, vi consigliamo caldamente di non usare " +
+        "più Internet Explorer per ragioni di sicurezza e di performance. Alcune ragioni per la nostra decisione di sconsigliare " +
+        "l'uso di Internet Explorer si possono trovare a <a target = _blank rel = \"noopener\" " + 
+        "href = \"https://medium.com/@burger.neal/the-end-of-life-of-internet-explorer-11-12736f9ff75f\">questo link</a> (in inglese).";
       }
 
-      return "It seems that your browser is too old (or not recently updated); " + 
-        "hence it cannot display or submit some infos. Please consider to update your browser, " + 
-        " or to use a different browser in order to see all the relevant information " +
-        "on this page. <br><br> It seems that you are currently using version " + 
-        navigator.browserSpecs.version + " of the browser " +
+      return "Sembra che il tuo browser sia troppo vecchio (o non aggiornato recentemente); " + 
+        "quindi non può mostrare correttamente parte di questo sito. Ti consigliamo di aggiornarlo o " + 
+        "di usare un altro browser per vedere le informazioni di questa pagina. " +
+        "<br><br>Sembra che tu stia usando la versione " + 
+        navigator.browserSpecs.version + " del browser " +
         browser_name + ".";
     },
+
     scrollToStart: function() {
       //scrollIt(0, 300, "easeInOutQuint");
 
