@@ -163,18 +163,29 @@
         </div>
       </div>
 
+      <div data-ng-if = "is_secondary_page === 'no'" class = "ministries">
+        <!-- {{is_secondary_page}} -->
+      </div>
+      
       <!-- include the secondary pages content -->
-      <div data-ng-if = "is_secondary_page" class = "ministries">
+      <div data-ng-if = "is_secondary_page === 'yes'" class = "ministries">
+        <!-- {{is_secondary_page}} -->
+
+
         <div class = "container">
           <!-- the main content is injected here by the AngularJS app -->
           <div data-ng-view data-ng-autoscroll></div>
         </div>
       </div>
 
+
+
       <!-- include the homepage content -->
       <div data-ng-if = "!is_secondary_page" data-ng-include="'home/home.html'"></div>
 
     </div>
+
+
 
 
     <!-- Footer -->

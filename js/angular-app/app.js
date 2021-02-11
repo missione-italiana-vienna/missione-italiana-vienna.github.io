@@ -521,7 +521,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
 app.controller("myCtrlHome", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
 
-  $scope.is_secondary_page = false;
+  $scope.is_secondary_page = "no";
 
   var type_of_controller = sharedProperties.getTypeOfController();
   if (type_of_controller === "home") {
@@ -561,7 +561,7 @@ function($scope, $rootScope, $route, sharedProperties) {
     xmlhttp.send();
   }
   else {
-    $scope.is_secondary_page = true;
+    $scope.is_secondary_page = "yes";
 
     // here we must insert the routines for the streaming and for the calendar, again 
     // using the variable type_of_controller
