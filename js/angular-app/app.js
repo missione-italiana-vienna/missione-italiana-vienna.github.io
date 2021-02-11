@@ -526,7 +526,7 @@ function($scope, $rootScope, $route, sharedProperties) {
       return sharedProperties.getTypeOfController(); 
     }, 
     function(newVal) { 
-      if (type_of_controller === "home") {
+      if (newVal === "home") {
         $scope.is_secondary_page = "no";
       }
       else {
