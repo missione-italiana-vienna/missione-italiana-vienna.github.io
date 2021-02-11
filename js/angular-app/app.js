@@ -1,7 +1,7 @@
 // This file contains the configuration files for the AngularJS app 
 // (in particular, routing list), and all the controllers of the app */
 var source_website = 'https://mcivienna.org/';
-var source_website_hashbang = source_website + '#!/';
+// var source_website_hashbang = source_website + '#!/';
 
 var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
   // NOTE: ngLazyLoad was temporarily removed from the list of dependencies 
@@ -531,34 +531,9 @@ function($scope, $rootScope, $route, sharedProperties) {
 
     sharedProperties.set_links_per_liturgia_del_giorno();
     
-    var fetch_url_news = "https://mcivienna.org/home/news.js";
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        var news = JSON.parse(this.responseText);
-        sharedProperties.add_news_blocks(news.id_first_news, news.id_last_news);
-        // TO DO: handle the case when this is not parsable/cannot be loaded.
-      }
-    };
-    xmlhttp.open("GET", fetch_url_news, true);
-    xmlhttp.send();
+    sharedProperties.include_all_news();
 
-  
-    // in a future version of this app, this object must be loaded from an external file
-    // so that it is easier to modify if need be (and we don't risk having the current
-    // js file cached by the browser - on the other hand, it is ok if the rest of this file is instead cached)
-    
-    var fetch_url_popups = "https://mcivienna.org/home/popups.js";
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        var popups = JSON.parse(this.responseText);
-        sharedProperties.create_popup_links(popups);
-        // TO DO: handle the case when this is not parsable/cannot be loaded.
-      }
-    };
-    xmlhttp.open("GET", fetch_url_popups, true);
-    xmlhttp.send();
+    sharedProperties.include_all_popups();
   }
   else {
     $scope.is_secondary_page = "yes";
@@ -583,22 +558,11 @@ function($scope, $rootScope, $route, sharedProperties) {
       if (type_of_controller == "past_streaming") {
         num_skipped = 7; // this should be the same value of the variable max_length
       }
-      
-      var fetch_url_news = "https://mcivienna.org/streaming/details_of_last_video.js";
-      var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-          var video_parameters = JSON.parse(this.responseText);
-          sharedProperties.findAndInsertYoutubeVideos(video_parameters, num_skipped);
-          // TO DO: handle the case when this is not parsable/cannot be loaded.
-        }
-      };
-      xmlhttp.open("GET", fetch_url_news, true);
-      xmlhttp.send();
-      
+
+      sharedProperties.insert_streaming_videos(num_skipped);
+           
     }
   }
-
 
 }]);
 
@@ -620,6 +584,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     ["Domenica", "Lunedì", "Martedì", 
     "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
 
+
+  
 
   function set_popup_fontsize() {
     var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
@@ -676,7 +642,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         content += js_content[j].time;
       }
       
-      content += '</td> ' // this closes '<td ... >' already inserted above
+      content += '</td> '; // this closes '<td ... >' already inserted above
       // NOTE: in the string above there's a white space; this is needed for the visualization on
       // small screens, where every td is displayed with "display: inline;"
 
@@ -684,7 +650,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       if (js_content[j].hasOwnProperty("type") && js_content[j].type == "comment") {
         content += ' event_comment';
       }
-      content += '">' + js_content[j].description + '</td>'
+      content += '">' + js_content[j].description + '</td>';
       content += '</tr>'; // this closes '<tr>' already inserted above
     }
 
@@ -881,6 +847,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
     }
 
+    var max_length_for_the_cycle;
     if (API_data.length < max_length + num_skipped) {
       max_length_for_the_cycle = API_data.length;
     }
@@ -911,8 +878,231 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     }
   }
 
+  // This function gets the list of all videoIDs 
+  // of a given channel (up to a fixed maximum)
+  // and puts those videos in the webpage (at most one 
+  // at the beginning of the page, if it's embeddable, otherwise just a link,
+  // all the others are added at the end of the file)
+  function findAndInsertYoutubeVideos(additional_parameters, num_skipped) {
+
+    var parameters = {
+      // the next parameter ensures that we embed a version of each video with no cookies
+      first_part_of_youtube_links_with_no_cookies: "https://www.youtube-nocookie.com/embed/",
+      // initial part of links pointing to the external videos directly played on youtube
+      first_part_of_youtube_links: "https://www.youtube.com/watch?v=",
+      // channel id of the Missione Cattolica Italiana a Vienna on youtube
+      cid_youtube_channel: "UCKAeLh4BIb8bTVnWn4OsqCg",
+      // we limit the previous code to 7 videos, otherwise the page loads very slowly
+      max_length: 7,
+
+      // A request to the API below with channel_id given 
+      // by the ID of a youtube channel (see below) 
+      // returns a JSON similar to the one in the next lines 
+      // (the XML API of youtube returns a xml file, 
+      // further converted to json by api.rss2json.com ):
+
+      // {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
+
+      // NOTE: the field "items" is the one we are interested in. 
+      // It will contain a list of objects, each with the following structure:
+
+      // {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
+
+      // For each such object, for the current application 
+      // we are only interested in the field "link"
+      // Such field will be added to the corresponding <iframe>, 
+      // so that we can load the corresponding video
+
+      // Complete example of the structure of the response of the API 
+      // (actually, this is what we are loading for the current webpage, 
+      // since we only load videos from the youtube webpage of 
+      // Missione Cattolica Italiana a Vienna):
+      // see the following link:
+      // https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
+      API_link: "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=")
+    };
+
+    parameters.video_id_of_last_stream = additional_parameters.video_id_of_last_stream;
+    parameters.last_stream_is_embeddable = additional_parameters.last_stream_is_embeddable;
+    parameters.date_of_last_stream = additional_parameters.date_of_last_stream;
+
+    var first_part_of_youtube_links_with_no_cookies = parameters.first_part_of_youtube_links_with_no_cookies;
+    var first_part_of_youtube_links = parameters.first_part_of_youtube_links;
+    var cid_youtube_channel = parameters.cid_youtube_channel;
+    var max_length = parameters.max_length;
+    var API_link = parameters.API_link;
+    var video_id_of_last_stream = parameters.video_id_of_last_stream;
+    var last_stream_is_embeddable = parameters.last_stream_is_embeddable;
+    var date_of_last_stream = parameters.date_of_last_stream;
+
+    var number_additional_videos = 0;
+    var today = get_date_of_today_in_austrian_format();
+
+    if (video_id_of_last_stream !== "undefined" && video_id_of_last_stream !== "" && num_skipped == 0) {
+      if (date_of_last_stream === today) {
+        if (last_stream_is_embeddable) {
+          prepareFrame({
+            container: "channel-container-first-video", 
+            first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies, 
+            video_id: video_id_of_last_stream,
+            video_title: ""
+          });
+        }
+        else {
+          var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
+          link_to_the_video_of_today.setAttribute("href", first_part_of_youtube_links + video_id_of_last_stream);
+          var container_of_the_link_to_the_video_of_today = 
+            document.getElementById("container-of-the-link-to-the-video-of-today");
+          container_of_the_link_to_the_video_of_today.style.display = "block";
+        }
+      }
+      else {
+        // In this case the video could have been created yesterday 
+        // (and already set as embeddable from studio.youtube.com).
+        // Nonetheless, we already experienced several times that 
+        // the video is added to the channel only almost one day after
+        // (although the direct link works, it is not listed on 
+        // the channel - we have no idea why).
+        // In this case, it would make sense to
+        // - per default (in the lines below), decide to add it to 
+        //   the list of videos shown at the end of the file
+        // - but ONLY in the special case when the video does not appear 
+        //   in the API response, put it at the beginning of the
+        //   webpage (in this way everyone can find it easily 
+        //   if it is not listed in our youtube channel yet).
+        //   This special case will be dealt with a bit below, 
+        //   after having parsed the API response.
+        display_link_to_youtube_channel();
+        
+        prepareFrame({
+          container: "channel-container", 
+          first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies, 
+          video_id: video_id_of_last_stream,
+          video_title: ""
+        });
+      }
+    }
+    else {
+      display_link_to_youtube_channel();
+    }
+
+    $.getJSON( API_link + cid_youtube_channel,
+      function(API_data) {
+        // the video_id_of_last_stream is passed as parameter 
+        // so that it will be ignored if found in the API_data
+        insert_API_videos({
+          API_data: API_data.items,
+          max_length: max_length,
+          first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies,
+          number_additional_videos: number_additional_videos,
+          video_id_of_last_stream: video_id_of_last_stream,
+          last_stream_is_embeddable: last_stream_is_embeddable,
+          date_of_last_stream: date_of_last_stream,
+          num_skipped: num_skipped
+        });
+      }
+    );
+  }
+
+  function add_news_blocks(id_first_news, id_last_news) {
+
+    // function for adding zeros (padding) on the left of any string
+    // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
+    function pad(str, max) {
+      str = str.toString();
+      if (str.length < max) {
+        return pad("0" + str, max);
+      }
+      else {
+        return str;
+      }
+    }
+    
+    // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
+    for (var i = id_last_news; i >= id_first_news; i--) {
+      $("#container_all_news")
+        .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
+
+      var name_of_file = pad(i, 3);
+      $("#container_of_news_" + i).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
+    }
+  }
+
+  function create_popup_links(popups) {
+
+    function create_single_popup_link(text, link) {
+      var button = document.createElement('button');
+      button.className = "popup_notification_button";
+      button.innerHTML = text;
+      button.onclick = function(){
+        location.href = link;
+        return false;
+      };
+      $("#container_custom_popups").append(button);
+    }
+
+    if (!popups_already_created) {
+      for (var i = 0; i < popups.length; i++) {
+        create_single_popup_link(popups[i].text, popups[i].link);
+      }
+      popups_already_created = true;
+    }
+
+    // popups must be displayed ONLY in the homepage
+    if (popups.length > 0 && type_of_controller === "home") {
+      // enable the interfering object and show the popups
+      document.getElementById("popup_notification").style.display = "block";
+      document.getElementById("popup_interfering_object").style.display = "block";
+
+      $(window).resize(set_popup_fontsize);
+      $(document).ready(set_popup_fontsize);
+    }
+  }
+
   // return objects (sharedProperties that are accessible to every controller)
   return {
+    insert_streaming_videos: function(num_skipped) {
+      var fetch_url_news = "https://mcivienna.org/streaming/details_of_last_video.js";
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var video_parameters = JSON.parse(this.responseText);
+          findAndInsertYoutubeVideos(video_parameters, num_skipped);
+          // TO DO: handle the case when this is not parsable/cannot be loaded.
+        }
+      };
+      xmlhttp.open("GET", fetch_url_news, true);
+      xmlhttp.send();
+    },
+
+    include_all_popups: function() {
+      var fetch_url_popups = "https://mcivienna.org/home/popups.js";
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var popups = JSON.parse(this.responseText);
+          create_popup_links(popups);
+          // TO DO: handle the case when this is not parsable/cannot be loaded.
+        }
+      };
+      xmlhttp.open("GET", fetch_url_popups, true);
+      xmlhttp.send();  
+    },
+
+    include_all_news: function() {
+      var fetch_url_news = "https://mcivienna.org/home/news.js";
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var news = JSON.parse(this.responseText);
+          add_news_blocks(news.id_first_news, news.id_last_news);
+          // TO DO: handle the case when this is not parsable/cannot be loaded.
+        }
+      };
+      xmlhttp.open("GET", fetch_url_news, true);
+      xmlhttp.send();
+    },
+
     getFetchError: function() {
       return fetch_error;
     },
@@ -924,131 +1114,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
     },
 
-    // This function gets the list of all videoIDs 
-    // of a given channel (up to a fixed maximum)
-    // and puts those videos in the webpage (at most one 
-    // at the beginning of the page, if it's embeddable, otherwise just a link,
-    // all the others are added at the end of the file)
-    findAndInsertYoutubeVideos: function(additional_parameters, num_skipped) {
-
-      var parameters = {
-        // the next parameter ensures that we embed a version of each video with no cookies
-        first_part_of_youtube_links_with_no_cookies: "https://www.youtube-nocookie.com/embed/",
-        // initial part of links pointing to the external videos directly played on youtube
-        first_part_of_youtube_links: "https://www.youtube.com/watch?v=",
-        // channel id of the Missione Cattolica Italiana a Vienna on youtube
-        cid_youtube_channel: "UCKAeLh4BIb8bTVnWn4OsqCg",
-        // we limit the previous code to 7 videos, otherwise the page loads very slowly
-        max_length: 7,
-
-        // A request to the API below with channel_id given 
-        // by the ID of a youtube channel (see below) 
-        // returns a JSON similar to the one in the next lines 
-        // (the XML API of youtube returns a xml file, 
-        // further converted to json by api.rss2json.com ):
-  
-        // {"status":"ok","feed":{"url":"https://www.youtube.com/feeds/videos.xml?channel_id=UCKAeLh4BIb8bTVnWn4OsqCg","title":"Missione Italiana Cattolica a Vienna","link":"https://www.youtube.com/channel/UCKAeLh4BIb8bTVnWn4OsqCg","author":"Missione Italiana Cattolica a Vienna","description":"","image":""},"items":[.....]}
-  
-        // NOTE: the field "items" is the one we are interested in. 
-        // It will contain a list of objects, each with the following structure:
-  
-        // {"title":"....","pubDate":"....","link":"....","guid":"....","author":"....", "thumbnail":"....","description":"....","content":"....","enclosure":{"link":"....","type":"....","thumbnail":"...."},"categories":[]}
-  
-        // For each such object, for the current application 
-        // we are only interested in the field "link"
-        // Such field will be added to the corresponding <iframe>, 
-        // so that we can load the corresponding video
-  
-        // Complete example of the structure of the response of the API 
-        // (actually, this is what we are loading for the current webpage, 
-        // since we only load videos from the youtube webpage of 
-        // Missione Cattolica Italiana a Vienna):
-        // see the following link:
-        // https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCBJycsmduvYEL83R_U4JriQ
-        API_link: "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=")
-      };
-
-      parameters.video_id_of_last_stream = additional_parameters.video_id_of_last_stream;
-      parameters.last_stream_is_embeddable = additional_parameters.last_stream_is_embeddable;
-      parameters.date_of_last_stream = additional_parameters.date_of_last_stream;
-
-      var first_part_of_youtube_links_with_no_cookies = parameters.first_part_of_youtube_links_with_no_cookies;
-      var first_part_of_youtube_links = parameters.first_part_of_youtube_links;
-      var cid_youtube_channel = parameters.cid_youtube_channel;
-      var max_length = parameters.max_length;
-      var API_link = parameters.API_link;
-      var video_id_of_last_stream = parameters.video_id_of_last_stream;
-      var last_stream_is_embeddable = parameters.last_stream_is_embeddable;
-      var date_of_last_stream = parameters.date_of_last_stream;
-
-      var number_additional_videos = 0;
-      var today = get_date_of_today_in_austrian_format();
-
-      if (video_id_of_last_stream !== "undefined" && video_id_of_last_stream !== "" && num_skipped == 0) {
-        if (date_of_last_stream === today) {
-          if (last_stream_is_embeddable) {
-            prepareFrame({
-              container: "channel-container-first-video", 
-              first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies, 
-              video_id: video_id_of_last_stream,
-              video_title: ""
-            });
-          }
-          else {
-            var link_to_the_video_of_today = document.getElementById("link-to-the-video-of-today");
-            link_to_the_video_of_today.setAttribute("href", first_part_of_youtube_links + video_id_of_last_stream);
-            var container_of_the_link_to_the_video_of_today = 
-              document.getElementById("container-of-the-link-to-the-video-of-today");
-            container_of_the_link_to_the_video_of_today.style.display = "block";
-          }
-        }
-        else {
-          // In this case the video could have been created yesterday 
-          // (and already set as embeddable from studio.youtube.com).
-          // Nonetheless, we already experienced several times that 
-          // the video is added to the channel only almost one day after
-          // (although the direct link works, it is not listed on 
-          // the channel - we have no idea why).
-          // In this case, it would make sense to
-          // - per default (in the lines below), decide to add it to 
-          //   the list of videos shown at the end of the file
-          // - but ONLY in the special case when the video does not appear 
-          //   in the API response, put it at the beginning of the
-          //   webpage (in this way everyone can find it easily 
-          //   if it is not listed in our youtube channel yet).
-          //   This special case will be dealt with a bit below, 
-          //   after having parsed the API response.
-          display_link_to_youtube_channel();
-          
-          prepareFrame({
-            container: "channel-container", 
-            first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies, 
-            video_id: video_id_of_last_stream,
-            video_title: ""
-          });
-        }
-      }
-      else {
-        display_link_to_youtube_channel();
-      }
-
-      $.getJSON( API_link + cid_youtube_channel,
-        function(API_data) {
-          // the video_id_of_last_stream is passed as parameter 
-          // so that it will be ignored if found in the API_data
-          insert_API_videos({
-            API_data: API_data.items,
-            max_length: max_length,
-            first_part_of_youtube_links: first_part_of_youtube_links_with_no_cookies,
-            number_additional_videos: number_additional_videos,
-            video_id_of_last_stream: video_id_of_last_stream,
-            last_stream_is_embeddable: last_stream_is_embeddable,
-            date_of_last_stream: date_of_last_stream,
-            num_skipped: num_skipped
-          });
-        }
-      );
-    },
+    
 
     setTypeOfController(input_type_of_controller) {
       type_of_controller = input_type_of_controller;
@@ -1158,60 +1224,9 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     },
 
     
-    create_popup_links: function(popups) {
+    
 
-      function create_single_popup_link(text, link) {
-        var button = document.createElement('button');
-        button.className = "popup_notification_button";
-        button.innerHTML = text;
-        button.onclick = function(){
-          location.href = link;
-          return false;
-        };
-        $("#container_custom_popups").append(button);
-      }
-
-      if (!popups_already_created) {
-        for (var i = 0; i < popups.length; i++) {
-          create_single_popup_link(popups[i].text, popups[i].link);
-        }
-        popups_already_created = true;
-      }
-
-      // popups must be displayed ONLY in the homepage
-      if (popups.length > 0 && type_of_controller === "home") {
-        // enable the interfering object and show the popups
-        document.getElementById("popup_notification").style.display = "block";
-        document.getElementById("popup_interfering_object").style.display = "block";
-  
-        $(window).resize(set_popup_fontsize);
-        $(document).ready(set_popup_fontsize);
-      }
-    },
-
-    add_news_blocks: function(id_first_news, id_last_news) {
-
-      // function for adding zeros (padding) on the left of any string
-      // There's a simpler way to do this (strpad) but it's not supported on Internet Explorer
-      function pad(str, max) {
-        str = str.toString();
-        if (str.length < max) {
-          return pad("0" + str, max);
-        }
-        else {
-          return str;
-        }
-      }
-      
-      // NOTE: i (hence "name_of_file") is decreasing since the most recent news must be shown first 
-      for (var i = id_last_news; i >= id_first_news; i--) {
-        $("#container_all_news")
-          .append('<div class = "col-lg-4 news_col"><div class = "news_item" style = "padding-bottom: 30px;" id = "container_of_news_' + i + '"></div></div>');
-  
-        var name_of_file = pad(i, 3);
-        $("#container_of_news_" + i).html("Loading...").load("https://mcivienna.org/home/" + name_of_file + ".html");
-      }
-    },
+    
 
     generate_html_with_all_events: function(input_string, year) {
       var fetch_url;
