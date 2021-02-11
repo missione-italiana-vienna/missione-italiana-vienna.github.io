@@ -531,6 +531,11 @@ function($scope, $rootScope, $route, sharedProperties) {
       }
       else {
         $scope.is_secondary_page = true;
+        // the next instruction ensures that the parallax routine
+        // is called correctly when changing route
+        // (per default it is executed only once on load of the page,
+        // without the next instruction if we land on the homepage and 
+        // we navigate to secondary pages, the parallax object would not be shown)
         $('.parallax-window').parallax({imageSrc: 'https://mcivienna.org/images/common_images/church_interior.jpg'});
       }
     },
