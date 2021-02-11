@@ -842,7 +842,9 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
   // part of the screen, neither a link to a currently streaming video
   function display_link_to_youtube_channel() {
     var link_to_the_youtube_channel = document.getElementById("link-to-the-youtube-channel");
-    link_to_the_youtube_channel.style.display = "block";
+    if (link_to_the_youtube_channel !== null) {
+      link_to_the_youtube_channel.style.display = "block";
+    }
   }
 
 
