@@ -883,7 +883,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       max_length_for_the_cycle = API_data.length;
     }
     else {
-      max_length_for_the_for_cycle = max_length + num_skipped;
+      max_length_for_the_cycle = max_length + num_skipped;
       if (API_data.length + number_additional_videos > max_length_for_the_cycle) {
         document.getElementById("more-videos").style.display = "block";
       }
