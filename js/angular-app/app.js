@@ -212,6 +212,25 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
 
   }]);
 
+  app.controller("myCtrlErrorFetch", ["$scope", "$sce", "sharedProperties", function($scope, $sce, sharedProperties) {
+    $scope.error_message = "";
+  
+    $scope.$watch(
+      function()       { return sharedProperties.getFetchError(); },
+      function(newVal) { 
+        if (newVal) { 
+          $scope.error_message = "old_browser_not_supported"; 
+          $scope.error_long_message = $sce.trustAsHtml(sharedProperties.errorMessageForOldBrowsers()); 
+        }
+        else {
+          $scope.error_message = "";
+          $scope.error_long_message = "";
+        }
+      },
+      true);
+  
+  }]);  
+
 app.controller("myCtrlHome", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
 
