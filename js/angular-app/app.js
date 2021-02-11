@@ -397,7 +397,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       $rootScope.canonical_link = window.location.href;
 
       if (window.location.href.indexOf("#!") === -1 ) {
-        $location.path(source_website_hashbang, true);  // "true" reloads the entire AngularApp
+        $location.path("", true);  // "true" reloads the entire AngularApp
+        // After this, however, the window.location.href ends with "#!/"
+        // as we want
       }
       else {
         var original_url_after_hashbang = window.location.href.split("#!")[1];
