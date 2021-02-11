@@ -13,65 +13,34 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://mcivienna.org/contatti/</loc>
+  <loc>https://mcivienna.org/#!/contatti/</loc>
   <lastmod>2019-02-07T19:32:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mcivienna.org/liturgia/</loc>
+  <loc>https://mcivienna.org/#!/liturgia/</loc>
   <lastmod>2019-02-07T19:32:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mcivienna.org/attivita/</loc>
+  <loc>https://mcivienna.org/#!/attivita/</loc>
   <lastmod>2019-02-07T19:32:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mcivienna.org/calendario/</loc>
+  <loc>https://mcivienna.org/#!/calendario/</loc>
   <lastmod>2019-02-07T19:32:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mcivienna.org/calendario/test</loc>
-  <lastmod>2019-02-24T22:32:33+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://mcivienna.org/grusswort_des_seelsorgers/</loc>
+  <loc>https://mcivienna.org/#!/impressum/</loc>
   <lastmod>2019-02-07T19:32:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mcivienna.org/impressum/</loc>
-  <lastmod>2019-02-07T19:32:33+00:00</lastmod>
+  <loc>https://mcivienna.org/#!/streaming/</loc>
+  <lastmod>2021-02-07T19:32:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://mcivienna.org/attivita/lectio_divina/2019-02-18/</loc>
-  <lastmod>2019-02-07T19:32:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mcivienna.org/attivita/lectio_divina/2019-03-18/</loc>
-  <lastmod>2019-02-07T19:32:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mcivienna.org/attivita/lectio_divina/2019-04-08/</loc>
-  <lastmod>2019-02-07T19:32:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mcivienna.org/attivita/lectio_divina/2019-05-27/</loc>
-  <lastmod>2019-02-07T19:32:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://mcivienna.org/attivita/lectio_divina/2019-06-24/</loc>
-  <lastmod>2019-02-07T19:32:33+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
 
 </urlset>
