@@ -575,14 +575,19 @@ function($scope, $rootScope, $route, sharedProperties) {
         sharedProperties.generate_html_with_all_events("past", "");
       }
     }
-    else if (type_of_controller == "streaming") {
-          
+    else if (type_of_controller == "streaming" || type_of_controller == "past_streaming") {
+
+      var num_skipped = 0;
+      if (type_of_controller == "past_streaming") {
+        num_skipped = 7; // this should be the same value of the variable max_length
+      }
+      
       var fetch_url_news = "https://mcivienna.org/streaming/details_of_last_video.js";
       var xmlhttp = new XMLHttpRequest();
       xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
           var video_parameters = JSON.parse(this.responseText);
-          sharedProperties.findAndInsertYoutubeVideos(video_parameters);
+          sharedProperties.findAndInsertYoutubeVideos(video_parameters, num_skipped);
           // TO DO: handle the case when this is not parsable/cannot be loaded.
         }
       };
@@ -772,43 +777,41 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     var my_video_id = parameters.video_id;
     var my_title = parameters.video_title;
 
-    if (my_video_id !== "BTVv6q5v9g8") {
-      // The code below selects the unique <div> with id = "channel-container" 
-      // (already in the source of the HTML, hence in the original DOM). To this document we will append below:
-      // - a <div class = "video-title"> containing the title of the video
-      // - a <div class = "video-container"> containing the <iframe> containing the video
-      var channel_container = document.getElementById(name_of_container);
+    // The code below selects the unique <div> with id = "channel-container" 
+    // (already in the source of the HTML, hence in the original DOM). To this document we will append below:
+    // - a <div class = "video-title"> containing the title of the video
+    // - a <div class = "video-container"> containing the <iframe> containing the video
+    var channel_container = document.getElementById(name_of_container);
 
-      if (typeof my_title !== "undefined" && my_title !== "") {
-        // The code below creates a <div> with the title of the current video
-        var video_title = document.createElement("div");
-        video_title.setAttribute("class","video-title");
-        video_title.innerHTML = my_title;
-        // We append this <div> to the channel container
-        channel_container.appendChild(video_title);
-      }
-
-      // The code below creates an iframe as follows:
-      //   <iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay;
-      //   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      // where "src" is defined as in the lines below
-      var ifrm = document.createElement("iframe");
-
-      ifrm.setAttribute("src", first_part_of_youtube_links + my_video_id + "?controls=1&autoplay=0");
-      ifrm.setAttribute("frameborder","0");
-      ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
-      ifrm.setAttribute("allowfullscreen","");
-
-      // The code below creates a <div> having a class of "video-container", 
-      // and appends the previous iframe to that object
-      var video_container = document.createElement("div");
-      video_container.setAttribute("class","video-container");
-      video_container.appendChild(ifrm);        
-      video_container.id = "video_container_" + my_video_id;
-
-      // The code below appends the video container to the channel container
-      channel_container.appendChild(video_container);
+    if (typeof my_title !== "undefined" && my_title !== "") {
+      // The code below creates a <div> with the title of the current video
+      var video_title = document.createElement("div");
+      video_title.setAttribute("class","video-title");
+      video_title.innerHTML = my_title;
+      // We append this <div> to the channel container
+      channel_container.appendChild(video_title);
     }
+
+    // The code below creates an iframe as follows:
+    //   <iframe src = "...." frameborder = "0" allow = "accelerometer; autoplay;
+    //   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    // where "src" is defined as in the lines below
+    var ifrm = document.createElement("iframe");
+
+    ifrm.setAttribute("src", first_part_of_youtube_links + my_video_id + "?controls=1&autoplay=0");
+    ifrm.setAttribute("frameborder","0");
+    ifrm.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+    ifrm.setAttribute("allowfullscreen","");
+
+    // The code below creates a <div> having a class of "video-container", 
+    // and appends the previous iframe to that object
+    var video_container = document.createElement("div");
+    video_container.setAttribute("class","video-container");
+    video_container.appendChild(ifrm);        
+    video_container.id = "video_container_" + my_video_id;
+
+    // The code below appends the video container to the channel container
+    channel_container.appendChild(video_container);
   }
 
 
@@ -851,6 +854,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     var video_id_of_last_stream = parameters.video_id_of_last_stream;
     var date_of_last_stream = parameters.date_of_last_stream;
     var last_stream_is_embeddable = parameters.last_stream_is_embeddable;
+    var num_skipped = parameters.num_skipped;
+
 
     var today = get_date_of_today_in_austrian_format();
 
@@ -884,7 +889,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     // assuming that each link provided by the API 
     // has the form   https://www.youtube.com/watch?v=....
     // with no additional query parameters after "v=..."
-    for (i = 0; i < max_length; i++) {
+    for (i = num_skipped; i < max_length; i++) {
       link = API_data[i].link;
       video_id = link.substr(link.indexOf("=") + 1); 
   
@@ -918,7 +923,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     // and puts those videos in the webpage (at most one 
     // at the beginning of the page, if it's embeddable, otherwise just a link,
     // all the others are added at the end of the file)
-    findAndInsertYoutubeVideos: function(additional_parameters) {
+    findAndInsertYoutubeVideos: function(additional_parameters, num_skipped) {
 
       var parameters = {
         // the next parameter ensures that we embed a version of each video with no cookies
@@ -929,6 +934,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         cid_youtube_channel: "UCKAeLh4BIb8bTVnWn4OsqCg",
         // we limit the previous code to 7 videos, otherwise the page loads very slowly
         max_length: 7,
+
         // A request to the API below with channel_id given 
         // by the ID of a youtube channel (see below) 
         // returns a JSON similar to the one in the next lines 
@@ -1031,7 +1037,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
             number_additional_videos: number_additional_videos,
             video_id_of_last_stream: video_id_of_last_stream,
             last_stream_is_embeddable: last_stream_is_embeddable,
-            date_of_last_stream: date_of_last_stream
+            date_of_last_stream: date_of_last_stream,
+            num_skipped: num_skipped
           });
         }
       );
