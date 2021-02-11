@@ -531,6 +531,7 @@ function($scope, $rootScope, $route, sharedProperties) {
       }
       else {
         $scope.is_secondary_page = true;
+        $('.parallax-window').parallax({imageSrc: 'https://mcivienna.org/images/common_images/church_interior.jpg'});
       }
     },
     true);
