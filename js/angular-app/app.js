@@ -172,8 +172,293 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
 
   app.run(["$route", "$rootScope", "$location", "$routeParams", "$window", "sharedProperties",
   function($route, $rootScope, $location, $routeParams, $window, sharedProperties) {
+
+    // The next function converts a string with parameters 
+    // (i.e. all that follows a "?" in an url) to a js object.
+    // The code of this function is slightly modified from the one available here:
+    //    https://www.sitepoint.com/get-url-parameters-with-javascript/
+    function getAllUrlParams(queryString) {
+      // we'll store the parameters here
+      var obj = {};
+
+      var testing_temporary_object = "";
+      testing_temporary_object = "x";
+
+      // if query string exists
+      if (queryString) {
+
+        // stuff after # is not part of query string, so get rid of it
+        queryString = queryString.split("#")[0];
+
+        // split our query string into its component parts
+        var arr = queryString.split("&");
+
+        for (var i = 0; i < arr.length; i++) {
+          // separate the keys and the values
+          var a = arr[i].split("=");
+
+          // in case params look like: list[]=thing1&list[]=thing2
+          var paramNum = undefined;
+          var paramName = a[0].replace(/\[\d*\]/, function(v) {
+            paramNum = v.slice(1,-1);
+            return "";
+          });
+
+          // set parameter value (use "not-provided" if empty)
+          var paramValue = typeof(a[1]) === "undefined" ? "not-provided" : a[1];
+
+          // (optional) keep case consistent
+          paramName = paramName.toLowerCase();
+
+          if (paramValue !== true && paramValue !== false) {
+            paramValue = paramValue.toLowerCase();
+          }
+
+          // if parameter name already exists
+          if (obj[paramName]) {
+            // convert value to array (if still string)
+            if (typeof obj[paramName] === "string") {
+              obj[paramName] = [obj[paramName]];
+            }
+            // if no array index number specified...
+            if (typeof paramNum === "undefined") {
+              // put the value on the end of the array
+              obj[paramName].push(paramValue);
+            }
+            // if array index number specified...
+            else {
+              // put the value at that index number
+              obj[paramName][paramNum] = paramValue;
+            }
+          }
+          // if param name doesn't exist yet, set it
+          else {
+            obj[paramName] = paramValue;
+          }
+        }
+      }
+      else {
+        obj = "none";
+      }
+      return obj;
+    }
+
+    function isEmpty(map) {
+      for (var key in map) {
+        if (map.hasOwnProperty(key)) {
+          return false;
+        }
+      }
+      return true;
+    }
+
+    function removeQueryParamers(query_string, keys_to_remove) {
+
+      var parameter_object = getAllUrlParams(query_string);
+
+      var new_query_string;
+
+      if (parameter_object === "none") { // see the definition of the function getAllUrlParams(...) above
+        new_query_string = "";
+      }
+      else {
+        var i, key;
+        for (i = 0; i < keys_to_remove.length; i++) {
+          key = keys_to_remove[i];
+          if (parameter_object.hasOwnProperty(key)) {
+            delete parameter_object[key];
+          }
+        }
+      
+        if (!isEmpty(parameter_object)) {
+          new_query_string = Object.keys(parameter_object).map(function(key) {
+            return encodeURIComponent(key) + '=' + encodeURIComponent(parameter_object[key]);
+          }).join('&');
+        }
+        else {
+          new_query_string = "";
+        }
+      }
+
+      return new_query_string;
+    }
+
+    // Some urls (coming from example from a "wrong encoding" in the emails) sometimes are of this form
+    //   source_website + "#%21/public/...   (here "%21" is simply an encoding of "!")
+    // For some strange reason, AngularJS (or this AngularJS app) does not recognize "%21" as an encoding of "!",
+    // and for an even stranger unknown reason, it converts those links automatically in links of this form
+    //   source_website + #!#!/public/...
+    // or of this form
+    //   source_website + #!#%21/public/...
+    // thus having a double hashbang block. This link clearly does not match with any of the existing routing, hence
+    // the user will be redirected to the page with the default error. The simplest way to solve the problem is
+    // to replace the entire "#!#!" (if exists) with "#!". A way to do that is the following:
+    
+    // Sometimes something similar happens with the character "#" converted to "%23". 
+    // Also this case is taken into account below.
+
+    var url_must_be_updated = false;
+    var new_url_after_hashbang = "";
+
+    if (window.location.href.indexOf("%23!") !== -1) {        
+      new_url_after_hashbang = window.location.href.split("%23!")[1];
+      url_must_be_updated = true;
+    }
+    else if (window.location.href.indexOf("#!#!") !== -1) {        
+      new_url_after_hashbang = window.location.href.split("#!#!")[1];
+      url_must_be_updated = true;
+    }
+    else if (window.location.href.indexOf("#!#%21") !== -1) {
+      new_url_after_hashbang = window.location.href.split("#!#%21")[1];
+      url_must_be_updated = true;
+    }
+    else if (window.location.href.indexOf("#!") !== -1) {
+      new_url_after_hashbang = window.location.href.split("#!")[1];
+    }
+    else { // In this case actually there's no hashbang.
+      new_url_after_hashbang = window.location.href.replace(source_website, "");
+      var query_string = new_url_after_hashbang.split("?")[1];
+      if (typeof query_string !== "undefined") { 
+        // If a link to the SFB is shared on Facebook, Facebook will add automatically a parameter "fbclid".
+        // This would be simply ignored if the link shared contains already #!, but in the current case
+        // this would generate an error, since the routine below doesn't know what to do with that parameter.
+        // So we need to remove that key-value pair from the query string
+        var keys_to_remove = ["fbclid"];
+
+        // removes from the query_string all the keys that are listed above
+        var new_query_string = removeQueryParamers(query_string, keys_to_remove);
+        var proposed_new_url_after_hashbang;
+
+        if (new_query_string === "") {
+          proposed_new_url_after_hashbang = "";
+        }
+        else {
+          proposed_new_url_after_hashbang = "?" + new_query_string;
+        }
+
+        if (proposed_new_url_after_hashbang !== new_url_after_hashbang) {
+          new_url_after_hashbang = proposed_new_url_after_hashbang;
+          url_must_be_updated = true;
+        }
+      }
+    }
+
+    // a possible source of extra problems is given by the fact that some webmail services encode characters like
+    // "&" in the equivalent version "&amp;", but AngularJS doesn't know how to deal with this. Hence, we
+    // have to re-encode all "&amp;" in "&" characters, then update the url in the AngularJS app
+    if (typeof new_url_after_hashbang !== "undefined" && new_url_after_hashbang.indexOf("&amp;") !== -1) {
+      new_url_after_hashbang = new_url_after_hashbang.replace(/&amp;/g, "&");
+      url_must_be_updated = true;
+    }
+
+    if (url_must_be_updated) {
+      $location.url(new_url_after_hashbang);
+    }
+    // Note: the lines above are executed ONLY once on the startup of the AngularJS app 
+    // (i.e. when the user opens a new tab with a given link, for example)
+    // This is the only case when (since the link is "coming from outside") we have to convert URLs as above
+    // During the normal run of the application, we can ensure that there are no such "bad encoded links"
+    // (because we follow only "internal links")
+    // Hence there's no need to implement the same routine above also below on the call of
+    // $rootScope.$on("$routeChangeSuccess", ...)
+
+    // The next 10 lines are taken from https://www.consolelog.io/angularjs-change-path-without-reloading/
+    // even if probably we are not going to use them. They allow to change the current path 
+    // (without additional parameters!!; if we wanted to change/set also parameters, we would need 
+    // to use $location.url())
+    // without firing the reload of the entire AngularJS application
+    var original = $location.path;
+    $location.path = function (path, reload) {
+      if (reload === false) {
+        var lastRoute = $route.current;
+        var un = $rootScope.$on("$locationChangeSuccess", 
+          function () { 
+            $route.current = lastRoute;
+            un();
+          });
+      }
+      return original.apply($location, [path]);
+    };
+    // the function above is used for example in the login controller 
+    // (this helps retaining the additional optional parameter "requested_uri", 
+    // but removing it from the url in order to keep the url "cleaner")
+
   
-    $rootScope.$on('$routeChangeSuccess', function() {
+    $rootScope.$on('$routeChangeSuccess', function(e, current, pre) {
+
+      // Per default there is no fetch_error in every new route.
+      // Only if a webWorker is called, and "fetch" is not a function
+      // (normally because we are dealing with an old browser)
+      // then fetch_error will be "true", thus showing an error message
+      // on top of the website
+      sharedProperties.updateFetchError(false);
+
+      // Set the canonical link
+      $rootScope.canonical_link = window.location.href;
+
+      if (window.location.href.indexOf("#!") === -1 ) {
+        $location.path(source_website_hashbang, true);  // "true" reloads the entire AngularApp
+      }
+      else {
+        var original_url_after_hashbang = window.location.href.split("#!")[1];
+        // we expect the value above to be starting with "/"
+        // (since all our local paths are of the form "#!/...")
+
+        // if however the path does not contain "#!/" (this should only be the case of the landing homepage)
+        // then the variable defined above will be undefined (because the .split() gives rise to an array with only a 0th object)
+        // Hence:
+
+        if (typeof original_url_after_hashbang === "undefined") {
+          original_url_after_hashbang = "/";
+        }
+
+        // Therefore we get the same result, namely the string "/" in the following 2 cases:
+        // - the url is .../sfb65/#!/
+        // - the url is .../sfb65/
+
+        var new_url_after_hashbang = original_url_after_hashbang;
+
+        // Sometimes some crawlers (or, it seems, links coming from Google Calendar), have the following form:
+        //   source_website + #!%2Fpublic%2Fevents%2Fdetails%2F%3Ftype=1&id=129
+        // (i.e. special characters of urls are encoded) instead of the "correct" form, namely in this case
+        //   source_website + #!/public/events/details/?type=1&id=129
+        // Actually, "/" are taken care of correctly by AngularJS. Only the encoding "%3F" for "?" is not correctly decoded
+        // Hence, whenever we find such a string, we need to replace it with "?", and update the url. Since the url in AngularJS
+        // consists of ONLY everything following the string "#!", then we have to split in two parts the
+        // variable window.location.href (containing the complete URL), and take only the second part. In that second part,
+        // we replace "%3F" with "?" then we set the new url (using $location.url(), which is at the same time a getter and a setter).
+        // To do that:
+
+        if (new_url_after_hashbang.indexOf("%3F") !== -1 && new_url_after_hashbang.indexOf("?") === -1) {
+          // In this case we have normally a link of the form
+          //   source_website + #!%2Fpublic%2Fevents%2Fdetails%2F%3Ftype=1&id=129
+          // where the substring "%3F" must be converted in "?"
+
+          new_url_after_hashbang = new_url_after_hashbang.replace("%3F", "?");
+        }
+
+        
+        if (new_url_after_hashbang.endsWith("=") || new_url_after_hashbang.endsWith("%3D")) {
+          // Some incoming links show sometimes an ending "=" sign, or its equivalent html encoding "%3D". 
+          // This is not treated correctly by the AngularJS App, so we have to remove such characters.
+          // url_after_hashbang = window.location.href.split("#!")[1];
+          if (new_url_after_hashbang.endsWith("=")) {
+
+            new_url_after_hashbang = new_url_after_hashbang.slice(0, -1);
+          }
+          else { // in this case we are dealing with a "%3D" at the end of the string
+            new_url_after_hashbang = new_url_after_hashbang.slice(0, -3);
+          }
+        }
+
+
+        if (new_url_after_hashbang !== original_url_after_hashbang) {
+          // $location.path(new_path, true);  // true allows reloading of the entire angularJs app
+          $location.url(new_url_after_hashbang);
+        }
+      }
+
+
       var basic_title = "Missione Cattolica Italiana - Arcidiocesi di Vienna";
       if ($route.current.title === undefined) {
         document.title = basic_title;

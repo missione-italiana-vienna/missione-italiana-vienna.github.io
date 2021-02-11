@@ -137,12 +137,10 @@
         </div>
       </div>
     </div>
-
-
   
     <div id = "main" data-ng-controller = "myCtrlHome">
 
-      <div class = "home" data-ng-if = "is_secondary_page">
+      <div data-ng-if = "is_secondary_page" class = "home">
         <div class = "home_background parallax-window" data-parallax = "scroll" 
           data-image-src = "https://mcivienna.org/images/common_images/church_interior.jpg" data-speed = "0.8">
         </div><!-- Photo by Brandon Morgan on Unsplash, https://unsplash.com/photos/GxbFfu6yRN0 Lower part of the image cut away -->
@@ -165,12 +163,14 @@
         </div>
       </div>
 
-      <div data-ng-class = "{'ministries': is_secondary_page}">
-        <div data-ng-class = "{'container': is_secondary_page}">
+      <div data-ng-if = "is_secondary_page" class = "ministries">
+        <div class = "container">
           <!-- the main content is injected here by the AngularJS app -->
           <div data-ng-view data-ng-autoscroll></div>
         </div>
       </div>
+
+      <div data-ng-if = "!is_secondary_page" data-ng-include="'home/home.html'"></div>
     
 
     </div>
