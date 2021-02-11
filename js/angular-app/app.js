@@ -521,9 +521,11 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
 app.controller("myCtrlHome", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
 
+  $scope.is_secondary_page = false;
+
   var type_of_controller = sharedProperties.getTypeOfController();
   if (type_of_controller === "home") {
-    $scope.is_secondary_page = false;
+    // $scope.is_secondary_page = false;
     // this helps displaying the homepage structure 
     // (instead of the structure for secondary pages)
 
@@ -909,9 +911,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     }
   }
 
-
+  // return objects (sharedProperties that are accessible to every controller)
   return {
-
     getFetchError: function() {
       return fetch_error;
     },

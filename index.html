@@ -163,6 +163,7 @@
         </div>
       </div>
 
+      <!-- include the secondary pages content -->
       <div data-ng-if = "is_secondary_page" class = "ministries">
         <div class = "container">
           <!-- the main content is injected here by the AngularJS app -->
@@ -170,8 +171,8 @@
         </div>
       </div>
 
+      <!-- include the homepage content -->
       <div data-ng-if = "!is_secondary_page" data-ng-include="'home/home.html'"></div>
-    
 
     </div>
 
