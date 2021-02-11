@@ -521,11 +521,23 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
 app.controller("myCtrlHome", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
 
-  $scope.is_secondary_page = "no";
+  $scope.$watch(
+    function()       { 
+      return sharedProperties.getTypeOfController(); 
+    }, 
+    function(newVal) { 
+      if (type_of_controller === "home") {
+        $scope.is_secondary_page = "no";
+      }
+      else {
+        $scope.is_secondary_page = "yes";
+      }
+    },
+    true);
+
 
   var type_of_controller = sharedProperties.getTypeOfController();
   if (type_of_controller === "home") {
-    // $scope.is_secondary_page = false;
     // this helps displaying the homepage structure 
     // (instead of the structure for secondary pages)
 
@@ -536,8 +548,6 @@ function($scope, $rootScope, $route, sharedProperties) {
     sharedProperties.include_all_popups();
   }
   else {
-    $scope.is_secondary_page = "yes";
-
     // here we must insert the routines for the streaming and for the calendar, again 
     // using the variable type_of_controller
 
