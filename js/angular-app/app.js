@@ -880,7 +880,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     }
 
     if (API_data.length < max_length + num_skipped) {
-      max_length_for_the_cycle = API_data.items.length;
+      max_length_for_the_cycle = API_data.length;
     }
     else {
       max_length_for_the_for_cycle = max_length + num_skipped;
@@ -983,7 +983,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       var number_additional_videos = 0;
       var today = get_date_of_today_in_austrian_format();
 
-      if (video_id_of_last_stream !== "undefined" && video_id_of_last_stream !== "") {
+      if (video_id_of_last_stream !== "undefined" && video_id_of_last_stream !== "" && num_skipped == 0) {
         if (date_of_last_stream === today) {
           if (last_stream_is_embeddable) {
             prepareFrame({
