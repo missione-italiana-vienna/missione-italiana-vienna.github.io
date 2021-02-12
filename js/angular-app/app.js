@@ -1282,14 +1282,30 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
 }]);
 
-// this function is outside the Angular app since it is used also outside that app
+// the next functions and variables are outside the Angular app since 
+// they are used also outside that app. In addition, they cannot be
+// part of the next block ("custom.js"), because of closure 
+// (the next block exists only on ready() )
 function hide_popup() {
   document.getElementById("popup_notification").style.display = "none";
   document.getElementById("popup_interfering_object").style.display = "none";
 }
 
+var menuActive = false;
 
-/* All the next code is the file called custom.js
+function closeMenu()
+{
+  $('.menu').removeClass('active');
+  menuActive = false;
+}
+
+function openMenu()
+{
+  $('.menu').addClass('active');
+  menuActive = true;
+}
+
+/* Almost all the next code was originally in the file called custom.js
 in the original template from Colorlib */
 
 /******************************
@@ -1319,7 +1335,6 @@ $(document).ready(function()
 
   var header = $('.header');
   var hamb = $('.hamburger');
-  var menuActive = false;
   var menu = $('.menu');
 
   setHeader();
@@ -1452,17 +1467,7 @@ $(document).ready(function()
     }
   }
 
-  function closeMenu()
-  {
-    menu.removeClass('active');
-    menuActive = false;
-  }
 
-  function openMenu()
-  {
-    menu.addClass('active');
-    menuActive = true;
-  }
 
   /* 
 
