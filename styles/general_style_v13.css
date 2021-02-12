@@ -127,12 +127,12 @@ p::selection
 }
 
 /* code modified for links */
-a.normal_link {
+.container_main_content a {
   color: #eb4141;
   position: relative;
   display: inline-block;
 }
-a.normal_link:after {
+.container_main_content a:after {
   display: block;
     position: absolute;
     left: 0;
@@ -142,10 +142,10 @@ a.normal_link:after {
     background: #eb4141;
     content: '';
 }
-a.normal_link:hover {
+.container_main_content a:hover {
   color: #000;
 }
-a.normal_link:hover:after {
+.container_main_content a:hover:after {
   background: #ffa07f;
 }
 
@@ -2473,12 +2473,12 @@ section
   padding-top: 10px;
 }
 
-.copyright_component .normal_link:hover {
+.copyright_component a:hover {
   background: #0d0d0f;
   color: red;
 }
 
-.copyright_component .normal_link:after {
+.copyright_component a:after {
   bottom: 4px;
 }
 
@@ -2492,7 +2492,7 @@ section
     display: inline;
     line-height: 40px;
   }
-  .copyright_component .normal_link:after {
+  .copyright_component a:after {
     bottom: 10px;
   }
 }
