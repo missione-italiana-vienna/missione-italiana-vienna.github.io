@@ -386,6 +386,8 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
   
     $rootScope.$on('$routeChangeSuccess', function(e, current, pre) {
 
+      closeMenu();
+
       // Per default there is no fetch_error in every new route.
       // Only if a webWorker is called, and "fetch" is not a function
       // (normally because we are dealing with an old browser)
@@ -1285,43 +1287,3 @@ function hide_popup() {
   document.getElementById("popup_notification").style.display = "none";
   document.getElementById("popup_interfering_object").style.display = "none";
 }
-
-$("#nav_small_screens_home").on('click', function(event) {
-  event.preventDefault();
-  var menu = $('.menu');
-  menu.removeClass('active');
-  menuActive = false;
-  window.location = "https://mcivienna.org/#!/";
-});
-
-$("#nav_small_screens_contatti").on('click', function(event) {
-  event.preventDefault();
-  var menu = $('.menu');
-  menu.removeClass('active');
-  menuActive = false;
-  window.location = "https://mcivienna.org/#!/contatti/";
-});
-
-$("#nav_small_screens_liturgia").on('click', function(event) {
-  event.preventDefault();
-  var menu = $('.menu');
-  menu.removeClass('active');
-  menuActive = false;
-  window.location = "https://mcivienna.org/#!/liturgia/";
-});
-
-$("#nav_small_screens_attivita").on('click', function(event) {
-  event.preventDefault();
-  var menu = $('.menu');
-  menu.removeClass('active');
-  menuActive = false;
-  window.location = "https://mcivienna.org/#!/attivita/";
-});
-
-$("#nav_small_screens_calendario").on('click', function(event) {
-  event.preventDefault();
-  var menu = $('.menu');
-  menu.removeClass('active');
-  menuActive = false;
-  window.location = "https://mcivienna.org/#!/calendario/";
-});
