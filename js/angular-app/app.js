@@ -12,8 +12,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
   // hence we will try to mimic it in this file (even if this is strictly speaking not necessary)
 
   // -- app config (in particular: routing list)
-  // -- app run (in particular: message to the monitor api to register 
-  //    pairs of source/target webpages on the website of the SFB 65)
+  // -- app run (in particular: message to the monitor API to register
+  //    pairs of source/target webpages - 
+  //    we do not have a monitor API right now, but could be useful to have one in the future)
   // -- directive setup
   // -- directive compile
   // -- app controller
@@ -319,7 +320,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       new_url_after_hashbang = window.location.href.replace(source_website, "");
       var query_string = new_url_after_hashbang.split("?")[1];
       if (typeof query_string !== "undefined") { 
-        // If a link to the SFB is shared on Facebook, Facebook will add automatically a parameter "fbclid".
+        // If a link to our webpage is shared on Facebook, Facebook will add automatically a parameter "fbclid".
         // This would be simply ignored if the link shared contains already #!, but in the current case
         // this would generate an error, since the routine below doesn't know what to do with that parameter.
         // So we need to remove that key-value pair from the query string
@@ -417,8 +418,8 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         }
 
         // Therefore we get the same result, namely the string "/" in the following 2 cases:
-        // - the url is .../sfb65/#!/
-        // - the url is .../sfb65/
+        // - the url is https://mcivienna.org/#!/
+        // - the url is https://mcivienna.org/
 
         var new_url_after_hashbang = original_url_after_hashbang;
 
