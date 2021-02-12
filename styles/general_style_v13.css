@@ -127,12 +127,14 @@ p::selection
 }
 
 /* code modified for links */
-.container_main_content a {
+.container_main_content a,
+.footer a {
   color: #eb4141;
   position: relative;
   display: inline-block;
 }
-.container_main_content a:after {
+.container_main_content a:after,
+.footer a:after {
   display: block;
     position: absolute;
     left: 0;
@@ -142,10 +144,12 @@ p::selection
     background: #eb4141;
     content: '';
 }
-.container_main_content a:hover {
+.container_main_content a:hover,
+.footer a:hover {
   color: #000;
 }
-.container_main_content a:hover:after {
+.container_main_content a:hover:after,
+.footer a:hover:after {
   background: #ffa07f;
 }
 
