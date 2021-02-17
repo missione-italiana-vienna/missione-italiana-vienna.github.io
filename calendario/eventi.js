@@ -67,6 +67,16 @@
     ]
   },
   {
+    "date": "24 Febbraio 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-02-24/\">testo qui</a>). L'incontro si svolge online."
+      }
+    ]
+  },
+  {
     "date": "27 Febbraio 2021",
     "content":
     [
@@ -155,6 +165,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Marzo 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-03-24/\">testo qui</a>)."
       }
     ]
   },
