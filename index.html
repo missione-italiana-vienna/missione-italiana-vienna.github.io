@@ -164,28 +164,30 @@
         </div>
       </div>
 
+      
+      <div data-ng-class = "{'ministries': is_secondary_page}">
+        <div data-ng-class = "{'container': is_secondary_page}">
 
-      <div data-ng-if = "show_blog_header">
-        <div class = "row" data-ng-controller = "myCtrlBlogHeader">
-          <div class = "col">
-            <div class = "section_title_container">
-              <div class = "section_image">
-                <img src = "https://mcivienna.org/images/common_images/church_1.png" alt = "">
-              </div>
-              <div class = "section_title"><h2>{{blog_title}}</h2></div>
-              <div class = "section_subtitle">
-                <div style = "display: inline-block;">
-                  {{blog_date}}
+          <!-- This block shows the title and date of blog posts 
+            (provided by the myCtrlBlog to myCtrlBlogHeader passing through the sharedProperties)-->
+          <div data-ng-if = "show_blog_header">
+            <div class = "row" data-ng-controller = "myCtrlBlogHeader">
+              <div class = "col">
+                <div class = "section_title_container">
+                  <div class = "section_image">
+                    <img src = "https://mcivienna.org/images/common_images/church_1.png" alt = "">
+                  </div>
+                  <div class = "section_title"><h2>{{blog_title}}</h2></div>
+                  <div class = "section_subtitle">
+                    <div style = "display: inline-block;">
+                      {{blog_date}}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      
-      <div data-ng-class = "{'ministries': is_secondary_page}">
-        <div data-ng-class = "{'container': is_secondary_page}">
           <!-- the main content is injected here by the AngularJS app -->
           <div data-ng-view data-ng-autoscroll></div>
         </div>
