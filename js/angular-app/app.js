@@ -639,7 +639,7 @@ function($scope, $rootScope, $route, sharedProperties) {
 app.controller("myCtrlBlog", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
 
-  $scope.set_title_and_date(blog_title, blog_date) {
+  $scope.set_title_and_date = function(blog_title, blog_date) {
     $scope.blog_title = blog_title;
     $scope.blog_date = blog_date;
 
