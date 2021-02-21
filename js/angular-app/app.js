@@ -160,15 +160,6 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       title: "Blog",
       controller: "myCtrlHome"
     })
-
-    // Blog of the MCI - TEST VERSION
-    .when("/blog_test/:year/:month/:day/:title", {
-      templateUrl: function(params) {
-        return "blog_test/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + "/content.html";
-      },
-      title: "Blog",
-      controller: "myCtrlHome"
-    })
     
     .otherwise({
       templateUrl: function() {
@@ -495,7 +486,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         hide_popup();
       }
 
-      if (window.location.href.indexOf("#!/blog_test/") === -1) {
+      if (window.location.href.indexOf("#!/blog/") === -1) {
         sharedProperties.setShowBlogHeader(false);
       }
       else {
