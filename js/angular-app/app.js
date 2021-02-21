@@ -160,6 +160,15 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       title: "Blog",
       controller: "myCtrlHome"
     })
+
+    // Blog of the MCI - TEST VERSION
+    .when("/blog_test/:year/:month/:day/:title", {
+      templateUrl: function(params) {
+        return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + "/content.html";
+      },
+      title: "Blog",
+      controller: "myCtrlHome"
+    })
     
     .otherwise({
       templateUrl: function() {
@@ -486,11 +495,18 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         hide_popup();
       }
 
+      if (window.location.href.indexOf("#!/blog/") !== -1) {
+        sharedProperties.setShowBlogHeader(false);
+      }
+      else {
+        sharedProperties.setShowBlogHeader(true);
+      }
+
       window.scroll({
-          top: 0,
-          left: 0,
-          behavior: "auto"  // scrolls instantly instead of using a smooth scroll
-        });
+        top: 0,
+        left: 0,
+        behavior: "auto"  // scrolls instantly instead of using a smooth scroll
+      });
 
     });
 
@@ -519,7 +535,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       },
       true);
   
-  }]);  
+  }]); 
 
 app.controller("myCtrlHome", ["$scope", "$rootScope", "$route", "sharedProperties", 
 function($scope, $rootScope, $route, sharedProperties) {
@@ -543,6 +559,16 @@ function($scope, $rootScope, $route, sharedProperties) {
       }
     },
     true);
+
+  $scope.$watch(
+    function()       { 
+      return sharedProperties.getShowBlogHeader(); 
+    }, 
+    function(newVal) {
+      $scope.show_blog_header = newVal;
+    },
+    true);
+
 
 
   var type_of_controller = sharedProperties.getTypeOfController();
@@ -585,6 +611,43 @@ function($scope, $rootScope, $route, sharedProperties) {
 
 }]);
 
+
+app.controller("myCtrlBlogHeader", ["$scope", "$rootScope", "$route", "sharedProperties", 
+function($scope, $rootScope, $route, sharedProperties) {
+
+  $scope.$watch(
+    function()       { 
+      return sharedProperties.getBlogTitle(); 
+    }, 
+    function(newVal) {
+      $scope.blog_title = newVal;
+    },
+    true);
+  
+  $scope.$watch(
+    function()       { 
+      return sharedProperties.getBlogDate(); 
+    }, 
+    function(newVal) {
+      $scope.blog_date = newVal;
+    },
+    true);
+
+}]);
+
+
+app.controller("myCtrlBlog", ["$scope", "$rootScope", "$route", "sharedProperties", 
+function($scope, $rootScope, $route, sharedProperties) {
+
+  $scope.set_title_and_date(blog_title, blog_date) {
+    $scope.blog_title = blog_title;
+    $scope.blog_date = blog_date;
+
+    // sharedProperties.setShowBlogHeader(true);
+  };
+
+}]);
+
 app.service("sharedProperties", ["$rootScope", "$sce", "$http", "$q", "$httpParamSerializerJQLike", 
 function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
@@ -593,6 +656,12 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
   var popups_already_created = false;
 
   var fetch_error = false;
+
+  var show_blog_header = false;
+
+  var blog_title = "";
+
+  var blog_date = "";
 
   // 2 global arrays, used below
   var list_months = 
@@ -844,7 +913,6 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     var date_of_last_stream = parameters.date_of_last_stream;
     var last_stream_is_embeddable = parameters.last_stream_is_embeddable;
     var num_skipped = parameters.num_skipped;
-
 
     var today = get_date_of_today_in_austrian_format();
 
@@ -1142,6 +1210,30 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     getTypeOfController() {
       return type_of_controller;
     },
+
+    setShowBlogHeader(input_show_blog_header) {
+      show_blog_header = input_show_blog_header;
+      blog_title = "";
+      blog_date = "";
+    },
+    getShowBlogHeader() {
+      return show_blog_header;
+    },
+
+    setBlogTitle(input_blog_title) {
+      blog_title = input_blog_title;
+    },
+    getBlogTitle() {
+      return blog_title;
+    },
+
+    setBlogDate(input_blog_date) {
+      blog_date = input_blog_date;
+    },
+    getBlogDate() {
+      return blog_date;
+    },
+
 
     errorMessageForOldBrowsers: function() {
       // code adapted from 
