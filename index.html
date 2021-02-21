@@ -188,8 +188,19 @@
             </div>
           </div>
 
-          <!-- the main content is injected here by the AngularJS app -->
-          <div data-ng-view data-ng-autoscroll></div>
+          <div data-ng-class = "{'row ministries_row': show_blog_header}">
+            <div data-ng-class = "{'col-lg-12 d-flex flex-column align-items-start justify-content-end': show_blog_header}">
+              <div data-ng-class = "{'row': show_blog_header}">
+                <div data-ng-class = "{'col-lg-12 contact_info_col': show_blog_header}">
+          
+                  <!-- the main content is injected here by the AngularJS app -->
+                  <div data-ng-view data-ng-autoscroll></div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+
         </div>
       </div>
 
