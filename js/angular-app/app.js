@@ -495,7 +495,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         hide_popup();
       }
 
-      if (window.location.href.indexOf("#!/blog/") !== -1) {
+      if (window.location.href.indexOf("#!/blog_test/") === -1) {
         sharedProperties.setShowBlogHeader(false);
       }
       else {
@@ -640,8 +640,8 @@ app.controller("myCtrlBlog", ["$scope", "$rootScope", "$route", "sharedPropertie
 function($scope, $rootScope, $route, sharedProperties) {
 
   $scope.set_title_and_date = function(blog_title, blog_date) {
-    $scope.blog_title = blog_title;
-    $scope.blog_date = blog_date;
+    sharedProperties.setBlogTitle(blog_title);
+    sharedProperties.setBlogDate(blog_date);
 
     // sharedProperties.setShowBlogHeader(true);
   };
