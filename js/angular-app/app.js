@@ -164,7 +164,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     // Blog of the MCI - TEST VERSION
     .when("/blog_test/:year/:month/:day/:title", {
       templateUrl: function(params) {
-        return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + "/content.html";
+        return "blog_test/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + "/content.html";
       },
       title: "Blog",
       controller: "myCtrlHome"
