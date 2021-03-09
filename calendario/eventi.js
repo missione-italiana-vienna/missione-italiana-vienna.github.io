@@ -466,7 +466,7 @@
     ]
   },
   {
-    "date": "24 Maggio 2019",
+    "date": "24 Maggio 2021",
     "content": 
     [
       {
@@ -475,19 +475,6 @@
       {
         "time": "10:30",
         "description": "S. Messa."
-      }
-    ]
-  },
-  {
-    "date": "3 Giugno 2019",
-    "content":
-    [
-      {
-        "description": "<b>Corpus Domini</b> (Fronleichnam)"
-      },
-      {
-        
-        "description": "L'usuale processione (seguita dalla S. Messa) non è ancora confermata. In questa pagina verranno comunicati dettagli a riguardo non appena li avremo."
       }
     ]
   },
@@ -511,6 +498,19 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "3 Giugno 2021",
+    "content":
+    [
+      {
+        "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        
+        "description": "L'usuale processione (seguita dalla S. Messa) non è ancora confermata. In questa pagina verranno comunicati dettagli a riguardo non appena li avremo."
       }
     ]
   },
