@@ -140,6 +140,14 @@
         "description": "<b>Quarta Domenica di Quaresima</b>"
       },
       {
+        "time": "09:45",
+        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+      },
+      {
+        "time": "10:15",
+        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -161,6 +169,14 @@
     [
       {
         "description": "<b>Quinta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "09:45",
+        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+      },
+      {
+        "time": "10:15",
+        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
       },
       {
         "time": "11:30",
@@ -198,6 +214,370 @@
       {
         "time": "11:30",
         "description": "Benedizione delle palme e S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Aprile 2021",
+    "content": 
+    [
+      {
+        "description": "<b>Giovedì Santo</b>"
+      },
+      {
+        "time": "19:30",
+        "style": "color: red;",
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore)."
+      }
+    ]
+  },
+  {
+    "date": "2 Aprile 2021",
+    "content":
+    [
+      {
+        "description": "<b>Venerdì Santo</b>"
+      },
+      {
+        "time": "16:00",
+        "style": "color: red;",
+        "description": "Celebrazione della Passione del Signore."
+      }
+    ]
+  },
+  {
+    "date": "3 Aprile 2021",
+    "content":
+    [
+      {
+        "description": "<b>Sabato Santo</b>"
+      },
+      {
+        "time": "22:30",
+        "style": "color: red;",
+        "description": "Veglia Pasquale."
+      }
+    ]
+  },
+  {
+    "date": "4 Aprile 2021",
+    "content":
+    [
+      {
+        "description": "<b>Pasqua di Risurrezione</b>"
+      },
+      {
+        "time": "11:30",
+        "style": "color: red;",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Aprile 2021",
+    "content":
+    [
+      {
+        "description": "<b>Lunedì dell'angelo</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "10 Aprile 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "11 Aprile 2021",
+    "content": 
+    [
+      {
+        "time": "09:45",
+        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+      },
+      {
+        "time": "10:15",
+        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "17 Aprile 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "18 Aprile 2021",
+    "content": 
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Aprile 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "25 Aprile 2021",
+    "content": 
+    [
+      {
+        "time": "09:45",
+        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+      },
+      {
+        "time": "10:15",
+        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "2 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "9 Maggio 2021",
+    "content": 
+    [
+      {
+        "time": "09:45",
+        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+      },
+      {
+        "time": "10:15",
+        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Maggio 2019",
+    "content": 
+    [ 
+      {
+        "description": "<b>Ascensione</b> (Christi Himmelfahrt)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "16 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "23 Maggio 2021",
+    "content":
+    [
+      {
+        "description": "<b>Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Maggio 2019",
+    "content": 
+    [
+      {
+        "description": "<b>Lunedì di Pentecoste</b>"
+      },
+      {
+        "time": "10:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "3 Giugno 2019",
+    "content":
+    [
+      {
+        "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        
+        "description": "Negli anni passati in occasione del Corpus Domini si svolgeva l'usuale processione seguita dalla Messa. Vi comunicheremo dettagli a riguardo (nel caso in cui si svolga come in passato) non appena li avremo."
+      }
+    ]
+  },
+  {
+    "date": "29 Maggio 2021",
+    "content": 
+    [
+      {
+        "description": "Ritiro dei gruppi per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia e per la preparazione alla Prima Comunione Giugno 2021 con Beatrice"
+      },
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "30 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Giugno 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "6 Giugno 2021",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Giugno 2021",
+    "content": 
+    [
+      {
+        "description": "Prima Confessione sia per il gruppo di catechismo di Vania, Maria Alice e Mattia, sia per il gruppo di catechismo di Beatrice"
+      },
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "13 Giugno 2021",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Giugno 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "20 Giugno 2021",
+    "content": 
+    [
+      {
+        "description": "Prima Comunione del gruppo di catechismo di Beatrice"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
       }
     ]
   }
