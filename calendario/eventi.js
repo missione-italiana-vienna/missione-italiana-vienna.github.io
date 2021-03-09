@@ -172,11 +172,11 @@
       },
       {
         "time": "09:45",
-        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)."
       },
       {
         "time": "10:15",
-        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)."
       },
       {
         "time": "11:30",
@@ -268,7 +268,6 @@
       },
       {
         "time": "11:30",
-        "style": "color: red;",
         "description": "S. Messa."
       }
     ]
@@ -302,11 +301,11 @@
     [
       {
         "time": "09:45",
-        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)."
       },
       {
         "time": "10:15",
-        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)."
       },
       {
         "time": "11:30",
@@ -350,11 +349,11 @@
     [
       {
         "time": "09:45",
-        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)."
       },
       {
         "time": "10:15",
-        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)."
       },
       {
         "time": "11:30",
@@ -398,11 +397,11 @@
     [
       {
         "time": "09:45",
-        "description": "incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia (su Zoom)."
       },
       {
         "time": "10:15",
-        "description": "incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)"
+        "description": "Incontro del gruppo per la preparazione alla Prima Comunione Giugno 2021 con Beatrice (su Zoom)."
       },
       {
         "time": "11:30",
@@ -488,7 +487,7 @@
       },
       {
         
-        "description": "Negli anni passati in occasione del Corpus Domini si svolgeva l'usuale processione seguita dalla Messa. Vi comunicheremo dettagli a riguardo (nel caso in cui si svolga come in passato) non appena li avremo."
+        "description": "L'usuale processione (seguita dalla S. Messa) non è ancora confermata. In questa pagina verranno comunicati dettagli a riguardo non appena li avremo."
       }
     ]
   },
@@ -497,7 +496,7 @@
     "content": 
     [
       {
-        "description": "Ritiro dei gruppi per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia e per la preparazione alla Prima Comunione Giugno 2021 con Beatrice"
+        "description": "Ritiro dei gruppi per la preparazione alla Prima Confessione Giugno 2021 con Vania, Maria Alice e Mattia e per la preparazione alla Prima Comunione Giugno 2021 con Beatrice."
       },
       {
         "time": "17:00",
@@ -540,7 +539,7 @@
     "content": 
     [
       {
-        "description": "Prima Confessione sia per il gruppo di catechismo di Vania, Maria Alice e Mattia, sia per il gruppo di catechismo di Beatrice"
+        "description": "Prima Confessione sia per il gruppo di catechismo di Vania, Maria Alice e Mattia, sia per il gruppo di catechismo di Beatrice."
       },
       {
         "time": "17:00",
@@ -573,8 +572,28 @@
     "content": 
     [
       {
-        "description": "Prima Comunione del gruppo di catechismo di Beatrice"
+        "description": "Prima Comunione del gruppo di catechismo di Beatrice."
       },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "26 Giugno 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "27 Giugno 2021",
+    "content": 
+    [
       {
         "time": "11:30",
         "description": "S. Messa."
