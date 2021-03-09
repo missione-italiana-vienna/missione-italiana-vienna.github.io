@@ -1348,6 +1348,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
 
       if (fetch_url !== "") {
+        var date_now = Date.now();
+        fetch_url += "?" + date_now; // this allows to force this file to be reloaded instead of cached by the browser
 
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
