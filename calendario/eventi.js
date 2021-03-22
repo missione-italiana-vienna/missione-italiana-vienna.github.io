@@ -334,6 +334,16 @@
     ]
   },
   {
+    "date": "21 Aprile 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-04-21/\">testo qui</a>)."
+      }
+    ]
+  },
+  {
     "date": "24 Aprile 2021",
     "content":
     [
@@ -439,6 +449,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Maggio 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-05-19/\">testo qui</a>)."
       }
     ]
   },
@@ -554,6 +574,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "16 Giugno 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-06-16/\">testo qui</a>)."
       }
     ]
   },
