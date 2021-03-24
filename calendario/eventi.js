@@ -626,7 +626,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa. "
       }
     ]
   }
