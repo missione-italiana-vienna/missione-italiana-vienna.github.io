@@ -1156,11 +1156,19 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     include_all_popups: function() {
       var fetch_url_popups = "https://mcivienna.org/home/popups.js";
       var xmlhttp = new XMLHttpRequest();
-      xmlhttp.onreadystatechange = function() {
+      xmlhttp.onreadystatechange = function() {  
         if (this.readyState == 4 && this.status == 200) {
-          var popups = JSON.parse(this.responseText);
-          create_popup_links(popups);
-          // TO DO: handle the case when this is not parsable/cannot be loaded.
+          try {
+            var popups = JSON.parse(this.responseText);
+            create_popup_links(popups);
+          }
+          catch(e) {
+            hide_popup();
+            console.log(e); // error message in the console if the JSON file cannot be parsed
+          }
+        }
+        else {
+          hide_popup();
         }
       };
       xmlhttp.open("GET", fetch_url_popups, true);
