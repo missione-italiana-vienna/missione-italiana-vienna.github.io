@@ -457,8 +457,8 @@
     "content":
     [
       {
-        "time": "19:00",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-05-19/\">testo qui</a>)."
+        "time": "20:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-05-19/\">testo qui</a>). Diversamente dal solito, l'incontro si svolge alle 20:30 invece che alle 19:00."
       }
     ]
   },
