@@ -529,8 +529,8 @@
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-        
-        "description": "L'usuale processione (seguita dalla S. Messa) non è ancora confermata. In questa pagina verranno comunicati dettagli a riguardo non appena li avremo."
+        "time": "11:30",
+        "description": "S. Messa."
       }
     ]
   },
