@@ -559,9 +559,6 @@
     "content": 
     [
       {
-        "description": "Prima Confessione sia per il gruppo di catechismo di Vania, Maria Alice e Mattia, sia per il gruppo di catechismo di Beatrice."
-      },
-      {
         "time": "17:00",
         "description": "Messa prefestiva."
       }
@@ -582,7 +579,7 @@
     "content":
     [
       {
-        "time": "19:00",
+        "time": "20:30",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-06-16/\">testo qui</a>)."
       }
     ]
@@ -602,11 +599,8 @@
     "content": 
     [
       {
-        "description": "Prima Comunione del gruppo di catechismo di Beatrice."
-      },
-      {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa. Durante questa celebrazione si svolgerà la Prima Comunione del gruppo di catechismo di Beatrice."
       }
     ]
   },
@@ -616,7 +610,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -626,7 +620,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   },
@@ -636,7 +630,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -646,7 +640,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   },
@@ -656,7 +650,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -666,7 +660,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   },
@@ -676,7 +670,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -686,7 +680,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   },
@@ -696,7 +690,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -706,7 +700,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   },
@@ -716,7 +710,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -726,7 +720,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   },
@@ -736,7 +730,7 @@
     [
       {
         "time": "17:00",
-        "description": "Messa prefestiva. "
+        "description": "Messa prefestiva."
       }
     ]
   },
@@ -746,7 +740,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. "
+        "description": "S. Messa."
       }
     ]
   }
