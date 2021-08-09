@@ -759,6 +759,9 @@
     "content": 
     [
       {
+				'description': '<b>Assunzione della Vergine Maria</b>'
+			},
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -978,6 +981,184 @@
     "date": "31 Ottobre 2021",
     "content": 
     [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Novembre 2021",
+    "content": 
+    [
+      {
+				'description': '<b>Solennità di tutti i santi</b>'
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Novembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "7 Novembre 2021",
+    "content": 
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Novembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "14 Novembre 2021",
+    "content": 
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Novembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "21 Novembre 2021",
+    "content": 
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "27 Novembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "28 Novembre 2021",
+    "content": 
+    [
+      {
+				'description': '<b>prima Domenica di Avvento</b>'
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Dicembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "5 Dicembre 2021",
+    "content": 
+    [
+      {
+				'description': '<b>seconda Domenica di Avvento</b>'
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Dicembre 2021",
+    "content": 
+    [
+      {
+				'description': '<b>Immacolata Concezione della Beata Vergine Maria</b>'
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Dicembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "14 Dicembre 2021",
+    "content": 
+    [
+      {
+				'description': '<b>terza Domenica di Avvento</b>'
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Dicembre 2021",
+    "content":
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "21 Dicembre 2021",
+    "content": 
+    [
+      {
+				'description': '<b>quarta Domenica di Avvento</b>'
+			},
       {
         "time": "11:30",
         "description": "S. Messa."
