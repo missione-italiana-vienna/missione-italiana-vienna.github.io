@@ -759,7 +759,7 @@
     "content": 
     [
       {
-				'description': '<b>Assunzione della Vergine Maria</b>'
+				"description": "<b>Assunzione della Vergine Maria</b>"
 			},
       {
         "time": "11:30",
@@ -992,7 +992,7 @@
     "content": 
     [
       {
-				'description': '<b>Solennità di tutti i santi</b>'
+				"description": "<b>Solennità di tutti i Santi</b>"
 			},
       {
         "time": "11:30",
@@ -1075,7 +1075,7 @@
     "content": 
     [
       {
-				'description': '<b>prima Domenica di Avvento</b>'
+				"description": "<b>prima Domenica di Avvento</b>"
 			},
       {
         "time": "11:30",
@@ -1098,7 +1098,7 @@
     "content": 
     [
       {
-				'description': '<b>seconda Domenica di Avvento</b>'
+				"description": "<b>seconda Domenica di Avvento</b>"
 			},
       {
         "time": "11:30",
@@ -1111,7 +1111,7 @@
     "content": 
     [
       {
-				'description': '<b>Immacolata Concezione della Beata Vergine Maria</b>'
+				"description": "<b>Immacolata Concezione della Beata Vergine Maria</b>"
 			},
       {
         "time": "11:30",
@@ -1134,7 +1134,7 @@
     "content": 
     [
       {
-				'description': '<b>terza Domenica di Avvento</b>'
+				"description": "<b>terza Domenica di Avvento</b>"
 			},
       {
         "time": "11:30",
@@ -1157,7 +1157,7 @@
     "content": 
     [
       {
-				'description': '<b>quarta Domenica di Avvento</b>'
+				"description": "<b>quarta Domenica di Avvento</b>"
 			},
       {
         "time": "11:30",
