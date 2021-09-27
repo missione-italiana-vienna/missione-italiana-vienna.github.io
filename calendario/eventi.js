@@ -902,6 +902,11 @@
     "content": 
     [
       {
+        "time": "10:00",
+        "style": "color: red;",
+        "description": "Primo incontro di catechismo del nuovo anno liturgico. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -941,6 +946,10 @@
     "date": "17 Ottobre 2021",
     "content": 
     [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1015,6 +1024,10 @@
     "content": 
     [
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1054,6 +1067,10 @@
     "date": "21 Novembre 2021",
     "content": 
     [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1101,6 +1118,10 @@
 				"description": "<b>seconda Domenica di Avvento</b>"
 			},
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1108,7 +1129,7 @@
   },
   {
     "date": "8 Dicembre 2021",
-    "content": 
+    "content":
     [
       {
 				"description": "<b>Immacolata Concezione della Beata Vergine Maria</b>"
@@ -1120,7 +1141,7 @@
     ]
   },
   {
-    "date": "13 Dicembre 2021",
+    "date": "11 Dicembre 2021",
     "content":
     [
       {
@@ -1130,7 +1151,7 @@
     ]
   },
   {
-    "date": "14 Dicembre 2021",
+    "date": "12 Dicembre 2021",
     "content": 
     [
       {
@@ -1143,7 +1164,7 @@
     ]
   },
   {
-    "date": "20 Dicembre 2021",
+    "date": "18 Dicembre 2021",
     "content":
     [
       {
@@ -1153,12 +1174,16 @@
     ]
   },
   {
-    "date": "21 Dicembre 2021",
+    "date": "19 Dicembre 2021",
     "content": 
     [
       {
 				"description": "<b>quarta Domenica di Avvento</b>"
 			},
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
