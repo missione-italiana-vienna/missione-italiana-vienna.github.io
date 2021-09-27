@@ -1012,7 +1012,7 @@
     "content": 
     [
       {
-        "description": "Oggi si chiudono le iscrizioni ai corsi di preparazione al Matrimonio e alla Cresima per gli adulti."
+        "description": "Oggi si chiudono le iscrizioni ai corsi di preparazione al Matrimonio e alla Cresima per gli adulti.",
         "style": "font-weight: bold;"
       },
       {
