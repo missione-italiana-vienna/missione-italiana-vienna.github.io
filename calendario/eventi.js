@@ -943,6 +943,16 @@
     ]
   },
   {
+    "date": "13 Ottobre 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-10-13/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "16 Ottobre 2021",
     "content":
     [
@@ -1041,6 +1051,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "10 Novembre 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-11-10/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1171,6 +1191,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Dicembre 2021",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2021-12-15/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
