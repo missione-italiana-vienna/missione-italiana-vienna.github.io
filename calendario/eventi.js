@@ -913,6 +913,16 @@
     ]
   },
   {
+    "date": "7 Ottobre 2021",
+    "content":
+    [
+      {
+        "time": "16:00",
+        "description": "Benedizione degli animali in occasione della festa di San Francesco. Ritrovo nel cortile del convento, entrata da Schlösselgasse."
+      }
+    ]
+  },
+  {
     "date": "9 Ottobre 2021",
     "content":
     [
