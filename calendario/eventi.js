@@ -904,7 +904,7 @@
       {
         "time": "10:00",
         "style": "color: red;",
-        "description": "Primo incontro di catechismo del nuovo anno liturgico. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Primo incontro di catechismo del nuovo anno liturgico, solo per i bambini della Prima Comunione 2022 e 2023. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -948,7 +948,8 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "style": "color: red;",
+        "description": "Incontro per tutti i gruppi di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
