@@ -697,11 +697,11 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       }
       popup_notification_buttons[i].style.height = height_button + "px"; */
     }
-    var firstPopupOffSet = $('popup_notification_button_0').offset().top;
-    var last_id_button = popup_notification_buttons.length - 1;
-    var lastPopupOffSet = $('popup_notification_button_' + last_id_button).offset().bottom;
+    var firstPopupOffSet = $('popup_notification_button_0').getBoundingClientRect().top
+    var last_id_button = popup_notification_buttons.length - 1;ge
+    var lastPopupOffSet = $('popup_notification_button_' + last_id_button).getBoundingClientRect().bottom;
     var total_height_popups = lastPopupOffSet - firstPopupOffSet;
-    console.log(total_height_popups);    
+    console.log(total_height_popups);
   }
 
   function generate_html_for_a_given_date(js_content, day, month, weekday) {
