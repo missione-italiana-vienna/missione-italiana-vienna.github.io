@@ -1382,13 +1382,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       data_liturgia_del_giorno("yesterday");
       data_liturgia_del_giorno("today");
       data_liturgia_del_giorno("tomorrow");      var date_now = Date.now();
-
-    },
-
-    
-    
-
-    
+    },    
 
     generate_html_with_all_events: function(input_string, year) {
 
