@@ -131,7 +131,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       // here the parameter "year" is optional (hence denoted by a "?")
     .when("/calendario/eventi_passati/:year?", {
       templateUrl: function(params) {
+        var param_year = "all";
         if (params.hasOwnProperty("year") && params.year !== "") {
+          param_year = params.year;
           return "calendario/eventi_passati/" + params.year + "/content.html";
         }
         else {
@@ -139,7 +141,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         }
       },
       title: "Calendario",
-      type_of_controller: "past_calendar",
+      type_of_controller: "past_calendar_" + param_year,
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
         
@@ -549,16 +551,18 @@ function($scope, $rootScope, $route, sharedProperties) {
         $('.parallax-window').parallax({imageSrc: 'https://mcivienna.org/images/common_images/church_interior.jpg'});
       }
     },
-    true);
+    true
+  );
 
   $scope.$watch(
-    function()       { 
+    function() { 
       return sharedProperties.getShowBlogHeader(); 
     }, 
     function(newVal) {
       $scope.show_blog_header = newVal;
     },
-    true);
+    true
+  );
 
 
 
@@ -580,13 +584,18 @@ function($scope, $rootScope, $route, sharedProperties) {
     if (type_of_controller === "calendar") {
       sharedProperties.generate_html_with_all_events("future", "");
     }
-    else if (type_of_controller === "past_calendar") {
-      if ($route.params.hasOwnProperty("year") && $route.params.year !== "") {
-        sharedProperties.generate_html_with_all_events("past", $route.params.year);
-        console.log("test: " + $route.params.year);
+    else if (type_of_controller === "past_calendar_all") {
+      // TO DO
+    }
+    else if (type_of_controller.startsWith("past_calendar_")) {
+      var params_year = type_of_controller.replace("past_calendar_", "");
+
+      if (params_year !== "") {
+        sharedProperties.generate_html_with_all_events("past", params_year);
+        console.log("test: " + params_year);
       }
       else {
-        sharedProperties.generate_html_with_all_events("past", "");
+        // TO DO sharedProperties.generate_html_with_all_events("past", "");
       }
     }
     else if (type_of_controller == "streaming" || type_of_controller == "past_streaming") {
