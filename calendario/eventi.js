@@ -420,7 +420,7 @@
     ]
   },
   {
-    "date": "13 Maggio 2019",
+    "date": "13 Maggio 2021",
     "content": 
     [ 
       {
@@ -493,7 +493,7 @@
         "description": "<b>Lunedì di Pentecoste</b>"
       },
       {
-        "time": "10:30",
+        "time": "11:30",
         "description": "S. Messa."
       }
     ]
