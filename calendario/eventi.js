@@ -1279,8 +1279,6 @@
     "content": 
     [
       {
-      },
-      {
         "time": "18:30",
         "description": "S. Messa e Te Deum."
       }
