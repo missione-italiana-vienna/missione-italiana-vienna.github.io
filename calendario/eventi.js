@@ -1297,7 +1297,7 @@
         "time": "11:30",
         "description": "S. Messa."
       }
-    ],
+    ]
   },
   {
     "date": "2 Gennaio 2022",
