@@ -1390,11 +1390,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
     
 
-    generate_html_with_all_events: function(input_string, year) {
-
-      console.log(input_string);
-      console.log(year);
-      
+    generate_html_with_all_events: function(input_string, year) {      
       var fetch_url;
       if (input_string === "future") {
         fetch_url = "https://mcivienna.org/calendario/eventi.js";
