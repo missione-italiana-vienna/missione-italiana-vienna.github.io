@@ -1127,7 +1127,7 @@
     "content": 
     [
       {
-				"description": "<b>prima Domenica di Avvento</b>"
+				"description": "<b>Prima Domenica di Avvento</b>"
 			},
       {
         "time": "11:30",
@@ -1150,7 +1150,7 @@
     "content": 
     [
       {
-				"description": "<b>seconda Domenica di Avvento</b>"
+				"description": "<b>Seconda Domenica di Avvento</b>"
 			},
       {
         "time": "10:00",
@@ -1190,7 +1190,7 @@
     "content": 
     [
       {
-				"description": "<b>terza Domenica di Avvento</b>"
+				"description": "<b>Terza Domenica di Avvento</b>"
 			},
       {
         "time": "11:30",
@@ -1223,7 +1223,7 @@
     "content": 
     [
       {
-				"description": "<b>quarta Domenica di Avvento</b>"
+				"description": "<b>Quarta Domenica di Avvento</b>"
 			},
       {
         "time": "10:00",
