@@ -587,6 +587,9 @@ function($scope, $rootScope, $route, sharedProperties) {
     // here we must insert the routines for the streaming and for the calendar, again 
     // using the variable type_of_controller
 
+    console.log(type_of_controller);
+    console.log(typeof type_of_controller);
+
     if (type_of_controller === "calendar") {
       sharedProperties.generate_html_with_all_events("future", "");
     }
