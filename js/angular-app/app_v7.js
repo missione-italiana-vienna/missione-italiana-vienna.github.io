@@ -667,19 +667,22 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
   
 
   function set_popup_fontsize() {
-    var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    // var viewport_width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
     var viewport_height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 
-    if (viewport_width > 650) {
+    /* if (viewport_width > 650) {
       viewport_width = 650; 
       // we're only setting a "virtual" viewport. 
       // This is due to the fact that after 650 px the width 
       // of the popup does not increase (see the css file)
     }
     var font_size = viewport_width * viewport_height * 0.000064;
+    font_size = Math.round(font_size);
     if (font_size > 14) {
       font_size = 14;
-    }
+    }*/
+
+    var font_size = 16;
 
     var popup_notification_p_list = document.getElementsByClassName("popup_notification_p");
     for (var i = 0; i < popup_notification_p_list.length; i++) {
@@ -688,20 +691,42 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     }
     
     var popup_notification_buttons = document.getElementsByClassName("popup_notification_button");
-    for (var i = 0; i < popup_notification_buttons.length; i++) {
-      popup_notification_buttons[i].style.fontSize = font_size + "px";
-      
-      /* var height_button = 3.4 * font_size;
-      if (height_button > 45) {
-        height_button = 45;
+    
+    var must_reduce_font_size = true;
+    var last_id_button = popup_notification_buttons.length - 1;
+    var firstPopup = document.getElementById('popup_notification_button_0');
+    var lastPopup = document.getElementById('popup_notification_button_' + last_id_button);
+
+    var total_height_popups;
+
+    while (must_reduce_font_size) {
+      for (var i = 0; i < popup_notification_buttons.length; i++) {
+        popup_notification_buttons[i].style.fontSize = font_size + "px";
+
+        // NOTE: this is needed because in the css file we set up a maximum height of 45px
+        // which actually will not work nice if the button has too much text (cutting part of it)
+        // When we significantly modify that css file, we could simply remove that line
+        // and hence also the counter-order given by the next line.
+        popup_notification_buttons[i].style.height = "auto";        
       }
-      popup_notification_buttons[i].style.height = height_button + "px"; */
+
+
+      var firstPopup = document.getElementById('popup_notification_button_0');
+      var lastPopup = document.getElementById('popup_notification_button_' + last_id_button);
+  
+      // This includes also the white spaces between popups
+      total_height_popups = lastPopup.getBoundingClientRect().bottom - firstPopup.getBoundingClientRect().top;
+      
+      // The multiplication by 0.8 is needed in order to account 
+      // also for some white space before the first popup and after the last one
+      // (there are more precise methods to do this, but for our purposes this is more than enough)
+      if (total_height_popups > viewport_height * 0.8) {
+        font_size--;
+      }
+      else {
+        must_reduce_font_size = false;
+      }
     }
-    var firstPopupOffSet = $('popup_notification_button_0').getBoundingClientRect().top
-    var last_id_button = popup_notification_buttons.length - 1;ge
-    var lastPopupOffSet = $('popup_notification_button_' + last_id_button).getBoundingClientRect().bottom;
-    var total_height_popups = lastPopupOffSet - firstPopupOffSet;
-    console.log(total_height_popups);
   }
 
   function generate_html_for_a_given_date(js_content, day, month, weekday) {
