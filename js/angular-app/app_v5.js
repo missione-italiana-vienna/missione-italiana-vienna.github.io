@@ -691,12 +691,17 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     for (var i = 0; i < popup_notification_buttons.length; i++) {
       popup_notification_buttons[i].style.fontSize = font_size + "px";
       
-      var height_button = 3.4 * font_size;
+      /* var height_button = 3.4 * font_size;
       if (height_button > 45) {
         height_button = 45;
       }
-      popup_notification_buttons[i].style.height = height_button + "px"; 
+      popup_notification_buttons[i].style.height = height_button + "px"; */
     }
+    var firstPopupOffSet = $('popup_notification_button_0').offset().top;
+    var last_id_button = popup_notification_buttons.length - 1;
+    var lastPopupOffSet = $('popup_notification_button_' + last_id_button).offset().bottom;
+    var total_height_popups = lastPopupOffSet - firstPopupOffSet;
+    console.log(total_height_popups);    
   }
 
   function generate_html_for_a_given_date(js_content, day, month, weekday) {
@@ -1108,10 +1113,11 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
   function create_popup_links(popups) {
 
-    function create_single_popup_link(text, link, action) {
+    function create_single_popup_link(text, link, action, id) {
       var button = document.createElement('button');
       button.className = "popup_notification_button";
       button.innerHTML = text;
+      button.id= "popup_notification_button_" + id;
       if (action === "none") {
         button.onclick = function(){
           location.href = link;
@@ -1129,13 +1135,13 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         "text": "Continua con la navigazione nel sito",
         "link": "",
         "action": hide_popup
-      }); // add a last popup button for hiding the popups
+      }); // add a last popup button for hiding all the popups
 
       for (var i = 0; i < popups.length; i++) {
         if (!popups[i].action) {
           popups[i].action = "none";
         }
-        create_single_popup_link(popups[i].text, popups[i].link, popups[i].action);
+        create_single_popup_link(popups[i].text, popups[i].link, popups[i].action, i);
       }
       popups_already_created = true;
     }
