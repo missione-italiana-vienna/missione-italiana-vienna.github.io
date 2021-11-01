@@ -1270,7 +1270,6 @@ var events =
       }
     ]
   },
-
   {
     'date': '24 Dicembre 2020',
     'content': 

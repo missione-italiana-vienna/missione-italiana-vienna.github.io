@@ -1131,7 +1131,7 @@
 			},
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa con benedizione delle corone dell'Avvento."
       }
     ]
   },
@@ -1232,6 +1232,93 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    'date': '24 Dicembre 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Vigilia del Natale</b>'
+      },
+      {
+        'time': '22:00',
+        'description': 'S. Messa ("Messa dei Pastori").'
+      }
+    ]
+  },
+  {
+    'date': '25 Dicembre 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Natale del Signore</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa di Natale.'
+      }
+    ]
+  },
+  {
+    'date': '26 Dicembre 2021',
+    'content': 
+    [
+      {
+        'description': '<b>Celebrazione della Santa Famiglia di Gesù, Maria e Giuseppe</b> - <b>S. Stefano</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
+  {
+    'date': '31 Dicembre 2021',
+    'content': 
+    [
+      {
+      },
+      {
+        'time': '18:30',
+        'description': 'S. Messa e Te Deum.'
+      }
+    ]
+  },
+  {
+    'date': '1 Gennaio 2022',
+    'content': 
+    [
+      {
+        'description': '<b>Solennità di Maria Madre di Dio</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ],
+  },
+  {
+    'date': '2 Gennaio 2022',
+    'content': 
+    [
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
+      }
+    ]
+  },
+  {
+    'date': '6 Gennaio 2022',
+    'content': 
+    [
+      {
+        'description': '<b>Epifania del Signore</b>'
+      },
+      {
+        'time': '11:30',
+        'description': 'S. Messa.'
       }
     ]
   }
