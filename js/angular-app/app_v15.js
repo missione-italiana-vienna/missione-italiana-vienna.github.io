@@ -141,13 +141,8 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
         }
       },
       title: "Calendario",
-      type_of_controller: function(params) {
-        var param_year = "all";
-        if (params.hasOwnProperty("year") && params.year !== "") {
-          param_year = params.year;
-        }
-        return "past_calendar_" + param_year;
-      },
+      type_of_controller: "past_calendar",
+      year: 
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
         
