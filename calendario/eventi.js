@@ -1089,6 +1089,18 @@
     ]
   },
   {
+    "date": "16 Novembre 2021",
+    "content": 
+    [
+      {
+        "time": "11:45",
+        "description": "<b>Cerimonia di commemorazione dei caduti in guerra</b> organizzata dall'Ambasciata Italiana a Vienna. La cerimonia si svolgerà presso il <b>Zentralfriedhof di Vienna</b>; l'ingresso da cui accedere per prendere parte alla cerimonia è il <b>Tor 2</b> del Zentralfriedhof (Simmeringer Hauptstraße 234), raggiungibile con i tram 11 e 71. Per chi si reca in auto al cimitero: l'ingresso è libero (basta solo dire all'ingresso che si viene per la commemorazione dei caduti). Il punto di incontro è subito all'inizio del viale sul lato destro; dopo ci si avvia tutti in auto al Piccolo Cimitero dei Caduti Italiani."
+      }
+    ]
+  },
+
+
+  {
     "date": "20 Novembre 2021",
     "content":
     [
