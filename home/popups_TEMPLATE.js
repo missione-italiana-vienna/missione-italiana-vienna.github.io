@@ -3,6 +3,7 @@
 // 2) remove all these comments
 // 3) in case you want to add multiple buttons in the popup, each must be provided
 //    as content between {...}. Each block {...} must be separated by commas from the next one!
+// 4) if you do not want any popup, the file must consist of only an empty array
 [
   {
     "text": "Orari delle celebrazioni ...",
