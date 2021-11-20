@@ -1116,10 +1116,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
-      },
-      {
-        "time": "11:30",
+        "description": "Incontro di catechismo. <del>Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17).</del><div style = \"display: inline; font-weight: bold; color: red;\"> A causa della crisi covid-19 questo incontro si terrà online</div>"
         "description": "S. Messa."
       }
     ]
@@ -1166,7 +1163,7 @@
 			},
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo. <del>Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17).</del><div style = \"display: inline; font-weight: bold; color: red;\"> A causa della crisi covid-19 questo incontro si terrà online</div>"
       },
       {
         "time": "11:30",
