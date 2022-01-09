@@ -653,7 +653,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa. A seguire: festa della Missione Cattolica Italiana."
       }
     ]
   },
