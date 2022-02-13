@@ -175,7 +175,7 @@
     [
       {
         "time": "19:00",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-02-16/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-02-16/\">testo qui</a>) - questo incontro si svolgerà online."
       }
     ]
   },
