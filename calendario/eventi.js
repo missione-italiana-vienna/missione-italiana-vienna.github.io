@@ -234,7 +234,7 @@
     "content": 
     [
       {
-        "time": "19:15 - ORARIO ANCORA DA CONFERMARE",
+        "time": "19:30",
         "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>"
       }
     ]
