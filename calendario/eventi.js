@@ -225,7 +225,7 @@
     [
       {
         "time": "19:30 - 21:00",
-        "description": "Momento di preghiera per il popolo ucraino nella chiesa di Alserstraße."
+        "description": "Momento di preghiera per il popolo ucraino nella chiesa di Alserstraße <a href = \"https://mcivienna.org/#!/blog/2022/02/26/preghiera_per_ucraina\">link</a>"
       }
     ]
   },
