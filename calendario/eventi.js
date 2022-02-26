@@ -220,6 +220,16 @@
     ]
   },
   {
+    "date": "28 Febbraio 2022",
+    "content":
+    [
+      {
+        "time": "19:30 - 21:00",
+        "description": "Momento di preghiera per il popolo ucraino nella chiesa di Alserstraße."
+      }
+    ]
+  },
+  {
     "date": "2 Marzo 2022",
     "content": 
     [
