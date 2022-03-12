@@ -290,16 +290,6 @@
     ]
   },
   {
-    "date": "16 Marzo 2022",
-    "content":
-    [
-      {
-        "time": "19:00",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-03-16/\">testo qui</a>). Entrata da Alser Straße 17."
-      }
-    ]
-  },
-  {
     "date": "19 Marzo 2022",
     "content":
     [
@@ -323,6 +313,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "23 Marzo 2022",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-03-23/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
