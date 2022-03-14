@@ -337,8 +337,8 @@
       },
       {
         "time": "18:15 - 19:45",
-        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal)",
-        "style": "font-weight: bold; color; red;"
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal).",
+        "style": "font-weight: bold; color: red;"
       }
     ]
   },
