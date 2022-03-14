@@ -295,8 +295,8 @@
     [
       {
         "time": "09:00 - 11:00",
-        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrkanzlei)",
-        "style": "font-weight: bold; color; red;"
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrkanzlei).",
+        "style": "font-weight: bold; color: red;"
       }
     ]
   },
@@ -310,8 +310,8 @@
       },
       {
         "time": "17:45 - 19:45",
-        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal)",
-        "style": "font-weight: bold; color; red;"
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal).",
+        "style": "font-weight: bold; color: red;"
       }
     ]
   },
@@ -324,8 +324,8 @@
       },
       {
         "time": "9:15 - 13:00",
-        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal)",
-        "style": "font-weight: bold; color; red;"
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal).",
+        "style": "font-weight: bold; color: red;"
       },
       {
         "time": "10:00",
