@@ -5,6 +5,6 @@
   },
   {
     "text": "Elezioni del consiglio pastorale",
-    "link": "https://mcivienna.org/#!/blog/2022/03/14/elezioni_consiglio_pastorale"
+    "link": "https://mcivienna.org/#!/blog/2022/03/14/elezioni_consiglio_pastorale/"
   }
 ]
