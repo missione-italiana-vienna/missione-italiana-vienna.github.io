@@ -290,12 +290,28 @@
     ]
   },
   {
+    "date": "16 Marzo 2022",
+    "content":
+    [
+      {
+        "time": "09:00 - 11:00",
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrkanzlei)",
+        "style": "font-weight: bold; color; red;"
+      }
+    ]
+  },
+  {
     "date": "19 Marzo 2022",
     "content":
     [
       {
         "time": "17:00",
         "description": "Messa prefestiva."
+      },
+      {
+        "time": "17:45 - 19:45",
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal)",
+        "style": "font-weight: bold; color; red;"
       }
     ]
   },
@@ -307,12 +323,22 @@
         "description": "<b>Terza Domenica di Quaresima</b>"
       },
       {
+        "time": "9:15 - 13:00",
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal)",
+        "style": "font-weight: bold; color; red;"
+      },
+      {
         "time": "10:00",
         "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
         "description": "S. Messa."
+      },
+      {
+        "time": "18:15 - 19:45",
+        "description": "Elezioni del consiglio pastorale parrocchiale (nella Pfarrsaal)",
+        "style": "font-weight: bold; color; red;"
       }
     ]
   },
