@@ -421,7 +421,7 @@
       },
       {
         "time": "11:30",
-        "description": "Benedizione delle palme e S. Messa."
+        "description": "Benedizione delle palme e S. Messa presieduta dall'arcivescovo Pedro López Quintana (nunzio apostolico in Austria)."
       }
     ]
   },
@@ -433,9 +433,14 @@
         "description": "<b>Giovedì Santo</b>"
       },
       {
-        "time": "19:30 - ORARIO ANCORA DA CONFERMARE",
+        "time": "19:30",
         "style": "color: red;",
-        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore)."
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
+      },
+      {
+        "time": "dopo la S. Messa",
+        "style": "color: red;",
+        "description": "Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00."
       }
     ]
   },
@@ -447,9 +452,19 @@
         "description": "<b>Venerdì Santo</b>"
       },
       {
-        "time": "16:00 - ORARIO ANCORA DA CONFERMARE",
+        "time": "15:00",
         "style": "color: red;",
-        "description": "Celebrazione della Passione del Signore."
+        "description": "Kreuzwegandacht (via Crucis) in tedesco."
+      },
+      {
+        "time": "16:00",
+        "style": "color: red;",
+        "description": "Celebrazione della Passione del Signore (in italiano). A seguire: adorazione in silenzio "
+      },
+      {
+        "time": "fino alle 21:00",
+        "style": "color: red;",
+        "description": "Adorazione Eucaristica in silenzio nella cappella di Sant'Antonio"
       }
     ]
   },
@@ -461,7 +476,7 @@
         "description": "<b>Sabato Santo</b>"
       },
       {
-        "time": "22:30 - ORARIO ANCORA DA CONFERMARE",
+        "time": "22:30",
         "style": "color: red;",
         "description": "Veglia Pasquale."
       }
