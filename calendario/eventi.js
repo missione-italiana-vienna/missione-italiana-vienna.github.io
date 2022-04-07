@@ -720,15 +720,15 @@
         "description": "Visita guidata (in tedesco) agli archivi della parrocchia di Alser Straße - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/1-fuehrung-durch-das-matrikenarchiv-der-pfarre-2/\">link</a>."
       },
       {
-        "time": "17:30 - 18:30",
+        "time": "18:30 - 19:15",
         "description": "S. Messa in tedesco."
       },
       {
-        "time": "17:30 - 18:30",
+        "time": "19:15 - 20:15",
         "description": "Visita guidata (in tedesco) agli archivi della parrocchia di Alser Straße - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/2-fuehrung-durch-das-matrikenarchiv-der-pfarre-2/\">link</a>."
       },
       {
-        "time": "17:30 - 18:30",
+        "time": "20:00 - 21:00",
         "description": "Concerto con 2 cori - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/moving-voices-chorkonzert-von-2-choeren/\">link</a>."
       }
     ]
