@@ -709,6 +709,31 @@
     ]
   },
   {
+    "date": "10 Giugno 2022",
+    "content": 
+    [
+      {
+        "description": "<b>Lunga notte delle chiese (Lange Nacht der Kirchen)</b><br>Come tutti gli anni, alcuni eventi sono in programma anche nella Chiesa di Alser Straße:"
+      },
+      {
+        "time": "17:30 - 18:30",
+        "description": "Visita guidata (in tedesco) agli archivi della parrocchia di Alser Straße - <a href = \"https://www.langenachtderkirchen.at/termin/1-fuehrung-durch-das-matrikenarchiv-der-pfarre-2/\">link</a>."
+      },
+      {
+        "time": "17:30 - 18:30",
+        "description": "S. Messa in tedesco."
+      },
+      {
+        "time": "17:30 - 18:30",
+        "description": "Visita guidata (in tedesco) agli archivi della parrocchia di Alser Straße - <a href = \"https://www.langenachtderkirchen.at/termin/2-fuehrung-durch-das-matrikenarchiv-der-pfarre-2/\">link</a>."
+      },
+      {
+        "time": "17:30 - 18:30",
+        "description": "Concerto con 2 cori - <a href = \"https://www.langenachtderkirchen.at/termin/moving-voices-chorkonzert-von-2-choeren/\">link</a>."
+      }
+    ]
+  },
+  {
     "date": "11 Giugno 2022",
     "content": 
     [
