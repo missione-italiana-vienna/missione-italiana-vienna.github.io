@@ -752,7 +752,7 @@
       },
       {
         "time": "10:00",
-        "description": "S. Messa in tedesco con alcune parti in italiano. Per chi volesse seguire l'intera S. Messa in italiano, vi ricordiamo la S. Messa prefestiva di Sabato 11 Giugno."
+        "description": "S. Messa in tedesco con alcune parti in italiano. <b>Oggi non ci sarà la S. Messa in italiano</b>. Per chi volesse seguire l'intera S. Messa in italiano, vi ricordiamo la S. Messa prefestiva di Sabato 11 Giugno."
       }
     ]
   },
@@ -775,7 +775,7 @@
       },
       {
         "time": "a partire dalle 8:30",
-        "description": "S. Messa in tedesco nell'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel, a seguire Agape - <a href = \"http://fronleichnam.at/\">dettagli</a>."
+        "description": "S. Messa in tedesco nell'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel, a seguire Agape - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
       },
       {
         "time": "11:30",
