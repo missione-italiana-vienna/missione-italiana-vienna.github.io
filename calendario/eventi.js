@@ -704,7 +704,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa. A seguire: festa della Missione Cattolica Italiana."
+        "description": "S. Messa. A seguire: festa della Missione Cattolica Italiana con Agape."
       }
     ]
   },
@@ -748,8 +748,11 @@
     "content":
     [
       {
-        "time": "11:30",
-        "description": "S. Messa."
+      "description": "<b>Solennità della Santissima Trinità</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "S. Messa in tedesco con alcune parti in italiano. Per chi volesse seguire l'intera S. Messa in italiano, vi ricordiamo la S. Messa prefestiva di Sabato 11 Giugno."
       }
     ]
   },
@@ -769,6 +772,10 @@
     [
       {
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "time": "a partire dalle 8:30",
+        "description": "S. Messa in tedesco nell'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel, a seguire Agape - <a href = \"http://fronleichnam.at/\">dettagli</a>."
       },
       {
         "time": "11:30",
