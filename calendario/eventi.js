@@ -225,7 +225,7 @@
     [
       {
         "time": "19:30 - 21:00",
-        "description": "Momento di preghiera per il popolo ucraino nella chiesa di Alserstraße - <a href = \"https://mcivienna.org/#!/blog/2022/02/26/preghiera_per_ucraina/\">link</a>"
+        "description": "Momento di preghiera per il popolo ucraino nella chiesa di Alser Straße - <a href = \"https://mcivienna.org/#!/blog/2022/02/26/preghiera_per_ucraina/\">link</a>"
       }
     ]
   },
@@ -1079,7 +1079,7 @@
     [
       {
         "time": "10:30",
-        "description": "S. Messa (in italiano) insieme alla comunità della parrocchia di Alserstraße (notare il cambio di orario solo per questa Domenica). Al termine della S. Messa: festa nel giardino del Convento oppure nel chiostro (<a href = \"https://mcivienna.org/#!/blog/2022/09/17/ripresa_attivita_pastorale_e_festa_della_parrocchia/\">dettagli qui</a>)",
+        "description": "S. Messa (in italiano) insieme alla comunità della parrocchia di Alser Straße (notare il cambio di orario solo per questa Domenica). Al termine della S. Messa: festa nel giardino del Convento oppure nel chiostro (<a href = \"https://mcivienna.org/#!/blog/2022/09/17/ripresa_attivita_pastorale_e_festa_della_parrocchia/\">dettagli qui</a>)",
         "style": "font-weight: bold; color: red;"
       }
     ]
