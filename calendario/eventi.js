@@ -1412,20 +1412,7 @@
     ]
   },
   {
-    "date": "25 Dicembre 2022",
-    "content":
-    [
-      {
-        "description": "<b>Natale del Signore</b>"
-      },
-      {
-        "time": "11:30",
-        "description": "S. Messa di Natale."
-      }
-    ]
-  },
-  {
-    "date": "26 Dicembre 2020",
+    "date": "26 Dicembre 2022",
     "content": 
     [
       {
