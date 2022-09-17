@@ -2044,7 +2044,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa. A seguire: festa della Missione Cattolica Italiana con Agape."
+        "description": "S. Messa."
       }
     ]
   },
