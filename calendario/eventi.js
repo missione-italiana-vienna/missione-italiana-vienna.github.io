@@ -1079,7 +1079,7 @@
     [
       {
         "time": "10:30",
-        "description": "S. Messa (in italiano) insieme alla comunità della parrocchia di Alserstraße (notare il cambio di orario solo per questa Domenica)",
+        "description": "S. Messa (in italiano) insieme alla comunità della parrocchia di Alserstraße (notare il cambio di orario solo per questa Domenica). Al termine della S. Messa: festa nel giardino del Convento oppure nel chiostro (<a href = \"https://mcivienna.org/#!/blog/2022/09/17/ripresa_attivita_pastorale_e_festa_della_parrocchia/\">dettagli qui</a>)",
         "style": "font-weight: bold; color: red;"
       }
     ]
