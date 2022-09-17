@@ -1078,8 +1078,9 @@
     "content":
     [
       {
-        "time": "11:30",
-        "description": "S. Messa."
+        "time": "10:30",
+        "description": "S. Messa (in italiano) insieme alla comunità della parrocchia di Alserstraße (notare il cambio di orario solo per questa Domenica)",
+        "style": "font-weight: bold; color: red;"
       }
     ]
   },
