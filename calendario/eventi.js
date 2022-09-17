@@ -1254,7 +1254,7 @@
     "content": 
     [
       {
-        "description": "Ritiro (Prima Confessione) per il gruppo di catechismo della Prima Comunione."
+        "description": "Ritiro (Prima Confessione) per il gruppo di catechismo che farà la Prima Comunione a Maggio."
       },
       {
         "time": "17:00",
@@ -1884,7 +1884,7 @@
     "content": 
     [
       {
-        "description": "Ritiro del gruppo di catechismo per la preparazione alla Prima Comunione."
+        "description": "Ritiro del gruppo che farà la Prima Comunione a Maggio."
       },
       {
         "time": "17:00",
