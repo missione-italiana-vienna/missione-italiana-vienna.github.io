@@ -642,7 +642,7 @@
   {
     "date": "26 Maggio 2022",
     "content": 
-    [ 
+    [
       {
         "description": "<b>Ascensione</b> (Christi Himmelfahrt)"
       },
@@ -775,7 +775,7 @@
       },
       {
         "time": "a partire dalle 8:30",
-        "description": "S. Messa in tedesco nell'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel, a seguire Agape - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
+        "description": "S. Messa in tedesco presso l'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel, a seguire Agape - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
       },
       {
         "time": "11:30",
@@ -1119,6 +1119,10 @@
     "content":
     [
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1159,6 +1163,10 @@
     "content":
     [
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1183,5 +1191,1313 @@
         "description": "S. Messa."
       }
     ]
-  }
+  },
+  {
+    "date": "1 Novembre 2022",
+    "content": 
+    [
+      {
+        "description": "<b>Solennità di tutti i Santi</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Novembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "6 Novembre 2022",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Novembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "13 Novembre 2022",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Novembre 2022",
+    "content": 
+    [
+      {
+        "description": "Ritiro (Prima Confessione) per il gruppo di catechismo della Prima Comunione."
+      },
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "20 Novembre 2022",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "26 Novembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "27 Novembre 2022",
+    "content":
+    [
+      {
+        "description": "<b>Prima Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa con benedizione delle corone dell'Avvento."
+      }
+    ]
+  },
+  {
+    "date": "3 Dicembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "4 Dicembre 2022",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica di Avvento</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Dicembre 2021",
+    "content":
+    [
+      {
+        "description": "<b>Immacolata Concezione della Beata Vergine Maria</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "10 Dicembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "11 Dicembre 2022",
+    "content":
+    [
+      {
+        "description": "<b>Terza Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "17 Dicembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "18 Dicembre 2022",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica di Avvento</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Dicembre 2022",
+    "content": 
+    [
+      {
+        "description": "<b>Vigilia del Natale</b>"
+      },
+      {
+        "time": "22:00",
+        "description": "S. Messa (\"Messa dei Pastori\") - ORARIO ANCORA DA CONFERMARE."
+      }
+    ]
+  },
+  {
+    "date": "25 Dicembre 2022",
+    "content":
+    [
+      {
+        "description": "<b>Natale del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa di Natale."
+      }
+    ]
+  },
+  {
+    "date": "25 Dicembre 2022",
+    "content":
+    [
+      {
+        "description": "<b>Natale del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa di Natale."
+      }
+    ]
+  },
+  {
+    "date": "26 Dicembre 2020",
+    "content": 
+    [
+      {
+        "description": "<b>S. Stefano</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "31 Dicembre 2022",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "1 Gennaio 2023",
+    "content":
+    [
+      {
+        "description": "<b>Solennità di Maria Madre di Dio</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Gennaio 2022",
+    "content": 
+    [
+      {
+        "description": "<b>Epifania del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "7 Gennaio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "8 Gennaio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "14 Gennaio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "15 Gennaio 2023",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "21 Gennaio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "22 Gennaio 2023",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "28 Gennaio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "29 Gennaio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Febbraio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "5 Febbraio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Febbraio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "12 Febbraio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Febbraio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "19 Febbraio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Febbraio 2022",
+    "content": 
+    [
+      {
+        "time": "19:30",
+        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>.  ORARIO DA CONFERMARE"
+      }
+    ]
+  },
+  {
+    "date": "25 Febbraio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "26 Febbraio 2023",
+    "content":
+    [
+      {
+        "description": "<b>Prima Domenica di Quaresima</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Marzo 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "5 Marzo 2023",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Marzo 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "12 Marzo 2023",
+    "content":
+    [
+      {
+        "description": "<b>Terza Domenica di Quaresima</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Marzo 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "19 Marzo 2023",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "25 Marzo 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "26 Marzo 2023",
+    "content":
+    [
+      {
+        "description": "<b>Quinta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Aprile 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "2 Aprile 2023",
+    "content":
+    [
+      {
+        "description": "<b>Domenica delle palme</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "Benedizione delle palme e S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Aprile 2023",
+    "content": 
+    [
+      {
+        "description": "<b>Giovedì Santo</b>"
+      },
+      {
+        "time": "19:30",
+        "style": "color: red;",
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano. ORARIO DA CONFERMARE"
+      },
+      {
+        "time": "dopo la S. Messa",
+        "style": "color: red;",
+        "description": "Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00. ORARIO DA CONFERMARE"
+      }
+    ]
+  },
+  {
+    "date": "7 Aprile 2023",
+    "content":
+    [
+      {
+        "description": "<b>Venerdì Santo</b>"
+      },
+      {
+        "time": "15:00",
+        "style": "color: red;",
+        "description": "Kreuzwegandacht (via Crucis) in tedesco. ORARIO DA CONFERMARE"
+      },
+      {
+        "time": "16:00",
+        "style": "color: red;",
+        "description": "Celebrazione della Passione del Signore (in italiano). A seguire: adorazione in silenzio. ORARIO DA CONFERMARE"
+      },
+      {
+        "time": "fino alle 21:00",
+        "style": "color: red;",
+        "description": "Adorazione Eucaristica in silenzio nella cappella di Sant'Antonio. ORARIO DA CONFERMARE"
+      }
+    ]
+  },
+  {
+    "date": "8 Aprile 2023",
+    "content":
+    [
+      {
+        "description": "<b>Sabato Santo</b>"
+      },
+      {
+        "time": "22:30",
+        "style": "color: red;",
+        "description": "Veglia Pasquale. ORARIO DA CONFERMARE"
+      }
+    ]
+  },
+  {
+    "date": "9 Aprile 2023",
+    "content":
+    [
+      {
+        "description": "<b>Pasqua di Risurrezione</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "10 Aprile 2023",
+    "content":
+    [
+      {
+        "description": "<b>Lunedì dell'Ottava di Pasqua (lunedì dell'angelo)</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Aprile 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "16 Aprile 2023",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Aprile 2023",
+    "content": 
+    [
+      {
+        "description": "Ritiro del gruppo di catechismo per la preparazione alla Prima Comunione."
+      },
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "23 Aprile 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Aprile 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "30 Aprile 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Maggio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "7 Maggio 2023",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Maggio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "14 Maggio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa. Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
+      }
+    ]
+  },
+  {
+    "date": "18 Maggio 2023",
+    "content":
+    [
+      {
+        "description": "<b>Ascensione</b> (Christi Himmelfahrt)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Maggio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "21 Maggio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "27 Maggio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "28 Maggio 2023",
+    "content":
+    [
+      {
+        "description": "<b>Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Maggio 2023",
+    "content": 
+    [
+      {
+        "description": "<b>Lunedì di Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa. A seguire: festa della Missione Cattolica Italiana con Agape."
+      }
+    ]
+  },
+  {
+    "date": "3 Giugno 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "4 Giugno 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Giugno 2023",
+    "content":
+    [
+      {
+        "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "description": "Dettagli riguardo alla tradizionale processione: <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">link</a>."
+      }
+    ]
+  },
+  {
+    "date": "10 Giugno 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "11 Giugno 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "17 Giugno 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "18 Giugno 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Giugno 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "25 Giugno 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Luglio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "2 Luglio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Luglio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "9 Luglio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Luglio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "16 Luglio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Luglio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "23 Luglio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Luglio 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "30 Luglio 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Agosto 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "6 Agosto 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Agosto 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "13 Agosto 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Agosto 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "20 Agosto 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "26 Agosto 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "27 Agosto 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Settembre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "3 Settembre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "9 Settembre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "10 Settembre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "16 Settembre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "17 Settembre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "23 Settembre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "24 Settembre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "30 Settembre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "1 Ottobre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "7 Ottobre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "8 Ottobre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "14 Ottobre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "15 Ottobre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "21 Ottobre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "22 Ottobre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "28 Ottobre 2023",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "29 Ottobre 2023",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
 ]
