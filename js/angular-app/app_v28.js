@@ -38,6 +38,9 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     }]);
   
   app.config(function($routeProvider, $locationProvider) {
+    var date_now = Date.now();
+    // will be used below to prevent caching
+
     /* $locationProvider.html5Mode(true);
     $locationProvider.hashPrefix("!");
 
@@ -63,66 +66,66 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     // Each of the various project parts separately
 
     .when("/", {
-      templateUrl: "home/home.html",
+      templateUrl: "home/home.html" + "?" + date_now,
       title: "Benvenuti!",
       type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/home/", {
-      templateUrl: "home/home.html",
+      templateUrl: "home/home.html" + "?" + date_now,
       title: "Benvenuti!",
       type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("", {
-      templateUrl: "home/home.html",
+      templateUrl: "home/home.html + "?" + date_now",
       title: "Benvenuti!",
       type_of_controller: "home",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/contatti/", {
-      templateUrl: "contatti/content.html",
+      templateUrl: "contatti/content.html + "?" + date_now",
       title: "Contatti",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/liturgia/", {
-      templateUrl: "liturgia/content.html",
+      templateUrl: "liturgia/content.html" + "?" + date_now,
       title: "Liturgia",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/attivita/", {
-      templateUrl: "attivita/content.html",
+      templateUrl: "attivita/content.html" + "?" + date_now,
       title: "Attività",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/streaming/", {
-      templateUrl: "streaming/content.html",
+      templateUrl: "streaming/content.html" + "?" + date_now,
       title: "Streaming",
       type_of_controller: "streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/streaming/video_precedenti/", {
-      templateUrl: "streaming/video_precedenti/content.html",
+      templateUrl: "streaming/video_precedenti/content.html" + "?" + date_now,
       title: "Streaming",
       type_of_controller: "past_streaming",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })    
 
     .when("/impressum/", {
-      templateUrl: "impressum/content.html",
+      templateUrl: "impressum/content.html" + "?" + date_now,
       title: "Impressum",
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
     .when("/calendario/", {
-      templateUrl: "calendario/content.html",
+      templateUrl: "calendario/content.html" + "?" + date_now,
       title: "Calendario",
       type_of_controller: "calendar",
       controller: "myCtrlHome" /*,
@@ -132,7 +135,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     .when("/calendario/eventi_passati/:year?", {
       templateUrl: function(params) {
         if (params.hasOwnProperty("year") && params.year !== "") {
-          return "calendario/eventi_passati/template_anni_passati/content.html";
+          return "calendario/eventi_passati/template_anni_passati/content.html" + "?" + date_now;
         }
         else {
           return "calendario/eventi_passati/content.html";
@@ -146,7 +149,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     // Lectio Divina
     .when("/attivita/lectio_divina/:date", {
       templateUrl: function(params) {
-        return "attivita/lectio_divina/" + params.date + "/content.html";
+        return "attivita/lectio_divina/" + params.date + "/content.html" + "?" + date_now;
       },
       title: "Lectio Divina",
       controller: "myCtrlHome" /*,
@@ -155,7 +158,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     // Blog of the MCI
     .when("/blog/:year/:month/:day/:title", {
       templateUrl: function(params) {
-        return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + "/content.html";
+        return "blog/" + params.year + "/" + params.month + "/" + params.day + "/" + params.title + "/content.html"  + "?" + date_now;
       },
       title: "Blog",
       controller: "myCtrlHome"
@@ -163,7 +166,7 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
     
     .otherwise({
       templateUrl: function() {
-        return "home/home.html";
+        return "home/home.html" + "?" + date_now;
       },
       title: "Benvenuti!",
       controller : "myCtrlHome"
