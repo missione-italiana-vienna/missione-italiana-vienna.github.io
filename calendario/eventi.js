@@ -1379,12 +1379,12 @@
     ]
   },
   {
-    "date": "13 Dicembre 2022",
+    "date": "14 Dicembre 2022",
     "content":
     [
       {
         "time": "19:00",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-12-13/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-12-14/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
