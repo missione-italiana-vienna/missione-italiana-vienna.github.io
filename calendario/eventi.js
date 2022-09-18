@@ -1129,6 +1129,16 @@
     ]
   },
   {
+    "date": "12 Ottobre 2022",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-10-12/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "15 Ottobre 2022",
     "content": 
     [
@@ -1222,6 +1232,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "9 Novembre 2022",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-11-09/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1359,6 +1379,17 @@
     ]
   },
   {
+    "date": "13 Dicembre 2022",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2022-12-13/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+
+  {
     "date": "17 Dicembre 2022",
     "content": 
     [
@@ -1481,6 +1512,16 @@
     ]
   },
   {
+    "date": "11 Gennaio 2023",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-01-11/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "14 Gennaio 2023",
     "content": 
     [
@@ -1589,6 +1630,16 @@
     ]
   },
   {
+    "date": "15 Febbraio 2023",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-02-15/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "18 Febbraio 2023",
     "content": 
     [
@@ -1665,6 +1716,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Marzo 2023",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-03-08/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1856,6 +1917,16 @@
     ]
   },
   {
+    "date": "12 Aprile 2023",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-04-12/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "15 Aprile 2023",
     "content": 
     [
@@ -1943,6 +2014,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "10 Maggio 2023",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-05-10/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -2084,6 +2165,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "14 Giugno 2023",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (<a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-06-14/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
