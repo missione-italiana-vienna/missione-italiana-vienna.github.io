@@ -964,6 +964,19 @@
     ]
   },
   {
+    "date": "15 Agosto 2022",
+    "content": 
+    [
+      {
+				"description": "<b>Assunzione della Vergine Maria</b>"
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
     "date": "20 Agosto 2022",
     "content": 
     [
