@@ -1215,7 +1215,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
     include_all_popups: function() {
       var date_now = Date.now();
-      var fetch_url_popups = "https://mcivienna.org/home/popups.js" + date_now;
+      var fetch_url_popups = "https://mcivienna.org/home/popups.js?" + date_now;
       // forces to reload the popup content every time, instead of having it cached
 
       var xmlhttp = new XMLHttpRequest();
