@@ -1,6 +1,6 @@
 [
   {
-    "text": "Messaggio per la ripresa dell'attività pastorale e per la festa con la parrocchia di Alserstraße",
-    "link": "https://mcivienna.org/#!/blog/2022/09/17/ripresa_attivita_pastorale_e_festa_della_parrocchia/"
+    "text": "Corso per adulti per la preparazione al Sacramento della Cresima - iscrizioni aperte fino al 7 Novembre",
+    "link": "https://mcivienna.org/#!/blog/2022/10/24/corso_per_adulti_in_preparazione_alla_cresima/"
   }
 ]
