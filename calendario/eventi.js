@@ -1373,6 +1373,10 @@
       {
         "time": "11:30",
         "description": "S. Messa con benedizione delle corone dell'Avvento."
+      },
+      {
+        "time": "12:30",
+        "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità."
       }
     ]
   },
