@@ -1381,6 +1381,16 @@
     ]
   },
   {
+    "date": "2 Dicembre 2022",
+    "content": 
+    [
+      {
+        "time": "06:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
     "date": "3 Dicembre 2022",
     "content": 
     [
