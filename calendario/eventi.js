@@ -1386,7 +1386,7 @@
     [
       {
         "time": "06:00",
-        "description": "Messa prefestiva."
+        "description": "celebrazione del \"Rorate\", a seguire colazione - <a href = \"https://mcivienna.org/#!/blog/2022/11/24/messaggio_per_avvento_2022/\">link con dettagli</a>"
       }
     ]
   },
