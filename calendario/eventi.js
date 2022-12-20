@@ -1523,7 +1523,7 @@
       },
       {
         "time": "22:00",
-        "description": "S. Messa (\"Messa dei Pastori\") - ORARIO ANCORA DA CONFERMARE."
+        "description": "S. Messa (\"Messa dei Pastori\")"
       }
     ]
   },
@@ -1558,8 +1558,9 @@
     "content": 
     [
       {
-        "time": "17:00",
-        "description": "Messa prefestiva."
+        "time": "18:30",
+        "style": "color: red;",
+        "description": "Messa prefestiva con Te Deum"
       }
     ]
   },
