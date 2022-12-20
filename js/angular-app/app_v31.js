@@ -1181,7 +1181,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     var formatted_date = yyyy + "-" + mm + "-" + dd;
 
     for (var i = 0; i < popups.length; i++) {
-      if (popups[i].last_date_to_show <= formatted_date) {
+      if (popups[i].last_date_to_show >= formatted_date) {
         chosen_popups.push(popups[i]); // actually we could only push the objects popups[i].text and popups[i].link
         // since popups[i].last_date_to_show is not needed anymore after this point
       }
