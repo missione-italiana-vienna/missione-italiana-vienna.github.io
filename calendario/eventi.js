@@ -90,6 +90,10 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      },
+      {
+        "time": "12:30",
+        "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità."
       }
     ]
   },

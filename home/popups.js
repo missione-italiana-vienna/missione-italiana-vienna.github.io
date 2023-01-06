@@ -8,5 +8,11 @@
     "text": "Messaggio per la ripresa delle attività del coro",
     "link": "https://mcivienna.org/#!/blog/2022/12/20/messaggio_per_la_ripresa_delle_attivita_del_coro/",
     "last_date_to_show": "2023-01-09"
+  },
+  {
+    "text": "Prossima Agape: 15 Gennaio 2023",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "last_date_to_show": "2023-01-15"
   }
+
 ]
