@@ -152,6 +152,16 @@
     ]
   },
   {
+    "date": "1 Febbraio 2023",
+    "content": 
+    [
+      {
+        "time": "18:30",
+        "description": "Prova del coro - ritrovo nella sala parrocchiale (Pfarrsaal, entrata da Alser Straße 17)."
+      }
+    ]
+  },
+  {
     "date": "4 Febbraio 2023",
     "content": 
     [
@@ -232,6 +242,10 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      },
+      {
+        "time": "12:30",
+        "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità."
       }
     ]
   },
