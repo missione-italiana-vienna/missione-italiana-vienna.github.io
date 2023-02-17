@@ -524,7 +524,7 @@
       {
         "time": "22:30",
         "style": "color: red;",
-        "description": "Veglia Pasquale. ORARIO DA CONFERMARE"
+        "description": "Veglia Pasquale."
       }
     ]
   },
