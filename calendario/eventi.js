@@ -259,7 +259,7 @@
     [
       {
         "time": "19:30",
-        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>.  ORARIO DA CONFERMARE"
+        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>.
       }
     ]
   },
@@ -385,6 +385,16 @@
     ]
   },
   {
+    "date": "17 Marzo 2023",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "Via Crucis in italiano."
+      }
+    ]
+  },
+  {
     "date": "18 Marzo 2023",
     "content": 
     [
@@ -471,7 +481,7 @@
       {
         "time": "19:30",
         "style": "color: red;",
-        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano. ORARIO DA CONFERMARE"
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
       },
       {
         "time": "dopo la S. Messa",
@@ -495,7 +505,7 @@
       {
         "time": "16:00",
         "style": "color: red;",
-        "description": "Celebrazione della Passione del Signore (in italiano). A seguire: adorazione in silenzio. ORARIO DA CONFERMARE"
+        "description": "Celebrazione della Passione del Signore (in italiano). A seguire: adorazione in silenzio."
       },
       {
         "time": "fino alle 21:00",
