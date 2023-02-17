@@ -249,7 +249,7 @@
       },
       {
         "time": "12:30",
-        "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità."
+        "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità con la festa di carnevale."
       }
     ]
   },
@@ -259,7 +259,7 @@
     [
       {
         "time": "19:30",
-        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>.
+        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>."
       }
     ]
   },
