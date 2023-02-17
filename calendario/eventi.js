@@ -486,7 +486,7 @@
       {
         "time": "dopo la S. Messa",
         "style": "color: red;",
-        "description": "Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00. ORARIO DA CONFERMARE"
+        "description": "Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00."
       }
     ]
   },
@@ -500,7 +500,7 @@
       {
         "time": "15:00",
         "style": "color: red;",
-        "description": "Kreuzwegandacht (via Crucis) in tedesco. ORARIO DA CONFERMARE"
+        "description": "Kreuzwegandacht (via Crucis) in tedesco."
       },
       {
         "time": "16:00",
@@ -510,7 +510,7 @@
       {
         "time": "fino alle 21:00",
         "style": "color: red;",
-        "description": "Adorazione Eucaristica in silenzio nella cappella di Sant'Antonio. ORARIO DA CONFERMARE"
+        "description": "Adorazione Eucaristica in silenzio nella cappella di Sant'Antonio."
       }
     ]
   },
