@@ -342,6 +342,10 @@
     "content":
     [
       {
+        "time": "18:30",
+        "description": "Prova del coro - ritrovo in sacrestia (entrata da Alser Straße 17)."
+      },
+      {
         "time": "19:30",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-03-09/\">testo qui</a>). Entrata da Alser Straße 17."
       }
