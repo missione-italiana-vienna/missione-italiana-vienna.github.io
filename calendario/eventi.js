@@ -430,6 +430,16 @@
     ]
   },
   {
+    "date": "23 Marzo 2023",
+    "content":
+    [
+      {
+        "time": "18:30",
+        "description": "Prova del coro (entrata da Alser Straße 17)."
+      },
+    ]
+  },
+  {
     "date": "25 Marzo 2023",
     "content": 
     [
@@ -454,6 +464,16 @@
         "time": "11:30",
         "description": "S. Messa."
       }
+    ]
+  },
+  {
+    "date": "30 Marzo 2023",
+    "content":
+    [
+      {
+        "time": "18:30",
+        "description": "Prova del coro (entrata da Alser Straße 17)."
+      },
     ]
   },
   {
