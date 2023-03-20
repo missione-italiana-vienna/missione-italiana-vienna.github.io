@@ -436,7 +436,7 @@
       {
         "time": "18:30",
         "description": "Prova del coro (entrata da Alser Straße 17)."
-      },
+      }
     ]
   },
   {
@@ -473,7 +473,7 @@
       {
         "time": "18:30",
         "description": "Prova del coro (entrata da Alser Straße 17)."
-      },
+      }
     ]
   },
   {
