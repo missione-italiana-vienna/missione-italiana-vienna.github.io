@@ -864,7 +864,7 @@
       {
         "time": "19:30 - 21:00",
         "description": "Canti di Taizé, gospel, etc, in chiesa - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/offenes-singen-vom-neuen-geistlichen-lied-2/\">link</a>."
-      },
+      }
     ]
   },
   {
