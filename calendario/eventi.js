@@ -832,6 +832,39 @@
         "time": "11:30",
         "description": "S. Messa."
       }
+      {
+        "time": "12:30",
+        "description": "Festa della comunità italiana nel cortile della parrocchia (entrata da Schlösselgasse). Se riuscite, portate cibi o bevande da condividere."
+      }
+    ]
+  },
+  {
+    "date": "2 Giugno 2023",
+    "content": 
+    [
+      {
+        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b><br>Come tutti gli anni, alcuni eventi sono in programma anche nella Chiesa di Alser Straße:"
+      },
+      {
+        "time": "16:00 - 17:00",
+        "description": "Visita guidata (in tedesco) alla chiesa e alla cripta della parrocchia di Alser Straße - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/fuehrung-in-der-alser-kirche-und-krypta-2/\">link</a>."
+      },
+      {
+        "time": "16:30 - 17:45",
+        "description": "Gioco per bambini (in tedesco) alla scoperta della vita di Sant'Antonio - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/raetselrallye-im-kreuzgang-der-alserkirche-minoritenkloster-2/\">link</a>."
+      },
+      {
+        "time": "17:45 - 18:15",
+        "description": "Preghiera del rosario (in tedesco) nella cappella di Sant'Antonio."
+      },
+      {
+        "time": "18:30 - 19:15",
+        "description": "Santa Messa in tedesco in chiesa."
+      },
+      {
+        "time": "19:30 - 21:00",
+        "description": "Canti di Taizé, gospel, etc, in chiesa - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/offenes-singen-vom-neuen-geistlichen-lied-2/\">link</a>."
+      },
     ]
   },
   {

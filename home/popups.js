@@ -1,12 +1,12 @@
 [
   {
-    "text": "Messaggio per Pasqua",
-    "link": "https://mcivienna.org/#!/blog/2023/04/08/messaggio_per_pasqua_2023/",
-    "last_date_to_show": "2023-05-09"
+    "text": "Festa della comunità italiana: lunedì di Pentecoste (29 Maggio)",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "last_date_to_show": "2023-05-29"
   },
   {
-    "text": "Prossima Agape: Domenica 23 Aprile",
+    "text": "Lunga Notte delle Chiese: Sabato 2 Giugno",
     "link": "https://mcivienna.org/#!/calendario/",
-    "last_date_to_show": "2023-04-23"
+    "last_date_to_show": "2023-06-02"
   }
 ]
