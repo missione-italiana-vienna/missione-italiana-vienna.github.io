@@ -827,11 +827,11 @@
     [
       {
         "description": "<b>Lunedì di Pentecoste</b>"
-      },
+      }, 
       {
         "time": "11:30",
         "description": "S. Messa."
-      }
+      }, 
       {
         "time": "12:30",
         "description": "Festa della comunità italiana nel cortile della parrocchia (entrata da Schlösselgasse). Se riuscite, portate cibi o bevande da condividere."
