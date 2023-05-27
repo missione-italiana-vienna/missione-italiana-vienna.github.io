@@ -882,7 +882,7 @@
     "content":
     [
       {
-        "description": "Solennità della Santissima Trinità (a cui è dedicata la chiesa di Alser Straße)"
+        "description": "<b>Solennità della Santissima Trinità</b> (a cui è dedicata la chiesa di Alser Straße)"
       },
       {
         "time": "11:00",
