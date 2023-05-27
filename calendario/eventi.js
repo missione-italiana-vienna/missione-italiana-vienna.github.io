@@ -885,7 +885,7 @@
         "description": "Solennità della Santissima Trinità (a cui è dedicata la chiesa di Alser Straße)"
       },
       {
-        "time": "11:10",
+        "time": "11:00",
         "style": "color: red;",
         "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). Se volete seguire la S. Messa solo in italiano, consigliamo di andare alla S. Messa prefestiva di sabato 3 Giugno."
       }
