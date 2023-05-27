@@ -10,7 +10,7 @@
     "last_date_to_show": "2023-05-29"
   },
   {
-    "text": "Lunga Notte delle Chiese: Sabato 2 Giugno",
+    "text": "Lunga Notte delle Chiese: Venerdì 2 Giugno",
     "link": "https://mcivienna.org/#!/calendario/",
     "last_date_to_show": "2023-06-02"
   }
