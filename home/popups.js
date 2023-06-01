@@ -15,7 +15,7 @@
     "last_date_to_show": "2023-06-02"
   },
   {
-    "text": "Domenica 4 Giugno: S. Messa (in italiano e tedesco) anticipata alle ore 11:00",
+    "text": "Domenica 4 Giugno: S. Messa (in italiano e tedesco) anticipata alle ore 11:00, a seguire festa della parrocchia",
     "link": "https://mcivienna.org/#!/calendario/",
     "last_date_to_show": "2023-06-04"
   }
