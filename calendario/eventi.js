@@ -994,7 +994,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). In questa Celebrazione Eucaristica festeggiamo il 25° anniversario di Sacerdozio del nostro Parroco, padre Darius Zajac. Se volete seguire la S. Messa solo in italiano, consigliamo di andare alla S. Messa prefestiva di sabato 24 Giugno."
+        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). In questa Celebrazione Eucaristica festeggiamo il 25° anniversario di Sacerdozio del nostro Parroco, padre Darius Zajac. Se volete seguire la S. Messa solo in italiano, consigliamo di andare alla S. Messa prefestiva di sabato 24 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
