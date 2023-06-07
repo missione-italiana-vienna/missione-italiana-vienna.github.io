@@ -899,7 +899,12 @@
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-        "description": "Dettagli riguardo alla tradizionale processione: <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">link</a>."
+        "description": "Dettagli riguardo alla tradizionale processione e S. Messa (in tedesco) organizzate dalle parrocchie di  Alser Vorstadt, Breitenfeld e Maria Treu: <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">link</a>."
+      },
+      {
+        "time": "11:30",
+        "style": "color: red;",
+        "description": "S. Messa in italiano nella chiesa di Alser Straße"
       }
     ]
   },
