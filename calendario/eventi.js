@@ -958,7 +958,7 @@
     [
       {
         "time": "19:30",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-06-15/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<b>Appuntamento cancellato</b>: <del><a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-06-15/\">testo qui</a>). Entrata da Alser Straße 17.</del>"
       }
     ]
   },
