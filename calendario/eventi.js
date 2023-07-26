@@ -1154,6 +1154,19 @@
     ]
   },
   {
+    "date": "15 Agosto 2023",
+    "content":
+    [
+      {
+				"description": "<b>Assunzione della Vergine Maria</b>"
+			},
+      {
+        "time": "11:30",
+        "description": "S. Messa festiva."
+      }
+    ]
+  },
+  {
     "date": "19 Agosto 2023",
     "content": 
     [
