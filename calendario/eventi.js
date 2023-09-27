@@ -1301,8 +1301,9 @@
     "content":
     [
       {
-        "time": "11:30",
-        "description": "S. Messa."
+        "time": "11:00",
+        "style": "color: red;",
+        "description": "La S. Messa di oggi sarà celebrata allee ore 11:00 (invece che 11:30 come da orario consueto) insieme alla comunità austriaca della parrocchia di Alser Straße. A seguire pranzo in giardino (si potranno acquistare piatti pronti: carne grigliata, würstel, torte, etc.)."
       }
     ]
   },
