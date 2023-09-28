@@ -784,6 +784,30 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
             '</tr>';
   }
 
+
+  function generate_html_for_a_change_of_year_in_the_calender(new_year) {
+    return  '<tr>' +
+              '<td colspan = "2">' +  
+                '<div class = "calender-divider-container">' +
+                  '<h3 class = "calender-divider-text"><span>' +  new_year + '</span></h3>' +
+                '</div>' +
+              '</td>' +
+            '</tr>';
+    // NOTE: we tried to use instead of <td> a <th> so that we can add to it a property of position: sticky;
+    // (and of course a value of top: ... enough to be below the header), but apparently also using this combination
+    // does not work: there is no sticky behaviour (despite blogs saying otherwise, see for example 
+    // https://css-tricks.com/position-sticky-and-table-headers/ ). The problem is due probably to some
+    // position property of the main table, which we prefer not to touch in order not to generate other problems
+  }
+
+  function generate_html_for_error_in_the_calender(text_error) {
+    return  '<tr>' +
+              '<td colspan = "2" style = "color: red; font-weight: bold;">' +  
+                text_error +
+              '</td>' +
+            '</tr>';
+  }
+
   // see https://www.w3schools.com/jsref/jsref_findindex.asp 
   // The method findIndex() requires as input value a function returning boolean results:
   function FindMonthByName(name_month) {
@@ -823,20 +847,8 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
           // but this wrongly added a header with a wrong year in case there was a wrong year in the data in eventi.js
           // example: data of 2022, then 2023, then a wrong date copy-pasted from 2022 without changing the year, then 2023 again
           // Then in this case we would get (not 2022 since this is the first year), 2023, 2022, 2023 etc.        
-          appointments += 
-            '<tr>' +
-              '<td colspan = "2">' +  
-                '<div class = "calender-divider-container">' +
-                  '<h3 class = "calender-divider-text"><span>' +  year + '</span></h3>' +
-                '</div>' +
-              '</td>' +
-            '</tr>';
-          // NOTE: we tried to use instead of <td> a <th> so that we can add to it a property of position: sticky;
-          // (and of course a value of top: ... enough to be below the header), but apparently also using this combination
-          // does not work: there is no sticky behaviour (despite blogs saying otherwise, see for example 
-          // https://css-tricks.com/position-sticky-and-table-headers/ ). The problem is due probably to some
-          // position property of the main table, which we prefer not to touch in order not to generate other problems
-
+          appointments += generate_html_for_a_change_of_year_in_the_calender(year);
+          
           start_year = year; 
           // set the new year that we are examining. 
           // This can be useful if the events in the calender span more than 2 years, 
@@ -846,12 +858,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         else if (start_year > year) {
           // this means a copy-paste error in the file eventi.js (as mentioned above)
           // we have to throw an error
-          appointments += 
-          '<tr>' +
-            '<td colspan = "2" style = "color: red; font-weight: bold;">' +  
-              'Errore: un evento del calendario non può essere mostrato correttamente.' +
-            '</td>' +
-          '</tr>';
+          appointments += generate_html_for_error_in_the_calender("Errore: un evento del calendario non può essere mostrato correttamente.");
         }
       }
           
