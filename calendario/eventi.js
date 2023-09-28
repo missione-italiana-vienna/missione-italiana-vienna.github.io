@@ -3142,7 +3142,7 @@
       {
         "time": "11:30",
         "description": "S. Messa."
-      },
+      }
     ]
   },
   {
@@ -3242,7 +3242,7 @@
       {
         "time": "11:30",
         "description": "S. Messa."
-      },
+      }
     ]
   },
   {
@@ -3262,7 +3262,7 @@
       {
         "time": "11:30",
         "description": "S. Messa."
-      },
+      }
     ]
   },
   {
