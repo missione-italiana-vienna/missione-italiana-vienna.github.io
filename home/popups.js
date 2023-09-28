@@ -7,9 +7,9 @@
   },
   {
     "text": "Iscrizione al catechismo fino al 10 Ottobre",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2023-09-27",
-    "last_date_to_show": "2023-10-01"
+    "link": "https://mcivienna.org/#!/blog/2023/09/28/catechismo_2023_2024",
+    "first_date_to_show": "2023-09-28",
+    "last_date_to_show": "2023-10-11"
   }
 
 ]
