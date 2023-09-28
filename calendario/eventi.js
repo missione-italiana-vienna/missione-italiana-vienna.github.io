@@ -3055,5 +3055,365 @@
         "description": "S. Messa con Te Deum"
       }
     ]
+  },
+  {
+    "date": "1 Gennaio 2025",
+    "content":
+    [
+      {
+        "description": "<b>Solennità di Maria Santissima Madre di Dio</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Gennaio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "5 Gennaio 2025",
+    "content": 
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Gennaio 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Epifania del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Gennaio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "12 Gennaio 2025",
+    "content":
+    [
+      {
+        "description": "<b>Battesimo del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Gennaio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "19 Gennaio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      },
+    ]
+  },
+  {
+    "date": "25 Gennaio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "26 Gennaio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Febbraio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "2 Febbraio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Febbraio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "9 Febbraio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Febbraio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "16 Febbraio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Febbraio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "23 Febbraio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      },
+    ]
+  },
+  {
+    "date": "1 Marzo 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "2 Marzo 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      },
+    ]
+  },
+  {
+    "date": "5 Marzo 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Mercoledì delle ceneri</b>"
+      },
+      {
+        "time": "19:30",
+        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>."
+      }
+    ]
+  },
+  {
+    "date": "8 Marzo 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "9 Marzo 2025",
+    "content":
+    [
+      {
+        "description": "<b>Prima Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Marzo 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "16 Marzo 2025",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Marzo 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "23 Marzo 2025",
+    "content":
+    [
+      {
+        "description": "<b>Terza Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Marzo 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "30 Marzo 2025",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Aprile 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "6 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Quinta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Aprile 2025",
+    "content": 
+    [
+      {
+        "time": "17:00",
+        "description": "Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "13 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Domenica delle palme</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "Benedizione delle palme (nel cortile della chiesa, entrata da Schlösselgasse), processione e S. Messa."
+      }
+    ]
   }
 ]
