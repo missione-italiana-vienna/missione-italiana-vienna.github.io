@@ -1642,7 +1642,7 @@
     ]
   },
   {
-    "date": "26 Dicembre 2022",
+    "date": "26 Dicembre 2023",
     "content": 
     [
       {
