@@ -1098,8 +1098,6 @@
       }
     ]
   },
-
-
   {
     "date": "20 Novembre 2021",
     "content":
