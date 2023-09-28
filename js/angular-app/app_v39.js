@@ -829,13 +829,24 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
                 '<div class = "calender-divider-container">' +
                   '<h3 class = "calender-divider-text"><span>' +  year + '</span></h3>' +
                 '</div>' +
-              '</td>' +
+              '</th>' +
             '</tr>';
 
           start_year = year; 
           // set the new year that we are examining. 
           // This can be useful if the events in the calender span more than 2 years, 
           // otherwise it is anyway not harmful
+        }
+        // if start_year == year, this means that we are still in the same year, hence nothing to do
+        else if (start_year > year) {
+          // this means a copy-paste error in the file eventi.js (as mentioned above)
+          // we have to throw an error
+          appointments += 
+          '<tr>' +
+            '<th colspan = "2">' +  
+              'Errore: un evento del calendario non può essere mostrato correttamente.' +
+            '</th>' +
+          '</tr>';
         }
       }
           
