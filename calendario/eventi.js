@@ -1629,7 +1629,7 @@
     ]
   },
   {
-    "date": "25 Dicembre 2022",
+    "date": "25 Dicembre 2023",
     "content":
     [
       {
