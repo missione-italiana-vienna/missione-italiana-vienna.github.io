@@ -775,7 +775,7 @@
       },
       {
         "time": "a partire dalle 8:30",
-        "description": "S. Messa in tedesco presso l'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel, a seguire Agape - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
+        "description": "S. Messa in tedesco presso l'Hamerlingpark, a seguire processione nel quartiere organizzata dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu, a seguire Agape - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
       },
       {
         "time": "11:30",
