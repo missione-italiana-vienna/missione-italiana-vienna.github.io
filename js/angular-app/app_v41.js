@@ -821,8 +821,26 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
     appointments_container.innerHTML = "Caricamento del calendario in corso...";
 
     var appointments = "";
-    var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, weekday, current_string_date;
+    var i, splitted_date, day, month, year, month_number, date_considered, comparison_date, last_date_to_consider, weekday, current_string_date;
     var start_year = null;
+
+    // we set a comparison date
+    comparison_date = new Date();  // currently it's equal to today, it could be modified below 
+    if (input_string == "future") {
+      comparison_date.setDate(comparison_date.getDate() - 1); 
+      // in this case the comparison date is now equal to yesterday
+
+      last_date_to_consider = new Date(); // currently equal to today, it will be modified below
+      last_date_to_consider.setDate(last_date_to_consider.getDate() + 360); // a bit less than 1 year in the future
+      // we do not want to have overlapping dates (with month and day) since there is only once an information for the user
+      // about the fact that we are in a different calendar year.
+      // Note that the dates that we consider in this case are starting from yesterday and going on until 360 days in the future
+    }
+    // note: we do not set a value of last_date_to_consider if input_string is different from "future". This is
+    // not an issue since we are not going to use last_date_to_consider in that situation
+
+    
+
     for (i = 0; i < events.length; ++i) {
 
       // converts the date from the format "10 Gennaio 2019" 
@@ -868,8 +886,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       month_number = list_months.findIndex(FindMonthByName, month);
 
       if (month_number == -1) {
-        console.log("Error! Month not found in the list: " + month);
-        console.log(events[i]);
+        appointments += generate_html_for_error_in_the_calender("Errore nella codifica di un mese; un evento non può essere mostrato.");
       }
 
       // starting with the infos about year, month number and date, we create a new date object
@@ -878,14 +895,13 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       // we extract the day of the week from the date object
       weekday = list_weekdays[date_considered.getDay()];
 
-      // we set a comparison date
-      comparison_date = new Date();  // currently it's equal to today, it will be modified below
+      
 
       if (input_string == "future") {
-        comparison_date.setDate(comparison_date.getDate() - 1); // the comparison date is now equal to yesterday
-
         // we consider only those events that are future events, current events, or events not older that yesterday
-        if (date_considered >= comparison_date) {			  
+        // (note that if input_string == "future", then we set the comparison_date to yesterday already in the code above)
+        // AND that are not too far in the future (at most 360 days from now)
+        if (date_considered >= comparison_date && date_considered <= last_date_to_consider) {			  
           appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
         }
       }
@@ -902,8 +918,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
             appointments += generate_html_for_a_given_date(events[i].content, day, month, weekday);
           }
           else {
-            console.log("Error, not a valid string!");
-            appointments += "Si è verificato un errore: la lista di eventi nel calendario non è attualmente disponibile.";
+            appointments += generate_html_for_error_in_the_calender("Si è verificato un errore: la lista di eventi nel calendario non è attualmente disponibile.");
           }
         }
       }
