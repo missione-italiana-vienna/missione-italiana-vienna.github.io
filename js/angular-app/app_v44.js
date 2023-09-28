@@ -86,6 +86,13 @@ var app = angular.module("myApp", ["ngSanitize", "ngRoute", "utils.autofocus"]);
       controller: "myCtrlHome" /*,
       reloadOnSearch: false */ })
 
+    .when("/home/notizie_precedenti/", {
+      templateUrl: "home/notizie_precedenti/notizie_precedenti.html" + "?" + date_now,
+      title: "Notizie precedenti",
+      type_of_controller: "old_news",
+      controller: "myCtrlHome" /*,
+      reloadOnSearch: false */ })
+
     .when("/contatti/", {
       templateUrl: "contatti/content.html" + "?" + date_now,
       title: "Contatti",
@@ -570,13 +577,14 @@ function($scope, $rootScope, $route, sharedProperties) {
 
 
   var type_of_controller = sharedProperties.getTypeOfController();
+  
   if (type_of_controller === "home") {
     // this helps displaying the homepage structure 
     // (instead of the structure for secondary pages)
 
     sharedProperties.set_links_per_liturgia_del_giorno();
     
-    sharedProperties.include_all_news();
+    sharedProperties.include_recent_news();
 
     sharedProperties.include_all_popups();
   }
@@ -601,6 +609,9 @@ function($scope, $rootScope, $route, sharedProperties) {
       else {
         sharedProperties.generate_html_with_all_events("past", "", "");
       }
+    }
+    else if (type_of_controller == "old_news") {
+      sharedProperties.include_old_news();
     }
     else if (type_of_controller == "streaming" || type_of_controller == "past_streaming") {
 
@@ -1355,7 +1366,7 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       xmlhttp.send();  
     },
 
-    include_all_news: function() {
+    include_recent_news: function() {
       var date_now = Date.now();
       var fetch_url_news = "https://mcivienna.org/home/news.js?" + date_now; 
       // this allows to force this file to be reloaded instead of cached by the browser
@@ -1365,6 +1376,23 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
         if (this.readyState == 4 && this.status == 200) {
           var news = JSON.parse(this.responseText);
           add_news_blocks(news.id_first_news, news.id_last_news);
+          // TO DO: handle the case when this is not parsable/cannot be loaded.
+        }
+      };
+      xmlhttp.open("GET", fetch_url_news, true);
+      xmlhttp.send();
+    },
+
+    include_old_news: function() {
+      var date_now = Date.now();
+      var fetch_url_news = "https://mcivienna.org/home/news.js?" + date_now; 
+      // this allows to force this file to be reloaded instead of cached by the browser
+      
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var news = JSON.parse(this.responseText);
+          add_news_blocks(1, news.id_first_news - 1); // the piece of news with id_first_news is displayed in the recent news in the homepage (see block of code above), so it shall not be displayed in the old news
           // TO DO: handle the case when this is not parsable/cannot be loaded.
         }
       };
