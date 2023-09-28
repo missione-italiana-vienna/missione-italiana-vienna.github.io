@@ -830,11 +830,22 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
       comparison_date.setDate(comparison_date.getDate() - 1); 
       // in this case the comparison date is now equal to yesterday
 
-      last_date_to_consider = new Date(); // currently equal to today, it will be modified below
-      last_date_to_consider.setDate(last_date_to_consider.getDate() + 360); // a bit less than 1 year in the future
-      // we do not want to have overlapping dates (with month and day) since there is only once an information for the user
-      // about the fact that we are in a different calendar year.
-      // Note that the dates that we consider in this case are starting from yesterday and going on until 360 days in the future
+      if ($route.current.params.hasOwnProperty("show_all_dates") && $route.current.params.show_all_dates == "yes") {
+        // this option is mainly intended to be used by webmasters while adding new dates far in the future
+        // (still not shown to normal users) and check if they display correctly
+        // (nothing really secret, so no need of adding passwords, etc.)
+        last_date_to_consider = new Date(); // currently equal to today, it will be modified below
+        last_date_to_consider.setDate(last_date_to_consider.getDate() + 10*365); // about 10 years in the future
+        // not considering leap years, but we will anyway never have calendar entries so far in the future
+        // We simply need a date far in the future in order to use the same syntax both in this case and in the one below
+      }
+      else { // for normal users: we show a bit less than a full year, so that no misunderstanding will happen about the calender year
+        // (since the calender year is only shown on the change of one year to the next, but not near every event)
+        last_date_to_consider = new Date(); // currently equal to today, it will be modified below
+        last_date_to_consider.setDate(last_date_to_consider.getDate() + 360); // a bit less than 1 year in the future
+        // we do not want to have overlapping dates (with month and day) since there is only once an information for the user
+        // about the fact that we are in a different calendar year.
+        // Note that the dates that we consider in this case are starting from yesterday and going on until 360 days in the future
     }
     // note: we do not set a value of last_date_to_consider if input_string is different from "future". This is
     // not an issue since we are not going to use last_date_to_consider in that situation
@@ -1494,12 +1505,10 @@ function($rootScope, $sce, $http, $q, $httpParamSerializerJQLike) {
 
       data_liturgia_del_giorno("yesterday");
       data_liturgia_del_giorno("today");
-      data_liturgia_del_giorno("tomorrow");      var date_now = Date.now();
+      data_liturgia_del_giorno("tomorrow");
     },    
 
     generate_html_with_all_events: function(input_string, year) {
-
-      
       var fetch_url;
       if (input_string === "future") {
         fetch_url = "https://mcivienna.org/calendario/eventi.js";
