@@ -2320,7 +2320,7 @@
       },
       {
         "description": "Celebrazioni comunitarie in tedesco organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treunel - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
-      },
+      }
     ]
   },
   {
