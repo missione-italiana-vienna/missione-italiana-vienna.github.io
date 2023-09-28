@@ -1839,9 +1839,9 @@
     [
       {
         "description": "Mercoledì delle ceneri"
-      }
+      },
       {
-        "time": "19:30",
+        "time": "19:30",  
         "description": "ORARIO DA CONFERMARE - S. Messa con <b>celebrazione del rito delle ceneri</b>"
       }
     ]
