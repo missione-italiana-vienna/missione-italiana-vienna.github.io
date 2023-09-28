@@ -4,7 +4,7 @@
     "content":
     [
       {
-        "description": "<b>Solennità di Maria Madre di Dio</b>"
+        "description": "<b>Solennità di Maria Santissima Madre di Dio</b>"
       },
       {
         "time": "11:30",
@@ -887,7 +887,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). Se volete seguire la S. Messa solo in italiano, consigliamo di andare alla S. Messa prefestiva di sabato 3 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 3 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
@@ -999,7 +999,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). In questa Celebrazione Eucaristica festeggiamo il 25° anniversario di Sacerdozio del nostro Parroco, padre Darius Zajac. Se volete seguire la S. Messa solo in italiano, consigliamo di andare alla S. Messa prefestiva di sabato 24 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). In questa Celebrazione Eucaristica festeggiamo il 25° anniversario di Sacerdozio del nostro Parroco, padre Darius Zajac. Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 24 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
@@ -1158,7 +1158,7 @@
     "content":
     [
       {
-				"description": "<b>Assunzione della Vergine Maria</b>"
+				"description": "<b>Assunzione della Beata Vergine Maria</b>"
 			},
       {
         "time": "11:30",
@@ -1303,7 +1303,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "La S. Messa di oggi sarà celebrata allee ore 11:00 (invece che 11:30 come da orario consueto) insieme alla comunità austriaca della parrocchia di Alser Straße. A seguire pranzo in giardino (si potranno acquistare piatti pronti: carne grigliata, würstel, torte, etc.)."
+        "description": "La S. Messa di oggi sarà celebrata nel giardino del convento (entrata da Schlösselgasse) alle ore 11:00 (invece che 11:30 come da orario consueto) insieme alla comunità austriaca della parrocchia di Alser Straße (se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 30 Settembre). A seguire pranzo in giardino (si potranno acquistare piatti pronti: carne grigliata, würstel, torte, etc.)."
       }
     ]
   },
@@ -1400,7 +1400,7 @@
     ]
   },
   {
-    "date": "1 Novembre 2022",
+    "date": "1 Novembre 2023",
     "content": 
     [
       {
@@ -1535,7 +1535,7 @@
     ]
   },
   {
-    "date": "8 Dicembre 2022",
+    "date": "8 Dicembre 2023",
     "content":
     [
       {
@@ -1659,9 +1659,6 @@
     "content":
     [
       {
-        "description": "<b>Sacra Famiglia di Gesù, Maria e Giuseppe</b>"
-      },
-      {
         "time": "17:00",
         "description": "Messa prefestiva."
       }
@@ -1671,6 +1668,9 @@
     "date": "31 Dicembre 2023",
     "content":
     [
+      {
+        "description": "<b>Sacra Famiglia di Gesù, Maria e Giuseppe</b>"
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1687,7 +1687,7 @@
     "content": 
     [
       {
-        "description": "<b>Solennità di Maria Madre di Dio</b>"
+        "description": "<b>Solennità di Maria Santissima Madre di Dio</b>"
       },
       {
         "time": "11:30",
@@ -1838,8 +1838,11 @@
     "content": 
     [
       {
+        "description": "Mercoledì delle ceneri"
+      }
+      {
         "time": "19:30",
-        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>"
+        "description": "ORARIO DA CONFERMARE - S. Messa con <b>celebrazione del rito delle ceneri</b>"
       }
     ]
   },
@@ -2016,7 +2019,7 @@
       {
         "time": "dopo la S. Messa",
         "style": "color: red;",
-        "description": "Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00."
+        "description": "ORARIO DA CONFERMARE - Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00."
       }
     ]
   },
@@ -2266,7 +2269,7 @@
     "content":
     [
       {
-        "description": "<b>Pentecoste</b>"
+        "description": "<b>Domenica di Pentecoste</b>"
       },
       {
         "time": "11:30",
@@ -2307,7 +2310,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Strasse (notare il cambio di orario rispetto al solito!). Se volete seguire la S. Messa solo in italiano, consigliamo di andare alla S. Messa prefestiva di sabato 3 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+        "description": "S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 25 Maggio. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
@@ -2561,7 +2564,7 @@
     "content": 
     [
       {
-				"description": "<b>Assunzione della Vergine Maria</b>"
+				"description": "<b>Assunzione della Beata Vergine Maria</b>"
 			},
       {
         "time": "11:30",
