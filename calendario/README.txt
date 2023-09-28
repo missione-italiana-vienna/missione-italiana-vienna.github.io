@@ -21,3 +21,15 @@ http://www.gcatholic.org/calendar/2024/General-E-it.htm
 - il Corpus Domini è di giovedì (mentre in Italia è stato spostato sempre alla domenica successiva)
 - festa di Pentecoste sia domenica (come in Italia) sia lunedì di Pentecoste (tecnicamente: 50 giorni dopo la Pasqua, quindi lunedì e non domenica)
 - l'Ascensione è celebrata durante la settimana e non accorpata alla domenica successiva
+
+--
+
+Per default all'utente vengono mostrati a questo link
+
+https://mcivienna.org/#!/calendario/
+
+solo tutti gli eventi da ieri fino ai prossimi 360 giorni nel futuro. In questo modo (visto che per ogni box con la data sono mostrati solo giorno+mese), non si generano ambiguità sulla data.
+
+Se invece un webmaster vuole controllare che TUTTI gli eventi inseriti per il futuro siano processati correttamente, si può usare invece questo link (pubblico ma non linkato da nessuna parte):
+
+https://mcivienna.org/#!/calendario/?show_all_dates=yes
