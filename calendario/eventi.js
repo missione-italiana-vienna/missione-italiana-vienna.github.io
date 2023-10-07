@@ -1352,6 +1352,16 @@
     ]
   },
   {
+    "date": "18 Ottobre 2023",
+    "content":
+    [
+      {
+        "time": "19:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-10-18/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "21 Ottobre 2023",
     "content": 
     [
@@ -1463,6 +1473,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Novembre 2023",
+    "content":
+    [
+      {
+        "time": "19:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-11-175\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1587,6 +1607,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Dicembre 2023",
+    "content":
+    [
+      {
+        "time": "19:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-12-13/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
