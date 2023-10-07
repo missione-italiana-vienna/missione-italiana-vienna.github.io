@@ -1380,6 +1380,16 @@
     ]
   },
   {
+    "date": "23 Ottobre 2023",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "28 Ottobre 2023",
     "content": 
     [
@@ -1481,6 +1491,16 @@
       {
         "time": "12:30",
         "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità."
+      }
+    ]
+  },
+  {
+    "date": "23 Novembre 2023",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-11-23/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1598,6 +1618,16 @@
       {
         "time": "12:30",
         "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape e la festa di Natale della comunità."
+      }
+    ]
+  },
+  {
+    "date": "18 Dicembre 2023",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-12-18/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -1746,6 +1776,16 @@
     ]
   },
   {
+    "date": "15 Gennaio 2024",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-01-15/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "20 Gennaio 2024",
     "content": 
     [
@@ -1874,6 +1914,16 @@
     ]
   },
   {
+    "date": "19 Febbraio 2024",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-02-19/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "24 Febbraio 2024",
     "content": 
     [
@@ -1978,6 +2028,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Marzo 2024",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-03-18/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -2138,6 +2198,16 @@
     ]
   },
   {
+    "date": "15 Aprile 2024",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-04-15/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "20 Aprile 2024",
     "content": 
     [
@@ -2251,6 +2321,16 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Maggio 2024",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-05-13/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -2379,6 +2459,17 @@
       }
     ]
   },
+  {
+    "date": "10 Giugno 2024",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-06-10/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+
   {
     "date": "15 Giugno 2024",
     "content": 
