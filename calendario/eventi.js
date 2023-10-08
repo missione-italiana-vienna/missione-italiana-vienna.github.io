@@ -2268,6 +2268,16 @@
     ]
   },
   {
+    "date": "17 Aprile 2024",
+    "content":
+    [
+      {
+        "time": "19:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-04-17\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "20 Aprile 2024",
     "content": 
     [
@@ -2391,6 +2401,16 @@
       {
         "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-05-13/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
+    "date": "14 Maggio 2024",
+    "content":
+    [
+      {
+        "time": "19:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-05-14\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
   },
@@ -2529,7 +2549,16 @@
       }
     ]
   },
-
+  {
+    "date": "11 Giugno 2024",
+    "content":
+    [
+      {
+        "time": "19:30",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-06-20/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
   {
     "date": "15 Giugno 2024",
     "content": 
