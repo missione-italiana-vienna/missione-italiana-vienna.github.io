@@ -1487,6 +1487,16 @@
     ]
   },
   {
+    "date": "17 Novembre 2023",
+    "content":
+    [
+      {
+        "time": "19:50",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2023-11-17\">testo qui</a>). Entrata da Alser Straße 17. Gli incontri di questo gruppo sono circa trimestrali, le successive date saranno inserite nel calendario non appena possibile."
+      }
+    ]
+  },
+  {
     "date": "18 Novembre 2023",
     "content": 
     [
