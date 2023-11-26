@@ -1558,6 +1558,16 @@
     ]
   },
   {
+    "date": "30 Novembre 2023",
+    "content":
+    [
+      {
+        "time": "15:30",
+        "description": "Preparazione delle corone di Avvento: nella sala parrocchiale (entrata da Alser Straße 17) prepareremo assieme le corone di Avvento destinate alla vendita durante il mercato parrocchiale dell'Avvento. Tutti possono dare una mano (ed eventualmente preparare assieme anche la propria corona)."
+      }
+    ]
+  },
+  {
     "date": "2 Dicembre 2023",
     "content": 
     [
