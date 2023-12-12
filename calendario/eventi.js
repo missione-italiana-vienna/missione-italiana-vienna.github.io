@@ -1806,6 +1806,10 @@
     "content": 
     [
       {
+        "time": "11:00",
+        "description": "Messa di ringraziamento per gli 800 anni dei frati minori in Austria. La S. Messa sarà presieduta dal cardinale di Vienna, Christoph Schönborn."
+      },
+      {
         "time": "17:00",
         "description": "Messa prefestiva. Celebrazione per gli 800 anni dei frati minori in Austria (ULTERIORI DETTAGLI SEGUIRANNO)."
       }
