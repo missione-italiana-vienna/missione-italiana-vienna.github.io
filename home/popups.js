@@ -45,6 +45,6 @@
     "text": "Iscrizione al corso per la Cresima per gli adulti",
     "link": "https://docs.google.com/forms/d/e/1FAIpQLSfH-f3sjxPBGHH5AZ2c9J4PpH1z7pRlp8Rcy04I0KwlltWfgg/viewform",
     "first_date_to_show": "2023-11-28",
-    "last_date_to_show": "2024-01-31"
+    "last_date_to_show": "2023-12-24"
   }
 ]
