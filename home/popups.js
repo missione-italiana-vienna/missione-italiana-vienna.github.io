@@ -1,9 +1,9 @@
 [
   {
-    "text": "Preparazione delle corone di Avvento",
+    "text": "Lectio Divina del 13 Dicembre annullata",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2023-11-26",
-    "last_date_to_show": "2023-11-30"
+    "first_date_to_show": "2023-12-12",
+    "last_date_to_show": "2023-12-13"
   },
   {
     "text": "Agape della comunità con festa di Natale: 17 Dicembre",
