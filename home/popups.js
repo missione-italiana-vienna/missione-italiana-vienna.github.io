@@ -1,15 +1,9 @@
 [
   {
-    "text": "Lectio Divina del 13 Dicembre annullata",
+    "text": "Sabato 13 Gennaio: 2 Messe di ringraziamento per gli 800 anni dei frati minori in Austria (S. Messa del mattino presieduta dall'arcivescovo Schönborn)",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2023-12-12",
-    "last_date_to_show": "2023-12-13"
-  },
-  {
-    "text": "Agape della comunità con festa di Natale: 17 Dicembre",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2023-12-03",
-    "last_date_to_show": "2023-12-17"
+    "first_date_to_show": "2024-01-01",
+    "last_date_to_show": "2024-01-13"
   },
   {
     "text": "Prossima agape della comunità: 21 Gennaio",
