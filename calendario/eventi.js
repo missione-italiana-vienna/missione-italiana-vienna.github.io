@@ -1753,11 +1753,6 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
-      },
-      {
-        "time": "18:30",
-        "style": "color: red;",
         "description": "S. Messa con Te Deum"
       }
     ]
@@ -1807,11 +1802,11 @@
     [
       {
         "time": "11:00",
-        "description": "Messa di ringraziamento per gli 800 anni dei frati minori in Austria. La S. Messa sarà presieduta dal cardinale di Vienna, Christoph Schönborn."
+        "description": "Messa di ringraziamento per gli 800 anni dei frati minori in Austria. La S. Messa sarà presieduta dal cardinale di Vienna, l'arcivescovo Christoph Schönborn."
       },
       {
         "time": "17:00",
-        "description": "Messa prefestiva. Celebrazione per gli 800 anni dei frati minori in Austria (ULTERIORI DETTAGLI SEGUIRANNO)."
+        "description": "Messa prefestiva. Celebrazione per gli 800 anni dei frati minori in Austria."
       }
     ]
   },
