@@ -1,5 +1,11 @@
 [
   {
+    "text": "Messaggio per Natale e per le celebrazioni di inizio 2024",
+    "link": "https://mcivienna.org/#!/blog/2023/12/28/messaggio_per_natale_2023/",
+    "first_date_to_show": "2023-12-28",
+    "last_date_to_show": "2024-01-13"
+  },
+  {
     "text": "Sabato 13 Gennaio: 2 Messe di ringraziamento per gli 800 anni dei frati minori in Austria (S. Messa del mattino presieduta dall'arcivescovo Schönborn)",
     "link": "https://mcivienna.org/#!/calendario/",
     "first_date_to_show": "2024-01-01",
