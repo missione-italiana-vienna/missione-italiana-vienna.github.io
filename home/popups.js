@@ -1,21 +1,9 @@
 [
   {
-    "text": "Messaggio per Natale e per le celebrazioni di inizio 2024",
-    "link": "https://mcivienna.org/#!/blog/2023/12/28/messaggio_per_natale_2023/",
-    "first_date_to_show": "2023-12-28",
-    "last_date_to_show": "2024-01-13"
-  },
-  {
-    "text": "Sabato 13 Gennaio: 2 Messe di ringraziamento per gli 800 anni dei frati in Austria (S. Messa alle ore 11:00 in tedesco e presieduta dall'Arcivescovo Schönborn)",
+    "text": "Prossima agape della comunità: 11 Febbraio",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-01-01",
-    "last_date_to_show": "2024-01-13"
-  },
-  {
-    "text": "Prossima agape della comunità: 21 Gennaio",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-01-07",
-    "last_date_to_show": "2024-01-21"
+    "first_date_to_show": "2024-02-05",
+    "last_date_to_show": "2024-02-11"
   },
   {
     "text": "Prossima agape della comunità: 10 Marzo",
