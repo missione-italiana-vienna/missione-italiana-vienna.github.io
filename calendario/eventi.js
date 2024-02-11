@@ -188,7 +188,7 @@
       },
       {
         "time": "19:30",  
-        "description": "ORARIO DA CONFERMARE - S. Messa con <b>celebrazione del rito delle ceneri</b>"
+        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>"
       }
     ]
   },

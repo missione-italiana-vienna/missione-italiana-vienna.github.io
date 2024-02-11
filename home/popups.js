@@ -6,6 +6,12 @@
     "last_date_to_show": "2024-02-11"
   },
   {
+    "text": "Mercoledì 14 Febbraio: mercoledì delle ceneri",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "first_date_to_show": "2024-02-11",
+    "last_date_to_show": "2024-02-14"
+  },
+  {
     "text": "Prossima agape della comunità: 10 Marzo",
     "link": "https://mcivienna.org/#!/calendario/",
     "first_date_to_show": "2024-02-25",
