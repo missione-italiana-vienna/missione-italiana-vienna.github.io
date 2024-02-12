@@ -197,8 +197,8 @@
     "content":
     [
       {
-        "time": "19:50",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-02-16/\">testo qui</a>). Entrata da Alser Straße 17."
+        "time": "19:45",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-02-16/\">testo qui</a>). Entrata da Alser Straße 17 (ritrovo alle 19:45, inizio alle ore 20:00)"
       }
     ]
   },
