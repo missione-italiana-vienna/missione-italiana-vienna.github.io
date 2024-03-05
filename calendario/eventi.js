@@ -198,7 +198,7 @@
     [
       {
         "time": "19:45",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-02-16/\">testo qui</a>). Entrata da Alser Straße 17 (ritrovo alle 19:45, inizio alle ore 20:00)"
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-02-16/\">testo qui</a>). Entrata da Alser Straße 17 (ritrovo alle 19:45, inizio alle ore 20:00)."
       }
     ]
   },
@@ -327,6 +327,20 @@
       {
         "time": "12:30",
         "description": "Dopo la S. Messa, nella sala parrocchiale si terrà l'Agape della comunità."
+      }
+    ]
+  },
+  {
+    "date": "15 Marzo 2024",
+    "content":
+    [
+      {
+        "time": "19:00",
+        "description": "Via Crucis in italiano"
+      },
+      {
+        "time": "19:45",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-03-15/\">testo qui</a>). Entrata da Alser Straße 17 (ritrovo alle 19:45, inizio alle ore 20:00)."
       }
     ]
   },

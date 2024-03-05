@@ -1,21 +1,15 @@
 [
   {
-    "text": "Prossima agape della comunità: 11 Febbraio",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-02-05",
-    "last_date_to_show": "2024-02-11"
-  },
-  {
-    "text": "Mercoledì 14 Febbraio: mercoledì delle ceneri",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-02-11",
-    "last_date_to_show": "2024-02-14"
-  },
-  {
     "text": "Prossima agape della comunità: 10 Marzo",
     "link": "https://mcivienna.org/#!/calendario/",
     "first_date_to_show": "2024-02-25",
     "last_date_to_show": "2024-03-10"
+  },
+  {
+    "text": "Via Crucis in italiano: 15 Marzo",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "first_date_to_show": "2024-03-05",
+    "last_date_to_show": "2024-03-15"
   },
   {
     "text": "Prossima agape della comunità: 21 Aprile",
