@@ -1,9 +1,9 @@
 [
   {
-    "text": "Prossima agape della comunità: 10 Marzo",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-02-25",
-    "last_date_to_show": "2024-03-10"
+    "text": "Cambiamenti alle linee dei tram 33, 43 e 44 tra il 16 Aprile e il 2 Settembre",
+    "link": "https://mcivienna.org/#!/contatti/",
+    "first_date_to_show": "2024-03-11",
+    "last_date_to_show": "2024-09-02"
   },
   {
     "text": "Via Crucis in italiano: 15 Marzo",
