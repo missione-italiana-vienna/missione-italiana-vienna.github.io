@@ -424,12 +424,7 @@
       {
         "time": "19:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
-      },
-      {
-        "time": "dopo la S. Messa",
-        "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Ölbergwache nella cappella di Sant'Antonio fino alle ore 21:00."
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
       }
     ]
   },
@@ -443,17 +438,12 @@
       {
         "time": "15:00",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Kreuzwegandacht (via Crucis) in tedesco."
+        "description": "Kreuzwegandacht (via Crucis) in tedesco."
       },
       {
         "time": "16:00",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Celebrazione della Passione del Signore (in italiano). A seguire: adorazione in silenzio "
-      },
-      {
-        "time": "fino alle 21:00",
-        "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Adorazione Eucaristica in silenzio nella cappella di Sant'Antonio"
+        "description": "Celebrazione della Passione del Signore (in italiano)."
       }
     ]
   },
@@ -467,7 +457,7 @@
       {
         "time": "22:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Veglia Pasquale."
+        "description": "Veglia Pasquale (in italiano)."
       }
     ]
   },
