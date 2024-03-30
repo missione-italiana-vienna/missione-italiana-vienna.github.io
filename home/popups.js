@@ -6,10 +6,10 @@
     "last_date_to_show": "2024-09-02"
   },
   {
-    "text": "Via Crucis in italiano: 15 Marzo",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-03-05",
-    "last_date_to_show": "2024-03-15"
+    "text": "Messaggio per Pasqua 2024",
+    "link": "https://mcivienna.org/#!/blog/2024/03/30/messaggio_per_pasqua_2024",
+    "first_date_to_show": "2024-03-30",
+    "last_date_to_show": "2024-04-21"
   },
   {
     "text": "Prossima agape della comunità: 21 Aprile",
