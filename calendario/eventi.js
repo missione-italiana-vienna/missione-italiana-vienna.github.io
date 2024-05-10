@@ -764,6 +764,18 @@
       }
     ]
   },
+{
+    "date": "29 Maggio 2024",
+    "content":
+    [
+      {
+        "description": "Vigilia del <b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "description": "Attenzione: oggi non si celebra la Messa prefestiva in italiano!"
+      }
+    ]
+  },
   {
     "date": "30 Maggio 2024",
     "content":
@@ -772,7 +784,11 @@
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-        "description": "Celebrazioni comunitarie in tedesco organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>."
+        "description": "Alla mattina: celebrazioni comunitarie in tedesco organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu - <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/\">dettagli</a>. Niente S. Messa in italiano alla mattina."
+      }
+      {
+	"time": "17:00",
+        "description": "S. Messa del Corpus Domini in italiano."
       }
     ]
   },
