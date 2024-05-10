@@ -784,7 +784,8 @@
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-        "description": "Alla mattina: celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. La giornata inizia con la celebrazione organizzata alle 8:30 nella chiesa di Breitenfeld (Uhlplatz), a seguire processione liturgica con due stazioni a Schlesingplatz e a Schlea Jodok-Fink-Platz; infine celebrazione liturgica nella parrocchia di Alser Vorstadt (chiesa di Alser Straße). Dopo la celebrazione si terrà un'agape nel giardino della parrocchia di Alser Straße. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2024.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>. A motivo della celebrazione conclusiva e dell'Agape, nella chiesa di Alser Straße al mattino non sarà celebrata nessuna S. Messa in italiano."
+	"time": "dalle 08:30",
+        "description": "Alla mattina: celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. La giornata inizia con la celebrazione organizzata alle 8:30 nella chiesa di Breitenfeld (Uhlplatz), a seguire processione liturgica con due stazioni a Schlesingplatz e a Schlea Jodok-Fink-Platz; infine celebrazione liturgica nella parrocchia di Alser Vorstadt (chiesa di Alser Straße). Dopo la celebrazione si terrà un'agape nel giardino della parrocchia di Alser Straße. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2024.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>. A motivo della celebrazione conclusiva e dell'agape, nella chiesa di Alser Straße al mattino non sarà celebrata nessuna S. Messa in italiano."
       },
       {
 	"time": "17:00",
