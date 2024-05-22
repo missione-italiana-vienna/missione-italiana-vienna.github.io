@@ -6,16 +6,10 @@
     "last_date_to_show": "2024-09-02"
   },
   {
-    "text": "Messaggio per Pasqua 2024",
-    "link": "https://mcivienna.org/#!/blog/2024/03/30/messaggio_per_pasqua_2024",
-    "first_date_to_show": "2024-03-30",
-    "last_date_to_show": "2024-04-21"
-  },
-  {
-    "text": "Prossima agape della comunità: 21 Aprile",
+    "text": "Lectio Divina per il gruppo donne (prevista per il 24 Maggio) rimandata a data da destinarsi",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-04-07",
-    "last_date_to_show": "2024-04-21"
+    "first_date_to_show": "2024-05-22",
+    "last_date_to_show": "2024-05-25"
   },
   {
     "text": "Prossima agape della comunità: 20 Maggio (Lunedì di Pentecoste) nel giardino del convento",
