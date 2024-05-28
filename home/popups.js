@@ -6,16 +6,10 @@
     "last_date_to_show": "2024-09-02"
   },
   {
-    "text": "Lectio Divina per il gruppo donne (prevista per il 24 Maggio) rimandata a data da destinarsi",
+    "text": "Corpus Domini (giovedì 30 Maggio) - dettagli sugli orari delle celebrazioni",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-05-22",
-    "last_date_to_show": "2024-05-25"
-  },
-  {
-    "text": "Prossima agape della comunità: 20 Maggio (Lunedì di Pentecoste) nel giardino del convento",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-05-06",
-    "last_date_to_show": "2024-05-20"
+    "first_date_to_show": "2024-05-28",
+    "last_date_to_show": "2024-05-30"
   },
   {
     "text": "Prossima agape della comunità: 26 Maggio",
