@@ -841,8 +841,8 @@
         "description": "S. Messa (in tedesco)."
       },
       {
-        "time": "19:30",
-        "description": "Esibizione di coro barocco - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/barocke-klangreise/\">link</a>."
+        "time": "19:30 - 21:00",
+        "description": "Concerto barocco - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/barocke-klangreise/\">link</a>."
       },
       {
         "time": "21:00 - 22:00",
