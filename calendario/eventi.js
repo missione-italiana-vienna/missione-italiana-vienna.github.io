@@ -818,7 +818,7 @@
     "content": 
     [
       {
-        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b><br>Qui sotto trovate la lista di tutti gli eventi (solo in tedesco) che s svolgeranno nella Chiesa di Alser Straße."
+        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b>.<br>Qui sotto trovate la lista di tutti gli eventi (solo in tedesco) che s svolgeranno nella Chiesa di Alser Straße."
       },
       {
         "time": "12:00 - 24:00",
@@ -842,11 +842,11 @@
       },
       {
         "time": "19:30",
-        "description": "Esibizione di coro barocco - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/barocke-klangreise/\">link</a>.
+        "description": "Esibizione di coro barocco - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/barocke-klangreise/\">link</a>."
       },
       {
         "time": "21:00 - 22:00",
-        "description": "Lodi francescane (in tedesco) nella cappella di S. Antonio.Messa prefestiva."
+        "description": "Lodi francescane (in tedesco) nella cappella di S. Antonio."
       }
     ]
   },
