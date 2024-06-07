@@ -818,7 +818,35 @@
     "content": 
     [
       {
-        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b><br>Come tutti gli anni, alcuni eventi si svolgeranno anche nella Chiesa di Alser Straße. I DETTAGLI VERRANNO PUBBLICATI APPENA POSSIBLE."
+        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b><br>Qui sotto trovate la lista di tutti gli eventi (solo in tedesco) che s svolgeranno nella Chiesa di Alser Straße."
+      },
+      {
+        "time": "12:00 - 24:00",
+        "description": "Veglia silenziosa nella cappella di S. Antonio (in tutti i momenti in cui non ci sono altri eventi)."
+      },
+      {
+        "time": "16:00 - 17:30",
+        "description": "Attività per bambini (in tedesco) - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/raetselrallye-im-kreuzgang-der-alserkirche-minoritenkloster/\">link</a>."
+      },
+      {
+        "time": "16:30 - 17:30",
+        "description": "Visita guidata (in tedesco) nella chiesa e nella cripta - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/fuehrung-in-der-alser-kirche-und-krypta/\">link</a>."
+      },
+      {
+        "time": "17:45",
+        "description": "Recita del rosario (in tedesco) nella cappella di S. Antonio."
+      },
+      {
+        "time": "18:30 - 19:15",
+        "description": "S. Messa (in tedesco)."
+      },
+      {
+        "time": "19:30",
+        "description": "Esibizione di coro barocco - <a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/termin/barocke-klangreise/\">link</a>.
+      },
+      {
+        "time": "21:00 - 22:00",
+        "description": "Lodi francescane (in tedesco) nella cappella di S. Antonio.Messa prefestiva."
       }
     ]
   },
