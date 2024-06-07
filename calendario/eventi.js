@@ -961,7 +961,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -985,7 +985,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1009,7 +1009,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1033,7 +1033,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1057,7 +1057,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1081,7 +1081,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1105,7 +1105,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1142,7 +1142,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1166,7 +1166,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1190,7 +1190,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1214,7 +1214,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1238,7 +1238,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1262,7 +1262,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1286,7 +1286,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1310,7 +1310,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1334,7 +1334,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1358,7 +1358,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1382,7 +1382,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1422,7 +1422,7 @@
         "description": "<b>Commemorazione di tutti i fedeli defunti</b>"
       },
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1446,7 +1446,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1470,7 +1470,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1494,7 +1494,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1521,7 +1521,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1548,7 +1548,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1575,7 +1575,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1602,7 +1602,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1668,7 +1668,7 @@
     "content":
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1719,7 +1719,7 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
       {
@@ -1756,8 +1756,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1779,8 +1783,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1799,8 +1807,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1819,8 +1831,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1839,8 +1855,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1859,8 +1879,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1879,8 +1903,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1899,8 +1927,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1932,8 +1964,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1955,8 +1991,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -1978,8 +2018,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -2001,8 +2045,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -2024,8 +2072,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -2047,8 +2099,12 @@
     "content": 
     [
       {
-        "time": "17:00",
+        "time": "17:00 (*)",
         "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
