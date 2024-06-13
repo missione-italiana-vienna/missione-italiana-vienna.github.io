@@ -899,6 +899,16 @@
     ]
   },
   {
+    "date": "13 Giugno 2024",
+    "content":
+    [
+      {
+        "time": "18:30",
+        "description": "S. Messa (in tedesco) in chiesa. In questa messa si ricorda S. Antonio da Padova. Alla fine della Messa saranno esposte le reliquie del santo."
+      }
+    ]
+  },
+  {
     "date": "14 Giugno 2024",
     "content":
     [
