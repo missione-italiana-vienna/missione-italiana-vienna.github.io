@@ -1,15 +1,9 @@
 [
   {
-    "text": "Cambiamenti alle linee dei tram 33, 43 e 44 tra il 16 Aprile e il 2 Settembre",
+    "text": "Cambiamenti alle linee dei tram 33, 43 e 44 tra il 16 Aprile e fine Settembre",
     "link": "https://mcivienna.org/#!/contatti/",
     "first_date_to_show": "2024-03-11",
-    "last_date_to_show": "2024-09-02"
-  },
-  {
-    "text": "Corpus Domini (giovedì 30 Maggio) - dettagli sugli orari delle celebrazioni",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2024-05-28",
-    "last_date_to_show": "2024-05-30"
+    "last_date_to_show": "2024-09-30"
   },
   {
     "text": "Prossima agape della comunità: 26 Maggio",
