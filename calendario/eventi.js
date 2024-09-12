@@ -1334,8 +1334,9 @@
     "content":
     [
       {
-        "time": "11:30",
-        "description": "S. Messa."
+        "time": "11:00",
+        "style": "color: red;",
+        "description": "In occasione della festa del raccolto (Erntedankfest) la S. Messa di oggi sarà celebrata nel giardino del convento (entrata da Schlösselgasse) alle ore 11:00 (invece che 11:30 come da orario consueto) insieme alla comunità austriaca della parrocchia di Alser Straße (se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 30 Settembre). A seguire pranzo in giardino (si potranno acquistare piatti pronti: carne grigliata, würstel, torte, etc.). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
@@ -1357,6 +1358,10 @@
     "date": "13 Ottobre 2024",
     "content":
     [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1381,6 +1386,10 @@
     "date": "20 Ottobre 2024",
     "content":
     [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1470,6 +1479,10 @@
     "content":
     [
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1493,6 +1506,10 @@
     "date": "17 Novembre 2024",
     "content":
     [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1548,6 +1565,10 @@
         "description": "<b>Prima Domenica di Avvento</b>"
       },
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1600,6 +1621,10 @@
     [
       {
         "description": "<b>Terza Domenica di Avvento</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1783,6 +1808,10 @@
         "description": "<b>Battesimo del Signore</b>"
       },
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -1806,6 +1835,10 @@
     "date": "19 Gennaio 2025",
     "content":
     [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1991,6 +2024,10 @@
         "description": "<b>Prima Domenica di Quaresima</b>"
       },
       {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "11:30",
         "description": "S. Messa."
       }
@@ -2016,6 +2053,10 @@
     [
       {
         "description": "<b>Seconda Domenica di Quaresima</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -2097,6 +2138,10 @@
     [
       {
         "description": "<b>Quinta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
