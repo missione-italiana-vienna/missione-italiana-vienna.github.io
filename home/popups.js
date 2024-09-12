@@ -12,9 +12,9 @@
     "last_date_to_show": "2024-05-26"
   },
   {
-    "text": "Iscrizione al corso per la Cresima per gli adulti",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLSfH-f3sjxPBGHH5AZ2c9J4PpH1z7pRlp8Rcy04I0KwlltWfgg/viewform",
-    "first_date_to_show": "2023-11-28",
-    "last_date_to_show": "2023-12-24"
+    "text": "Iscrizione al catechismo per l'anno pastorale 2024-2025",
+    "link": "https://mcivienna.org/#!/blog/2024/09/12/catechismo_2024_2025",
+    "first_date_to_show": "2024-09-12",
+    "last_date_to_show": "2024-10-10"
   }
 ]
