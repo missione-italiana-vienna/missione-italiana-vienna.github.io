@@ -2003,7 +2003,7 @@
       },
       {
         "time": "19:30",
-        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>."
+        "description": "ORARIO DA CONFERMARE - S. Messa con <b>celebrazione del rito delle ceneri</b>."
       }
     ]
   },
@@ -2733,11 +2733,11 @@
     ]
   },
   {
-    "date": "15 Agosto 2024",
+    "date": "15 Agosto 2025",
     "content": 
     [
       {
-	      "description": "<b>Assunzione della Beata Vergine Maria</b>"
+	"description": "<b>Assunzione della Beata Vergine Maria</b>"
       },
       {
         "time": "11:30",
