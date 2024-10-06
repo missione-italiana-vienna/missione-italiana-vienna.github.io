@@ -764,7 +764,7 @@
       }
     ]
   },
-{
+  {
     "date": "29 Maggio 2024",
     "content":
     [
@@ -784,11 +784,11 @@
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-	"time": "dalle 08:30",
+	      "time": "dalle 08:30",
         "description": "Alla mattina: celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. La giornata inizia con la celebrazione organizzata alle 8:30 nella chiesa di Breitenfeld (Uhlplatz), a seguire processione liturgica con due stazioni a Schlesingplatz e a Schlea Jodok-Fink-Platz; infine celebrazione liturgica nella parrocchia di Alser Vorstadt (chiesa di Alser Straße). Dopo la celebrazione si terrà un'agape nel giardino della parrocchia di Alser Straße (ci saranno piatti che potranno essere acquistati a prezzi modici). <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2024.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>.<br>A motivo della celebrazione conclusiva e dell'agape, nella chiesa di Alser Straße al mattino non sarà celebrata nessuna S. Messa in italiano."
       },
       {
-	"time": "17:00",
+      	"time": "17:00",
         "description": "La S. Messa del Corpus Domini in italiano si tiene alle ore 17:00."
       }
     ]
@@ -1139,7 +1139,7 @@
     "content": 
     [
       {
-	"description": "<b>Assunzione della Beata Vergine Maria</b>"
+	      "description": "<b>Assunzione della Beata Vergine Maria</b>"
       },
       {
         "time": "11:30",
@@ -1673,7 +1673,7 @@
       },
       {
         "time": "22:00",
-        "description": "S. Messa (\"Messa dei Pastori\")"
+        "description": "ORARIO DA CONFERMARE - S. Messa (\"Messa dei Pastori\")"
       }
     ]
   },
@@ -1737,7 +1737,7 @@
       {
         "time": "18:30",
         "style": "color: red;",
-        "description": "S. Messa con Te Deum"
+        "description": "ORARIO DA CONFERMARE - S. Messa con Te Deum"
       }
     ]
   },
@@ -2178,6 +2178,1130 @@
       {
         "time": "11:30",
         "description": "Benedizione delle palme (nel cortile della chiesa, entrata da Schlösselgasse), processione e S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "17 Aprile 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Giovedì Santo</b>"
+      },
+      {
+        "time": "19:30",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
+      }
+    ]
+  },
+  {
+    "date": "18 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Venerdì Santo</b>"
+      },
+      {
+        "time": "15:00",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - Kreuzwegandacht (via Crucis) in tedesco."
+      },
+      {
+        "time": "16:00",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - Celebrazione della Passione del Signore (in italiano)."
+      }
+    ]
+  },
+  {
+    "date": "19 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Sabato Santo</b>"
+      },
+      {
+        "time": "22:30",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - Veglia Pasquale (in italiano)."
+      }
+    ]
+  },
+  {
+    "date": "20 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Pasqua di Risurrezione</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "21 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Lunedì dell'Ottava di Pasqua (lunedì dell'angelo)</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "26 Aprile 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "27 Aprile 2025",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica del tempo di Pasqua (Domenica della Divina Misericordia)</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "3 Maggio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "4 Maggio 2025",
+    "content":
+    [
+      {
+        "description": "<b>Terza Domenica del tempo di Pasqua</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "10 Maggio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "11 Maggio 2025",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica del tempo di Pasqua</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "17 Maggio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "18 Maggio 2025",
+    "content":
+    [
+      {
+        "description": "<b>Quinta Domenica del tempo di Pasqua</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "23 Maggio 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b>. Consultate il link precedente per la lista aggiornata degli eventi che si terranno nella chiesa di Alser Straße."
+      }
+    ]
+  },
+  {
+    "date": "24 Maggio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "25 Maggio 2025",
+    "content":
+    [
+      {
+        "description": "<b>Sesta Domenica del tempo di Pasqua</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Maggio 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Ascensione</b> (Christi Himmelfahrt)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "31 Maggio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "1 Giugno 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa. Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
+      }
+    ]
+  },
+  {
+    "date": "7 Giugno 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "8 Giugno 2025",
+    "content":
+    [
+      {
+        "description": "<b>Domenica di Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "9 Giugno 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Lunedì di Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "14 Giugno 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "15 Giugno 2025",
+    "content":
+    [
+      {
+        "description": "<b>Solennità della Santissima Trinità</b> (a cui è dedicata la chiesa di Alser Straße)"
+      },
+      {
+        "time": "11:00",
+        "style": "color: red;",
+        "description": "ORARIO E DETTAGLI ANCORA DA CONFERMARE - S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 25 Maggio. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+      }
+    ]
+  },
+  {
+    "date": "18 Giugno 2025",
+    "content":
+    [
+      {
+        "description": "Vigilia del <b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "description": "Attenzione: oggi non si celebra la Messa prefestiva in italiano!"
+      }
+    ]
+  },
+  {
+    "date": "19 Giugno 2025",
+    "content":
+    [
+      {
+        "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+	      "time": "dalle 08:30",
+        "description": "Alla mattina: celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2024.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>."
+      },
+      {
+	      "time": "17:00 (*)",
+        "description": "ANCORA DA CONFERMARE - La S. Messa del Corpus Domini in italiano si tiene alle ore 17:00."
+      }
+    ]
+  },
+  {
+    "date": "21 Giugno 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "22 Giugno 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "28 Giugno 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "29 Giugno 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Luglio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "6 Luglio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Luglio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "13 Luglio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Luglio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "20 Luglio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "26 Luglio 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "27 Luglio 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Agosto 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "3 Agosto 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "9 Agosto 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "10 Agosto 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Agosto 2024",
+    "content": 
+    [
+      {
+	      "description": "<b>Assunzione della Beata Vergine Maria</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "16 Agosto 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "17 Agosto 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "23 Agosto 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "24 Agosto 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "30 Agosto 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "31 Agosto 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Settembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "7 Settembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Settembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "14 Settembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Settembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "21 Settembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "27 Settembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "28 Settembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Ottobre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "5 Ottobre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Ottobre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "12 Ottobre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Ottobre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "19 Ottobre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "25 Ottobre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "26 Ottobre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Novembre 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Solennità di tutti i Santi</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Novembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Commemorazione di tutti i fedeli defunti</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Novembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "9 Novembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Novembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "16 Novembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Novembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "23 Novembre 2025",
+    "content":
+    [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Novembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "30 Novembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Prima Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Dicembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "7 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Celebrazione dell'Immacolata Concezione della Beata Vergine Maria</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Dicembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "14 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Terza Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Dicembre 2025",
+    "content": 
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "21 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Vigilia di Natale</b>"
+      },
+      {
+        "time": "22:00",
+        "description": "ORARIO DA CONFERMARE - S. Messa (\"Messa dei Pastori\")"
+      }
+    ]
+  },
+  {
+    "date": "25 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Natale del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa di Natale."
+      }
+    ]
+  },
+  {
+    "date": "26 Dicembre 2025",
+    "content": 
+    [
+      {
+        "description": "<b>Celebrazione di S. Stefano primo martire</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "27 Dicembre 2025",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dal numero civico 17 di fianco alla Chiesa. Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "28 Dicembre 2025",
+    "content":
+    [
+      {
+        "description": "<b>Sacra Famiglia di Gesù, Maria e Giuseppe</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "31 Dicembre 2025",
+    "content":
+    [
+      {
+        "time": "18:30",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - S. Messa con Te Deum"
       }
     ]
   }
