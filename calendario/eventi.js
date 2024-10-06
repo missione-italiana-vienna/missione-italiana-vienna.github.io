@@ -1341,7 +1341,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "In occasione della festa del raccolto (Erntedankfest) la S. Messa di oggi sarà celebrata nel giardino del convento (entrata da Schlösselgasse) alle ore 11:00 (invece che 11:30 come da orario consueto) insieme alla comunità austriaca della parrocchia di Alser Straße (se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 30 Settembre). A seguire pranzo in giardino (si potranno acquistare piatti pronti: carne grigliata, würstel, torte, etc.). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+        "description": "In occasione della festa del raccolto (Erntedankfest) la S. Messa di oggi sarà celebrata <del>nel giardino del convento (entrata da Schlösselgasse)</del> nella chiesa di Alser Straße alle ore 11:00 (invece che 11:30 come da orario consueto) insieme alla comunità austriaca della parrocchia di Alser Straße (se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 30 Settembre). A seguire pranzo in giardino (si potranno acquistare piatti pronti: carne grigliata, würstel, torte, etc.). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
