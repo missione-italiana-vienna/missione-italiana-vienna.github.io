@@ -1447,7 +1447,7 @@
       },
       {
         "time": "17:00 (*)",
-        "description": "Messa prefestiva."
+        "description": "S. Messa."
       },
       {
         "type": "comment",
