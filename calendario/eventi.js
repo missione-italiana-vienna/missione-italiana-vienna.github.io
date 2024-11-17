@@ -1407,7 +1407,7 @@
     [
       {
         "time": "20:00",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-10-25/\">testo qui</a>). Questo incontro si terrà online (contattateci per avere il link)."
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-10-25/\">testo qui</a>). Questo incontro si terrà online (scrivete in anticipo all'email <a href = \"mailto:lectio.divina.adulti@gmx.at\">lectio.divina.adulti@gmx.at</a> per avere il link)."
       }
     ]
   },
@@ -1622,7 +1622,7 @@
     [
       {
         "time": "20:00",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-12-13/\">testo qui</a>). Questo incontro si terrà online (contattateci per avere il link)."
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2024-12-13/\">testo qui</a>). Questo incontro si terrà solo online (scrivete in anticipo all'email <a href = \"mailto:lectio.divina.adulti@gmx.at\">lectio.divina.adulti@gmx.at</a> per avere il link)."
       }
     ]
   },
