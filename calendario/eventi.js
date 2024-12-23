@@ -1693,7 +1693,7 @@
       },
       {
         "time": "22:00",
-        "description": "ORARIO DA CONFERMARE - S. Messa (\"Messa dei Pastori\")"
+        "description": "S. Messa (\"Messa dei Pastori\")"
       }
     ]
   },
@@ -1715,7 +1715,7 @@
     "content": 
     [
       {
-        "description": "<b>Celebrazione di S. Stefano primo martire</b>"
+        "description": "<b>Celebrazione di S. Stefano, primo martire e patrono di Vienna</b>"
       },
       {
         "time": "11:30",
@@ -1757,7 +1757,7 @@
       {
         "time": "18:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - S. Messa con Te Deum"
+        "description": "S. Messa con Te Deum"
       }
     ]
   },
