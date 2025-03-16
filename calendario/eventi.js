@@ -332,6 +332,20 @@
     ]
   },
   {
+    "date": "21 Marzo 2025",
+    "content": 
+    [
+      {
+        "time": "19:00",
+        "description": "Via Crucis nel chiostro del convento (entrata dal numero civico 17 di fianco alla Chiesa)."
+      },
+      {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo donne (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-03-21/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
     "date": "22 Marzo 2025",
     "content": 
     [
