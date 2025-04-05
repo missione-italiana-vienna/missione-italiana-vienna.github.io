@@ -426,7 +426,7 @@
       },
       {
         "time": "10:00",
-        "description": "Incontro di catechismo <div style = "font-weight: bold; display: inline;">solo per i bambini della Prima Comunione 2025</div>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <div style = \"font-weight: bold; display: inline;\">solo per i bambini della Prima Comunione 2025</div>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
