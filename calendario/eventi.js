@@ -471,7 +471,7 @@
       {
         "time": "19:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
       }
     ]
   },
@@ -485,12 +485,12 @@
       {
         "time": "15:00",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Kreuzwegandacht (via Crucis) in tedesco."
+        "description": "Kreuzwegandacht (via Crucis) in tedesco."
       },
       {
         "time": "16:00",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Celebrazione della Passione del Signore (in italiano)."
+        "description": "Celebrazione della Passione del Signore (in italiano)."
       }
     ]
   },
@@ -504,7 +504,7 @@
       {
         "time": "22:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Veglia Pasquale (in italiano)."
+        "description": "Veglia Pasquale (in italiano)."
       }
     ]
   },
