@@ -667,7 +667,7 @@
       },
       {
         "time": "17:45 - 18:15",
-        "description": "Recita del rosario (in tedesco) nella cappella di S. Antonio."
+        "description": "Recita del rosario (in tedesco) nella cappella di Sant'Antonio."
       },
       {
         "time": "18:30 - 19:00",
@@ -675,7 +675,7 @@
       },
       {
         "time": "21:00 - 22:00",
-        "description": "Lodi francescane (in tedesco) nella cappella di S. Antonio."
+        "description": "Lodi francescane (in tedesco) nella cappella di Sant'Antonio."
       }
     ]
   },
