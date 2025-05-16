@@ -655,7 +655,7 @@
       },
       }
         "time": "16:00 - 17:30",
-        "description": "Attività per bambini (in tedesco): "sulle tracce di San Francesco" (nel chiostro)."
+        "description": "Attività per bambini (in tedesco): \"sulle tracce di San Francesco\" (nel chiostro)."
       },
       }
         "time": "16:30 - 17:15",
