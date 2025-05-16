@@ -642,7 +642,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro)."
       }
     ]
   },
@@ -706,7 +706,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro)."
       }
     ]
   },
@@ -719,7 +719,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro)."
       }
     ]
   },
@@ -770,7 +770,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro)."
       }
     ]
   },
@@ -783,7 +783,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro)."
       }
     ]
   },
