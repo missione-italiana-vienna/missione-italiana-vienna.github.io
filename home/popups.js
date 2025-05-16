@@ -6,15 +6,9 @@
     "last_date_to_show": "2025-03-02"
   },
   {
-    "text": "Domenica 6 Aprile: solo catechismo per il gruppo della Prima Comunione 2025",
+    "text": "Venerdì 23 Maggio: Lunga Notte delle Chiese - programma",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2025-04-05",
-    "last_date_to_show": "2025-04-06"
-  },
-  {
-    "text": "Domenica 6 Aprile: attenzione ai blocchi alla circolazione a causa della maratona di Vienna",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2025-04-05",
-    "last_date_to_show": "2025-04-06"
+    "first_date_to_show": "2025-05-16",
+    "last_date_to_show": "2025-05-23"
   }
 ]
