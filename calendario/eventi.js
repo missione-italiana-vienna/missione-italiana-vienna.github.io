@@ -653,27 +653,27 @@
       {
         "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b>."
       },
-      }
+      {
         "time": "16:00 - 17:30",
         "description": "Attività per bambini (in tedesco): \"sulle tracce di San Francesco\" (nel chiostro)."
       },
-      }
+      {
         "time": "16:30 - 17:15",
         "description": "Prima visita guidata (in tedesco) nella cripta (punto di ritrovo: chiostro della chiesa)."
       },
-      }
+      {
         "time": "17:15 - 18:00",
         "description": "Seconda visita guidata (in tedesco) nella cripta (punto di ritrovo: chiostro della chiesa)."
       },
-      }
+      {
         "time": "17:45 - 18:15",
         "description": "Recita del rosario (in tedesco) nella cappella di S. Antonio."
       },
-      }
+      {
         "time": "18:30 - 19:00",
         "description": "Santa Messa nella cappella di Sant'Antonio (in tedesco)."
       },
-      }
+      {
         "time": "21:00 - 22:00",
         "description": "Lodi francescane (in tedesco) nella cappella di S. Antonio."
       }
