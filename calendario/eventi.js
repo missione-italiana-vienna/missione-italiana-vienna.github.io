@@ -638,7 +638,7 @@
       },
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "<del>Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17).</del> Per motivi organizzativi gli incontri di catechimo di oggi sono annullati."
       },
       {
         "time": "11:30",
