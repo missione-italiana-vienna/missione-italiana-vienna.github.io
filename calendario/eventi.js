@@ -743,7 +743,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa. Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
+        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro). Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
       }
     ]
   },
