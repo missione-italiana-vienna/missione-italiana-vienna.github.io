@@ -1,13 +1,17 @@
 /*
- Bilbo-Regular.ttf: Copyright 2011 The Bilbo Project Authors (https://github.com/googlefonts/bilbo) 
+Code generated with https://gwfh.mranftl.com/fonts
+
+Attribution generated using https://gwfh.mranftl.com/fonts
+
+Bilbo-Regular.ttf: Copyright 2011 The Bilbo Project Authors (https://github.com/googlefonts/bilbo) 
 */
 
 /* bilbo-regular - latin */
 @font-face {
   font-display: swap;
-  font-family: 'Bilbo';
+  font-family: "Bilbo";
   font-style: normal;
   font-weight: 400;
-  src: url('https:/mcivienna.org/styles/fonts/bilbo-v20-latin/bilbo-v20-latin-regular.woff2') format('woff2');
+  src: url("https://mcivienna.org/styles/fonts/bilbo-v20-latin/bilbo-v20-latin-regular.woff2")
+    format("woff2");
 }
-
