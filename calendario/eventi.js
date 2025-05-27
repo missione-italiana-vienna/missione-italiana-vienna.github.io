@@ -743,7 +743,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro). Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo). Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
       }
     ]
   },
@@ -783,7 +783,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa (entrata dal civico di Alser Straße 17 - la Messa si svolge nella sala parrocchiale o nel giardino del chiostro)."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo). A seguire: festa della Missione Cattolica Italiana con Agape (nel giardino se il tempo è bello). Per tutti quelli che riescono, vi preghiamo di portare cibo da condividere durante l'Agape."
       }
     ]
   },
@@ -811,7 +811,7 @@
       {
         "time": "11:00",
         "style": "color: red;",
-        "description": "ORARIO E DETTAGLI ANCORA DA CONFERMARE - S. Messa (in italiano e tedesco) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 25 Maggio. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+        "description": "S. Messa (in tedesco e in italiano) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 14 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
       }
     ]
   },
@@ -835,11 +835,11 @@
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-	      "time": "dalle 08:30",
-        "description": "Alla mattina: celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2024.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>."
+	"time": "dalle 08:30",
+        "description": "Alla mattina: celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2025.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>."
       },
       {
-	      "time": "17:00 (*)",
+	"time": "17:00 (*)",
         "description": "ANCORA DA CONFERMARE - La S. Messa del Corpus Domini in italiano si tiene alle ore 17:00."
       }
     ]
@@ -864,7 +864,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -888,7 +888,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -912,7 +912,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -922,7 +922,7 @@
     [
       {
         "time": "17:00 (*)",
-        "description": "Messa prefestiva."
+        "description": "Messa prefestiva (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       },
       {
         "type": "comment",
@@ -936,7 +936,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -960,7 +960,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -984,7 +984,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1008,7 +1008,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1032,7 +1032,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1045,7 +1045,7 @@
       },
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1069,7 +1069,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1093,7 +1093,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1117,7 +1117,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1141,7 +1141,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1165,7 +1165,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
@@ -1189,7 +1189,7 @@
     [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
       }
     ]
   },
