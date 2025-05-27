@@ -6,15 +6,21 @@
     "last_date_to_show": "2025-03-02"
   },
   {
-    "text": "Venerdì 23 Maggio: Lunga Notte delle Chiese - programma",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2025-05-16",
-    "last_date_to_show": "2025-05-23"
+    "text": "Messaggio per Pasqua e Ascensione 2025",
+    "link": "https://mcivienna.org/#!/blog/2025/05/27/messaggio_per_pasqua_e_ascensione_2025/",
+    "first_date_to_show": "2025-05-27",
+    "last_date_to_show": "2025-06-30"
   },
   {
-    "text": "Domenica 18 Maggio: per motivi organizzativi gli incontri di catechismo di questo giorno sono annullati",
+    "text": "Agape della Comunità Italiana: Lunedì 9 Giugno (Lunedì di Pentecoste)",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2025-05-17",
-    "last_date_to_show": "2025-05-18"
+    "first_date_to_show": "2025-05-27",
+    "last_date_to_show": "2025-06-09"
+  },
+  {
+    "text": "Solennità della Santissima Trinità (15 Giugno): Unica S. Messa in Tedesco e Italiano alle ore 11:00, a seguire festa della parrocchia",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "first_date_to_show": "2025-06-09",
+    "last_date_to_show": "2025-06-15"
   }
 ]
