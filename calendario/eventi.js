@@ -1208,8 +1208,9 @@
     "content":
     [
       {
-        "time": "11:30",
-        "description": "S. Messa."
+        "time": "11:00",
+        "style": "color: red;",
+		"description": "S. Messa alle ore 11:00 (invece che 11:30) insieme alla comunità pastorale di lingua tedesca di Alser Straße. La S. Messa sarà celebrata in parte in tedesco e in parte in italiano. La S. Messa si terrà nel cortile del convento (entrata da Schlösselgasse). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 27 Settembre."
       }
     ]
   },
