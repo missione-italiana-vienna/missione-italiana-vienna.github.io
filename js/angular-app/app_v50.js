@@ -1915,8 +1915,8 @@ app.service("sharedProperties", [
 
         for (var s = 0; s <= fetch_url.length; s++) {
           if (fetch_url[s] !== "") {
-            // Adding date_now below allows to force this file to be reloaded instead of being cached by the browser
-            xmlhttp[s].open("GET", fetch_url[s] + date_now, true);
+            // Adding "?" + date_now below allows to force this file to be reloaded instead of being cached by the browser
+            xmlhttp[s].open("GET", fetch_url[s] + "?" + date_now, true);
             xmlhttp[s].send();
           }
         }
