@@ -12,8 +12,8 @@
     "last_date_to_show": "2025-10-31"
   },
   {
-    "text": "Iscrizione al catechiamo",
-    "link": "https://mcivienna.org/#!/blog/2025/10/03/iscrizione_al_catechismo/",
+    "text": "Catechismo, Lectio Divina, Corso prematrimoniale, varie attività",
+    "link": "https://mcivienna.org/#!/blog/2025/10/05/attivita_nel_nuovo_anno_pastorale",
     "first_date_to_show": "2025-10-03",
     "last_date_to_show": "2025-10-12"
   }
