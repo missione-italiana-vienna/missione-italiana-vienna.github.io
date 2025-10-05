@@ -1930,7 +1930,7 @@
 	]
   },
   {
-    "date": "13 Maggio 2026",
+    "date": "13 Giugno 2026",
     "content": 
     [
       {
