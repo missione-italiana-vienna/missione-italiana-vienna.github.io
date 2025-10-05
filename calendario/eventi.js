@@ -1693,5 +1693,299 @@
         "description": "ORARIO DA CONFERMARE - S. Messa con Te Deum"
       }
     ]
-  }
+  },
+  {
+    "date": "11 Gennaio 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "FORSE incontro di catechismo (in alternativa: 18 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "15 Gennaio 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-15/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "18 Gennaio 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "FORSE incontro di catechismo (in alternativa: 11 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Gennaio 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-19/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "25 Gennaio 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Febbraio 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-02-12/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "16 Febbraio 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-02-16/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "22 Febbraio 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Marzo 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "9 Marzo 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-03-09/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "12 Marzo 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-03-12/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "22 Marzo 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Aprile 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-04-13/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "16 Aprile 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-04-16/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "19 Aprile 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "3 Maggio 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "7 Maggio 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-05-07/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "10 Maggio 2026",
+    "content":
+    [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Maggio 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-05-11/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "29 Maggio 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b>."
+      }
+	]
+  },
+  {
+    "date": "13 Maggio 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Marcia Antoniana</b>."
+      }
+	]
+  },
+  {
+    "date": "7 Giugno 2026",
+    "content":
+    [
+  	  {
+        "time": "11:30",
+        "description": "S. Messa. Durante questa celebrazione si svolgerà la Cresima di un gruppo di bambini del catechismo."
+      }
+	]
+  },
+  {
+    "date": "14 Giugno 2026",
+    "content":
+    [
+  	  {
+        "time": "11:30",
+        "description": "S. Messa. ANCORA DA CONFERMARE: oggi o Domenica 21 Giugno si svolgerà la Prima Comunione di un gruppo di bambini del catechismo."
+      }
+	]
+  },
+  {
+    "date": "18 Giugno 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-18/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "21 Giugno 2026",
+    "content":
+    [
+  	  {
+        "time": "11:30",
+        "description": "S. Messa. ANCORA DA CONFERMARE: oggi o Domenica 14 Giugno si svolgerà la Prima Comunione di un gruppo di bambini del catechismo."
+      }
+	]
+  },
+  {
+    "date": "22 Giugno 2026",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-22/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
 ]
