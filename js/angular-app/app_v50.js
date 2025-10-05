@@ -1912,6 +1912,8 @@ app.service("sharedProperties", [
             // TO DO: handle the case when this is not parsable/cannot be loaded.
           }
         };
+
+        console.log(fetch_url);
         
         for (var s = 0; s <= 1; s++) {
           if (fetch_url[s] !== "") {
