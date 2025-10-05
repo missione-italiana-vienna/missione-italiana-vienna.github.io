@@ -1313,7 +1313,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1407,7 +1407,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-13/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1540,7 +1540,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1713,7 +1713,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-15/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1761,7 +1761,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-02-12/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1819,7 +1819,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-03-12/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1853,7 +1853,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-04-16/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1891,7 +1891,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-05-07/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1963,7 +1963,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:00",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-18/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
