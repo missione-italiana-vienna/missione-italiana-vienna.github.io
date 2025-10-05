@@ -1458,6 +1458,9 @@
     "date": "23 Novembre 2025",
     "content":
     [
+	  {
+        "description": "<b>Celebrazione di Nostro Signore Gesù Cristo Re dell'Universo</b>"
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1695,9 +1698,38 @@
     ]
   },
   {
+    "date": "1 Gennaio 2026",
+    "content":
+    [
+      {
+        "description": "<b>Solennità di Maria Santissima Madre di Dio</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Gennaio 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Epifania del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
     "date": "11 Gennaio 2026",
     "content":
     [
+      {
+        "description": "<b>Battesimo del Signore</b>"
+      },
       {
         "time": "10:00",
         "description": "FORSE incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b> (in alternativa: 18 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
@@ -1777,9 +1809,25 @@
 	]
   },
   {
+    "date": "18 Febbraio 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Mercoledì delle ceneri</b>"
+      },
+      {
+        "time": "19:30",
+        "description": "ORARIO DA CONFERMARE - S. Messa con <b>celebrazione del rito delle ceneri</b>."
+      }
+    ]
+  },
+  {
     "date": "22 Febbraio 2026",
     "content":
     [
+      {
+        "description": "<b>Prima Domenica di Quaresima</b>"
+      },
       {
         "time": "10:00",
         "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
@@ -1791,9 +1839,25 @@
     ]
   },
   {
+    "date": "1 Marzo 2026",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
     "date": "8 Marzo 2026",
     "content":
     [
+      {
+        "description": "<b>Terza Domenica di Quaresima</b>"
+      },
       {
         "time": "10:00",
         "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
@@ -1825,9 +1889,25 @@
 	]
   },
   {
+    "date": "15 Marzo 2026",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica di Quaresima</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
     "date": "22 Marzo 2026",
     "content":
     [
+      {
+        "description": "<b>Quinta Domenica di Quaresima</b>"
+      },
       {
         "time": "10:00",
         "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
@@ -1838,6 +1918,105 @@
       }
     ]
   },
+  {
+    "date": "29 Marzo 2026",
+    "content":
+    [
+      {
+        "description": "<b>Domenica delle palme</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "Benedizione delle palme (nel cortile della chiesa, entrata da Schlösselgasse), processione e S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Aprile 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Giovedì Santo</b>"
+      },
+      {
+        "time": "19:30",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
+      }
+    ]
+  },
+  {
+    "date": "3 Aprile 2026",
+    "content":
+    [
+      {
+        "description": "<b>Venerdì Santo</b>"
+      },
+      {
+        "time": "15:00",
+        "style": "color: red;",
+        "description": "Kreuzwegandacht (via Crucis) in tedesco."
+      },
+      {
+        "time": "16:00",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - Celebrazione della Passione del Signore (in italiano)."
+      }
+    ]
+  },
+  {
+    "date": "4 Aprile 2026",
+    "content":
+    [
+      {
+        "description": "<b>Sabato Santo</b>"
+      },
+      {
+        "time": "22:30",
+        "style": "color: red;",
+        "description": "Veglia Pasquale (in italiano)."
+      }
+    ]
+  },
+  {
+    "date": "5 Aprile 2026",
+    "content":
+    [
+      {
+        "description": "<b>Pasqua di Risurrezione</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Aprile 2026",
+    "content":
+    [
+      {
+        "description": "<b>Lunedì dell'Ottava di Pasqua (lunedì dell'angelo)</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "12 Aprile 2026",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica del tempo di Pasqua (Domenica della Divina Misericordia)</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },	
   {
     "date": "13 Aprile 2026",
     "content":
@@ -1863,8 +2042,28 @@
     "content":
     [
       {
+        "description": "<b>Terza Domenica del tempo di Pasqua</b>"
+      },
+      {
+        "description": "Oggi si tiene la maratona di Vienna: molte strade saranno chiuse al traffico e molti mezzi pubblici subiranno deviazioni di percorso.",
+        "style": "color: red;"
+      },
+      {
         "time": "10:00",
         "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "26 Aprile 2026",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica del tempo di Pasqua</b>"
       },
       {
         "time": "11:30",
@@ -1876,6 +2075,9 @@
     "date": "3 Maggio 2026",
     "content":
     [
+      {
+        "description": "<b>Quinta Domenica del tempo di Pasqua</b>"
+      },
       {
         "time": "10:00",
         "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
@@ -1901,6 +2103,9 @@
     "content":
     [
       {
+        "description": "<b>Sesta Domenica del tempo di Pasqua</b>"
+      },
+      {
         "time": "10:00",
         "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
@@ -1921,6 +2126,58 @@
 	]
   },
   {
+    "date": "14 Maggio 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Ascensione del Signore</b> (Christi Himmelfahrt)"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "17 Maggio 2026",
+    "content":
+    [
+      {
+        "description": "<b>Settima Domenica del tempo di Pasqua</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Maggio 2026",
+    "content":
+    [
+      {
+        "description": "<b>Domenica di Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "25 Maggio 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Lunedì di Pentecoste</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa. DA CONFERMARE: A seguire: festa della Missione Cattolica Italiana con Agape (nel giardino se il tempo è bello). Per tutti quelli che riescono, vi preghiamo di portare cibo da condividere durante l'Agape."
+      }
+    ]
+  },
+  {
     "date": "29 Maggio 2026",
     "content": 
     [
@@ -1928,6 +2185,45 @@
         "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b>."
       }
 	]
+  },
+  {
+    "date": "31 Maggio 2026",
+    "content":
+    [
+      {
+        "description": "<b>Solennità della Santissima Trinità</b> (a cui è dedicata la chiesa di Alser Straße)"
+      },
+      {
+        "time": "11:00",
+        "style": "color: red;",
+        "description": "DA CONFERMARE - S. Messa (in tedesco e in italiano) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 14 Giugno. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo da casa da condividere, in quanto l'organizzazione non prevede tale modalità."
+      }
+    ]
+  },
+  {
+    "date": "3 Giugno 2026",
+    "content":
+    [
+      {
+        "description": "Vigilia del <b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "description": "ANCORA DA CONFERMARE - Attenzione: oggi non si celebra la Messa prefestiva in italiano!"
+      }
+    ]
+  },
+  {
+    "date": "4 Giugno 2026",
+    "content":
+    [
+      {
+        "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+      	"time": "dalle 08:30",
+        "description": "ANCORA DA CONFERMARE - Oggi non sarà celebrata nessuna S. Messa in italiano. Alla mattina si svolgeranno le celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. In particolare, invitiamo a partecipare alla S. Messa in tedesco. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2026.html\">Dettagli sul luogo e orario delle celebrazioni e sul percorso della processione</a>."
+      }
+    ]
   },
   {
     "date": "13 Giugno 2026",
@@ -1987,5 +2283,172 @@
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-22/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
+  },
+  {
+    "date": "15 Agosto 2026",
+    "content": 
+    [
+      {
+	      "description": "<b>Assunzione della Beata Vergine Maria</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Novembre 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Solennità di tutti i Santi</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Novembre 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Celebrazione di Nostro Signore Gesù Cristo Re dell'Universo</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Novembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Prima Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Novembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Prima Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Dicembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Seconda Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "8 Dicembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Celebrazione dell'Immacolata Concezione della Beata Vergine Maria</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "13 Dicembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Terza Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Dicembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Quarta Domenica di Avvento</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Dicembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Vigilia di Natale</b>"
+      },
+      {
+        "time": "22:00",
+        "description": "ORARIO DA CONFERMARE - S. Messa (\"Messa dei Pastori\")"
+      }
+    ]
+  },
+  {
+    "date": "25 Dicembre 2026",
+    "content":
+    [
+      {
+        "description": "<b>Natale del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa di Natale."
+      }
+    ]
+  },
+  {
+    "date": "26 Dicembre 2026",
+    "content": 
+    [
+      {
+        "description": "<b>Celebrazione di S. Stefano primo martire</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "31 Dicembre 2026",
+    "content":
+    [
+      {
+        "time": "18:30",
+        "style": "color: red;",
+        "description": "ORARIO DA CONFERMARE - S. Messa con Te Deum"
+      }
+    ]
   }
 ]
