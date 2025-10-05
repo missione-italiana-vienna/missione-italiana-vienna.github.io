@@ -1424,7 +1424,7 @@
  	  {
         "style": "color: red;",
         "description": "<b>Marcia Antoniana</b>."
-      }
+      },
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
