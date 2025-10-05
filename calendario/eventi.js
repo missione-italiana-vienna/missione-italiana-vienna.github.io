@@ -1243,6 +1243,10 @@
     "content": 
     [
       {
+        "time": "09:30",
+        "description": "Primo incontro per il corso prematrimoniale (entrata dal civico di Alser Straße 17)."
+      },
+      {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
       },
@@ -1256,6 +1260,10 @@
     "date": "12 Ottobre 2025",
     "content":
     [
+      {
+        "time": "10:00",
+        "description": "Primo incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1280,11 +1288,35 @@
     "date": "19 Ottobre 2025",
     "content":
     [
+	  {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
       }
     ]
+  },
+  {
+    "date": "20 Ottobre 2025",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-20/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "23 Ottobre 2025",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
   },
   {
     "date": "25 Ottobre 2025",
@@ -1361,6 +1393,26 @@
     ]
   },
   {
+    "date": "10 Novembre 2025",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-10/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
+    "date": "13 Novembre 2025",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-13/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
     "date": "15 Novembre 2025",
     "content": 
     [
@@ -1378,6 +1430,10 @@
     "date": "16 Novembre 2025",
     "content":
     [
+	  {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1429,6 +1485,10 @@
       {
         "description": "<b>Prima Domenica di Avvento</b>"
       },
+	  {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -1476,6 +1536,16 @@
     ]
   },
   {
+    "date": "11 Dicembre 2025",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
+  },
+  {
     "date": "13 Dicembre 2025",
     "content": 
     [
@@ -1496,11 +1566,25 @@
       {
         "description": "<b>Terza Domenica di Avvento</b>"
       },
+	  {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
       {
         "time": "11:30",
         "description": "S. Messa."
       }
     ]
+  },
+  {
+    "date": "15 Dicembre 2025",
+    "content":
+    [
+  	  {
+        "time": "20:00",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-12-15/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+	]
   },
   {
     "date": "20 Dicembre 2025",
@@ -1522,6 +1606,10 @@
     [
       {
         "description": "<b>Quarta Domenica di Avvento</b>"
+      },
+	  {
+        "time": "10:00",
+        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
