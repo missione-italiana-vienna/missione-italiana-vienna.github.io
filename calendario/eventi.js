@@ -1262,7 +1262,7 @@
     [
       {
         "time": "10:00",
-        "description": "Primo incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Primo incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1290,7 +1290,7 @@
     [
 	  {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1303,7 +1303,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-20/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1313,7 +1313,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1397,7 +1397,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-10/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1407,7 +1407,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-13/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1432,7 +1432,7 @@
     [
 	  {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1487,7 +1487,7 @@
       },
 	  {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1540,7 +1540,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1568,7 +1568,7 @@
       },
 	  {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1581,7 +1581,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-12-15/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1609,7 +1609,7 @@
       },
 	  {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1700,7 +1700,7 @@
     [
       {
         "time": "10:00",
-        "description": "FORSE incontro di catechismo (in alternativa: 18 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "FORSE incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b> (in alternativa: 18 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1713,7 +1713,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-15/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1724,7 +1724,7 @@
     [
       {
         "time": "10:00",
-        "description": "FORSE incontro di catechismo (in alternativa: 11 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "FORSE incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b> (in alternativa: 11 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1737,7 +1737,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-19/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1748,7 +1748,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1761,7 +1761,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-02-12/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1771,7 +1771,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-02-16/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1782,7 +1782,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1796,7 +1796,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1809,7 +1809,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-03-09/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1819,7 +1819,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-03-12/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1830,7 +1830,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1843,7 +1843,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-04-13/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1853,7 +1853,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-04-16/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1864,7 +1864,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1878,7 +1878,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1891,7 +1891,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-05-07/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1902,7 +1902,7 @@
     [
       {
         "time": "10:00",
-        "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -1915,7 +1915,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-05-11/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1944,7 +1944,7 @@
     [
   	  {
         "time": "11:30",
-        "description": "S. Messa. Durante questa celebrazione si svolgerà la Cresima di un gruppo di bambini del catechismo."
+        "description": "S. Messa. Durante questa celebrazione si svolgerà la Cresima di un gruppo di bambini del catechismo (ancora da confermare)."
       }
 	]
   },
@@ -1963,7 +1963,7 @@
     "content":
     [
   	  {
-        "time": "19:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-18/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
@@ -1983,7 +1983,7 @@
     "content":
     [
   	  {
-        "time": "20:00",
+        "time": "19:15",
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-22/\">testo qui</a>). Entrata da Alser Straße 17."
       }
 	]
