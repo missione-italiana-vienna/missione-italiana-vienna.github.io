@@ -1873,43 +1873,61 @@ app.service("sharedProperties", [
           );
         }
 
-        console.log(fetch_url);
-        console.log(target_block);
+        var date_now = Date.now();
+        var xmlhttp = [];
+
+        for (var s = 0; s <= 1; s++) {
+          fetch_url[s] += "?" + date_now; // this allows to force this file to be reloaded instead of being cached by the browser
+          xmlhttp[s] = new XMLHttpRequest();
+        }
+
+        // NOTE: the next 2 blocks have to be written like this, and not unified in a for (var s = 0; s <= 1; s++) cycle
+        // because in that way, the value of s will be incremented before actually the 2 calls end, which has the consequence
+        // that when the call end, the value of s is actually equal to 2, instead of being equal to 0, resp. 1
+
+        xmlhttp[0].onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            var events = JSON.parse(this.responseText);
+                          
+            generate_html_with_all_events_after_load(
+              input_string,
+              events,
+              target_block[0],
+              additional_parameters
+            );
+            // TO DO: handle the case when this is not parsable/cannot be loaded.
+          }
+        };
+
+        xmlhttp[1].onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            var events = JSON.parse(this.responseText);
+                          
+            generate_html_with_all_events_after_load(
+              input_string,
+              events,
+              target_block[1],
+              additional_parameters
+            );
+            // TO DO: handle the case when this is not parsable/cannot be loaded.
+          }
+        };
+        
         for (var s = 0; s <= 1; s++) {
           if (fetch_url[s] !== "") {
-            var date_now = Date.now();
-            fetch_url[s] += "?" + date_now; // this allows to force this file to be reloaded instead of being cached by the browser
-
-            console.log(s);
-            console.log(target_block);
-            
-            var xmlhttp = new XMLHttpRequest();
-            xmlhttp.onreadystatechange = function () {
-              if (this.readyState == 4 && this.status == 200) {
-                var events = JSON.parse(this.responseText);
-                
-                console.log(s);
-                console.log(target_block);
-                
-                generate_html_with_all_events_after_load(
-                  input_string,
-                  events,
-                  target_block[s],
-                  additional_parameters
-                );
-                // TO DO: handle the case when this is not parsable/cannot be loaded.
-              }
-            };
-            xmlhttp.open("GET", fetch_url[s], true);
+            xmlhttp.open("GET", fetch_url[0], true);
             xmlhttp.send();
           }
         }
-        
-        
+          
       },
     };
   },
 ]);
+
+function process_event_data() {
+
+}
 
 // the next functions and variables are outside the Angular app since
 // they are used also outside that app. In addition, they cannot be
