@@ -1915,8 +1915,8 @@ app.service("sharedProperties", [
         
         for (var s = 0; s <= 1; s++) {
           if (fetch_url[s] !== "") {
-            xmlhttp.open("GET", fetch_url[0], true);
-            xmlhttp.send();
+            xmlhttp[s].open("GET", fetch_url[s], true);
+            xmlhttp[s].send();
           }
         }
           
