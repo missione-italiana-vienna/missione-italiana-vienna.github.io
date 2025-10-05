@@ -1873,15 +1873,24 @@ app.service("sharedProperties", [
           );
         }
 
+        console.log(fetch_url);
+        console.log(target_block);
         for (var s = 0; s <= 1; s++) {
           if (fetch_url[s] !== "") {
             var date_now = Date.now();
             fetch_url[s] += "?" + date_now; // this allows to force this file to be reloaded instead of being cached by the browser
-  
+
+            console.log(s);
+            console.log(target_block);
+            
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function () {
               if (this.readyState == 4 && this.status == 200) {
                 var events = JSON.parse(this.responseText);
+                
+                console.log(s);
+                console.log(target_block);
+                
                 generate_html_with_all_events_after_load(
                   input_string,
                   events,
