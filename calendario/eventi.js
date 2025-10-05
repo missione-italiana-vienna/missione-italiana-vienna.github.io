@@ -2622,6 +2622,20 @@
 	]
   },
   {
+    "date": "20 Giugno 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "21 Giugno 2026",
     "content":
     [
@@ -2642,6 +2656,20 @@
 	]
   },
   {
+    "date": "27 Giugno 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "28 Giugno 2026",
     "content":
     [
@@ -2650,6 +2678,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "4 Luglio 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "5 Luglio 2026",
@@ -2662,6 +2704,20 @@
 	]
   },
   {
+    "date": "11 Luglio 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "12 Luglio 2026",
     "content":
     [
@@ -2670,6 +2726,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "18 Luglio 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "19 Luglio 2026",
@@ -2682,6 +2752,20 @@
 	]
   },
   {
+    "date": "25 Luglio 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "26 Luglio 2026",
     "content":
     [
@@ -2692,6 +2776,20 @@
 	]
   },
   {
+    "date": "1 Agosto 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "2 Agosto 2026",
     "content":
     [
@@ -2700,6 +2798,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "8 Agosto 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "9 Agosto 2026",
@@ -2735,6 +2847,20 @@
 	]
   },
   {
+    "date": "22 Agosto 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "23 Agosto 2026",
     "content":
     [
@@ -2743,6 +2869,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "29 Agosto 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "30 Agosto 2026",
@@ -2755,6 +2895,20 @@
 	]
   },
   {
+    "date": "5 Settembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "6 Settembre 2026",
     "content":
     [
@@ -2763,6 +2917,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "12 Settembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "13 Settembre 2026",
@@ -2775,6 +2943,20 @@
 	]
   },
   {
+    "date": "19 Settembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "20 Settembre 2026",
     "content":
     [
@@ -2783,6 +2965,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "26 Settembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "27 Settembre 2026",
@@ -2795,6 +2991,20 @@
 	]
   },
   {
+    "date": "3 Ottobre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "4 Ottobre 2026",
     "content":
     [
@@ -2803,6 +3013,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "10 Ottobre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "11 Ottobre 2026",
@@ -2815,6 +3039,20 @@
 	]
   },
   {
+    "date": "17 Ottobre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "18 Ottobre 2026",
     "content":
     [
@@ -2825,6 +3063,20 @@
 	]
   },
   {
+    "date": "24 Ottobre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "25 Ottobre 2026",
     "content":
     [
@@ -2833,6 +3085,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "31 Ottobre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "1 Novembre 2026",
@@ -2848,6 +3114,20 @@
     ]
   },
   {
+    "date": "7 Novembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "8 Novembre 2026",
     "content":
     [
@@ -2858,6 +3138,20 @@
 	]
   },
   {
+    "date": "14 Novembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "15 Novembre 2026",
     "content":
     [
@@ -2866,6 +3160,20 @@
         "description": "S. Messa."
       }
 	]
+  },
+  {
+    "date": "21 Novembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
   },
   {
     "date": "22 Novembre 2026",
@@ -2881,6 +3189,20 @@
     ]
   },
   {
+    "date": "28 Novembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "29 Novembre 2026",
     "content":
     [
@@ -2903,6 +3225,20 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Dicembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
@@ -2933,6 +3269,20 @@
     ]
   },
   {
+    "date": "12 Dicembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
     "date": "13 Dicembre 2026",
     "content":
     [
@@ -2942,6 +3292,20 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Dicembre 2026",
+    "content":
+    [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
   },
