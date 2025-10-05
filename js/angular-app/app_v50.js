@@ -1876,8 +1876,8 @@ app.service("sharedProperties", [
         var date_now = Date.now();
         var xmlhttp = [];
 
-        for (var s = 0; s <= 1; s++) {
-          fetch_url[s] += "?" + date_now; // this allows to force this file to be reloaded instead of being cached by the browser
+        
+        for (var s = 0; s <= fetch_url.length; s++) {
           xmlhttp[s] = new XMLHttpRequest();
         }
 
@@ -1913,11 +1913,10 @@ app.service("sharedProperties", [
           }
         };
 
-        console.log(fetch_url);
-        
-        for (var s = 0; s <= 1; s++) {
+        for (var s = 0; s <= fetch_url.length; s++) {
           if (fetch_url[s] !== "") {
-            xmlhttp[s].open("GET", fetch_url[s], true);
+            // Adding date_now below allows to force this file to be reloaded instead of being cached by the browser
+            xmlhttp[s].open("GET", fetch_url[s] + date_now, true);
             xmlhttp[s].send();
           }
         }
