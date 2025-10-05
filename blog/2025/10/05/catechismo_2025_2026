@@ -1,0 +1,77 @@
+<!-- Both the title and the date must be put with '...'
+If you need to use an apostrophe in the title, insert it with \'  -->
+<div data-ng-controller = "myCtrlBlog"
+  data-ng-init = "set_title_and_date('Appuntamenti del catechismo per l'anno pastorale 2025-2026', '05.10.2025');">
+<!-- do not remove the ">" at the end of the previous line! -->
+
+  <!-- start of the blog text -->
+
+ <p>
+  Qui sotto trovate un elenco con tutte le date del catechismo per l'anno pastorale 2025-2026. 
+  Per tutti gli incontri di catechismo il ritrovo è nel chiostro del convento di Alser Straße 17 
+  (entrata a sinistra della chiesa di Alser Straße) alle ore 10:00.
+ </p>
+
+ <p>
+   Le iscrizioni al catechismo sono aperte fino a Domenica <b>12 Ottobre 2025</b>.
+   Per l'iscrizione usate per favore il link 
+   <a target = _blank rel = "noopener" href = "https://forms.gle/nVPdcK4XrVNrBV3P8">https://forms.gle/nVPdcK4XrVNrBV3P8</a>. 
+   Per ulteriori informazioni, potete contattare il numero +43 699 17083624.
+ </p>
+
+  <ul class = "normal_list">
+    <li>
+      Domenica <b>12 Ottobre 2025</b>
+    </li>
+    <li>
+      Domenica <b>19 Ottobre 2025</b>
+    </li>
+    <li>
+      Domenica <b>11 Novembre 2025</b>
+    </li>
+    <li>
+      Domenica <b>16 Novembre 2025</b>      
+    </li>
+    <li>
+      Domenica <b>30 Novembre 2025</b>
+    </li>
+    <li>
+      Domenica <b>14 Dicembre 2025</b>      
+    </li>
+    <li>
+      Domenica <b>21 Dicembre 2025</b>      
+    </li>
+    <li>
+      Domenica <b>11 Gennaio 2026</b> oppure Domenica <b>18 Gennaio 2026</b>    
+    </li>
+    <li>
+      Domenica <b>25 Gennaio 2026</b>      
+    </li>
+    <li>
+      Domenica <b>22 Febbraio 2026</b>      
+    </li>
+    <li>
+      Domenica <b>8 Marzo 2026</b>      
+    </li>
+    <li>
+      Domenica <b>22 Marzo 2026</b>      
+    </li>
+    <li>
+      Domenica <b>19 Aprile 2026</b>      
+    </li>
+    <li>
+      Domenica <b>3 Maggio 2026</b>      
+    </li>
+    <li>
+      Domenica <b>10 Maggio 2026</b>      
+    </li>
+  </ul>
+  
+  <p>La Cresima per un gruppo del catechismo si terrà Domenica <b>7 Giugno</b>.</p>
+
+  <br>
+  
+  <p>La Prima Comunione per un gruppo del catechismo si terrà Domenica <b>14 Giugno</b> oppure <b>Domenica 21 Giugno</b> (ancora da decidere).</p>
+  
+<!-- end of the container, do not remove the next line -->
+</div>
