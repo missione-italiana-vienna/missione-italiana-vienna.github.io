@@ -2199,6 +2199,9 @@
     "date": "27 Dicembre 2026",
     "content":
     [
+	  {
+        "description": "<b>Sacra Famiglia di Gesù, Maria e Giuseppe</b>"
+      },
   	  {
         "time": "11:30",
         "description": "S. Messa."
