@@ -148,7 +148,7 @@
     [
   	  {
         "time": "19:15",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17."
+        "description": "<del><a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17.</del> Questo appuntamento è cancellato."
       }
 	]
   },
