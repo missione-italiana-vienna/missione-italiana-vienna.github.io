@@ -16,5 +16,5 @@
     "link": "https://mcivienna.org/#!/calendario",
     "first_date_to_show": "2025-10-21",
     "last_date_to_show": "2025-10-23"
-  },
+  }
 ]
