@@ -16,5 +16,11 @@
     "link": "https://mcivienna.org/#!/calendario",
     "first_date_to_show": "2025-10-21",
     "last_date_to_show": "2025-10-23"
+  },
+  {
+    "text": "Corso di preparazione alla Cresima per adulti",
+    "link": "https://mcivienna.org/#!/blog/2025/10/23/preparazione_alla_cresima_per_adulti",
+    "first_date_to_show": "2025-10-23",
+    "last_date_to_show": "2025-11-18"
   }
 ]
