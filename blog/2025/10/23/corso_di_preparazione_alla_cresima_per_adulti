@@ -1,0 +1,20 @@
+<!-- Both the title and the date must be put with '...'
+If you need to use an apostrophe in the title, insert it with \'  -->
+<div data-ng-controller = "myCtrlBlog"
+  data-ng-init = "set_title_and_date('Corso di preparazione alla Cresima per adulti', '23.10.2025');">
+<!-- do not remove the ">" at the end of the previous line! -->
+
+  <!-- start of the blog text -->
+
+  <p>
+    Fino al <span style = "font-weight: bold;">15 Novembre 2025</span> sono aperte le iscrizioni per il corso di preparazione alla Cresima per adulti.
+  </p>
+  <p>
+    La Cresima sarà celebrata insieme alle Cresime dei ragazzi (realisticamente il 7 Giugno 2026 - data ancora da confermare).
+  </p>
+  <p>
+    Per iscriversi, mandate per favore un'email a padre Thomas all'indirizzo 
+    <a href = "mailto:thomas@minoriten.at">thomas@minoriten.at</a>
+  </p>
+<!-- end of the container, do not remove the next line -->
+</div>
