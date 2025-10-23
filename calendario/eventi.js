@@ -1413,7 +1413,7 @@
     [
   	  {
         "time": "11:30",
-        "description": "S. Messa. ANCORA DA CONFERMARE - Durante questa celebrazione si svolgerà la Cresima di un gruppo di bambini del catechismo."
+        "description": "S. Messa. ANCORA DA CONFERMARE - Durante questa celebrazione si svolgerà la Cresima di un gruppo di ragazzi del catechismo e di un gruppo di adulti."
       }
 	]
   },
