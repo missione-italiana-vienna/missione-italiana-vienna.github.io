@@ -17,8 +17,7 @@
     "content": [
       {
         "time": "11:30",
-        "style": "color: red;",
-        "description": "S. Messa - <a href = \"https://mcivienna.org/#!/blog/2025/11/05/san_carlo_acutis\">visita della reliquia di San Carlo Acutis</a>"
+        "description": "S. Messa - <div style = \"font-weight: bold; color: red;\"><a href = \"https://mcivienna.org/#!/blog/2025/11/05/san_carlo_acutis\">visita della reliquia di San Carlo Acutis</a></div>"
       }
     ]
   },
