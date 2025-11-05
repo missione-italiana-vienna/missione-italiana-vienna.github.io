@@ -1,8 +1,7 @@
-[ 
+[
   {
     "date": "1 Gennaio 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Solennità di Maria Santissima Madre di Dio</b>"
       },
@@ -14,8 +13,7 @@
   },
   {
     "date": "4 Gennaio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -28,8 +26,7 @@
   },
   {
     "date": "5 Gennaio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -38,8 +35,7 @@
   },
   {
     "date": "6 Gennaio 2025",
-    "content": 
-    [
+    "content": [
       {
         "description": "<b>Epifania del Signore</b>"
       },
@@ -51,8 +47,7 @@
   },
   {
     "date": "11 Gennaio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -65,8 +60,7 @@
   },
   {
     "date": "12 Gennaio 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Battesimo del Signore</b>"
       },
@@ -82,8 +76,7 @@
   },
   {
     "date": "18 Gennaio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -96,8 +89,7 @@
   },
   {
     "date": "19 Gennaio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "10:00",
         "description": "Incontro di catechismo. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
@@ -110,8 +102,7 @@
   },
   {
     "date": "25 Gennaio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -124,8 +115,7 @@
   },
   {
     "date": "26 Gennaio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -134,8 +124,7 @@
   },
   {
     "date": "1 Febbraio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -148,8 +137,7 @@
   },
   {
     "date": "2 Febbraio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -158,8 +146,7 @@
   },
   {
     "date": "8 Febbraio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -172,8 +159,7 @@
   },
   {
     "date": "9 Febbraio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -182,8 +168,7 @@
   },
   {
     "date": "15 Febbraio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -196,8 +181,7 @@
   },
   {
     "date": "16 Febbraio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -206,8 +190,7 @@
   },
   {
     "date": "22 Febbraio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -220,8 +203,7 @@
   },
   {
     "date": "23 Febbraio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -230,8 +212,7 @@
   },
   {
     "date": "1 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -244,8 +225,7 @@
   },
   {
     "date": "2 Marzo 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa."
@@ -258,8 +238,7 @@
   },
   {
     "date": "5 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "description": "<b>Mercoledì delle ceneri</b>"
       },
@@ -271,8 +250,7 @@
   },
   {
     "date": "8 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -285,8 +263,7 @@
   },
   {
     "date": "9 Marzo 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Prima Domenica di Quaresima</b>"
       },
@@ -302,8 +279,7 @@
   },
   {
     "date": "15 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -316,8 +292,7 @@
   },
   {
     "date": "16 Marzo 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Seconda Domenica di Quaresima</b>"
       },
@@ -333,8 +308,7 @@
   },
   {
     "date": "21 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "19:00",
         "description": "Via Crucis nel chiostro del convento (entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa))."
@@ -347,8 +321,7 @@
   },
   {
     "date": "22 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -361,8 +334,7 @@
   },
   {
     "date": "23 Marzo 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Terza Domenica di Quaresima</b>"
       },
@@ -374,8 +346,7 @@
   },
   {
     "date": "29 Marzo 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -388,8 +359,7 @@
   },
   {
     "date": "30 Marzo 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Quarta Domenica di Quaresima</b>"
       },
@@ -401,8 +371,7 @@
   },
   {
     "date": "5 Aprile 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -415,8 +384,7 @@
   },
   {
     "date": "6 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Quinta Domenica di Quaresima</b>"
       },
@@ -436,8 +404,7 @@
   },
   {
     "date": "12 Aprile 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -450,8 +417,7 @@
   },
   {
     "date": "13 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Domenica delle palme</b>"
       },
@@ -463,8 +429,7 @@
   },
   {
     "date": "17 Aprile 2025",
-    "content": 
-    [
+    "content": [
       {
         "description": "<b>Giovedì Santo</b>"
       },
@@ -477,8 +442,7 @@
   },
   {
     "date": "18 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Venerdì Santo</b>"
       },
@@ -496,8 +460,7 @@
   },
   {
     "date": "19 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Sabato Santo</b>"
       },
@@ -510,8 +473,7 @@
   },
   {
     "date": "20 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Pasqua di Risurrezione</b>"
       },
@@ -523,8 +485,7 @@
   },
   {
     "date": "21 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Lunedì dell'Ottava di Pasqua (lunedì dell'angelo)</b>"
       },
@@ -536,8 +497,7 @@
   },
   {
     "date": "26 Aprile 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -550,8 +510,7 @@
   },
   {
     "date": "27 Aprile 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Seconda Domenica del tempo di Pasqua (Domenica della Divina Misericordia)</b>"
       },
@@ -563,8 +522,7 @@
   },
   {
     "date": "3 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -577,8 +535,7 @@
   },
   {
     "date": "4 Maggio 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Terza Domenica del tempo di Pasqua</b>"
       },
@@ -590,8 +547,7 @@
   },
   {
     "date": "10 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -604,8 +560,7 @@
   },
   {
     "date": "11 Maggio 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Quarta Domenica del tempo di Pasqua</b>"
       },
@@ -617,8 +572,7 @@
   },
   {
     "date": "17 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -631,8 +585,7 @@
   },
   {
     "date": "18 Maggio 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Quinta Domenica del tempo di Pasqua</b>"
       },
@@ -648,8 +601,7 @@
   },
   {
     "date": "23 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "description": "<b>Lunga notte delle chiese (<a target = _blank rel = \"noopener\" href = \"https://www.langenachtderkirchen.at/\">Lange Nacht der Kirchen</a>)</b>."
       },
@@ -681,8 +633,7 @@
   },
   {
     "date": "24 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -695,8 +646,7 @@
   },
   {
     "date": "25 Maggio 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Sesta Domenica del tempo di Pasqua</b>"
       },
@@ -712,8 +662,7 @@
   },
   {
     "date": "29 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "description": "<b>Ascensione</b> (Christi Himmelfahrt)"
       },
@@ -725,8 +674,7 @@
   },
   {
     "date": "31 Maggio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -739,8 +687,7 @@
   },
   {
     "date": "1 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo). Durante questa celebrazione si svolgerà la Prima Comunione di un gruppo del catechismo."
@@ -749,8 +696,7 @@
   },
   {
     "date": "7 Giugno 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -763,8 +709,7 @@
   },
   {
     "date": "8 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Domenica di Pentecoste</b>"
       },
@@ -776,8 +721,7 @@
   },
   {
     "date": "9 Giugno 2025",
-    "content": 
-    [
+    "content": [
       {
         "description": "<b>Lunedì di Pentecoste</b>"
       },
@@ -789,8 +733,7 @@
   },
   {
     "date": "14 Giugno 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -803,8 +746,7 @@
   },
   {
     "date": "15 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Solennità della Santissima Trinità</b> (a cui è dedicata la chiesa di Alser Straße)"
       },
@@ -817,8 +759,7 @@
   },
   {
     "date": "18 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "Vigilia del <b>Corpus Domini</b> (Fronleichnam)"
       },
@@ -829,21 +770,19 @@
   },
   {
     "date": "19 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "description": "<b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-	"time": "dalle 08:30",
+        "time": "dalle 08:30",
         "description": "Oggi non sarà celebrata nessuna S. Messa in italiano. Alla mattina si svolgeranno le celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. In particolare, invitiamo a partecipare alla S. Messa in tedesco alle ore 8:30 che si svolgerà nel giardino della chiesa di Alser Straße (entrata da Schlösselgasse 21). <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2025.html\">Dettagli sulle celebrazioni e sul percorso della processione</a>."
       }
     ]
   },
   {
     "date": "21 Giugno 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -856,8 +795,7 @@
   },
   {
     "date": "22 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -866,8 +804,7 @@
   },
   {
     "date": "28 Giugno 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -880,8 +817,7 @@
   },
   {
     "date": "29 Giugno 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -890,8 +826,7 @@
   },
   {
     "date": "5 Luglio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -904,8 +839,7 @@
   },
   {
     "date": "6 Luglio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -914,8 +848,7 @@
   },
   {
     "date": "12 Luglio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -928,8 +861,7 @@
   },
   {
     "date": "13 Luglio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -938,8 +870,7 @@
   },
   {
     "date": "19 Luglio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -952,8 +883,7 @@
   },
   {
     "date": "20 Luglio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -962,8 +892,7 @@
   },
   {
     "date": "26 Luglio 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -976,8 +905,7 @@
   },
   {
     "date": "27 Luglio 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -986,8 +914,7 @@
   },
   {
     "date": "2 Agosto 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1000,8 +927,7 @@
   },
   {
     "date": "3 Agosto 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -1010,8 +936,7 @@
   },
   {
     "date": "9 Agosto 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1024,8 +949,7 @@
   },
   {
     "date": "10 Agosto 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -1034,10 +958,9 @@
   },
   {
     "date": "15 Agosto 2025",
-    "content": 
-    [
+    "content": [
       {
-	"description": "<b>Assunzione della Beata Vergine Maria</b>"
+        "description": "<b>Assunzione della Beata Vergine Maria</b>"
       },
       {
         "time": "11:30",
@@ -1047,8 +970,7 @@
   },
   {
     "date": "16 Agosto 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1061,8 +983,7 @@
   },
   {
     "date": "17 Agosto 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -1071,8 +992,7 @@
   },
   {
     "date": "23 Agosto 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1085,8 +1005,7 @@
   },
   {
     "date": "24 Agosto 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -1095,8 +1014,7 @@
   },
   {
     "date": "30 Agosto 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1109,8 +1027,7 @@
   },
   {
     "date": "31 Agosto 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -1119,8 +1036,7 @@
   },
   {
     "date": "6 Settembre 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1133,8 +1049,7 @@
   },
   {
     "date": "7 Settembre 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
@@ -1143,8 +1058,7 @@
   },
   {
     "date": "13 Settembre 2025",
-    "content": 
-    [
+    "content": [
       {
         "time": "17:00 (*)",
         "description": "Messa prefestiva."
@@ -1157,11 +1071,197 @@
   },
   {
     "date": "14 Settembre 2025",
-    "content":
-    [
+    "content": [
       {
         "time": "11:30",
         "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
+      }
+    ]
+  },
+  {
+    "date": "20 Settembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "21 Settembre 2025",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa (nella sala parrocchiale, nel chiostro o nel giardino del convento, a seconda delle condizioni del tempo)."
+      }
+    ]
+  },
+  {
+    "date": "27 Settembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "28 Settembre 2025",
+    "content": [
+      {
+        "time": "11:00",
+        "style": "color: red;",
+        "description": "S. Messa alle ore 11:00 (invece che 11:30) insieme alla comunità pastorale di lingua tedesca di Alser Straße. La S. Messa sarà celebrata in parte in tedesco e in parte in italiano. La S. Messa si terrà nel cortile del convento (entrata da Schlösselgasse). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 27 Settembre."
+      }
+    ]
+  },
+  {
+    "date": "4 Ottobre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "5 Ottobre 2025",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Ottobre 2025",
+    "content": [
+      {
+        "time": "09:30",
+        "description": "Primo incontro per il corso prematrimoniale (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "12 Ottobre 2025",
+    "content": [
+      {
+        "time": "10:00",
+        "description": "Primo incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Ottobre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "19 Ottobre 2025",
+    "content": [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "20 Ottobre 2025",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-20/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
+    "date": "23 Ottobre 2025",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<del><a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-10-23/\">testo qui</a>). Entrata da Alser Straße 17.</del> Questo appuntamento è cancellato."
+      }
+    ]
+  },
+  {
+    "date": "25 Ottobre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "26 Ottobre 2025",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Novembre 2025",
+    "content": [
+      {
+        "description": "<b>Solennità di tutti i Santi</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Novembre 2025",
+    "content": [
+      {
+        "description": "<b>Commemorazione di tutti i fedeli defunti</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
       }
     ]
   }
