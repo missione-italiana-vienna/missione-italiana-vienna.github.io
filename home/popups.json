@@ -6,12 +6,6 @@
     "last_date_to_show": "2026-12-31"
   },
   {
-    "text": "Congratulazioni al nuovo arcivescovo nominato",
-    "link": "https://mcivienna.org/#!/blog/2025/10/18/nomina_del_nuovo_arcivescovo_di_vienna",
-    "first_date_to_show": "2025-10-18",
-    "last_date_to_show": "2025-11-18"
-  },
-  {
     "text": "Mercatino per raccolta fondi per la ristrutturazione",
     "link": "https://mcivienna.org/#!/blog/2025/11/02/mercatino_per_ristrutturazione",
     "first_date_to_show": "2025-11-02",
@@ -22,5 +16,11 @@
     "link": "https://mcivienna.org/#!/blog/2025/10/23/preparazione_alla_cresima_per_adulti",
     "first_date_to_show": "2025-10-23",
     "last_date_to_show": "2025-11-18"
+  },
+  {
+    "text": "Visita della reliquia di San Carlo Acutis",
+    "link": "https://mcivienna.org/#!/blog/2025/11/05/san_carlo_acutis",
+    "first_date_to_show": "2025-11-05",
+    "last_date_to_show": "2025-11-09"
   }
 ]

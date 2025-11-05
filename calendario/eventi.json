@@ -204,7 +204,8 @@
     "content": [
       {
         "time": "11:30",
-        "description": "S. Messa."
+        "style": "color: red;",
+        "description": "S. Messa - <a href = \"https://mcivienna.org/#!/blog/2025/11/05/san_carlo_acutis\">visita della reliquia di San Carlo Acutis</a>"
       }
     ]
   },
