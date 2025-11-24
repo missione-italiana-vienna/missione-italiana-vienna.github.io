@@ -1,5 +1,10 @@
-In aggiunta ai sabati (messe prefestive) e alle domeniche (S. Messe), 
-al calendario di ogni nuovo anno bisogna aggiungere l'elenco di date qui sotto.
+Eventi periodi:
+
+- primo venerdì del mese: Adorazione animata
+- ai sabato (Messa prefestivea)
+- domenica (S. Messa), 
+
+Inoltre al calendario di ogni nuovo anno bisogna aggiungere l'elenco di date qui sotto.
 
 Le date con un valore esatto sono date fisse.
 Le date con ? sono date variabili ogni anno, quindi da ricontrollare ogni anno con un calendario liturgico italiano,
@@ -52,3 +57,4 @@ che invece in Italia sono accorpate ad una domenica.
 26 Dicembre: Celebrazione di S. Stefano primo martire
 ? Sacra Famiglia di Gesù, Maria e Giuseppe - potenzialmente si sovrappone al 26 Dicembre - ha la precedenza la Sacra Famiglia
 31 Dicembre: di norma S. Messa con Te Deum - orario: di norma 18:30
+
