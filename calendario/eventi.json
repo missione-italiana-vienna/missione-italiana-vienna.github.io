@@ -391,12 +391,9 @@
         "description": "<b>Battesimo del Signore</b>"
       },
       {
-        "time": "10:00",
-        "description": "FORSE incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b> (in alternativa: 18 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
-      },
-      {
-        "time": "11:30",
-        "description": "S. Messa."
+        "time": "10:30",
+        "style": "color: red;",
+        "description": "Inaugurazione ufficiale della chiesa restaurata. La S. Messa oggi sarà solo in tedesco; se volete partecipare alla S. Messa in italiano, consigliamo di partecipare alla S. Messa prefestiva Sabato 10 Gennaio."
       }
     ]
   },
@@ -427,7 +424,7 @@
     "content": [
       {
         "time": "10:00",
-        "description": "FORSE incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b> (in alternativa: 11 Gennaio, ancora da confermare). Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
       },
       {
         "time": "11:30",
@@ -794,8 +791,7 @@
         "description": "ORARIO DA CONFERMARE - Celebrazione della Passione del Signore (in italiano)."
       },
       {
-        "time": "19:30",
-        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+        "description": "Attenzione: l'adorazione eucaristica di oggi è posticipata al prossimo venerdì."
       }
     ]
   },
@@ -833,6 +829,15 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "6 Aprile 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio (eccezionalmente il secondo venerdì del mese)."
       }
     ]
   },
