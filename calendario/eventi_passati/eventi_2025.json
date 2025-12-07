@@ -1264,5 +1264,134 @@
         "description": "S. Messa."
       }
     ]
+  },
+  {
+    "date": "8 Novembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "9 Novembre 2025",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa - <div style = \"font-weight: bold; color: red; display: inline;\"><a href = \"https://mcivienna.org/#!/blog/2025/11/05/san_carlo_acutis\">visita della reliquia di San Carlo Acutis</a></div>"
+      }
+    ]
+  },
+  {
+    "date": "10 Novembre 2025",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-10/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
+    "date": "13 Novembre 2025",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-11-13/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
+    "date": "15 Novembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "16 Novembre 2025",
+    "content": [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Novembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "23 Novembre 2025",
+    "content": [
+      {
+        "description": "<b>Celebrazione di Nostro Signore Gesù Cristo Re dell'Universo</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Novembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "30 Novembre 2025",
+    "content": [
+      {
+        "description": "<b>Prima Domenica di Avvento</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Dicembre 2025",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Adorazione animata aperta a tutti, nella cappella di Sant'Antonio (durata: 1 ora). L'adorazione si tiene da ora in poi ogni primo venerdì del mese."
+      }
+    ]
   }
 ]
