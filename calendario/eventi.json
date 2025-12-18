@@ -1,97 +1,5 @@
 [
   {
-    "date": "6 Dicembre 2025",
-    "content": [
-      {
-        "time": "11:00",
-        "description": "<a href = \"https://mcivienna.org/#!/blog/2025/11/02/mercatino_per_ristrutturazione\">Mercatino per raccolta fondi</a> per la ristrutturazione della chiesa. Il mercatino si svolge fino alle ore 19:00 nella sala parrocchiale e nella navata davanti alla sala parrocchiale (entrata da Alser Straße 17)."
-      },
-      {
-        "time": "17:00 (*)",
-        "description": "Messa prefestiva."
-      },
-      {
-        "type": "comment",
-        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
-      }
-    ]
-  },
-  {
-    "date": "7 Dicembre 2025",
-    "content": [
-      {
-        "description": "<b>Seconda Domenica di Avvento</b>"
-      },
-      {
-        "time": "09:00",
-        "description": "<a href = \"https://mcivienna.org/#!/blog/2025/11/02/mercatino_per_ristrutturazione\">Mercatino per raccolta fondi</a> per la ristrutturazione della chiesa. Il mercatino si svolge fino alle ore 17:00 nella sala parrocchiale e nella navata davanti alla sala parrocchiale (entrata da Alser Straße 17)."
-      },
-      {
-        "time": "11:30",
-        "description": "S. Messa."
-      }
-    ]
-  },
-  {
-    "date": "8 Dicembre 2025",
-    "content": [
-      {
-        "description": "<b>Celebrazione dell'Immacolata Concezione della Beata Vergine Maria</b>"
-      },
-      {
-        "time": "11:30",
-        "description": "S. Messa."
-      }
-    ]
-  },
-  {
-    "date": "11 Dicembre 2025",
-    "content": [
-      {
-        "time": "19:15",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-12-11/\">testo qui</a>). Entrata da Alser Straße 17."
-      }
-    ]
-  },
-  {
-    "date": "13 Dicembre 2025",
-    "content": [
-      {
-        "time": "17:00 (*)",
-        "description": "Messa prefestiva."
-      },
-      {
-        "type": "comment",
-        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
-      }
-    ]
-  },
-  {
-    "date": "14 Dicembre 2025",
-    "content": [
-      {
-        "description": "<b>Terza Domenica di Avvento</b>"
-      },
-      {
-        "time": "10:00",
-        "description": "Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
-      },
-      {
-        "time": "11:30",
-        "description": "S. Messa."
-      }
-    ]
-  },
-  {
-    "date": "15 Dicembre 2025",
-    "content": [
-      {
-        "time": "19:15",
-        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-12-15/\">testo qui</a>). Entrata da Alser Straße 17."
-      }
-    ]
-  },
-  {
     "date": "20 Dicembre 2025",
     "content": [
       {
@@ -128,7 +36,7 @@
       },
       {
         "time": "22:00",
-        "description": "ORARIO DA CONFERMARE - S. Messa (\"Messa dei Pastori\")"
+        "description": "S. Messa (\"Messa dei Pastori\")"
       }
     ]
   },
@@ -187,7 +95,7 @@
       {
         "time": "18:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - S. Messa con Te Deum"
+        "description": "S. Messa con Te Deum"
       }
     ]
   },
