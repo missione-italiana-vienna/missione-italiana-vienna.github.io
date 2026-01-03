@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "date": "1 Gennaio 2026",
+    "content": [
+      {
+        "description": "<b>Solennità di Maria Santissima Madre di Dio</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Gennaio 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
+  }
+]

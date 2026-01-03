@@ -1485,5 +1485,105 @@
         "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2025-12-15/\">testo qui</a>). Entrata da Alser Straße 17."
       }
     ]
+  },
+  {
+    "date": "20 Dicembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "21 Dicembre 2025",
+    "content": [
+      {
+        "description": "<b>Quarta Domenica di Avvento</b>"
+      },
+      {
+        "time": "10:00",
+        "description": "<del>Incontro di catechismo <b>solo per i vari gruppi di preparazione alla Comunione e alla Cresima</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17).</del> Incontro cancellato."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "24 Dicembre 2025",
+    "content": [
+      {
+        "description": "<b>Vigilia di Natale</b>"
+      },
+      {
+        "time": "22:00",
+        "description": "S. Messa (\"Messa dei Pastori\")"
+      }
+    ]
+  },
+  {
+    "date": "25 Dicembre 2025",
+    "content": [
+      {
+        "description": "<b>Natale del Signore</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa di Natale."
+      }
+    ]
+  },
+  {
+    "date": "26 Dicembre 2025",
+    "content": [
+      {
+        "description": "<b>Celebrazione di S. Stefano primo martire</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "27 Dicembre 2025",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "28 Dicembre 2025",
+    "content": [
+      {
+        "description": "<b>Sacra Famiglia di Gesù, Maria e Giuseppe</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "31 Dicembre 2025",
+    "content": [
+      {
+        "time": "18:30",
+        "style": "color: red;",
+        "description": "S. Messa con Te Deum"
+      }
+    ]
   }
 ]
