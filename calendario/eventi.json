@@ -373,6 +373,9 @@
       {
         "time": "11:30",
         "description": "Benedizione delle palme (nel cortile della chiesa, entrata da Schlösselgasse), processione e S. Messa."
+      },
+      {
+        "description": "Vi ricordiamo che oggi entra in vigore l'ora legale."
       }
     ]
   },
@@ -1296,6 +1299,9 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      },
+      {
+        "description": "Vi ricordiamo che oggi entra in vigore l'ora solare."
       }
     ]
   },
@@ -2753,6 +2759,9 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      },
+      {
+        "description": "Vi ricordiamo che oggi entra in vigore l'ora solare."
       }
     ]
   },
