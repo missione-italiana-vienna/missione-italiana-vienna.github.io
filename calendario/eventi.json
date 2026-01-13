@@ -183,7 +183,7 @@
       },
       {
         "time": "19:30",
-        "description": "ORARIO DA CONFERMARE - S. Messa con <b>celebrazione del rito delle ceneri</b>."
+        "description": "S. Messa con <b>celebrazione del rito delle ceneri</b>."
       }
     ]
   },
@@ -385,7 +385,7 @@
       {
         "time": "19:30",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
+        "description": "S. Messa <i>in Coena Domini</i> (Cena del Signore) in italiano."
       }
     ]
   },
@@ -403,10 +403,10 @@
       {
         "time": "16:00",
         "style": "color: red;",
-        "description": "ORARIO DA CONFERMARE - Celebrazione della Passione del Signore (in italiano)."
+        "description": "Celebrazione della Passione del Signore (in italiano)."
       },
       {
-        "description": "Attenzione: l'adorazione eucaristica di oggi è posticipata al prossimo venerdì."
+        "description": "Attenzione: l'adorazione eucaristica (che si tiene di norma ogni primo venerdì del mese) è posticipata al prossimo venerdì."
       }
     ]
   },
