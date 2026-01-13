@@ -1596,6 +1596,10 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      },
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
       }
     ]
   },
@@ -1737,6 +1741,15 @@
     ]
   },
   {
+    "date": "5 Febbraio 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
+  },
+  {
     "date": "6 Febbraio 2027",
     "content": [
       {
@@ -1830,6 +1843,15 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "5 Marzo 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
       }
     ]
   },
@@ -1976,6 +1998,15 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "2 Aprile 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
       }
     ]
   },
@@ -2130,6 +2161,15 @@
     ]
   },
   {
+    "date": "7 Maggio 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
+  },
+  {
     "date": "8 Maggio 2027",
     "content": [
       {
@@ -2259,6 +2299,15 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Giugno 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
       }
     ]
   },
@@ -2565,6 +2614,15 @@
     ]
   },
   {
+    "date": "3 Settembre 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
+  },
+  {
     "date": "4 Settembre 2027",
     "content": [
       {
@@ -2649,6 +2707,15 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Ottobre 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
       }
     ]
   },
@@ -2778,6 +2845,15 @@
     ]
   },
   {
+    "date": "5 Novembre 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
+  },
+  {
     "date": "6 Novembre 2027",
     "content": [
       {
@@ -2868,6 +2944,15 @@
       {
         "time": "11:30",
         "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "3 Dicembre 2027",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
       }
     ]
   },
