@@ -6,27 +6,27 @@
     "last_date_to_show": "2026-12-31"
   },
   {
-    "text": "Raccolta del mercatino e riapertura della chiesa",
-    "link": "https://mcivienna.org/#!/blog/2025/12/12/raccolta_del_mercatino_e_riapertura_della_chiesa",
-    "first_date_to_show": "2025-12-13",
-    "last_date_to_show": "2025-12-22"
-  },
-  {
     "text": "Adorazione animata: ogni primo venerdì del mese",
     "link": "https://mcivienna.org/#!/calendario/",
     "first_date_to_show": "2026-01-30",
     "last_date_to_show": "2026-02-06"
   },
   {
-    "text": "Inaugurazione della chiesa restaurata: 11 Gennaio",
-    "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2025-12-15",
-    "last_date_to_show": "2026-01-11"
-  },
-  {
     "text": "Messaggio per l'Epifania",
     "link": "https://mcivienna.org/#!/blog/2026/01/06/messaggio_per_epifania_2026/",
     "first_date_to_show": "2026-01-06",
     "last_date_to_show": "2026-01-26"
+  },
+  {
+    "text": "Lectio Divina di lunedì 19 Gennaio: cancellata",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "first_date_to_show": "2026-01-18",
+    "last_date_to_show": "2026-01-19"
+  },
+  {
+    "text": "Inaugurazione della chiesa restaurata",
+    "link": "https://mcivienna.org/#!/blog/2026/01/11/messa_di_ringraziamento_per_la_ristrutturazione_della_chiesa/",
+    "first_date_to_show": "2026-01-11",
+    "last_date_to_show": "2026-01-31"
   }
 ]
