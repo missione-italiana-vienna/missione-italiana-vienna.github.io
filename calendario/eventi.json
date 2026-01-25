@@ -1,40 +1,5 @@
 [
   {
-    "date": "11 Gennaio 2026",
-    "content": [
-      {
-        "description": "<b>Battesimo del Signore</b>"
-      },
-      {
-        "time": "10:30",
-        "style": "color: red;",
-        "description": "Inaugurazione ufficiale della chiesa restaurata. La S. Messa oggi sarà solo in tedesco; se volete partecipare alla S. Messa in italiano, consigliamo di partecipare alla S. Messa prefestiva Sabato 10 Gennaio."
-      }
-    ]
-  },
-  {
-    "date": "15 Gennaio 2026",
-    "content": [
-      {
-        "time": "19:15",
-        "description": "<del><a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-15/\">testo qui</a>). Entrata da Alser Straße 17.</del> Appuntamento cancellato."
-      }
-    ]
-  },
-  {
-    "date": "17 Gennaio 2026",
-    "content": [
-      {
-        "time": "17:00 (*)",
-        "description": "Messa prefestiva."
-      },
-      {
-        "type": "comment",
-        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
-      }
-    ]
-  },
-  {
     "date": "18 Gennaio 2026",
     "content": [
       {
