@@ -101,5 +101,53 @@
         "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
       }
     ]
+  },
+  {
+    "date": "18 Gennaio 2026",
+    "content": [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo <b>per tutti i gruppi del catechismo</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "19 Gennaio 2026",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<del><a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-01-19/\">testo qui</a>). Entrata da Alser Straße 17.</del> Appuntamento cancellato."
+      }
+    ]
+  },
+  {
+    "date": "24 Gennaio 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "25 Gennaio 2026",
+    "content": [
+      {
+        "time": "10:00",
+        "description": "Incontro di catechismo <b>per tutti i gruppi del catechismo</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
   }
 ]
