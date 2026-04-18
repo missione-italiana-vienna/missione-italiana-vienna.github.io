@@ -3,8 +3,16 @@
     "date": "18 Aprile 2026",
     "content": [
       {
+        "time": "15:30",
+        "description": "Incontro dei gruppi di catechismo in preparazione alla Prima Comunione e alla Cresima."
+      },
+      {
+        "time": "16:00",
+        "description": "Incontro di tutti gli altri gruppi di catechismo."
+      },
+      {
         "time": "17:00 (*)",
-        "description": "Messa prefestiva."
+        "description": "Messa prefestiva insieme a tutti i gruppi del catechismo"
       },
       {
         "type": "comment",
@@ -24,7 +32,7 @@
       },
       {
         "time": "10:00",
-        "description": "Incontro di catechismo <b>per tutti i gruppi del catechismo</b>. Ritrovo nel chiostro del convento (entrata dal civico di Alser Straße 17)."
+        "description": "<del>Incontro di catechismo</del> - incontro di catechismo di oggi cancellato."
       },
       {
         "time": "11:30",
