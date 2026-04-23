@@ -8,14 +8,14 @@
   {
     "text": "Adorazione animata: ogni primo venerdì del mese (ad Aprile posticipata al secondo venerdì del mese)",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2026-03-23",
-    "last_date_to_show": "2026-04-10"
+    "first_date_to_show": "2026-04-23",
+    "last_date_to_show": "2026-05-01"
   },
   {
     "text": "Preparazione alla festa di S. Antonio",
     "link": "https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio",
-    "first_date_to_show": "2026-03-23",
-    "last_date_to_show": "2026-06-13"
+    "first_date_to_show": "2026-04-23",
+    "last_date_to_show": "2026-05-05"
   },
   {
     "text": "Messaggio per Pasqua 2026",
@@ -24,9 +24,9 @@
     "last_date_to_show": "2026-04-25"
   },
   {
-    "text": "Maratona di Vienna 2026: incontro di catechismo anticipato a sabato 18 Aprile",
+    "text": "Lunedì 25 Maggio (Pentecoste): festa della Missione Cattolica Italiana",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2026-04-18",
-    "last_date_to_show": "2026-04-19"
+    "first_date_to_show": "2026-04-23",
+    "last_date_to_show": "2026-05-25"
   }
 ]
