@@ -99,7 +99,7 @@
         "description": "Vigilia del <b>Corpus Domini</b> (Fronleichnam)"
       },
       {
-        "description": "ANCORA DA CONFERMARE: Messa prefestiva - seguiranno dettagli a breve"
+        "description": "Oggi non si terrà nessuna Messa prefestiva."
       }
     ]
   },
@@ -111,7 +111,11 @@
       },
       {
         "time": "dalle 08:30",
-        "description": "Oggi non sarà celebrata nessuna S. Messa in italiano. Alla mattina si svolgeranno le celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. In particolare, invitiamo a partecipare alla S. Messa in tedesco. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2026.html\">Dettagli sul luogo e orario delle celebrazioni e sul percorso della processione</a>."
+        "description": "Alla mattina si svolgeranno le celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. In particolare, invitiamo a partecipare alla S. Messa in tedesco. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2026.html\">Dettagli sul luogo e orario delle celebrazioni e sul percorso della processione</a>."
+      },
+      {
+        "time": "11:30",
+        "description": "Per chi non riesce a partecipare alle celebrazioni in tedesco, si terrà una S. Messa in italiano alle ore 11:30."
       }
     ]
   },
