@@ -164,11 +164,12 @@
     "content": [
       {
         "style": "color: red;",
-        "description": "<b>Marcia Antoniana</b>."
+        "time": "09:00 - 11:15",
+        "description": "<b>Marcia Antoniana</b> - <a href = \"https://mcivienna.org/#!/blog/2026/06/02/marcia_antoniana\">dettagli</a>"
       },
       {
         "time": "11:30",
-        "description": "Messa con celebrazione di Sant'Antonio da Padova - <a target = _blank href = \"https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio\">link</a>."
+        "description": "S. Messa (in tedesco) con celebrazione di Sant'Antonio da Padova - <a target = _blank href = \"https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio\">link</a>."
       },
       {
         "time": "17:00 (*)",
