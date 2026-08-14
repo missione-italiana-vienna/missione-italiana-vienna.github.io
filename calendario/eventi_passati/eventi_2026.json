@@ -931,5 +931,322 @@
         "description": "S. Messa (in tedesco e in italiano) insieme alla comunità parrocchiale di Alser Straße (notare il cambio di orario rispetto al solito!). Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 30 maggio. Dopo la celebrazione Eucaristica di domenica ci sarà una festa nel giardino del convento, oppure nel chiostro in caso di maltempo. Il pranzo durante questa festa sarà organizzato a buffet. Ci saranno piatti che potranno essere acquistati a prezzi modici (cotoletta con crauti, salsiccia con panino, bevande e torte). Vi chiediamo cortesemente di non portare cibo salato da casa da condividere, in quanto l'organizzazione non prevede tale modalità; è ben accetto portare torte, che saranno vendute per raccogliere fondi per la ristrutturazione della chiesa."
       }
     ]
+  },
+  {
+    "date": "2 Giugno 2026",
+    "content": [
+      {
+        "time": "18:30",
+        "description": "Messa (in tedesco) in preparazione alla festa di Sant'Antonio da Padova - <a target = _blank href = \"https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio\">dettagli</a>."
+      }
+    ]
+  },
+  {
+    "date": "3 Giugno 2026",
+    "content": [
+      {
+        "description": "Vigilia del <b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "description": "Oggi non si terrà nessuna Messa prefestiva."
+      }
+    ]
+  },
+  {
+    "date": "4 Giugno 2026",
+    "content": [
+      {
+        "description": "<b>Corpus Domini</b> (Fronleichnam)"
+      },
+      {
+        "time": "dalle 08:30",
+        "description": "Alla mattina si svolgeranno le celebrazioni comunitarie <div style = \"display: inline-block; font-weight: bold;\">in tedesco</div> organizzate dalle 3 parrocchie di Alser Vorstadt, Breitenfeld e Maria Treu. In particolare, invitiamo a partecipare alla S. Messa in tedesco. <a target = _blank rel = \"noopener\" href = \"http://fronleichnam.at/Fronleichnam/Fronleichnam_2026.html\">Dettagli sul luogo e orario delle celebrazioni e sul percorso della processione</a>."
+      },
+      {
+        "time": "11:30",
+        "description": "Per chi non riesce a partecipare alle celebrazioni in tedesco, si terrà una S. Messa in italiano alle ore 11:30."
+      }
+    ]
+  },
+  {
+    "date": "5 Giugno 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
+  },
+  {
+    "date": "6 Giugno 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "7 Giugno 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "9 Giugno 2026",
+    "content": [
+      {
+        "time": "18:30",
+        "description": "Messa (in tedesco) in preparazione alla festa di Sant'Antonio da Padova - <a target = _blank href = \"https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio\">dettagli</a>."
+      }
+    ]
+  },
+  {
+    "date": "13 Giugno 2026",
+    "content": [
+      {
+        "style": "color: red;",
+        "time": "09:00 - 11:15",
+        "description": "<b>Marcia Antoniana</b> - <a href = \"https://mcivienna.org/#!/blog/2026/06/02/marcia_antoniana\">dettagli</a>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa (in tedesco) con celebrazione di Sant'Antonio da Padova - <a target = _blank href = \"https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio\">link</a>."
+      },
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "14 Giugno 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa. oggi si svolgerà la Prima Comunione di un gruppo di bambini del catechismo."
+      }
+    ]
+  },
+  {
+    "date": "18 Giugno 2026",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per giovani e giovani adulti (fascia di età 25-40 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-18/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
+    "date": "20 Giugno 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "21 Giugno 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa. Durante questa celebrazione si svolgerà la Cresima di un gruppo di ragazzi del catechismo e di un gruppo di adulti."
+      }
+    ]
+  },
+  {
+    "date": "22 Giugno 2026",
+    "content": [
+      {
+        "time": "19:15",
+        "description": "<a href = \"https://mcivienna.org/#!/attivita/\">Lectio Divina</a> per il gruppo uomini (fascia di età 40-60 anni - <a href = \"https://mcivienna.org/#!/attivita/lectio_divina/2026-06-22/\">testo qui</a>). Entrata da Alser Straße 17."
+      }
+    ]
+  },
+  {
+    "date": "27 Giugno 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "28 Giugno 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "3 Luglio 2026",
+    "content": [
+      {
+        "description": "Attenzione: a Luglio ed Agosto non si tiene nessuna adorazione animata (normalmente il primo venerdì del mese)."
+      }
+    ]
+  },
+  {
+    "date": "4 Luglio 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "5 Luglio 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "11 Luglio 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "12 Luglio 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "18 Luglio 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "19 Luglio 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "25 Luglio 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "26 Luglio 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "1 Agosto 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "2 Agosto 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "7 Agosto 2026",
+    "content": [
+      {
+        "description": "Attenzione: a Luglio ed Agosto non si tiene nessuna adorazione animata (normalmente il primo venerdì del mese)."
+      }
+    ]
+  },
+  {
+    "date": "8 Agosto 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "9 Agosto 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
   }
 ]
