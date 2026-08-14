@@ -144,6 +144,15 @@
     ]
   },
   {
+    "date": "25 Settembre 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
+      }
+    ]
+  },
+  {
     "date": "26 Settembre 2026",
     "content": [
       {
@@ -153,6 +162,10 @@
       {
         "type": "comment",
         "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      },
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
       }
     ]
   },
@@ -167,6 +180,46 @@
       {
         "time": "11:30",
         "description": "Per chi non riesce a partecipare alla Messa dei popoli in cattedrale: oggi si tiene anche la S. Messa in italiano in Alser Straße 17."
+      },
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
+      }
+    ]
+  },
+  {
+    "date": "28 Settembre 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
+      }
+    ]
+  },
+  {
+    "date": "29 Settembre 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
+      }
+    ]
+  },
+  {
+    "date": "30 Settembre 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
+      }
+    ]
+  },
+  {
+    "date": "1 Ottobre 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
       }
     ]
   },
@@ -176,6 +229,10 @@
       {
         "time": "19:30",
         "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      },
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
       }
     ]
   },
@@ -189,6 +246,10 @@
       {
         "type": "comment",
         "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      },
+      {
+        "time": "19:30",
+        "description": "9 giorni con S. Francesco (dettagli a breve)."
       }
     ]
   },
@@ -197,7 +258,7 @@
     "content": [
       {
         "time": "11:00",
-        "description": "ORARIO DA CONFERMARE. S. Messa in onore di S. Francesco, con la comunità parrocchiale austriaca; durante la S. Messa si celebra anche la festa del raccolto. La S. Messa si svolgerà in parte in tedesco e in parte in italiano.  Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 3 ottobre."
+        "description": "ORARIO DA CONFERMARE. S. Messa in onore di S. Francesco, con la comunità parrocchiale austriaca; durante la S. Messa si celebra anche la festa del raccolto. La S. Messa si svolgerà in parte in tedesco e in parte in italiano.  Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 3 Ottobre."
       }
     ]
   },
