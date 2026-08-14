@@ -12,27 +12,21 @@
     "last_date_to_show": "2026-06-06"
   },
   {
-    "text": "Preparazione alla festa di S. Antonio",
-    "link": "https://mcivienna.org/#!/blog/2026/03/23/celebrazioni_per_sant_antonio",
-    "first_date_to_show": "2026-06-02",
-    "last_date_to_show": "2026-06-09"
-  },
-  {
-    "text": "Messaggio per Pentecoste 2026",
-    "link": "https://mcivienna.org/#!/blog/2026/05/22/messaggio_per_pentecoste/",
-    "first_date_to_show": "2026-05-22",
-    "last_date_to_show": "2026-06-10"
-  },
-  {
-    "text": "4 Giugno (Corpus Domini): dettagli sulle celebrazioni",
+    "text": "Domenica dei popoli",
     "link": "https://mcivienna.org/#!/calendario/",
-    "first_date_to_show": "2026-06-01",
-    "last_date_to_show": "2026-06-04"
+    "first_date_to_show": "2026-09-01",
+    "last_date_to_show": "2026-06-27"
   },
   {
-    "text": "13 Giugno (S. Antonio da Padova): Marcia Antoniana",
-    "link": "https://mcivienna.org/#!/blog/2026/06/02/marcia_antoniana",
-    "first_date_to_show": "2026-06-02",
-    "last_date_to_show": "2026-06-13"
+    "text": "9 giorni con san Francesco",
+    "link": "https://mcivienna.org/#!/blog/2026/08/14/9_giorni_con_san_francesco/",
+    "first_date_to_show": "2026-09-24",
+    "last_date_to_show": "2026-10-03"
+  },
+  {
+    "text": "4 Ottobre: solo S. Messa in tedesco alle ore 11:00 (invece che 11:30)",
+    "link": "https://mcivienna.org/#!/calendario/",
+    "first_date_to_show": "2026-09-20",
+    "last_date_to_show": "2026-10-04"
   }
 ]
