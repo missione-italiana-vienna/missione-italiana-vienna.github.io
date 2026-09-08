@@ -1248,5 +1248,83 @@
         "description": "S. Messa."
       }
     ]
+  },
+  {
+    "date": "15 Agosto 2026",
+    "content": [
+      {
+        "description": "<b>Assunzione della Beata Vergine Maria</b>"
+      },
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      },
+      {
+        "description": "NOTA: Oggi non si tiene nessuna Messa prefestiva",
+        "style": "color: red;"
+      }
+    ]
+  },
+  {
+    "date": "16 Agosto 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "22 Agosto 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "23 Agosto 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "29 Agosto 2026",
+    "content": [
+      {
+        "time": "17:00 (*)",
+        "description": "Messa prefestiva."
+      },
+      {
+        "type": "comment",
+        "description": "(*) = nella cappella di Sant'Antonio, entrata dalla scalinata di Alser Straße 17 (a sinistra della Chiesa). Se avete bisogno di assistenza con passeggini o sedie a rotelle, contattate per favore in anticipo padre Thomas."
+      }
+    ]
+  },
+  {
+    "date": "30 Agosto 2026",
+    "content": [
+      {
+        "time": "11:30",
+        "description": "S. Messa."
+      }
+    ]
+  },
+  {
+    "date": "4 Settembre 2026",
+    "content": [
+      {
+        "time": "19:30",
+        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
+      }
+    ]
   }
 ]
