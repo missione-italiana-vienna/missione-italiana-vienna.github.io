@@ -88,7 +88,7 @@
     "content": [
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -105,7 +105,7 @@
       },
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -123,7 +123,7 @@
       },
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -132,7 +132,7 @@
     "content": [
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -141,7 +141,7 @@
     "content": [
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -150,7 +150,7 @@
     "content": [
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -168,11 +168,7 @@
     "content": [
       {
         "time": "19:30",
-        "description": "Come ogni primo venerdì del mese, oggi si tiene un'ora di adorazione animata aperta a tutti, nella cappella di Sant'Antonio."
-      },
-      {
-        "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -189,7 +185,7 @@
       },
       {
         "time": "19:30",
-        "description": "9 giorni con S. Francesco (dettagli a breve)."
+        "description": "9 giorni con S. Francesco - <a href = \"https://mcivienna.org/#!/blog/2026/09/13/nove_giorni_con_san_francesco\">dettagli</a>."
       }
     ]
   },
@@ -198,7 +194,8 @@
     "content": [
       {
         "time": "11:00",
-        "description": "ORARIO DA CONFERMARE. S. Messa in onore di S. Francesco, con la comunità parrocchiale austriaca; durante la S. Messa si celebra anche la festa del raccolto. La S. Messa si svolgerà in parte in tedesco e in parte in italiano.  Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 3 Ottobre."
+        "style": "color: red;",
+        "description": "S. Messa in onore di S. Francesco, con la comunità parrocchiale austriaca; durante la S. Messa si celebra anche la festa del raccolto. La S. Messa si svolgerà in parte in tedesco e in parte in italiano. Se preferite seguire la S. Messa solo in italiano, consigliamo di partecipare alla S. Messa prefestiva di sabato 3 ottobre."
       }
     ]
   },
